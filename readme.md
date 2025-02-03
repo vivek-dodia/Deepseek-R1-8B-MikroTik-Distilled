@@ -5,4 +5,5 @@
 - mikrotik master doc pdf - PDF_Docs/
 - mikrotik online documention - Scraped_Data/mikrotik_docs/
 - threads from mikrotik forum - Scraped_Data/forum
-- SYNTHETIC DATA generated from gemini 2.0 - Scraped_Data/synthetic_data
+- SYNTHETIC DATA generated from gemini 2.0 - Scraped_Data/synthetic_data/gemini2.0
+- SYNTHETIC DATA generated from deepseek R1 - Scraped_Data/synthetic_data/deepseek
