@@ -983,3 +983,113 @@
 2025-02-03 14:00:27 - INFO - Generated file: RoMON_6.48_Expert_Point-to-Point Link_20250203140027.md, Topic: RoMON, Version: 6.48, Level: Expert, Scale: Point-to-Point Link
 2025-02-03 14:00:53 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\RoMON_7.11_Basic_SOHO_20250203140053.md
 2025-02-03 14:00:53 - INFO - Generated file: RoMON_7.11_Basic_SOHO_20250203140053.md, Topic: RoMON, Version: 7.11, Level: Basic, Scale: SOHO
+2025-02-03 14:01:24 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\RoMON_7.11_Basic_SMB_20250203140124.md
+2025-02-03 14:01:24 - INFO - Generated file: RoMON_7.11_Basic_SMB_20250203140124.md, Topic: RoMON, Version: 7.11, Level: Basic, Scale: SMB
+2025-02-03 14:01:48 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\RoMON_7.11_Basic_Enterprise_20250203140148.md
+2025-02-03 14:01:48 - INFO - Generated file: RoMON_7.11_Basic_Enterprise_20250203140148.md, Topic: RoMON, Version: 7.11, Level: Basic, Scale: Enterprise
+2025-02-03 14:02:20 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\RoMON_7.11_Basic_ISP_20250203140220.md
+2025-02-03 14:02:20 - INFO - Generated file: RoMON_7.11_Basic_ISP_20250203140220.md, Topic: RoMON, Version: 7.11, Level: Basic, Scale: ISP
+2025-02-03 14:02:43 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\RoMON_7.11_Basic_Hotspot Network_20250203140243.md
+2025-02-03 14:02:43 - INFO - Generated file: RoMON_7.11_Basic_Hotspot Network_20250203140243.md, Topic: RoMON, Version: 7.11, Level: Basic, Scale: Hotspot Network
+2025-02-03 14:03:14 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\RoMON_7.11_Basic_Point-to-Point Link_20250203140314.md
+2025-02-03 14:03:14 - INFO - Generated file: RoMON_7.11_Basic_Point-to-Point Link_20250203140314.md, Topic: RoMON, Version: 7.11, Level: Basic, Scale: Point-to-Point Link
+2025-02-03 14:03:41 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\RoMON_7.11_Advanced_SOHO_20250203140341.md
+2025-02-03 14:03:41 - INFO - Generated file: RoMON_7.11_Advanced_SOHO_20250203140341.md, Topic: RoMON, Version: 7.11, Level: Advanced, Scale: SOHO
+2025-02-03 14:04:13 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\RoMON_7.11_Advanced_SMB_20250203140413.md
+2025-02-03 14:04:13 - INFO - Generated file: RoMON_7.11_Advanced_SMB_20250203140413.md, Topic: RoMON, Version: 7.11, Level: Advanced, Scale: SMB
+2025-02-03 14:04:37 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\RoMON_7.11_Advanced_Enterprise_20250203140437.md
+2025-02-03 14:04:37 - INFO - Generated file: RoMON_7.11_Advanced_Enterprise_20250203140437.md, Topic: RoMON, Version: 7.11, Level: Advanced, Scale: Enterprise
+2025-02-03 14:05:08 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\RoMON_7.11_Advanced_ISP_20250203140508.md
+2025-02-03 14:05:08 - INFO - Generated file: RoMON_7.11_Advanced_ISP_20250203140508.md, Topic: RoMON, Version: 7.11, Level: Advanced, Scale: ISP
+2025-02-03 14:05:33 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\RoMON_7.11_Advanced_Hotspot Network_20250203140533.md
+2025-02-03 14:05:33 - INFO - Generated file: RoMON_7.11_Advanced_Hotspot Network_20250203140533.md, Topic: RoMON, Version: 7.11, Level: Advanced, Scale: Hotspot Network
+2025-02-03 14:05:57 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\RoMON_7.11_Advanced_Point-to-Point Link_20250203140557.md
+2025-02-03 14:05:57 - INFO - Generated file: RoMON_7.11_Advanced_Point-to-Point Link_20250203140557.md, Topic: RoMON, Version: 7.11, Level: Advanced, Scale: Point-to-Point Link
+2025-02-03 14:06:21 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\RoMON_7.11_Expert_SOHO_20250203140621.md
+2025-02-03 14:06:21 - INFO - Generated file: RoMON_7.11_Expert_SOHO_20250203140621.md, Topic: RoMON, Version: 7.11, Level: Expert, Scale: SOHO
+2025-02-03 14:06:53 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\RoMON_7.11_Expert_SMB_20250203140653.md
+2025-02-03 14:06:53 - INFO - Generated file: RoMON_7.11_Expert_SMB_20250203140653.md, Topic: RoMON, Version: 7.11, Level: Expert, Scale: SMB
+2025-02-03 14:07:19 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\RoMON_7.11_Expert_Enterprise_20250203140719.md
+2025-02-03 14:07:19 - INFO - Generated file: RoMON_7.11_Expert_Enterprise_20250203140719.md, Topic: RoMON, Version: 7.11, Level: Expert, Scale: Enterprise
+2025-02-03 14:07:44 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\RoMON_7.11_Expert_ISP_20250203140744.md
+2025-02-03 14:07:44 - INFO - Generated file: RoMON_7.11_Expert_ISP_20250203140744.md, Topic: RoMON, Version: 7.11, Level: Expert, Scale: ISP
+2025-02-03 14:08:13 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\RoMON_7.11_Expert_Hotspot Network_20250203140813.md
+2025-02-03 14:08:13 - INFO - Generated file: RoMON_7.11_Expert_Hotspot Network_20250203140813.md, Topic: RoMON, Version: 7.11, Level: Expert, Scale: Hotspot Network
+2025-02-03 14:08:39 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\RoMON_7.11_Expert_Point-to-Point Link_20250203140839.md
+2025-02-03 14:08:39 - INFO - Generated file: RoMON_7.11_Expert_Point-to-Point Link_20250203140839.md, Topic: RoMON, Version: 7.11, Level: Expert, Scale: Point-to-Point Link
+2025-02-03 14:09:05 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\RoMON_7.12_Basic_SOHO_20250203140905.md
+2025-02-03 14:09:05 - INFO - Generated file: RoMON_7.12_Basic_SOHO_20250203140905.md, Topic: RoMON, Version: 7.12, Level: Basic, Scale: SOHO
+2025-02-03 14:09:31 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\RoMON_7.12_Basic_SMB_20250203140931.md
+2025-02-03 14:09:31 - INFO - Generated file: RoMON_7.12_Basic_SMB_20250203140931.md, Topic: RoMON, Version: 7.12, Level: Basic, Scale: SMB
+2025-02-03 14:09:58 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\RoMON_7.12_Basic_Enterprise_20250203140958.md
+2025-02-03 14:09:58 - INFO - Generated file: RoMON_7.12_Basic_Enterprise_20250203140958.md, Topic: RoMON, Version: 7.12, Level: Basic, Scale: Enterprise
+2025-02-03 14:10:28 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\RoMON_7.12_Basic_ISP_20250203141028.md
+2025-02-03 14:10:28 - INFO - Generated file: RoMON_7.12_Basic_ISP_20250203141028.md, Topic: RoMON, Version: 7.12, Level: Basic, Scale: ISP
+2025-02-03 14:10:59 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\RoMON_7.12_Basic_Hotspot Network_20250203141059.md
+2025-02-03 14:10:59 - INFO - Generated file: RoMON_7.12_Basic_Hotspot Network_20250203141059.md, Topic: RoMON, Version: 7.12, Level: Basic, Scale: Hotspot Network
+2025-02-03 14:11:27 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\RoMON_7.12_Basic_Point-to-Point Link_20250203141127.md
+2025-02-03 14:11:27 - INFO - Generated file: RoMON_7.12_Basic_Point-to-Point Link_20250203141127.md, Topic: RoMON, Version: 7.12, Level: Basic, Scale: Point-to-Point Link
+2025-02-03 14:11:47 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\RoMON_7.12_Advanced_SOHO_20250203141147.md
+2025-02-03 14:11:47 - INFO - Generated file: RoMON_7.12_Advanced_SOHO_20250203141147.md, Topic: RoMON, Version: 7.12, Level: Advanced, Scale: SOHO
+2025-02-03 14:12:15 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\RoMON_7.12_Advanced_SMB_20250203141215.md
+2025-02-03 14:12:15 - INFO - Generated file: RoMON_7.12_Advanced_SMB_20250203141215.md, Topic: RoMON, Version: 7.12, Level: Advanced, Scale: SMB
+2025-02-03 14:12:59 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\RoMON_7.12_Advanced_Enterprise_20250203141259.md
+2025-02-03 14:12:59 - INFO - Generated file: RoMON_7.12_Advanced_Enterprise_20250203141259.md, Topic: RoMON, Version: 7.12, Level: Advanced, Scale: Enterprise
+2025-02-03 14:13:32 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\RoMON_7.12_Advanced_ISP_20250203141332.md
+2025-02-03 14:13:32 - INFO - Generated file: RoMON_7.12_Advanced_ISP_20250203141332.md, Topic: RoMON, Version: 7.12, Level: Advanced, Scale: ISP
+2025-02-03 14:14:01 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\RoMON_7.12_Advanced_Hotspot Network_20250203141401.md
+2025-02-03 14:14:01 - INFO - Generated file: RoMON_7.12_Advanced_Hotspot Network_20250203141401.md, Topic: RoMON, Version: 7.12, Level: Advanced, Scale: Hotspot Network
+2025-02-03 14:14:28 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\RoMON_7.12_Advanced_Point-to-Point Link_20250203141428.md
+2025-02-03 14:14:28 - INFO - Generated file: RoMON_7.12_Advanced_Point-to-Point Link_20250203141428.md, Topic: RoMON, Version: 7.12, Level: Advanced, Scale: Point-to-Point Link
+2025-02-03 14:14:57 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\RoMON_7.12_Expert_SOHO_20250203141457.md
+2025-02-03 14:14:57 - INFO - Generated file: RoMON_7.12_Expert_SOHO_20250203141457.md, Topic: RoMON, Version: 7.12, Level: Expert, Scale: SOHO
+2025-02-03 14:15:31 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\RoMON_7.12_Expert_SMB_20250203141531.md
+2025-02-03 14:15:31 - INFO - Generated file: RoMON_7.12_Expert_SMB_20250203141531.md, Topic: RoMON, Version: 7.12, Level: Expert, Scale: SMB
+2025-02-03 14:15:58 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\RoMON_7.12_Expert_Enterprise_20250203141558.md
+2025-02-03 14:15:58 - INFO - Generated file: RoMON_7.12_Expert_Enterprise_20250203141558.md, Topic: RoMON, Version: 7.12, Level: Expert, Scale: Enterprise
+2025-02-03 14:16:27 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\RoMON_7.12_Expert_ISP_20250203141627.md
+2025-02-03 14:16:27 - INFO - Generated file: RoMON_7.12_Expert_ISP_20250203141627.md, Topic: RoMON, Version: 7.12, Level: Expert, Scale: ISP
+2025-02-03 14:16:55 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\RoMON_7.12_Expert_Hotspot Network_20250203141655.md
+2025-02-03 14:16:55 - INFO - Generated file: RoMON_7.12_Expert_Hotspot Network_20250203141655.md, Topic: RoMON, Version: 7.12, Level: Expert, Scale: Hotspot Network
+2025-02-03 14:17:22 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\RoMON_7.12_Expert_Point-to-Point Link_20250203141722.md
+2025-02-03 14:17:22 - INFO - Generated file: RoMON_7.12_Expert_Point-to-Point Link_20250203141722.md, Topic: RoMON, Version: 7.12, Level: Expert, Scale: Point-to-Point Link
+2025-02-03 14:17:55 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\WinBox_6.48_Basic_SOHO_20250203141755.md
+2025-02-03 14:17:55 - INFO - Generated file: WinBox_6.48_Basic_SOHO_20250203141755.md, Topic: WinBox, Version: 6.48, Level: Basic, Scale: SOHO
+2025-02-03 14:18:19 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\WinBox_6.48_Basic_SMB_20250203141819.md
+2025-02-03 14:18:19 - INFO - Generated file: WinBox_6.48_Basic_SMB_20250203141819.md, Topic: WinBox, Version: 6.48, Level: Basic, Scale: SMB
+2025-02-03 14:18:50 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\WinBox_6.48_Basic_Enterprise_20250203141850.md
+2025-02-03 14:18:50 - INFO - Generated file: WinBox_6.48_Basic_Enterprise_20250203141850.md, Topic: WinBox, Version: 6.48, Level: Basic, Scale: Enterprise
+2025-02-03 14:19:29 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\WinBox_6.48_Basic_ISP_20250203141929.md
+2025-02-03 14:19:29 - INFO - Generated file: WinBox_6.48_Basic_ISP_20250203141929.md, Topic: WinBox, Version: 6.48, Level: Basic, Scale: ISP
+2025-02-03 14:19:51 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\WinBox_6.48_Basic_Hotspot Network_20250203141951.md
+2025-02-03 14:19:51 - INFO - Generated file: WinBox_6.48_Basic_Hotspot Network_20250203141951.md, Topic: WinBox, Version: 6.48, Level: Basic, Scale: Hotspot Network
+2025-02-03 14:20:18 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\WinBox_6.48_Basic_Point-to-Point Link_20250203142018.md
+2025-02-03 14:20:18 - INFO - Generated file: WinBox_6.48_Basic_Point-to-Point Link_20250203142018.md, Topic: WinBox, Version: 6.48, Level: Basic, Scale: Point-to-Point Link
+2025-02-03 14:20:47 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\WinBox_6.48_Advanced_SOHO_20250203142047.md
+2025-02-03 14:20:47 - INFO - Generated file: WinBox_6.48_Advanced_SOHO_20250203142047.md, Topic: WinBox, Version: 6.48, Level: Advanced, Scale: SOHO
+2025-02-03 14:21:14 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\WinBox_6.48_Advanced_SMB_20250203142114.md
+2025-02-03 14:21:14 - INFO - Generated file: WinBox_6.48_Advanced_SMB_20250203142114.md, Topic: WinBox, Version: 6.48, Level: Advanced, Scale: SMB
+2025-02-03 14:21:43 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\WinBox_6.48_Advanced_Enterprise_20250203142143.md
+2025-02-03 14:21:43 - INFO - Generated file: WinBox_6.48_Advanced_Enterprise_20250203142143.md, Topic: WinBox, Version: 6.48, Level: Advanced, Scale: Enterprise
+2025-02-03 14:22:18 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\WinBox_6.48_Advanced_ISP_20250203142218.md
+2025-02-03 14:22:18 - INFO - Generated file: WinBox_6.48_Advanced_ISP_20250203142218.md, Topic: WinBox, Version: 6.48, Level: Advanced, Scale: ISP
+2025-02-03 14:23:01 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\WinBox_6.48_Advanced_Hotspot Network_20250203142301.md
+2025-02-03 14:23:01 - INFO - Generated file: WinBox_6.48_Advanced_Hotspot Network_20250203142301.md, Topic: WinBox, Version: 6.48, Level: Advanced, Scale: Hotspot Network
+2025-02-03 14:23:38 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\WinBox_6.48_Advanced_Point-to-Point Link_20250203142338.md
+2025-02-03 14:23:38 - INFO - Generated file: WinBox_6.48_Advanced_Point-to-Point Link_20250203142338.md, Topic: WinBox, Version: 6.48, Level: Advanced, Scale: Point-to-Point Link
+2025-02-03 14:24:16 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\WinBox_6.48_Expert_SOHO_20250203142416.md
+2025-02-03 14:24:16 - INFO - Generated file: WinBox_6.48_Expert_SOHO_20250203142416.md, Topic: WinBox, Version: 6.48, Level: Expert, Scale: SOHO
+2025-02-03 14:24:51 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\WinBox_6.48_Expert_SMB_20250203142451.md
+2025-02-03 14:24:51 - INFO - Generated file: WinBox_6.48_Expert_SMB_20250203142451.md, Topic: WinBox, Version: 6.48, Level: Expert, Scale: SMB
+2025-02-03 14:25:17 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\WinBox_6.48_Expert_Enterprise_20250203142517.md
+2025-02-03 14:25:17 - INFO - Generated file: WinBox_6.48_Expert_Enterprise_20250203142517.md, Topic: WinBox, Version: 6.48, Level: Expert, Scale: Enterprise
+2025-02-03 14:25:43 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\WinBox_6.48_Expert_ISP_20250203142543.md
+2025-02-03 14:25:43 - INFO - Generated file: WinBox_6.48_Expert_ISP_20250203142543.md, Topic: WinBox, Version: 6.48, Level: Expert, Scale: ISP
+2025-02-03 14:26:15 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\WinBox_6.48_Expert_Hotspot Network_20250203142615.md
+2025-02-03 14:26:15 - INFO - Generated file: WinBox_6.48_Expert_Hotspot Network_20250203142615.md, Topic: WinBox, Version: 6.48, Level: Expert, Scale: Hotspot Network
+2025-02-03 14:26:40 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\WinBox_6.48_Expert_Point-to-Point Link_20250203142640.md
+2025-02-03 14:26:40 - INFO - Generated file: WinBox_6.48_Expert_Point-to-Point Link_20250203142640.md, Topic: WinBox, Version: 6.48, Level: Expert, Scale: Point-to-Point Link
+2025-02-03 14:27:10 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\WinBox_7.11_Basic_SOHO_20250203142710.md
+2025-02-03 14:27:10 - INFO - Generated file: WinBox_7.11_Basic_SOHO_20250203142710.md, Topic: WinBox, Version: 7.11, Level: Basic, Scale: SOHO
+2025-02-03 14:27:43 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\WinBox_7.11_Basic_SMB_20250203142743.md
+2025-02-03 14:27:43 - INFO - Generated file: WinBox_7.11_Basic_SMB_20250203142743.md, Topic: WinBox, Version: 7.11, Level: Basic, Scale: SMB
