@@ -1,7 +1,7 @@
 ---
 title: Software Specifications
 source_url: https://help.mikrotik.com/docs/spaces/ROS/pages/19136707/Software+Specifications,
-crawled_date: 2025-02-02T20:25:05.079760
+crawled_date: 2025-02-02T21:08:32.284173
 section: mikrotik_docs
 type: documentation
 ---

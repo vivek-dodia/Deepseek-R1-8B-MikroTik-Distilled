@@ -1,7 +1,7 @@
 ---
 title: Feature support based on architecture
 source_url: https://help.mikrotik.com/docs/spaces/ROS/pages/146440194/Feature+support+based+on+architecture,
-crawled_date: 2025-02-02T20:25:05.107036
+crawled_date: 2025-02-02T21:08:32.310235
 section: mikrotik_docs
 type: documentation
 ---

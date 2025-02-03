@@ -397,3 +397,1287 @@
 2025-02-02 20:25:26,517 - INFO - Content length: 107458
 2025-02-02 20:25:26,564 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\RouterBOOT.md with content length 7729
 2025-02-02 20:25:28,574 - INFO - Completed batch 11 of 11
+2025-02-02 21:08:31,533 - INFO - Loaded 285 URLs from C:\Users\Vivek\Documents\MikroTik_dis\urls.txt
+2025-02-02 21:08:32,159 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/19136707/Software+Specifications,
+2025-02-02 21:08:32,161 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/146440194/Feature+support+based+on+architecture,
+2025-02-02 21:08:32,174 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/19136707/Software+Specifications,
+2025-02-02 21:08:32,175 - INFO - Content length: 116192
+2025-02-02 21:08:32,284 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Software_Specifications,.md with content length 7383
+2025-02-02 21:08:32,287 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/146440194/Feature+support+based+on+architecture,
+2025-02-02 21:08:32,287 - INFO - Content length: 94150
+2025-02-02 21:08:32,311 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Feature_support_based_on_architecture,.md with content length 1118
+2025-02-02 21:08:34,316 - INFO - Completed batch 1 of 143
+2025-02-02 21:08:34,316 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/328151/First+Time+Configuration,
+2025-02-02 21:08:34,316 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/328353/Securing+your+router,
+2025-02-02 21:08:36,440 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/328353/Securing+your+router,
+2025-02-02 21:08:36,441 - INFO - Content length: 104883
+2025-02-02 21:08:36,479 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Securing_your_router,.md with content length 3742
+2025-02-02 21:08:36,483 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/328151/First+Time+Configuration,
+2025-02-02 21:08:36,484 - INFO - Content length: 163930
+2025-02-02 21:08:36,610 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\First_Time_Configuration,.md with content length 21575
+2025-02-02 21:08:38,615 - INFO - Completed batch 2 of 143
+2025-02-02 21:08:38,615 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/328142/Upgrading+and+installation,
+2025-02-02 21:08:38,615 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/40992872/Packages,
+2025-02-02 21:08:39,322 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/40992872/Packages,
+2025-02-02 21:08:39,322 - INFO - Content length: 111055
+2025-02-02 21:08:39,392 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Packages,.md with content length 7487
+2025-02-02 21:08:39,448 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/328142/Upgrading+and+installation,
+2025-02-02 21:08:39,448 - INFO - Content length: 128631
+2025-02-02 21:08:39,514 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Upgrading_and_installation,.md with content length 11797
+2025-02-02 21:08:41,524 - INFO - Completed batch 3 of 143
+2025-02-02 21:08:41,524 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/328155/Configuration+Management,
+2025-02-02 21:08:41,524 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/167706788/Default+configurations,
+2025-02-02 21:08:42,262 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/328155/Configuration+Management,
+2025-02-02 21:08:42,263 - INFO - Content length: 131112
+2025-02-02 21:08:42,356 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Configuration_Management,.md with content length 15469
+2025-02-02 21:08:42,358 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/167706788/Default+configurations,
+2025-02-02 21:08:42,359 - INFO - Content length: 116957
+2025-02-02 21:08:42,411 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Default_configurations,.md with content length 4371
+2025-02-02 21:08:44,422 - INFO - Completed batch 4 of 143
+2025-02-02 21:08:44,422 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/8978498/Console,
+2025-02-02 21:08:44,422 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/24805498/Reset+Button,
+2025-02-02 21:08:45,061 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/24805498/Reset+Button,
+2025-02-02 21:08:45,061 - INFO - Content length: 102072
+2025-02-02 21:08:45,126 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Reset_Button,.md with content length 3022
+2025-02-02 21:08:45,179 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/8978498/Console,
+2025-02-02 21:08:45,180 - INFO - Content length: 129924
+2025-02-02 21:08:45,272 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Console,.md with content length 20660
+2025-02-02 21:08:47,280 - INFO - Completed batch 5 of 143
+2025-02-02 21:08:47,280 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/40992852/Backup,
+2025-02-02 21:08:47,280 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/24805390/Netinstall,
+2025-02-02 21:08:47,894 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/40992852/Backup,
+2025-02-02 21:08:47,894 - INFO - Content length: 99224
+2025-02-02 21:08:47,929 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Backup,.md with content length 2335
+2025-02-02 21:08:48,058 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/24805390/Netinstall,
+2025-02-02 21:08:48,059 - INFO - Content length: 139400
+2025-02-02 21:08:48,139 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Netinstall,.md with content length 12088
+2025-02-02 21:08:50,154 - INFO - Completed batch 6 of 143
+2025-02-02 21:08:50,154 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/328106/Supout.rif,
+2025-02-02 21:08:50,154 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/328149/RouterOS+license+keys,
+2025-02-02 21:08:50,766 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/328106/Supout.rif,
+2025-02-02 21:08:50,766 - INFO - Content length: 96914
+2025-02-02 21:08:50,787 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Supout.md with content length 1526
+2025-02-02 21:08:50,857 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/328149/RouterOS+license+keys,
+2025-02-02 21:08:50,858 - INFO - Content length: 147060
+2025-02-02 21:08:50,993 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\RouterOS_license_keys,.md with content length 20901
+2025-02-02 21:08:52,996 - INFO - Completed batch 7 of 143
+2025-02-02 21:08:52,996 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/18350234/Cloud+Hosted+Router+CHR,
+2025-02-02 21:08:52,997 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/262864931/CHR+installing+on+VirtualBox,
+2025-02-02 21:08:53,655 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/262864931/CHR+installing+on+VirtualBox,
+2025-02-02 21:08:53,655 - INFO - Content length: 105624
+2025-02-02 21:08:53,693 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\CHR_installing_on_VirtualBox,.md with content length 3009
+2025-02-02 21:08:53,764 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/18350234/Cloud+Hosted+Router+CHR,
+2025-02-02 21:08:53,764 - INFO - Content length: 174315
+2025-02-02 21:08:53,918 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Cloud_Hosted_Router_CHR,.md with content length 28973
+2025-02-02 21:08:55,933 - INFO - Completed batch 8 of 143
+2025-02-02 21:08:55,933 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/263749814/CHR+Hetzner+Cloud+Installation,
+2025-02-02 21:08:55,933 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/48660553/CHR+ProxMox+installation,
+2025-02-02 21:08:56,608 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/263749814/CHR+Hetzner+Cloud+Installation,
+2025-02-02 21:08:56,608 - INFO - Content length: 93724
+2025-02-02 21:08:56,629 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\CHR_Hetzner_Cloud_Installation,.md with content length 2308
+2025-02-02 21:08:56,632 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/48660553/CHR+ProxMox+installation,
+2025-02-02 21:08:56,632 - INFO - Content length: 96200
+2025-02-02 21:08:56,660 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\CHR_ProxMox_installation,.md with content length 4000
+2025-02-02 21:08:58,676 - INFO - Completed batch 9 of 143
+2025-02-02 21:08:58,676 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/146997259/CHR+Vultr+installation,
+2025-02-02 21:08:58,677 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/115736772/Upgrading+to+v7,
+2025-02-02 21:08:59,357 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/146997259/CHR+Vultr+installation,
+2025-02-02 21:08:59,357 - INFO - Content length: 102544
+2025-02-02 21:08:59,393 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\CHR_Vultr_installation,.md with content length 3040
+2025-02-02 21:08:59,395 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/115736772/Upgrading+to+v7,
+2025-02-02 21:08:59,396 - INFO - Content length: 107891
+2025-02-02 21:08:59,444 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Upgrading_to_v7,.md with content length 6567
+2025-02-02 21:09:01,449 - INFO - Completed batch 10 of 143
+2025-02-02 21:09:01,449 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/136839241/RouterBOOT,
+2025-02-02 21:09:01,449 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/119144661/IPv4+and+IPv6+Fundamentals,
+2025-02-02 21:09:02,082 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/136839241/RouterBOOT,
+2025-02-02 21:09:02,083 - INFO - Content length: 108062
+2025-02-02 21:09:02,130 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\RouterBOOT,.md with content length 7729
+2025-02-02 21:09:02,203 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/119144661/IPv4+and+IPv6+Fundamentals,
+2025-02-02 21:09:02,203 - INFO - Content length: 144844
+2025-02-02 21:09:02,294 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\IPv4_and_IPv6_Fundamentals,.md with content length 23584
+2025-02-02 21:09:04,299 - INFO - Completed batch 11 of 143
+2025-02-02 21:09:04,299 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/328247/IP+Addressing,
+2025-02-02 21:09:04,300 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/40992815/IPv6+Neighbor+Discovery,
+2025-02-02 21:09:05,037 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/328247/IP+Addressing,
+2025-02-02 21:09:05,037 - INFO - Content length: 139114
+2025-02-02 21:09:05,142 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\IP_Addressing,.md with content length 22713
+2025-02-02 21:09:05,144 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/40992815/IPv6+Neighbor+Discovery,
+2025-02-02 21:09:05,144 - INFO - Content length: 125614
+2025-02-02 21:09:05,249 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\IPv6_Neighbor_Discovery,.md with content length 15024
+2025-02-02 21:09:07,259 - INFO - Completed batch 12 of 143
+2025-02-02 21:09:07,259 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/129531938/IP+Pools,
+2025-02-02 21:09:07,259 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/328084/IP+Routing,
+2025-02-02 21:09:07,935 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/129531938/IP+Pools,
+2025-02-02 21:09:07,935 - INFO - Content length: 102211
+2025-02-02 21:09:07,985 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\IP_Pools,.md with content length 3448
+2025-02-02 21:09:08,035 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/328084/IP+Routing,
+2025-02-02 21:09:08,035 - INFO - Content length: 139723
+2025-02-02 21:09:08,134 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\IP_Routing,.md with content length 24197
+2025-02-02 21:09:10,148 - INFO - Completed batch 13 of 143
+2025-02-02 21:09:10,148 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/103841817/IP+Settings,
+2025-02-02 21:09:10,148 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/328121/Management+tools,
+2025-02-02 21:09:10,803 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/328121/Management+tools,
+2025-02-02 21:09:10,803 - INFO - Content length: 92367
+2025-02-02 21:09:10,823 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Management_tools,.md with content length 748
+2025-02-02 21:09:10,826 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/103841817/IP+Settings,
+2025-02-02 21:09:10,826 - INFO - Content length: 109177
+2025-02-02 21:09:10,902 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\IP_Settings,.md with content length 10729
+2025-02-02 21:09:12,904 - INFO - Completed batch 14 of 143
+2025-02-02 21:09:12,904 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/47579160/API,
+2025-02-02 21:09:12,904 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/47579209/Python3+Example,
+2025-02-02 21:09:13,522 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/47579209/Python3+Example,
+2025-02-02 21:09:13,523 - INFO - Content length: 97461
+2025-02-02 21:09:13,538 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Python3_Example,.md with content length 5954
+2025-02-02 21:09:13,604 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/47579160/API,
+2025-02-02 21:09:13,604 - INFO - Content length: 155124
+2025-02-02 21:09:13,767 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\API,.md with content length 20270
+2025-02-02 21:09:15,783 - INFO - Completed batch 15 of 143
+2025-02-02 21:09:15,783 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/69664784/Branding,
+2025-02-02 21:09:15,783 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/328134/Command+Line+Interface,
+2025-02-02 21:09:16,417 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/69664784/Branding,
+2025-02-02 21:09:16,417 - INFO - Content length: 104889
+2025-02-02 21:09:16,460 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Branding,.md with content length 5135
+2025-02-02 21:09:16,505 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/328134/Command+Line+Interface,
+2025-02-02 21:09:16,505 - INFO - Content length: 129920
+2025-02-02 21:09:16,589 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Command_Line_Interface,.md with content length 22904
+2025-02-02 21:09:18,603 - INFO - Completed batch 16 of 143
+2025-02-02 21:09:18,603 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/98795539/MAC+server,
+2025-02-02 21:09:18,603 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/328431/MikroTik+mobile+app,
+2025-02-02 21:09:19,293 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/98795539/MAC+server,
+2025-02-02 21:09:19,293 - INFO - Content length: 101748
+2025-02-02 21:09:19,324 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\MAC_server,.md with content length 4981
+2025-02-02 21:09:19,327 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/328431/MikroTik+mobile+app,
+2025-02-02 21:09:19,327 - INFO - Content length: 93418
+2025-02-02 21:09:19,348 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\MikroTik_mobile_app,.md with content length 1350
+2025-02-02 21:09:21,363 - INFO - Completed batch 17 of 143
+2025-02-02 21:09:21,363 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/328060/Quick+Set,
+2025-02-02 21:09:21,363 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/47579162/REST+API,
+2025-02-02 21:09:22,041 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/328060/Quick+Set,
+2025-02-02 21:09:22,042 - INFO - Content length: 107442
+2025-02-02 21:09:22,084 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Quick_Set,.md with content length 9350
+2025-02-02 21:09:22,086 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/47579162/REST+API,
+2025-02-02 21:09:22,086 - INFO - Content length: 123350
+2025-02-02 21:09:22,155 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\REST_API,.md with content length 12632
+2025-02-02 21:09:24,155 - INFO - Completed batch 18 of 143
+2025-02-02 21:09:24,155 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/8978569/RoMON,
+2025-02-02 21:09:24,156 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/328139/Serial+Console,
+2025-02-02 21:09:24,805 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/8978569/RoMON,
+2025-02-02 21:09:24,806 - INFO - Content length: 103192
+2025-02-02 21:09:24,840 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\RoMON,.md with content length 6099
+2025-02-02 21:09:24,884 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/328139/Serial+Console,
+2025-02-02 21:09:24,885 - INFO - Content length: 126369
+2025-02-02 21:09:24,979 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Serial_Console,.md with content length 11667
+2025-02-02 21:09:26,981 - INFO - Completed batch 19 of 143
+2025-02-02 21:09:26,981 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/132350014/SSH,
+2025-02-02 21:09:26,981 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/9863195/TR-069,
+2025-02-02 21:09:27,619 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/132350014/SSH,
+2025-02-02 21:09:27,620 - INFO - Content length: 111303
+2025-02-02 21:09:27,682 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\SSH,.md with content length 6561
+2025-02-02 21:09:28,267 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/9863195/TR-069,
+2025-02-02 21:09:28,267 - INFO - Content length: 237133
+2025-02-02 21:09:28,349 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\TR-069,.md with content length 10508
+2025-02-02 21:09:30,362 - INFO - Completed batch 20 of 143
+2025-02-02 21:09:30,362 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/328131/WebFig,
+2025-02-02 21:09:30,362 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/328129/WinBox,
+2025-02-02 21:09:31,405 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/328131/WebFig,
+2025-02-02 21:09:31,406 - INFO - Content length: 113220
+2025-02-02 21:09:31,464 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\WebFig,.md with content length 5982
+2025-02-02 21:09:31,556 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/328129/WinBox,
+2025-02-02 21:09:31,556 - INFO - Content length: 150261
+2025-02-02 21:09:31,673 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\WinBox,.md with content length 16958
+2025-02-02 21:09:33,673 - INFO - Completed batch 21 of 143
+2025-02-02 21:09:33,673 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/139526145/FlashFig,
+2025-02-02 21:09:33,673 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/119144604/Authentication+Authorization+Accounting,
+2025-02-02 21:09:34,349 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/139526145/FlashFig,
+2025-02-02 21:09:34,350 - INFO - Content length: 113819
+2025-02-02 21:09:34,411 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\FlashFig,.md with content length 6014
+2025-02-02 21:09:34,413 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/119144604/Authentication+Authorization+Accounting,
+2025-02-02 21:09:34,413 - INFO - Content length: 91198
+2025-02-02 21:09:34,430 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Authentication_Authorization_Accounting,.md with content length 0
+2025-02-02 21:09:36,432 - INFO - Completed batch 22 of 143
+2025-02-02 21:09:36,432 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/2555969/Certificates,
+2025-02-02 21:09:36,432 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/328090/Dot1X,
+2025-02-02 21:09:37,143 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/2555969/Certificates,
+2025-02-02 21:09:37,143 - INFO - Content length: 123689
+2025-02-02 21:09:37,234 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Certificates,.md with content length 11607
+2025-02-02 21:09:37,284 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/328090/Dot1X,
+2025-02-02 21:09:37,284 - INFO - Content length: 132180
+2025-02-02 21:09:37,389 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Dot1X,.md with content length 18956
+2025-02-02 21:09:39,391 - INFO - Completed batch 23 of 143
+2025-02-02 21:09:39,391 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/56459266/HotSpot+-+Captive+portal,
+2025-02-02 21:09:39,392 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/87162881/Hotspot+customisation,
+2025-02-02 21:09:40,204 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/56459266/HotSpot+-+Captive+portal,
+2025-02-02 21:09:40,204 - INFO - Content length: 131371
+2025-02-02 21:09:40,324 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\HotSpot_-_Captive_portal,.md with content length 13225
+2025-02-02 21:09:40,327 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/87162881/Hotspot+customisation,
+2025-02-02 21:09:40,327 - INFO - Content length: 145689
+2025-02-02 21:09:40,463 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Hotspot_customisation,.md with content length 37809
+2025-02-02 21:09:42,466 - INFO - Completed batch 24 of 143
+2025-02-02 21:09:42,466 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/132350049/PPP+AAA,
+2025-02-02 21:09:42,466 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/328097/RADIUS,
+2025-02-02 21:09:43,183 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/132350049/PPP+AAA,
+2025-02-02 21:09:43,183 - INFO - Content length: 123123
+2025-02-02 21:09:43,284 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\PPP_AAA,.md with content length 18700
+2025-02-02 21:09:43,286 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/328097/RADIUS,
+2025-02-02 21:09:43,286 - INFO - Content length: 105671
+2025-02-02 21:09:43,337 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\RADIUS,.md with content length 5454
+2025-02-02 21:09:45,346 - INFO - Completed batch 25 of 143
+2025-02-02 21:09:45,346 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/8978504/User,
+2025-02-02 21:09:45,346 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/2555940/User+Manager,
+2025-02-02 21:09:46,031 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/8978504/User,
+2025-02-02 21:09:46,032 - INFO - Content length: 120588
+2025-02-02 21:09:46,134 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\User,.md with content length 11977
+2025-02-02 21:09:46,250 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/2555940/User+Manager,
+2025-02-02 21:09:46,250 - INFO - Content length: 198164
+2025-02-02 21:09:46,555 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\User_Manager,.md with content length 41385
+2025-02-02 21:09:48,556 - INFO - Completed batch 26 of 143
+2025-02-02 21:09:48,556 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/328068/Bridging+and+Switching,
+2025-02-02 21:09:48,556 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/30474317/CRS3xx+CRS5xx+CCR2116+CCR2216+switch+chip+features,
+2025-02-02 21:09:49,513 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/30474317/CRS3xx+CRS5xx+CCR2116+CCR2216+switch+chip+features,
+2025-02-02 21:09:49,513 - INFO - Content length: 216577
+2025-02-02 21:09:49,842 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\CRS3xx_CRS5xx_CCR2116_CCR2216_switch_chip_features,.md with content length 38959
+2025-02-02 21:09:50,203 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/328068/Bridging+and+Switching,
+2025-02-02 21:09:50,204 - INFO - Content length: 402326
+2025-02-02 21:09:50,949 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Bridging_and_Switching,.md with content length 141688
+2025-02-02 21:09:52,959 - INFO - Completed batch 27 of 143
+2025-02-02 21:09:52,959 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/103841835/CRS1xx+and+2xx+series+switches,
+2025-02-02 21:09:52,959 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/62390319/L3+Hardware+Offloading,
+2025-02-02 21:09:53,982 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/103841835/CRS1xx+and+2xx+series+switches,
+2025-02-02 21:09:53,982 - INFO - Content length: 226630
+2025-02-02 21:09:54,505 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\CRS1xx_and_2xx_series_switches,.md with content length 62483
+2025-02-02 21:09:54,508 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/62390319/L3+Hardware+Offloading,
+2025-02-02 21:09:54,508 - INFO - Content length: 222155
+2025-02-02 21:09:54,805 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\L3_Hardware_Offloading,.md with content length 51793
+2025-02-02 21:09:56,820 - INFO - Completed batch 28 of 143
+2025-02-02 21:09:56,820 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/201523202/MACsec,
+2025-02-02 21:09:56,820 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/217874440/MACVLAN,
+2025-02-02 21:09:57,502 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/201523202/MACsec,
+2025-02-02 21:09:57,502 - INFO - Content length: 104856
+2025-02-02 21:09:57,544 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\MACsec,.md with content length 6367
+2025-02-02 21:09:57,547 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/217874440/MACVLAN,
+2025-02-02 21:09:57,548 - INFO - Content length: 101558
+2025-02-02 21:09:57,590 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\MACVLAN,.md with content length 5169
+2025-02-02 21:09:59,595 - INFO - Completed batch 29 of 143
+2025-02-02 21:09:59,595 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/189497483/Quality+of+Service,
+2025-02-02 21:09:59,596 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/15302988/Switch+Chip+Features,
+2025-02-02 21:10:00,660 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/15302988/Switch+Chip+Features,
+2025-02-02 21:10:00,660 - INFO - Content length: 226308
+2025-02-02 21:10:01,011 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Switch_Chip_Features,.md with content length 47690
+2025-02-02 21:10:01,014 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/189497483/Quality+of+Service,
+2025-02-02 21:10:01,015 - INFO - Content length: 258759
+2025-02-02 21:10:01,388 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Quality_of_Service,.md with content length 65850
+2025-02-02 21:10:03,399 - INFO - Completed batch 30 of 143
+2025-02-02 21:10:03,399 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/88014957/VLAN,
+2025-02-02 21:10:03,399 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/100007937/VXLAN,
+2025-02-02 21:10:04,136 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/88014957/VLAN,
+2025-02-02 21:10:04,136 - INFO - Content length: 116992
+2025-02-02 21:10:04,199 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\VLAN,.md with content length 12040
+2025-02-02 21:10:04,201 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/100007937/VXLAN,
+2025-02-02 21:10:04,202 - INFO - Content length: 112976
+2025-02-02 21:10:04,274 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\VXLAN,.md with content length 13858
+2025-02-02 21:10:06,276 - INFO - Completed batch 31 of 143
+2025-02-02 21:10:06,276 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/119144611/Bridging+and+Switching+Case+Studies,
+2025-02-02 21:10:06,277 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/103841826/Basic+VLAN+switching,
+2025-02-02 21:10:06,870 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/119144611/Bridging+and+Switching+Case+Studies,
+2025-02-02 21:10:06,871 - INFO - Content length: 92784
+2025-02-02 21:10:06,888 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Bridging_and_Switching_Case_Studies,.md with content length 0
+2025-02-02 21:10:06,934 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/103841826/Basic+VLAN+switching,
+2025-02-02 21:10:06,934 - INFO - Content length: 107591
+2025-02-02 21:10:06,965 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Basic_VLAN_switching,.md with content length 4375
+2025-02-02 21:10:08,969 - INFO - Completed batch 32 of 143
+2025-02-02 21:10:08,969 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/59277403/Bridge+IGMP+MLD+snooping,
+2025-02-02 21:10:08,969 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/28606465/Bridge+VLAN+Table,
+2025-02-02 21:10:09,775 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/59277403/Bridge+IGMP+MLD+snooping,
+2025-02-02 21:10:09,775 - INFO - Content length: 144685
+2025-02-02 21:10:09,897 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Bridge_IGMP_MLD_snooping,.md with content length 26612
+2025-02-02 21:10:09,954 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/28606465/Bridge+VLAN+Table,
+2025-02-02 21:10:09,955 - INFO - Content length: 155201
+2025-02-02 21:10:10,068 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Bridge_VLAN_Table,.md with content length 27642
+2025-02-02 21:10:12,080 - INFO - Completed batch 33 of 143
+2025-02-02 21:10:12,080 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/37224456/Controller+Bridge+and+Port+Extender,
+2025-02-02 21:10:12,080 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/103841836/CRS1xx+2xx+series+switches+examples,
+2025-02-02 21:10:12,786 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/37224456/Controller+Bridge+and+Port+Extender,
+2025-02-02 21:10:12,786 - INFO - Content length: 167580
+2025-02-02 21:10:12,910 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Controller_Bridge_and_Port_Extender,.md with content length 29348
+2025-02-02 21:10:12,984 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/103841836/CRS1xx+2xx+series+switches+examples,
+2025-02-02 21:10:12,985 - INFO - Content length: 196347
+2025-02-02 21:10:13,143 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\CRS1xx_2xx_series_switches_examples,.md with content length 34923
+2025-02-02 21:10:15,154 - INFO - Completed batch 34 of 143
+2025-02-02 21:10:15,154 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/139526180/CRS3xx+CRS5xx+CCR2116+CCR2216+VLANs+with+Bonds,
+2025-02-02 21:10:15,154 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/19136718/Layer2+misconfiguration,
+2025-02-02 21:10:16,054 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/19136718/Layer2+misconfiguration,
+2025-02-02 21:10:16,055 - INFO - Content length: 249228
+2025-02-02 21:10:16,373 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Layer2_misconfiguration,.md with content length 52223
+2025-02-02 21:10:16,430 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/139526180/CRS3xx+CRS5xx+CCR2116+CCR2216+VLANs+with+Bonds,
+2025-02-02 21:10:16,430 - INFO - Content length: 126835
+2025-02-02 21:10:16,494 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\CRS3xx_CRS5xx_CCR2116_CCR2216_VLANs_with_Bonds,.md with content length 10996
+2025-02-02 21:10:18,505 - INFO - Completed batch 35 of 143
+2025-02-02 21:10:18,505 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/23396469/Loop+Protect,
+2025-02-02 21:10:18,506 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/11993091/QoS+with+Switch+Chip,
+2025-02-02 21:10:19,158 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/11993091/QoS+with+Switch+Chip,
+2025-02-02 21:10:19,158 - INFO - Content length: 117188
+2025-02-02 21:10:19,207 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\QoS_with_Switch_Chip,.md with content length 11479
+2025-02-02 21:10:19,247 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/23396469/Loop+Protect,
+2025-02-02 21:10:19,247 - INFO - Content length: 93579
+2025-02-02 21:10:19,270 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Loop_Protect,.md with content length 2328
+2025-02-02 21:10:21,277 - INFO - Completed batch 36 of 143
+2025-02-02 21:10:21,277 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/21725254/Spanning+Tree+Protocol,
+2025-02-02 21:10:21,277 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/122388482/Wireless+VLAN+Trunk,
+2025-02-02 21:10:21,909 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/122388482/Wireless+VLAN+Trunk,
+2025-02-02 21:10:21,910 - INFO - Content length: 101543
+2025-02-02 21:10:21,939 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Wireless_VLAN_Trunk,.md with content length 3065
+2025-02-02 21:10:22,097 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/21725254/Spanning+Tree+Protocol,
+2025-02-02 21:10:22,097 - INFO - Content length: 169439
+2025-02-02 21:10:22,249 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Spanning_Tree_Protocol,.md with content length 36368
+2025-02-02 21:10:24,252 - INFO - Completed batch 37 of 143
+2025-02-02 21:10:24,252 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/113573898/WMM+and+VLAN+priority,
+2025-02-02 21:10:24,252 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/119144601/Firewall+and+Quality+of+Service,
+2025-02-02 21:10:24,919 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/113573898/WMM+and+VLAN+priority,
+2025-02-02 21:10:24,919 - INFO - Content length: 119312
+2025-02-02 21:10:24,970 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\WMM_and_VLAN_priority,.md with content length 10852
+2025-02-02 21:10:24,973 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/119144601/Firewall+and+Quality+of+Service,
+2025-02-02 21:10:24,973 - INFO - Content length: 91659
+2025-02-02 21:10:24,991 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Firewall_and_Quality_of_Service,.md with content length 0
+2025-02-02 21:10:26,995 - INFO - Completed batch 38 of 143
+2025-02-02 21:10:26,995 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/130220087/Connection+tracking,
+2025-02-02 21:10:26,995 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/250708066/Firewall,
+2025-02-02 21:10:27,772 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/250708066/Firewall,
+2025-02-02 21:10:27,772 - INFO - Content length: 95100
+2025-02-02 21:10:27,806 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Firewall,.md with content length 4058
+2025-02-02 21:10:27,809 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/130220087/Connection+tracking,
+2025-02-02 21:10:27,809 - INFO - Content length: 120236
+2025-02-02 21:10:27,927 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Connection_tracking,.md with content length 11908
+2025-02-02 21:10:29,936 - INFO - Completed batch 39 of 143
+2025-02-02 21:10:29,936 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/48660574/Filter,
+2025-02-02 21:10:29,936 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/48660587/Mangle,
+2025-02-02 21:10:30,759 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/48660574/Filter,
+2025-02-02 21:10:30,759 - INFO - Content length: 121984
+2025-02-02 21:10:30,839 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Filter,.md with content length 15283
+2025-02-02 21:10:30,841 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/48660587/Mangle,
+2025-02-02 21:10:30,842 - INFO - Content length: 105233
+2025-02-02 21:10:30,903 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Mangle,.md with content length 7479
+2025-02-02 21:10:32,915 - INFO - Completed batch 40 of 143
+2025-02-02 21:10:32,915 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/3211299/NAT,
+2025-02-02 21:10:32,916 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/250708064/Common+Firewall+Matchers+and+Actions,
+2025-02-02 21:10:33,769 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/3211299/NAT,
+2025-02-02 21:10:33,770 - INFO - Content length: 133948
+2025-02-02 21:10:33,855 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\NAT,.md with content length 22428
+2025-02-02 21:10:33,857 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/250708064/Common+Firewall+Matchers+and+Actions,
+2025-02-02 21:10:33,858 - INFO - Content length: 142880
+2025-02-02 21:10:34,033 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Common_Firewall_Matchers_and_Actions,.md with content length 30250
+2025-02-02 21:10:36,039 - INFO - Completed batch 41 of 143
+2025-02-02 21:10:36,039 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/130220161/Layer7,
+2025-02-02 21:10:36,040 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/130220135/Address-lists,
+2025-02-02 21:10:36,799 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/130220135/Address-lists,
+2025-02-02 21:10:36,799 - INFO - Content length: 98316
+2025-02-02 21:10:36,838 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Address-lists,.md with content length 2691
+2025-02-02 21:10:36,911 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/130220161/Layer7,
+2025-02-02 21:10:36,912 - INFO - Content length: 102879
+2025-02-02 21:10:36,947 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Layer7,.md with content length 3077
+2025-02-02 21:10:38,963 - INFO - Completed batch 42 of 143
+2025-02-02 21:10:38,963 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/328227/Packet+Flow+in+RouterOS,
+2025-02-02 21:10:38,963 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/328088/Queues,
+2025-02-02 21:10:39,732 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/328088/Queues,
+2025-02-02 21:10:39,733 - INFO - Content length: 143778
+2025-02-02 21:10:39,855 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Queues,.md with content length 29595
+2025-02-02 21:10:39,933 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/328227/Packet+Flow+in+RouterOS,
+2025-02-02 21:10:39,934 - INFO - Content length: 194401
+2025-02-02 21:10:40,087 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Packet_Flow_in_RouterOS,.md with content length 35963
+2025-02-02 21:10:42,091 - INFO - Completed batch 43 of 143
+2025-02-02 21:10:42,091 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/137986076/HTB+Hierarchical+Token+Bucket,
+2025-02-02 21:10:42,091 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/137986083/Queue+size,
+2025-02-02 21:10:42,799 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/137986076/HTB+Hierarchical+Token+Bucket,
+2025-02-02 21:10:42,800 - INFO - Content length: 130439
+2025-02-02 21:10:42,900 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\HTB_Hierarchical_Token_Bucket,.md with content length 12404
+2025-02-02 21:10:42,903 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/137986083/Queue+size,
+2025-02-02 21:10:42,903 - INFO - Content length: 101150
+2025-02-02 21:10:42,935 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Queue_size,.md with content length 2572
+2025-02-02 21:10:44,946 - INFO - Completed batch 44 of 143
+2025-02-02 21:10:44,946 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/137986091/Queue+Burst,
+2025-02-02 21:10:44,946 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/137986099/PCQ+example,
+2025-02-02 21:10:45,679 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/137986091/Queue+Burst,
+2025-02-02 21:10:45,680 - INFO - Content length: 124029
+2025-02-02 21:10:45,792 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Queue_Burst,.md with content length 14417
+2025-02-02 21:10:45,795 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/137986099/PCQ+example,
+2025-02-02 21:10:45,795 - INFO - Content length: 94545
+2025-02-02 21:10:45,812 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\PCQ_example,.md with content length 1939
+2025-02-02 21:10:47,820 - INFO - Completed batch 45 of 143
+2025-02-02 21:10:47,820 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/196345871/Queue+types,
+2025-02-02 21:10:47,820 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/196345874/CAKE,
+2025-02-02 21:10:48,525 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/196345871/Queue+types,
+2025-02-02 21:10:48,525 - INFO - Content length: 97047
+2025-02-02 21:10:48,551 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Queue_types,.md with content length 6952
+2025-02-02 21:10:48,553 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/196345874/CAKE,
+2025-02-02 21:10:48,554 - INFO - Content length: 130804
+2025-02-02 21:10:48,631 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\CAKE,.md with content length 29688
+2025-02-02 21:10:50,633 - INFO - Completed batch 46 of 143
+2025-02-02 21:10:50,633 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/196345880/PFIFO+BFIFO,
+2025-02-02 21:10:50,633 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/120324137/Firewall+and+QoS+Case+Studies,
+2025-02-02 21:10:51,287 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/196345880/PFIFO+BFIFO,
+2025-02-02 21:10:51,287 - INFO - Content length: 101756
+2025-02-02 21:10:51,316 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\PFIFO_BFIFO,.md with content length 6951
+2025-02-02 21:10:51,318 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/120324137/Firewall+and+QoS+Case+Studies,
+2025-02-02 21:10:51,319 - INFO - Content length: 91219
+2025-02-02 21:10:51,333 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Firewall_and_QoS_Case_Studies,.md with content length 0
+2025-02-02 21:10:53,342 - INFO - Completed batch 47 of 143
+2025-02-02 21:10:53,342 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/328513/Building+Advanced+Firewall,
+2025-02-02 21:10:53,342 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/154042369/Port+knocking,
+2025-02-02 21:10:54,020 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/328513/Building+Advanced+Firewall,
+2025-02-02 21:10:54,020 - INFO - Content length: 125514
+2025-02-02 21:10:54,075 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Building_Advanced_Firewall,.md with content length 21296
+2025-02-02 21:10:54,555 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/154042369/Port+knocking,
+2025-02-02 21:10:54,555 - INFO - Content length: 100094
+2025-02-02 21:10:54,580 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Port_knocking,.md with content length 3616
+2025-02-02 21:10:56,581 - INFO - Completed batch 48 of 143
+2025-02-02 21:10:56,581 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/28606504/DDoS+Protection,
+2025-02-02 21:10:56,581 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/131366985/Connection+rate,
+2025-02-02 21:10:57,208 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/28606504/DDoS+Protection,
+2025-02-02 21:10:57,208 - INFO - Content length: 101785
+2025-02-02 21:10:57,240 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\DDoS_Protection,.md with content length 3858
+2025-02-02 21:10:57,271 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/131366985/Connection+rate,
+2025-02-02 21:10:57,272 - INFO - Content length: 104741
+2025-02-02 21:10:57,304 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Connection_rate,.md with content length 6730
+2025-02-02 21:10:59,309 - INFO - Completed batch 49 of 143
+2025-02-02 21:10:59,309 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/268337176/Bruteforce+prevention,
+2025-02-02 21:10:59,309 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/129531911/Kid+Control,
+2025-02-02 21:10:59,940 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/268337176/Bruteforce+prevention,
+2025-02-02 21:10:59,941 - INFO - Content length: 95281
+2025-02-02 21:10:59,964 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Bruteforce_prevention,.md with content length 3280
+2025-02-02 21:10:59,997 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/129531911/Kid+Control,
+2025-02-02 21:10:59,997 - INFO - Content length: 99159
+2025-02-02 21:11:00,034 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Kid_Control,.md with content length 4169
+2025-02-02 21:11:02,037 - INFO - Completed batch 50 of 143
+2025-02-02 21:11:02,037 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/24805490/UPnP,
+2025-02-02 21:11:02,037 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/220233819/NAT-PMP,
+2025-02-02 21:11:02,729 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/24805490/UPnP,
+2025-02-02 21:11:02,729 - INFO - Content length: 102112
+2025-02-02 21:11:02,813 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\UPnP,.md with content length 4626
+2025-02-02 21:11:02,819 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/220233819/NAT-PMP,
+2025-02-02 21:11:02,819 - INFO - Content length: 99112
+2025-02-02 21:11:02,849 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\NAT-PMP,.md with content length 2832
+2025-02-02 21:11:04,862 - INFO - Completed batch 51 of 143
+2025-02-02 21:11:04,862 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/328229/IP+Services,
+2025-02-02 21:11:04,862 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/120324133/High+Availability+Solutions,
+2025-02-02 21:11:05,521 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/328229/IP+Services,
+2025-02-02 21:11:05,521 - INFO - Content length: 95715
+2025-02-02 21:11:05,549 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\IP_Services,.md with content length 1608
+2025-02-02 21:11:05,552 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/120324133/High+Availability+Solutions,
+2025-02-02 21:11:05,552 - INFO - Content length: 91056
+2025-02-02 21:11:05,569 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\High_Availability_Solutions,.md with content length 0
+2025-02-02 21:11:07,580 - INFO - Completed batch 52 of 143
+2025-02-02 21:11:07,580 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/4390920/Load+Balancing,
+2025-02-02 21:11:07,580 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/26476608/Failover+WAN+Backup,
+2025-02-02 21:11:08,275 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/4390920/Load+Balancing,
+2025-02-02 21:11:08,275 - INFO - Content length: 94595
+2025-02-02 21:11:08,302 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Load_Balancing,.md with content length 1667
+2025-02-02 21:11:08,304 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/26476608/Failover+WAN+Backup,
+2025-02-02 21:11:08,304 - INFO - Content length: 97687
+2025-02-02 21:11:08,325 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Failover_WAN_Backup,.md with content length 2766
+2025-02-02 21:11:10,326 - INFO - Completed batch 53 of 143
+2025-02-02 21:11:10,326 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/152600617/Per+connection+classifier,
+2025-02-02 21:11:10,326 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/8323193/Bonding,
+2025-02-02 21:11:10,971 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/152600617/Per+connection+classifier,
+2025-02-02 21:11:10,971 - INFO - Content length: 114410
+2025-02-02 21:11:11,012 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Per_connection_classifier,.md with content length 13134
+2025-02-02 21:11:11,082 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/8323193/Bonding,
+2025-02-02 21:11:11,082 - INFO - Content length: 141962
+2025-02-02 21:11:11,200 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Bonding,.md with content length 26969
+2025-02-02 21:11:13,200 - INFO - Completed batch 54 of 143
+2025-02-02 21:11:13,200 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/132349985/Bonding+Examples,
+2025-02-02 21:11:13,200 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/128221209/HA+Case+Studies,
+2025-02-02 21:11:13,864 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/128221209/HA+Case+Studies,
+2025-02-02 21:11:13,864 - INFO - Content length: 89293
+2025-02-02 21:11:13,876 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\HA_Case_Studies,.md with content length 0
+2025-02-02 21:11:13,879 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/132349985/Bonding+Examples,
+2025-02-02 21:11:13,879 - INFO - Content length: 100942
+2025-02-02 21:11:13,909 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Bonding_Examples,.md with content length 4225
+2025-02-02 21:11:15,918 - INFO - Completed batch 55 of 143
+2025-02-02 21:11:15,918 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/67633179/Multi-chassis+Link+Aggregation+Group,
+2025-02-02 21:11:15,918 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/81362945/VRRP,
+2025-02-02 21:11:16,588 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/67633179/Multi-chassis+Link+Aggregation+Group,
+2025-02-02 21:11:16,588 - INFO - Content length: 110487
+2025-02-02 21:11:16,639 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Multi-chassis_Link_Aggregation_Group,.md with content length 8169
+2025-02-02 21:11:16,705 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/81362945/VRRP,
+2025-02-02 21:11:16,705 - INFO - Content length: 132507
+2025-02-02 21:11:16,835 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\VRRP,.md with content length 18090
+2025-02-02 21:11:18,847 - INFO - Completed batch 56 of 143
+2025-02-02 21:11:18,847 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/128221211/VRRP+Configuration+Examples,
+2025-02-02 21:11:18,847 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/119144655/Mobile+Networking,
+2025-02-02 21:11:19,509 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/119144655/Mobile+Networking,
+2025-02-02 21:11:19,509 - INFO - Content length: 90934
+2025-02-02 21:11:19,525 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Mobile_Networking,.md with content length 0
+2025-02-02 21:11:19,528 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/128221211/VRRP+Configuration+Examples,
+2025-02-02 21:11:19,528 - INFO - Content length: 105385
+2025-02-02 21:11:19,564 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\VRRP_Configuration_Examples,.md with content length 4673
+2025-02-02 21:11:21,573 - INFO - Completed batch 57 of 143
+2025-02-02 21:11:21,573 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/84901890/GPS,
+2025-02-02 21:11:21,573 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/84901903/GPS-tracking+using+HTTP+POST,
+2025-02-02 21:11:22,249 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/84901890/GPS,
+2025-02-02 21:11:22,249 - INFO - Content length: 104099
+2025-02-02 21:11:22,299 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\GPS,.md with content length 4976
+2025-02-02 21:11:22,303 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/84901903/GPS-tracking+using+HTTP+POST,
+2025-02-02 21:11:22,303 - INFO - Content length: 98532
+2025-02-02 21:11:22,328 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\GPS-tracking_using_HTTP_POST,.md with content length 3814
+2025-02-02 21:11:24,342 - INFO - Completed batch 58 of 143
+2025-02-02 21:11:24,342 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/166920428/GPS-tracking+using+MQTT+and+ThingsBoard,
+2025-02-02 21:11:24,342 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/30146563/LTE,
+2025-02-02 21:11:25,023 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/166920428/GPS-tracking+using+MQTT+and+ThingsBoard,
+2025-02-02 21:11:25,023 - INFO - Content length: 114519
+2025-02-02 21:11:25,072 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\GPS-tracking_using_MQTT_and_ThingsBoard,.md with content length 7954
+2025-02-02 21:11:25,148 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/30146563/LTE,
+2025-02-02 21:11:25,148 - INFO - Content length: 170082
+2025-02-02 21:11:25,340 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\LTE,.md with content length 33003
+2025-02-02 21:11:27,347 - INFO - Completed batch 59 of 143
+2025-02-02 21:11:27,347 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/328072/PPP,
+2025-02-02 21:11:27,347 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/62390313/SMS,
+2025-02-02 21:11:27,998 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/328072/PPP,
+2025-02-02 21:11:27,998 - INFO - Content length: 95362
+2025-02-02 21:11:28,024 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\PPP,.md with content length 1263
+2025-02-02 21:11:28,066 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/62390313/SMS,
+2025-02-02 21:11:28,066 - INFO - Content length: 112355
+2025-02-02 21:11:28,139 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\SMS,.md with content length 7232
+2025-02-02 21:11:30,154 - INFO - Completed batch 60 of 143
+2025-02-02 21:11:30,154 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/240156741/Dual+SIM+Application,
+2025-02-02 21:11:30,154 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/328082/Multi+Protocol+Label+Switching+-+MPLS,
+2025-02-02 21:11:30,870 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/328082/Multi+Protocol+Label+Switching+-+MPLS,
+2025-02-02 21:11:30,871 - INFO - Content length: 91776
+2025-02-02 21:11:30,889 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Multi_Protocol_Label_Switching_-_MPLS,.md with content length 0
+2025-02-02 21:11:30,892 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/240156741/Dual+SIM+Application,
+2025-02-02 21:11:30,892 - INFO - Content length: 102237
+2025-02-02 21:11:30,919 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Dual_SIM_Application,.md with content length 9890
+2025-02-02 21:11:32,927 - INFO - Completed batch 61 of 143
+2025-02-02 21:11:32,927 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/40992794/MPLS+Overview,
+2025-02-02 21:11:32,927 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/128974876/MPLS+MTU+Forwarding+and+Label+Bindings,
+2025-02-02 21:11:33,562 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/40992794/MPLS+Overview,
+2025-02-02 21:11:33,562 - INFO - Content length: 97463
+2025-02-02 21:11:33,589 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\MPLS_Overview,.md with content length 5616
+2025-02-02 21:11:33,634 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/128974876/MPLS+MTU+Forwarding+and+Label+Bindings,
+2025-02-02 21:11:33,634 - INFO - Content length: 101147
+2025-02-02 21:11:33,681 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\MPLS_MTU_Forwarding_and_Label_Bindings,.md with content length 4828
+2025-02-02 21:11:35,690 - INFO - Completed batch 62 of 143
+2025-02-02 21:11:35,690 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/122388503/EXP+bit+and+MPLS+Queuing,
+2025-02-02 21:11:35,690 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/121995275/LDP,
+2025-02-02 21:11:36,301 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/122388503/EXP+bit+and+MPLS+Queuing,
+2025-02-02 21:11:36,301 - INFO - Content length: 99032
+2025-02-02 21:11:36,325 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\EXP_bit_and_MPLS_Queuing,.md with content length 5960
+2025-02-02 21:11:36,452 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/121995275/LDP,
+2025-02-02 21:11:36,452 - INFO - Content length: 162961
+2025-02-02 21:11:36,640 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\LDP,.md with content length 35383
+2025-02-02 21:11:38,653 - INFO - Completed batch 63 of 143
+2025-02-02 21:11:38,653 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/40992798/VPLS,
+2025-02-02 21:11:38,653 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/128974851/VPLS+Control+Word,
+2025-02-02 21:11:39,339 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/40992798/VPLS,
+2025-02-02 21:11:39,339 - INFO - Content length: 103540
+2025-02-02 21:11:39,402 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\VPLS,.md with content length 4759
+2025-02-02 21:11:39,404 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/128974851/VPLS+Control+Word,
+2025-02-02 21:11:39,405 - INFO - Content length: 95755
+2025-02-02 21:11:39,422 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\VPLS_Control_Word,.md with content length 1707
+2025-02-02 21:11:41,427 - INFO - Completed batch 64 of 143
+2025-02-02 21:11:41,427 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/40992796/Traffic+Eng,
+2025-02-02 21:11:41,427 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/119144613/Network+Management,
+2025-02-02 21:11:42,076 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/119144613/Network+Management,
+2025-02-02 21:11:42,077 - INFO - Content length: 90945
+2025-02-02 21:11:42,093 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Network_Management,.md with content length 0
+2025-02-02 21:11:42,095 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/40992796/Traffic+Eng,
+2025-02-02 21:11:42,095 - INFO - Content length: 103386
+2025-02-02 21:11:42,186 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Traffic_Eng,.md with content length 5315
+2025-02-02 21:11:44,187 - INFO - Completed batch 65 of 143
+2025-02-02 21:11:44,187 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/100892687/ARP,
+2025-02-02 21:11:44,187 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/97779929/Cloud,
+2025-02-02 21:11:44,816 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/100892687/ARP,
+2025-02-02 21:11:44,817 - INFO - Content length: 109658
+2025-02-02 21:11:44,875 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\ARP,.md with content length 8433
+2025-02-02 21:11:44,918 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/97779929/Cloud,
+2025-02-02 21:11:44,919 - INFO - Content length: 122454
+2025-02-02 21:11:44,991 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Cloud,.md with content length 11646
+2025-02-02 21:11:46,992 - INFO - Completed batch 66 of 143
+2025-02-02 21:11:46,992 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/197984280/Back+To+Home,
+2025-02-02 21:11:46,992 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/295239888/File+share,
+2025-02-02 21:11:47,744 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/295239888/File+share,
+2025-02-02 21:11:47,744 - INFO - Content length: 105291
+2025-02-02 21:11:47,778 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\File_share,.md with content length 7667
+2025-02-02 21:11:47,781 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/197984280/Back+To+Home,
+2025-02-02 21:11:47,781 - INFO - Content length: 133828
+2025-02-02 21:11:47,875 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Back_To_Home,.md with content length 12853
+2025-02-02 21:11:49,877 - INFO - Completed batch 67 of 143
+2025-02-02 21:11:49,877 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/24805500/DHCP,
+2025-02-02 21:11:49,877 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/37748767/DNS,
+2025-02-02 21:11:50,742 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/37748767/DNS,
+2025-02-02 21:11:50,742 - INFO - Content length: 138970
+2025-02-02 21:11:50,858 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\DNS,.md with content length 17272
+2025-02-02 21:11:51,004 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/24805500/DHCP,
+2025-02-02 21:11:51,004 - INFO - Content length: 261273
+2025-02-02 21:11:51,437 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\DHCP,.md with content length 78384
+2025-02-02 21:11:53,449 - INFO - Completed batch 68 of 143
+2025-02-02 21:11:53,449 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/73826308/SOCKS,
+2025-02-02 21:11:53,449 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/132350000/Proxy,
+2025-02-02 21:11:54,082 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/73826308/SOCKS,
+2025-02-02 21:11:54,082 - INFO - Content length: 105632
+2025-02-02 21:11:54,127 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\SOCKS,.md with content length 6350
+2025-02-02 21:11:54,210 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/132350000/Proxy,
+2025-02-02 21:11:54,210 - INFO - Content length: 153371
+2025-02-02 21:11:54,378 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Proxy,.md with content length 28481
+2025-02-02 21:11:56,393 - INFO - Completed batch 69 of 143
+2025-02-02 21:11:56,393 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/295239685/Openflow,
+2025-02-02 21:11:56,393 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/328222/Routing,
+2025-02-02 21:11:57,008 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/328222/Routing,
+2025-02-02 21:11:57,008 - INFO - Content length: 90882
+2025-02-02 21:11:57,025 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Routing,.md with content length 0
+2025-02-02 21:11:57,167 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/295239685/Openflow,
+2025-02-02 21:11:57,167 - INFO - Content length: 137083
+2025-02-02 21:11:57,280 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Openflow,.md with content length 15268
+2025-02-02 21:11:59,285 - INFO - Completed batch 70 of 143
+2025-02-02 21:11:59,285 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/28606515/Routing+Protocol+Overview,
+2025-02-02 21:11:59,285 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/30474256/Moving+from+ROSv6+to+v7+with+examples,
+2025-02-02 21:12:00,085 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/30474256/Moving+from+ROSv6+to+v7+with+examples,
+2025-02-02 21:12:00,086 - INFO - Content length: 127696
+2025-02-02 21:12:00,213 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Moving_from_ROSv6_to_v7_with_examples,.md with content length 15727
+2025-02-02 21:12:00,349 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/28606515/Routing+Protocol+Overview,
+2025-02-02 21:12:00,350 - INFO - Content length: 249918
+2025-02-02 21:12:00,919 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Routing_Protocol_Overview,.md with content length 14159
+2025-02-02 21:12:02,930 - INFO - Completed batch 71 of 143
+2025-02-02 21:12:02,930 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/34897937/Routing+Protocol+Multi-core+Support,
+2025-02-02 21:12:02,930 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/59965508/Policy+Routing,
+2025-02-02 21:12:03,625 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/34897937/Routing+Protocol+Multi-core+Support,
+2025-02-02 21:12:03,626 - INFO - Content length: 100052
+2025-02-02 21:12:03,657 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Routing_Protocol_Multi-core_Support,.md with content length 6657
+2025-02-02 21:12:03,659 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/59965508/Policy+Routing,
+2025-02-02 21:12:03,660 - INFO - Content length: 102174
+2025-02-02 21:12:03,696 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Policy_Routing,.md with content length 6180
+2025-02-02 21:12:05,709 - INFO - Completed batch 72 of 143
+2025-02-02 21:12:05,709 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/328206/Virtual+Routing+and+Forwarding+-+VRF,
+2025-02-02 21:12:05,709 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/9863229/OSPF,
+2025-02-02 21:12:06,478 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/328206/Virtual+Routing+and+Forwarding+-+VRF,
+2025-02-02 21:12:06,479 - INFO - Content length: 179080
+2025-02-02 21:12:06,624 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Virtual_Routing_and_Forwarding_-_VRF,.md with content length 36335
+2025-02-02 21:12:06,792 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/9863229/OSPF,
+2025-02-02 21:12:06,792 - INFO - Content length: 224504
+2025-02-02 21:12:07,144 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\OSPF,.md with content length 58326
+2025-02-02 21:12:09,158 - INFO - Completed batch 73 of 143
+2025-02-02 21:12:09,158 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/328211/RIP,
+2025-02-02 21:12:09,158 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/328220/BGP,
+2025-02-02 21:12:09,785 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/328211/RIP,
+2025-02-02 21:12:09,785 - INFO - Content length: 101990
+2025-02-02 21:12:09,863 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\RIP,.md with content length 3841
+2025-02-02 21:12:10,077 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/328220/BGP,
+2025-02-02 21:12:10,078 - INFO - Content length: 170975
+2025-02-02 21:12:10,276 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\BGP,.md with content length 38686
+2025-02-02 21:12:12,291 - INFO - Completed batch 74 of 143
+2025-02-02 21:12:12,291 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/59277471/RPKI,
+2025-02-02 21:12:12,291 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/74678285/Route+Selection+and+Filters,
+2025-02-02 21:12:12,890 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/59277471/RPKI,
+2025-02-02 21:12:12,890 - INFO - Content length: 98171
+2025-02-02 21:12:12,922 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\RPKI,.md with content length 3057
+2025-02-02 21:12:13,057 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/74678285/Route+Selection+and+Filters,
+2025-02-02 21:12:13,057 - INFO - Content length: 156433
+2025-02-02 21:12:13,301 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Route_Selection_and_Filters,.md with content length 27394
+2025-02-02 21:12:15,302 - INFO - Completed batch 75 of 143
+2025-02-02 21:12:15,302 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/59965491/Multicast,
+2025-02-02 21:12:15,302 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/131366949/Group+Management+Protocol,
+2025-02-02 21:12:15,935 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/59965491/Multicast,
+2025-02-02 21:12:15,936 - INFO - Content length: 92585
+2025-02-02 21:12:15,956 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Multicast,.md with content length 0
+2025-02-02 21:12:15,987 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/131366949/Group+Management+Protocol,
+2025-02-02 21:12:15,987 - INFO - Content length: 96447
+2025-02-02 21:12:16,016 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Group_Management_Protocol,.md with content length 2487
+2025-02-02 21:12:18,022 - INFO - Completed batch 76 of 143
+2025-02-02 21:12:18,022 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/128221386/IGMP+Proxy,
+2025-02-02 21:12:18,022 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/61767728/PIM-SM,
+2025-02-02 21:12:18,664 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/128221386/IGMP+Proxy,
+2025-02-02 21:12:18,664 - INFO - Content length: 109755
+2025-02-02 21:12:18,738 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\IGMP_Proxy,.md with content length 7094
+2025-02-02 21:12:18,791 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/61767728/PIM-SM,
+2025-02-02 21:12:18,791 - INFO - Content length: 133386
+2025-02-02 21:12:18,900 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\PIM-SM,.md with content length 18047
+2025-02-02 21:12:20,902 - INFO - Completed batch 77 of 143
+2025-02-02 21:12:20,902 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/59965489/Routing+Debugging+Tools,
+2025-02-02 21:12:20,902 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/74678282/routing+fantasy,
+2025-02-02 21:12:21,542 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/59965489/Routing+Debugging+Tools,
+2025-02-02 21:12:21,542 - INFO - Content length: 95083
+2025-02-02 21:12:21,559 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Routing_Debugging_Tools,.md with content length 3262
+2025-02-02 21:12:21,561 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/74678282/routing+fantasy,
+2025-02-02 21:12:21,561 - INFO - Content length: 94297
+2025-02-02 21:12:21,589 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\routing_fantasy,.md with content length 1421
+2025-02-02 21:12:23,597 - INFO - Completed batch 78 of 143
+2025-02-02 21:12:23,597 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/59965493/routing+route,
+2025-02-02 21:12:23,597 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/59965506/routing+id,
+2025-02-02 21:12:24,310 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/59965506/routing+id,
+2025-02-02 21:12:24,311 - INFO - Content length: 96096
+2025-02-02 21:12:24,337 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\routing_id,.md with content length 2069
+2025-02-02 21:12:24,340 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/59965493/routing+route,
+2025-02-02 21:12:24,340 - INFO - Content length: 110577
+2025-02-02 21:12:24,426 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\routing_route,.md with content length 8786
+2025-02-02 21:12:26,434 - INFO - Completed batch 79 of 143
+2025-02-02 21:12:26,434 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/191299691/BFD,
+2025-02-02 21:12:26,434 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/201523543/IS-IS,
+2025-02-02 21:12:27,067 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/191299691/BFD,
+2025-02-02 21:12:27,068 - INFO - Content length: 99005
+2025-02-02 21:12:27,135 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\BFD,.md with content length 4154
+2025-02-02 21:12:27,168 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/201523543/IS-IS,
+2025-02-02 21:12:27,169 - INFO - Content length: 101495
+2025-02-02 21:12:27,201 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\IS-IS,.md with content length 6000
+2025-02-02 21:12:29,213 - INFO - Completed batch 80 of 143
+2025-02-02 21:12:29,213 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/47579229/Scripting,
+2025-02-02 21:12:29,213 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/139067404/Scripting+examples,
+2025-02-02 21:12:29,868 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/139067404/Scripting+examples,
+2025-02-02 21:12:29,868 - INFO - Content length: 119625
+2025-02-02 21:12:29,926 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Scripting_examples,.md with content length 12146
+2025-02-02 21:12:30,077 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/47579229/Scripting,
+2025-02-02 21:12:30,077 - INFO - Content length: 203321
+2025-02-02 21:12:30,403 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Scripting,.md with content length 48729
+2025-02-02 21:12:32,404 - INFO - Completed batch 81 of 143
+2025-02-02 21:12:32,404 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/283574370/Scripting+Tips+and+Tricks,
+2025-02-02 21:12:32,404 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/119144657/System+Information+and+Utilities,
+2025-02-02 21:12:33,067 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/283574370/Scripting+Tips+and+Tricks,
+2025-02-02 21:12:33,067 - INFO - Content length: 119649
+2025-02-02 21:12:33,124 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Scripting_Tips_and_Tricks,.md with content length 14873
+2025-02-02 21:12:33,126 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/119144657/System+Information+and+Utilities,
+2025-02-02 21:12:33,126 - INFO - Content length: 91123
+2025-02-02 21:12:33,144 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\System_Information_and_Utilities,.md with content length 0
+2025-02-02 21:12:35,156 - INFO - Completed batch 82 of 143
+2025-02-02 21:12:35,156 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/40992866/Clock,
+2025-02-02 21:12:35,157 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/93749258/Device-mode,
+2025-02-02 21:12:35,770 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/40992866/Clock,
+2025-02-02 21:12:35,770 - INFO - Content length: 97558
+2025-02-02 21:12:35,810 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Clock,.md with content length 2645
+2025-02-02 21:12:35,860 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/93749258/Device-mode,
+2025-02-02 21:12:35,860 - INFO - Content length: 116536
+2025-02-02 21:12:35,959 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Device-mode,.md with content length 13843
+2025-02-02 21:12:37,968 - INFO - Completed batch 83 of 143
+2025-02-02 21:12:37,968 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/24805377/E-mail,
+2025-02-02 21:12:37,968 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/8978514/Fetch,
+2025-02-02 21:12:38,645 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/24805377/E-mail,
+2025-02-02 21:12:38,645 - INFO - Content length: 102866
+2025-02-02 21:12:38,696 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\E-mail,.md with content length 4161
+2025-02-02 21:12:38,699 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/8978514/Fetch,
+2025-02-02 21:12:38,699 - INFO - Content length: 104592
+2025-02-02 21:12:38,750 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Fetch,.md with content length 7696
+2025-02-02 21:12:40,756 - INFO - Completed batch 84 of 143
+2025-02-02 21:12:40,756 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/2555971/Files,
+2025-02-02 21:12:40,757 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/40992856/Identity,
+2025-02-02 21:12:41,514 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/40992856/Identity,
+2025-02-02 21:12:41,514 - INFO - Content length: 93668
+2025-02-02 21:12:41,534 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Identity,.md with content length 1044
+2025-02-02 21:12:41,537 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/2555971/Files,
+2025-02-02 21:12:41,537 - INFO - Content length: 102530
+2025-02-02 21:12:41,584 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Files,.md with content length 3527
+2025-02-02 21:12:43,591 - INFO - Completed batch 85 of 143
+2025-02-02 21:12:43,591 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/47579180/Interface+Lists,
+2025-02-02 21:12:43,591 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/24805517/Neighbor+discovery,
+2025-02-02 21:12:44,203 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/47579180/Interface+Lists,
+2025-02-02 21:12:44,203 - INFO - Content length: 96086
+2025-02-02 21:12:44,231 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Interface_Lists,.md with content length 1649
+2025-02-02 21:12:44,283 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/24805517/Neighbor+discovery,
+2025-02-02 21:12:44,283 - INFO - Content length: 111063
+2025-02-02 21:12:44,350 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Neighbor_discovery,.md with content length 17138
+2025-02-02 21:12:46,364 - INFO - Completed batch 86 of 143
+2025-02-02 21:12:46,364 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/40992863/Note,
+2025-02-02 21:12:46,364 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/40992869/NTP,
+2025-02-02 21:12:47,005 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/40992863/Note,
+2025-02-02 21:12:47,005 - INFO - Content length: 98113
+2025-02-02 21:12:47,033 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Note,.md with content length 1169
+2025-02-02 21:12:47,093 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/40992869/NTP,
+2025-02-02 21:12:47,094 - INFO - Content length: 116505
+2025-02-02 21:12:47,194 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\NTP,.md with content length 13525
+2025-02-02 21:12:49,201 - INFO - Completed batch 87 of 143
+2025-02-02 21:12:49,201 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/328103/Partitions,
+2025-02-02 21:12:49,201 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/64127015/Precision+Time+Protocol,
+2025-02-02 21:12:49,835 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/328103/Partitions,
+2025-02-02 21:12:49,835 - INFO - Content length: 97162
+2025-02-02 21:12:49,902 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Partitions,.md with content length 2428
+2025-02-02 21:12:49,943 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/64127015/Precision+Time+Protocol,
+2025-02-02 21:12:49,943 - INFO - Content length: 117968
+2025-02-02 21:12:50,014 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Precision_Time_Protocol,.md with content length 12718
+2025-02-02 21:12:52,018 - INFO - Completed batch 88 of 143
+2025-02-02 21:12:52,018 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/40992881/Scheduler,
+2025-02-02 21:12:52,018 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/103841820/Services,
+2025-02-02 21:12:52,741 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/40992881/Scheduler,
+2025-02-02 21:12:52,741 - INFO - Content length: 100061
+2025-02-02 21:12:52,772 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Scheduler,.md with content length 6056
+2025-02-02 21:12:52,779 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/103841820/Services,
+2025-02-02 21:12:52,780 - INFO - Content length: 104721
+2025-02-02 21:12:52,850 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Services,.md with content length 3963
+2025-02-02 21:12:54,859 - INFO - Completed batch 89 of 143
+2025-02-02 21:12:54,859 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/131366922/TFTP,
+2025-02-02 21:12:54,859 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/119144597/Virtual+Private+Networks,
+2025-02-02 21:12:55,530 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/131366922/TFTP,
+2025-02-02 21:12:55,530 - INFO - Content length: 101408
+2025-02-02 21:12:55,578 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\TFTP,.md with content length 3294
+2025-02-02 21:12:55,580 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/119144597/Virtual+Private+Networks,
+2025-02-02 21:12:55,580 - INFO - Content length: 91023
+2025-02-02 21:12:55,596 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Virtual_Private_Networks,.md with content length 0
+2025-02-02 21:12:57,600 - INFO - Completed batch 90 of 143
+2025-02-02 21:12:57,600 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/135004174/6to4,
+2025-02-02 21:12:57,600 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/24805521/EoIP,
+2025-02-02 21:12:58,314 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/135004174/6to4,
+2025-02-02 21:12:58,314 - INFO - Content length: 105888
+2025-02-02 21:12:58,362 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\6to4,.md with content length 6594
+2025-02-02 21:12:58,365 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/24805521/EoIP,
+2025-02-02 21:12:58,365 - INFO - Content length: 108731
+2025-02-02 21:12:58,417 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\EoIP,.md with content length 9239
+2025-02-02 21:13:00,432 - INFO - Completed batch 91 of 143
+2025-02-02 21:13:00,432 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/24805531/GRE,
+2025-02-02 21:13:00,432 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/47579173/IPIP,
+2025-02-02 21:13:01,062 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/24805531/GRE,
+2025-02-02 21:13:01,062 - INFO - Content length: 101059
+2025-02-02 21:13:01,104 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\GRE,.md with content length 3961
+2025-02-02 21:13:01,133 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/47579173/IPIP,
+2025-02-02 21:13:01,133 - INFO - Content length: 98767
+2025-02-02 21:13:01,166 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\IPIP,.md with content length 3996
+2025-02-02 21:13:03,176 - INFO - Completed batch 92 of 143
+2025-02-02 21:13:03,176 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/11993097/IPsec,
+2025-02-02 21:13:03,176 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/125992982/IKEv2+EAP+between+NordVPN+and+RouterOS,
+2025-02-02 21:13:03,933 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/125992982/IKEv2+EAP+between+NordVPN+and+RouterOS,
+2025-02-02 21:13:03,933 - INFO - Content length: 104558
+2025-02-02 21:13:04,039 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\IKEv2_EAP_between_NordVPN_and_RouterOS,.md with content length 5731
+2025-02-02 21:13:04,447 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/11993097/IPsec,
+2025-02-02 21:13:04,447 - INFO - Content length: 365173
+2025-02-02 21:13:05,066 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\IPsec,.md with content length 93622
+2025-02-02 21:13:07,074 - INFO - Completed batch 93 of 143
+2025-02-02 21:13:07,074 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/2031631/L2TP,
+2025-02-02 21:13:07,074 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/9863181/LAC+and+LNS+setup+with+Cisco+as+LAC,
+2025-02-02 21:13:07,798 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/2031631/L2TP,
+2025-02-02 21:13:07,798 - INFO - Content length: 119371
+2025-02-02 21:13:07,887 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\L2TP,.md with content length 13291
+2025-02-02 21:13:07,890 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/9863181/LAC+and+LNS+setup+with+Cisco+as+LAC,
+2025-02-02 21:13:07,890 - INFO - Content length: 104106
+2025-02-02 21:13:07,960 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\LAC_and_LNS_setup_with_Cisco_as_LAC,.md with content length 4589
+2025-02-02 21:13:09,976 - INFO - Completed batch 94 of 143
+2025-02-02 21:13:09,976 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/2031655/OpenVPN,
+2025-02-02 21:13:09,977 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/2031625/PPPoE,
+2025-02-02 21:13:10,737 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/2031655/OpenVPN,
+2025-02-02 21:13:10,737 - INFO - Content length: 124474
+2025-02-02 21:13:10,838 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\OpenVPN,.md with content length 13148
+2025-02-02 21:13:10,840 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/2031625/PPPoE,
+2025-02-02 21:13:10,840 - INFO - Content length: 127017
+2025-02-02 21:13:10,935 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\PPPoE,.md with content length 16203
+2025-02-02 21:13:12,948 - INFO - Completed batch 95 of 143
+2025-02-02 21:13:12,948 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/132350040/IPv6+PD+over+PPP,
+2025-02-02 21:13:12,948 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/132350045/MLPPP+over+single+and+multiple+links,
+2025-02-02 21:13:13,562 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/132350040/IPv6+PD+over+PPP,
+2025-02-02 21:13:13,562 - INFO - Content length: 98409
+2025-02-02 21:13:13,589 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\IPv6_PD_over_PPP,.md with content length 2322
+2025-02-02 21:13:13,632 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/132350045/MLPPP+over+single+and+multiple+links,
+2025-02-02 21:13:13,633 - INFO - Content length: 101347
+2025-02-02 21:13:13,661 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\MLPPP_over_single_and_multiple_links,.md with content length 4470
+2025-02-02 21:13:15,669 - INFO - Completed batch 96 of 143
+2025-02-02 21:13:15,669 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/2031638/PPTP,
+2025-02-02 21:13:15,669 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/2031645/SSTP,
+2025-02-02 21:13:16,307 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/2031638/PPTP,
+2025-02-02 21:13:16,307 - INFO - Content length: 103997
+2025-02-02 21:13:16,353 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\PPTP,.md with content length 5867
+2025-02-02 21:13:16,406 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/2031645/SSTP,
+2025-02-02 21:13:16,406 - INFO - Content length: 123604
+2025-02-02 21:13:16,496 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\SSTP,.md with content length 8933
+2025-02-02 21:13:18,497 - INFO - Completed batch 97 of 143
+2025-02-02 21:13:18,497 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/69664792/WireGuard,
+2025-02-02 21:13:18,497 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/83755083/ZeroTier,
+2025-02-02 21:13:19,362 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/69664792/WireGuard,
+2025-02-02 21:13:19,362 - INFO - Content length: 133539
+2025-02-02 21:13:19,496 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\WireGuard,.md with content length 15685
+2025-02-02 21:13:19,498 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/83755083/ZeroTier,
+2025-02-02 21:13:19,499 - INFO - Content length: 139863
+2025-02-02 21:13:19,681 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\ZeroTier,.md with content length 18162
+2025-02-02 21:13:21,693 - INFO - Completed batch 98 of 143
+2025-02-02 21:13:21,693 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/119144653/Wired+Connections,
+2025-02-02 21:13:21,693 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/8323191/Ethernet,
+2025-02-02 21:13:22,416 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/119144653/Wired+Connections,
+2025-02-02 21:13:22,416 - INFO - Content length: 91527
+2025-02-02 21:13:22,435 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Wired_Connections,.md with content length 0
+2025-02-02 21:13:22,637 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/8323191/Ethernet,
+2025-02-02 21:13:22,637 - INFO - Content length: 169918
+2025-02-02 21:13:22,967 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Ethernet,.md with content length 41203
+2025-02-02 21:13:24,972 - INFO - Completed batch 99 of 143
+2025-02-02 21:13:24,972 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/220233794/MikroTik+wired+interface+compatibility,
+2025-02-02 21:13:24,972 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/47579194/PWR+Line,
+2025-02-02 21:13:25,631 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/47579194/PWR+Line,
+2025-02-02 21:13:25,632 - INFO - Content length: 105207
+2025-02-02 21:13:25,685 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\PWR_Line,.md with content length 7354
+2025-02-02 21:13:25,990 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/220233794/MikroTik+wired+interface+compatibility,
+2025-02-02 21:13:25,990 - INFO - Content length: 258524
+2025-02-02 21:13:26,662 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\MikroTik_wired_interface_compatibility,.md with content length 25555
+2025-02-02 21:13:28,665 - INFO - Completed batch 100 of 143
+2025-02-02 21:13:28,665 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/1409138/Wireless,
+2025-02-02 21:13:28,666 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/224559120/WiFi,
+2025-02-02 21:13:29,297 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/1409138/Wireless,
+2025-02-02 21:13:29,298 - INFO - Content length: 115268
+2025-02-02 21:13:29,360 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Wireless,.md with content length 10460
+2025-02-02 21:13:29,683 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/224559120/WiFi,
+2025-02-02 21:13:29,683 - INFO - Content length: 272185
+2025-02-02 21:13:30,167 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\WiFi,.md with content length 94283
+2025-02-02 21:13:32,182 - INFO - Completed batch 101 of 143
+2025-02-02 21:13:32,182 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/8978446/Wireless+Interface,
+2025-02-02 21:13:32,182 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/39059501/W60G,
+2025-02-02 21:13:33,024 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/39059501/W60G,
+2025-02-02 21:13:33,025 - INFO - Content length: 129047
+2025-02-02 21:13:33,172 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\W60G,.md with content length 19760
+2025-02-02 21:13:33,536 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/8978446/Wireless+Interface,
+2025-02-02 21:13:33,536 - INFO - Content length: 333181
+2025-02-02 21:13:34,342 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Wireless_Interface,.md with content length 122847
+2025-02-02 21:13:36,355 - INFO - Completed batch 102 of 143
+2025-02-02 21:13:36,355 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/39059503/Distance+guide,
+2025-02-02 21:13:36,356 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/189497349/Fail-over+PtMP+CLI+example,
+2025-02-02 21:13:36,987 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/39059503/Distance+guide,
+2025-02-02 21:13:36,987 - INFO - Content length: 96398
+2025-02-02 21:13:37,016 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Distance_guide,.md with content length 619
+2025-02-02 21:13:37,053 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/189497349/Fail-over+PtMP+CLI+example,
+2025-02-02 21:13:37,053 - INFO - Content length: 108240
+2025-02-02 21:13:37,106 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Fail-over_PtMP_CLI_example,.md with content length 21513
+2025-02-02 21:13:39,119 - INFO - Completed batch 103 of 143
+2025-02-02 21:13:39,119 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/43057230/Fail-over+PtP+CLI+example,
+2025-02-02 21:13:39,119 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/43843592/Fail-over+PtP+GUI+example,
+2025-02-02 21:13:39,984 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/43057230/Fail-over+PtP+CLI+example,
+2025-02-02 21:13:39,985 - INFO - Content length: 106413
+2025-02-02 21:13:40,040 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Fail-over_PtP_CLI_example,.md with content length 18620
+2025-02-02 21:13:40,042 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/43843592/Fail-over+PtP+GUI+example,
+2025-02-02 21:13:40,042 - INFO - Content length: 111667
+2025-02-02 21:13:40,105 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Fail-over_PtP_GUI_example,.md with content length 3937
+2025-02-02 21:13:42,119 - INFO - Completed batch 104 of 143
+2025-02-02 21:13:42,119 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/39682058/PtP+CLI+example,
+2025-02-02 21:13:42,119 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/39682067/PtP+GUI+example,
+2025-02-02 21:13:43,055 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/39682067/PtP+GUI+example,
+2025-02-02 21:13:43,055 - INFO - Content length: 99853
+2025-02-02 21:13:43,085 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\PtP_GUI_example,.md with content length 1830
+2025-02-02 21:13:43,202 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/39682058/PtP+CLI+example,
+2025-02-02 21:13:43,202 - INFO - Content length: 100981
+2025-02-02 21:13:43,244 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\PtP_CLI_example,.md with content length 12468
+2025-02-02 21:13:45,256 - INFO - Completed batch 105 of 143
+2025-02-02 21:13:45,256 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/7962638/CAPsMAN,
+2025-02-02 21:13:45,256 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/1409149/AP+Controller+CAPsMAN,
+2025-02-02 21:13:46,208 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/7962638/CAPsMAN,
+2025-02-02 21:13:46,208 - INFO - Content length: 147596
+2025-02-02 21:13:46,376 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\CAPsMAN,.md with content length 33131
+2025-02-02 21:13:46,976 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/1409149/AP+Controller+CAPsMAN,
+2025-02-02 21:13:46,977 - INFO - Content length: 183559
+2025-02-02 21:13:47,164 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\AP_Controller_CAPsMAN,.md with content length 61456
+2025-02-02 21:13:49,175 - INFO - Completed batch 106 of 143
+2025-02-02 21:13:49,175 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/8978441/HWMPplus+mesh,
+2025-02-02 21:13:49,176 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/122388485/Nv2,
+2025-02-02 21:13:50,037 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/122388485/Nv2,
+2025-02-02 21:13:50,037 - INFO - Content length: 120448
+2025-02-02 21:13:50,108 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Nv2,.md with content length 18651
+2025-02-02 21:13:50,672 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/8978441/HWMPplus+mesh,
+2025-02-02 21:13:50,672 - INFO - Content length: 135691
+2025-02-02 21:13:50,758 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\HWMPplus_mesh,.md with content length 20659
+2025-02-02 21:13:52,766 - INFO - Completed batch 107 of 143
+2025-02-02 21:13:52,766 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/7962628/Interworking+Profiles,
+2025-02-02 21:13:52,766 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/120324140/Wireless+Case+Studies,
+2025-02-02 21:13:56,544 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/120324140/Wireless+Case+Studies,
+2025-02-02 21:13:56,544 - INFO - Content length: 91723
+2025-02-02 21:13:56,561 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Wireless_Case_Studies,.md with content length 0
+2025-02-02 21:13:56,565 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/7962628/Interworking+Profiles,
+2025-02-02 21:13:56,565 - INFO - Content length: 146507
+2025-02-02 21:13:56,718 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Interworking_Profiles,.md with content length 23796
+2025-02-02 21:13:58,720 - INFO - Completed batch 108 of 143
+2025-02-02 21:13:58,720 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/92635137/Enterprise+wireless+security+with+User+Manager+v5,
+2025-02-02 21:13:58,720 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/122388507/VLANs+on+Wireless,
+2025-02-02 21:13:59,539 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/92635137/Enterprise+wireless+security+with+User+Manager+v5,
+2025-02-02 21:13:59,539 - INFO - Content length: 104959
+2025-02-02 21:13:59,569 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Enterprise_wireless_security_with_User_Manager_v5,.md with content length 6505
+2025-02-02 21:13:59,572 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/122388507/VLANs+on+Wireless,
+2025-02-02 21:13:59,572 - INFO - Content length: 97749
+2025-02-02 21:13:59,595 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\VLANs_on_Wireless,.md with content length 2487
+2025-02-02 21:14:01,605 - INFO - Completed batch 109 of 143
+2025-02-02 21:14:01,605 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/122388518/Wireless+Station+Modes,
+2025-02-02 21:14:01,606 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/122388523/Wireless+Troubleshooting,
+2025-02-02 21:14:02,372 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/122388518/Wireless+Station+Modes,
+2025-02-02 21:14:02,373 - INFO - Content length: 106281
+2025-02-02 21:14:02,419 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Wireless_Station_Modes,.md with content length 8459
+2025-02-02 21:14:02,709 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/122388523/Wireless+Troubleshooting,
+2025-02-02 21:14:02,709 - INFO - Content length: 122845
+2025-02-02 21:14:02,771 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Wireless_Troubleshooting,.md with content length 22697
+2025-02-02 21:14:04,783 - INFO - Completed batch 110 of 143
+2025-02-02 21:14:04,783 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/137986075/CAPsMAN+with+VLANs,
+2025-02-02 21:14:04,783 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/139526162/Spectral+scan,
+2025-02-02 21:14:05,662 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/139526162/Spectral+scan,
+2025-02-02 21:14:05,663 - INFO - Content length: 101414
+2025-02-02 21:14:05,698 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Spectral_scan,.md with content length 3711
+2025-02-02 21:14:05,865 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/137986075/CAPsMAN+with+VLANs,
+2025-02-02 21:14:05,865 - INFO - Content length: 117394
+2025-02-02 21:14:05,917 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\CAPsMAN_with_VLANs,.md with content length 12736
+2025-02-02 21:14:07,930 - INFO - Completed batch 111 of 143
+2025-02-02 21:14:07,930 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/46759975/Internet+of+Things,
+2025-02-02 21:14:07,931 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/78086201/Bluetooth,
+2025-02-02 21:14:08,754 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/78086201/Bluetooth,
+2025-02-02 21:14:08,754 - INFO - Content length: 139036
+2025-02-02 21:14:08,910 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Bluetooth,.md with content length 28021
+2025-02-02 21:14:08,959 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/46759975/Internet+of+Things,
+2025-02-02 21:14:08,960 - INFO - Content length: 90935
+2025-02-02 21:14:08,979 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Internet_of_Things,.md with content length 0
+2025-02-02 21:14:10,985 - INFO - Completed batch 112 of 143
+2025-02-02 21:14:10,985 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/176914435/Bluetooth+tag-tracking+using+MQTT+and+ThingsBoard,
+2025-02-02 21:14:10,986 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/68944101/GPIO,
+2025-02-02 21:14:11,796 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/68944101/GPIO,
+2025-02-02 21:14:11,796 - INFO - Content length: 110276
+2025-02-02 21:14:11,844 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\GPIO,.md with content length 9996
+2025-02-02 21:14:12,145 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/176914435/Bluetooth+tag-tracking+using+MQTT+and+ThingsBoard,
+2025-02-02 21:14:12,145 - INFO - Content length: 205090
+2025-02-02 21:14:12,268 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Bluetooth_tag-tracking_using_MQTT_and_ThingsBoard,.md with content length 55836
+2025-02-02 21:14:14,277 - INFO - Completed batch 113 of 143
+2025-02-02 21:14:14,277 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/16351615/Lora,
+2025-02-02 21:14:14,277 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/16351619/General+Properties,
+2025-02-02 21:14:15,147 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/16351615/Lora,
+2025-02-02 21:14:15,148 - INFO - Content length: 93427
+2025-02-02 21:14:15,166 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Lora,.md with content length 1893
+2025-02-02 21:14:15,169 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/16351619/General+Properties,
+2025-02-02 21:14:15,169 - INFO - Content length: 127959
+2025-02-02 21:14:15,259 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\General_Properties,.md with content length 18365
+2025-02-02 21:14:17,261 - INFO - Completed batch 114 of 143
+2025-02-02 21:14:17,261 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/16351624/Setup,
+2025-02-02 21:14:17,261 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/232816782/AWS+LoRaWAN+configuration,
+2025-02-02 21:14:17,976 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/16351624/Setup,
+2025-02-02 21:14:17,976 - INFO - Content length: 92211
+2025-02-02 21:14:17,992 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Setup,.md with content length 95
+2025-02-02 21:14:18,113 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/232816782/AWS+LoRaWAN+configuration,
+2025-02-02 21:14:18,113 - INFO - Content length: 111832
+2025-02-02 21:14:18,155 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\AWS_LoRaWAN_configuration,.md with content length 3100
+2025-02-02 21:14:20,164 - INFO - Completed batch 115 of 143
+2025-02-02 21:14:20,164 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/50692141/Step+by+step+installation,
+2025-02-02 21:14:20,164 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/16351627/The+Things+Network,
+2025-02-02 21:14:20,961 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/50692141/Step+by+step+installation,
+2025-02-02 21:14:20,961 - INFO - Content length: 103322
+2025-02-02 21:14:20,989 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Step_by_step_installation,.md with content length 1946
+2025-02-02 21:14:21,991 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/16351627/The+Things+Network,
+2025-02-02 21:14:21,992 - INFO - Content length: 97325
+2025-02-02 21:14:22,013 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\The_Things_Network,.md with content length 1037
+2025-02-02 21:14:24,026 - INFO - Completed batch 116 of 143
+2025-02-02 21:14:24,026 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/67633276/The+Things+Stack,
+2025-02-02 21:14:24,026 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/46759978/MQTT,
+2025-02-02 21:14:24,677 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/67633276/The+Things+Stack,
+2025-02-02 21:14:24,678 - INFO - Content length: 115299
+2025-02-02 21:14:24,720 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\The_Things_Stack,.md with content length 3113
+2025-02-02 21:14:24,801 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/46759978/MQTT,
+2025-02-02 21:14:24,801 - INFO - Content length: 129212
+2025-02-02 21:14:24,900 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\MQTT,.md with content length 16281
+2025-02-02 21:14:26,914 - INFO - Completed batch 117 of 143
+2025-02-02 21:14:26,914 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/250707984/Kaa+IoT+setup,
+2025-02-02 21:14:26,914 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/105742352/MQTT+and+ThingsBoard+configuration,
+2025-02-02 21:14:27,570 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/250707984/Kaa+IoT+setup,
+2025-02-02 21:14:27,570 - INFO - Content length: 113741
+2025-02-02 21:14:27,654 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Kaa_IoT_setup,.md with content length 10434
+2025-02-02 21:14:27,699 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/105742352/MQTT+and+ThingsBoard+configuration,
+2025-02-02 21:14:27,699 - INFO - Content length: 123699
+2025-02-02 21:14:27,763 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\MQTT_and_ThingsBoard_configuration,.md with content length 9037
+2025-02-02 21:14:29,767 - INFO - Completed batch 118 of 143
+2025-02-02 21:14:29,767 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/13500445/Hardware,
+2025-02-02 21:14:29,767 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/91193346/Disks,
+2025-02-02 21:14:30,463 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/13500445/Hardware,
+2025-02-02 21:14:30,463 - INFO - Content length: 92094
+2025-02-02 21:14:30,480 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Hardware,.md with content length 0
+2025-02-02 21:14:30,523 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/91193346/Disks,
+2025-02-02 21:14:30,523 - INFO - Content length: 119697
+2025-02-02 21:14:30,590 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Disks,.md with content length 12990
+2025-02-02 21:14:32,605 - INFO - Completed batch 119 of 143
+2025-02-02 21:14:32,605 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/53444613/Grounding,
+2025-02-02 21:14:32,605 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/130220194/LCD+Touchscreen,
+2025-02-02 21:14:33,234 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/53444613/Grounding,
+2025-02-02 21:14:33,234 - INFO - Content length: 99856
+2025-02-02 21:14:33,263 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Grounding,.md with content length 1465
+2025-02-02 21:14:33,309 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/130220194/LCD+Touchscreen,
+2025-02-02 21:14:33,309 - INFO - Content length: 124942
+2025-02-02 21:14:33,392 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\LCD_Touchscreen,.md with content length 10181
+2025-02-02 21:14:35,393 - INFO - Completed batch 120 of 143
+2025-02-02 21:14:35,393 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/40992859/LEDs,
+2025-02-02 21:14:35,393 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/21725296/MTU+in+RouterOS,
+2025-02-02 21:14:36,100 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/40992859/LEDs,
+2025-02-02 21:14:36,101 - INFO - Content length: 112638
+2025-02-02 21:14:36,179 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\LEDs,.md with content length 9767
+2025-02-02 21:14:36,182 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/21725296/MTU+in+RouterOS,
+2025-02-02 21:14:36,182 - INFO - Content length: 126077
+2025-02-02 21:14:36,277 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\MTU_in_RouterOS,.md with content length 12642
+2025-02-02 21:14:38,291 - INFO - Completed batch 121 of 143
+2025-02-02 21:14:38,291 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/13500447/Peripherals,
+2025-02-02 21:14:38,291 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/19136769/PoE-Out,
+2025-02-02 21:14:39,163 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/13500447/Peripherals,
+2025-02-02 21:14:39,163 - INFO - Content length: 146382
+2025-02-02 21:14:39,411 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Peripherals,.md with content length 19655
+2025-02-02 21:14:39,419 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/19136769/PoE-Out,
+2025-02-02 21:14:39,419 - INFO - Content length: 172030
+2025-02-02 21:14:39,608 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\PoE-Out,.md with content length 27475
+2025-02-02 21:14:41,617 - INFO - Completed batch 122 of 143
+2025-02-02 21:14:41,617 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/8978525/Ports,
+2025-02-02 21:14:41,617 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/17498146/Product+Naming,
+2025-02-02 21:14:42,359 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/8978525/Ports,
+2025-02-02 21:14:42,359 - INFO - Content length: 102708
+2025-02-02 21:14:42,412 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Ports,.md with content length 4406
+2025-02-02 21:14:42,416 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/17498146/Product+Naming,
+2025-02-02 21:14:42,417 - INFO - Content length: 108404
+2025-02-02 21:14:42,489 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Product_Naming,.md with content length 10160
+2025-02-02 21:14:44,502 - INFO - Completed batch 123 of 143
+2025-02-02 21:14:44,502 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/40992878/RouterBOARD,
+2025-02-02 21:14:44,502 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/130220183/USB+Features,
+2025-02-02 21:14:45,174 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/130220183/USB+Features,
+2025-02-02 21:14:45,174 - INFO - Content length: 99911
+2025-02-02 21:14:45,209 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\USB_Features,.md with content length 2238
+2025-02-02 21:14:45,268 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/40992878/RouterBOARD,
+2025-02-02 21:14:45,268 - INFO - Content length: 130166
+2025-02-02 21:14:45,411 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\RouterBOARD,.md with content length 20371
+2025-02-02 21:14:47,425 - INFO - Completed batch 124 of 143
+2025-02-02 21:14:47,425 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/119144606/Diagnostics+monitoring+and+troubleshooting,
+2025-02-02 21:14:47,426 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/7962644/Bandwidth+Test,
+2025-02-02 21:14:48,049 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/119144606/Diagnostics+monitoring+and+troubleshooting,
+2025-02-02 21:14:48,049 - INFO - Content length: 92396
+2025-02-02 21:14:48,068 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Diagnostics_monitoring_and_troubleshooting,.md with content length 0
+2025-02-02 21:14:48,118 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/7962644/Bandwidth+Test,
+2025-02-02 21:14:48,118 - INFO - Content length: 104909
+2025-02-02 21:14:48,169 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Bandwidth_Test,.md with content length 5515
+2025-02-02 21:14:50,175 - INFO - Completed batch 125 of 143
+2025-02-02 21:14:50,175 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/8323187/Detect+Internet,
+2025-02-02 21:14:50,176 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/139067407/Dynamic+DNS,
+2025-02-02 21:14:50,773 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/8323187/Detect+Internet,
+2025-02-02 21:14:50,774 - INFO - Content length: 98261
+2025-02-02 21:14:50,802 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Detect_Internet,.md with content length 2065
+2025-02-02 21:14:50,838 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/139067407/Dynamic+DNS,
+2025-02-02 21:14:50,838 - INFO - Content length: 94729
+2025-02-02 21:14:50,865 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Dynamic_DNS,.md with content length 1364
+2025-02-02 21:14:52,873 - INFO - Completed batch 126 of 143
+2025-02-02 21:14:52,873 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/22773810/Graphing,
+2025-02-02 21:14:52,873 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/25690117/Health,
+2025-02-02 21:14:53,654 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/25690117/Health,
+2025-02-02 21:14:53,654 - INFO - Content length: 104989
+2025-02-02 21:14:53,702 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Health,.md with content length 7831
+2025-02-02 21:14:53,705 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/22773810/Graphing,
+2025-02-02 21:14:53,706 - INFO - Content length: 107000
+2025-02-02 21:14:53,766 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Graphing,.md with content length 3877
+2025-02-02 21:14:55,767 - INFO - Completed batch 127 of 143
+2025-02-02 21:14:55,767 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/139526175/Interface+stats+and+monitor-traffic,
+2025-02-02 21:14:55,767 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/8323205/IP+Scan,
+2025-02-02 21:14:56,459 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/139526175/Interface+stats+and+monitor-traffic,
+2025-02-02 21:14:56,460 - INFO - Content length: 97657
+2025-02-02 21:14:56,480 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Interface_stats_and_monitor-traffic,.md with content length 3786
+2025-02-02 21:14:56,487 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/8323205/IP+Scan,
+2025-02-02 21:14:56,487 - INFO - Content length: 92556
+2025-02-02 21:14:56,504 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\IP_Scan,.md with content length 1509
+2025-02-02 21:14:58,517 - INFO - Completed batch 128 of 143
+2025-02-02 21:14:58,517 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/328094/Log,
+2025-02-02 21:14:58,517 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/282132697/Syslog+with+Elasticsearch,
+2025-02-02 21:14:59,274 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/282132697/Syslog+with+Elasticsearch,
+2025-02-02 21:14:59,274 - INFO - Content length: 122357
+2025-02-02 21:14:59,319 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Syslog_with_Elasticsearch,.md with content length 21749
+2025-02-02 21:14:59,323 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/328094/Log,
+2025-02-02 21:14:59,323 - INFO - Content length: 120715
+2025-02-02 21:14:59,431 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Log,.md with content length 13359
+2025-02-02 21:15:01,440 - INFO - Completed batch 129 of 143
+2025-02-02 21:15:01,440 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/8323208/Netwatch,
+2025-02-02 21:15:01,440 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/8323088/Packet+Sniffer,
+2025-02-02 21:15:02,263 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/8323088/Packet+Sniffer,
+2025-02-02 21:15:02,263 - INFO - Content length: 118293
+2025-02-02 21:15:02,349 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Packet_Sniffer,.md with content length 13291
+2025-02-02 21:15:02,352 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/8323208/Netwatch,
+2025-02-02 21:15:02,352 - INFO - Content length: 130133
+2025-02-02 21:15:02,475 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Netwatch,.md with content length 9972
+2025-02-02 21:15:04,485 - INFO - Completed batch 130 of 143
+2025-02-02 21:15:04,485 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/8323183/Ping,
+2025-02-02 21:15:04,486 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/8323153/Profiler,
+2025-02-02 21:15:05,160 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/8323183/Ping,
+2025-02-02 21:15:05,160 - INFO - Content length: 98720
+2025-02-02 21:15:05,184 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Ping,.md with content length 4571
+2025-02-02 21:15:05,187 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/8323153/Profiler,
+2025-02-02 21:15:05,187 - INFO - Content length: 101241
+2025-02-02 21:15:05,240 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Profiler,.md with content length 4750
+2025-02-02 21:15:07,252 - INFO - Completed batch 131 of 143
+2025-02-02 21:15:07,252 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/40992875/Resource,
+2025-02-02 21:15:07,252 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/8978519/SNMP,
+2025-02-02 21:15:08,017 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/40992875/Resource,
+2025-02-02 21:15:08,017 - INFO - Content length: 110288
+2025-02-02 21:15:08,095 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Resource,.md with content length 5827
+2025-02-02 21:15:08,098 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/8978519/SNMP,
+2025-02-02 21:15:08,099 - INFO - Content length: 118424
+2025-02-02 21:15:08,178 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\SNMP,.md with content length 9117
+2025-02-02 21:15:10,179 - INFO - Completed batch 132 of 143
+2025-02-02 21:15:10,179 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/8978571/Speed+Test,
+2025-02-02 21:15:10,179 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/240156916/S-RJ10+general+guidance,
+2025-02-02 21:15:10,861 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/8978571/Speed+Test,
+2025-02-02 21:15:10,861 - INFO - Content length: 95098
+2025-02-02 21:15:10,886 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Speed_Test,.md with content length 2512
+2025-02-02 21:15:10,923 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/240156916/S-RJ10+general+guidance,
+2025-02-02 21:15:10,923 - INFO - Content length: 101458
+2025-02-02 21:15:10,951 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\S-RJ10_general_guidance,.md with content length 2844
+2025-02-02 21:15:12,967 - INFO - Completed batch 133 of 143
+2025-02-02 21:15:12,967 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/8323150/Torch,
+2025-02-02 21:15:12,967 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/130220138/Traceroute,
+2025-02-02 21:15:13,686 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/8323150/Torch,
+2025-02-02 21:15:13,687 - INFO - Content length: 92125
+2025-02-02 21:15:13,703 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Torch,.md with content length 496
+2025-02-02 21:15:13,707 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/130220138/Traceroute,
+2025-02-02 21:15:13,707 - INFO - Content length: 92418
+2025-02-02 21:15:13,725 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Traceroute,.md with content length 1541
+2025-02-02 21:15:15,731 - INFO - Completed batch 134 of 143
+2025-02-02 21:15:15,731 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/21102653/Traffic+Flow,
+2025-02-02 21:15:15,731 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/282132674/NetFlow+analysis+with+Elasticsearch,
+2025-02-02 21:15:16,431 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/21102653/Traffic+Flow,
+2025-02-02 21:15:16,431 - INFO - Content length: 114188
+2025-02-02 21:15:16,508 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Traffic_Flow,.md with content length 8127
+2025-02-02 21:15:16,514 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/282132674/NetFlow+analysis+with+Elasticsearch,
+2025-02-02 21:15:16,514 - INFO - Content length: 117439
+2025-02-02 21:15:16,561 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\NetFlow_analysis_with_Elasticsearch,.md with content length 7708
+2025-02-02 21:15:18,572 - INFO - Completed batch 135 of 143
+2025-02-02 21:15:18,572 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/128221376/Traffic+Generator,
+2025-02-02 21:15:18,572 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/8978694/Watchdog,
+2025-02-02 21:15:19,299 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/8978694/Watchdog,
+2025-02-02 21:15:19,299 - INFO - Content length: 97231
+2025-02-02 21:15:19,327 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Watchdog,.md with content length 3364
+2025-02-02 21:15:19,334 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/128221376/Traffic+Generator,
+2025-02-02 21:15:19,334 - INFO - Content length: 141808
+2025-02-02 21:15:19,448 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Traffic_Generator,.md with content length 27805
+2025-02-02 21:15:21,452 - INFO - Completed batch 136 of 143
+2025-02-02 21:15:21,452 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/120324125/Extended+features,
+2025-02-02 21:15:21,452 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/84901929/Container,
+2025-02-02 21:15:22,062 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/120324125/Extended+features,
+2025-02-02 21:15:22,062 - INFO - Content length: 91527
+2025-02-02 21:15:22,079 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Extended_features,.md with content length 0
+2025-02-02 21:15:22,185 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/84901929/Container,
+2025-02-02 21:15:22,185 - INFO - Content length: 126369
+2025-02-02 21:15:22,277 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Container,.md with content length 11829
+2025-02-02 21:15:24,287 - INFO - Completed batch 137 of 143
+2025-02-02 21:15:24,287 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/172294200/Container+-+freeradius+server,
+2025-02-02 21:15:24,287 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/204341276/Container+-+HomeAssistant,
+2025-02-02 21:15:24,989 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/172294200/Container+-+freeradius+server,
+2025-02-02 21:15:24,989 - INFO - Content length: 115844
+2025-02-02 21:15:25,078 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Container_-_freeradius_server,.md with content length 10730
+2025-02-02 21:15:25,080 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/204341276/Container+-+HomeAssistant,
+2025-02-02 21:15:25,081 - INFO - Content length: 106947
+2025-02-02 21:15:25,122 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Container_-_HomeAssistant,.md with content length 4693
+2025-02-02 21:15:27,136 - INFO - Completed batch 138 of 143
+2025-02-02 21:15:27,136 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/169246787/Container+-+mosquitto+MQTT+server,
+2025-02-02 21:15:27,136 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/166920348/Container+-+ThingsBoard+MQTT+HTTP+server,
+2025-02-02 21:15:27,916 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/169246787/Container+-+mosquitto+MQTT+server,
+2025-02-02 21:15:27,916 - INFO - Content length: 129402
+2025-02-02 21:15:27,986 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Container_-_mosquitto_MQTT_server,.md with content length 14838
+2025-02-02 21:15:27,994 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/166920348/Container+-+ThingsBoard+MQTT+HTTP+server,
+2025-02-02 21:15:27,994 - INFO - Content length: 156418
+2025-02-02 21:15:28,102 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Container_-_ThingsBoard_MQTT_HTTP_server,.md with content length 23369
+2025-02-02 21:15:30,113 - INFO - Completed batch 139 of 143
+2025-02-02 21:15:30,113 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/237699479/DLNA+Media+server,
+2025-02-02 21:15:30,113 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/259031065/ROSE-storage,
+2025-02-02 21:15:30,743 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/237699479/DLNA+Media+server,
+2025-02-02 21:15:30,743 - INFO - Content length: 94047
+2025-02-02 21:15:30,767 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\DLNA_Media_server,.md with content length 1851
+2025-02-02 21:15:30,918 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/259031065/ROSE-storage,
+2025-02-02 21:15:30,918 - INFO - Content length: 157176
+2025-02-02 21:15:31,079 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\ROSE-storage,.md with content length 16765
+2025-02-02 21:15:33,081 - INFO - Completed batch 140 of 143
+2025-02-02 21:15:33,081 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/295239711/Btrfs,
+2025-02-02 21:15:33,081 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/117145608/SMB,
+2025-02-02 21:15:33,790 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/117145608/SMB,
+2025-02-02 21:15:33,790 - INFO - Content length: 101584
+2025-02-02 21:15:33,834 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\SMB,.md with content length 3574
+2025-02-02 21:15:33,841 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/295239711/Btrfs,
+2025-02-02 21:15:33,841 - INFO - Content length: 125508
+2025-02-02 21:15:33,906 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Btrfs,.md with content length 14040
+2025-02-02 21:15:35,912 - INFO - Completed batch 141 of 143
+2025-02-02 21:15:35,912 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/120324130/UPS,
+2025-02-02 21:15:35,912 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/120782862/Wake+on+LAN,
+2025-02-02 21:15:36,574 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/120324130/UPS,
+2025-02-02 21:15:36,574 - INFO - Content length: 106608
+2025-02-02 21:15:36,671 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\UPS,.md with content length 8966
+2025-02-02 21:15:36,674 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/120782862/Wake+on+LAN,
+2025-02-02 21:15:36,674 - INFO - Content length: 92937
+2025-02-02 21:15:36,695 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\Wake_on_LAN,.md with content length 804
+2025-02-02 21:15:38,702 - INFO - Completed batch 142 of 143
+2025-02-02 21:15:38,702 - INFO - Crawling: https://help.mikrotik.com/docs/spaces/ROS/pages/139526171/IP+packing,
+2025-02-02 21:15:39,340 - INFO - Successfully fetched https://help.mikrotik.com/docs/spaces/ROS/pages/139526171/IP+packing,
+2025-02-02 21:15:39,341 - INFO - Content length: 98588
+2025-02-02 21:15:39,373 - INFO - Saved: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\mikrotik_docs\IP_packing,.md with content length 3293
+2025-02-02 21:15:41,386 - INFO - Completed batch 143 of 143
