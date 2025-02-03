@@ -1,10 +1,10 @@
 ---
 title: Thread-89883
-url: https://forum.mikrotik.com/viewtopic.php?t=89883&sid=3b77a3334c914448dbbc02bfdff4c3aa
+url: https://forum.mikrotik.com/viewtopic.php?t=89883&sid=49f92a630bc7970d8ca50523be880e8f
 thread_id: 89883
 section: RouterOS
 post_count: 7
-date_crawled: 2025-02-03T12:50:43.414561
+date_crawled: 2025-02-03T13:49:30.242919
 ---
 
 ### Post 1

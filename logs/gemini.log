@@ -891,3 +891,47 @@
 2025-02-03 13:36:56 - INFO - Generated file: MAC_server_7.11_Advanced_SMB_20250203133656.md, Topic: MAC server, Version: 7.11, Level: Advanced, Scale: SMB
 2025-02-03 13:37:34 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\MAC_server_7.11_Advanced_Enterprise_20250203133734.md
 2025-02-03 13:37:34 - INFO - Generated file: MAC_server_7.11_Advanced_Enterprise_20250203133734.md, Topic: MAC server, Version: 7.11, Level: Advanced, Scale: Enterprise
+2025-02-03 13:38:03 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\MAC_server_7.11_Advanced_ISP_20250203133803.md
+2025-02-03 13:38:03 - INFO - Generated file: MAC_server_7.11_Advanced_ISP_20250203133803.md, Topic: MAC server, Version: 7.11, Level: Advanced, Scale: ISP
+2025-02-03 13:38:34 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\MAC_server_7.11_Advanced_Hotspot Network_20250203133834.md
+2025-02-03 13:38:34 - INFO - Generated file: MAC_server_7.11_Advanced_Hotspot Network_20250203133834.md, Topic: MAC server, Version: 7.11, Level: Advanced, Scale: Hotspot Network
+2025-02-03 13:39:06 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\MAC_server_7.11_Advanced_Point-to-Point Link_20250203133906.md
+2025-02-03 13:39:06 - INFO - Generated file: MAC_server_7.11_Advanced_Point-to-Point Link_20250203133906.md, Topic: MAC server, Version: 7.11, Level: Advanced, Scale: Point-to-Point Link
+2025-02-03 13:39:47 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\MAC_server_7.11_Expert_SOHO_20250203133947.md
+2025-02-03 13:39:47 - INFO - Generated file: MAC_server_7.11_Expert_SOHO_20250203133947.md, Topic: MAC server, Version: 7.11, Level: Expert, Scale: SOHO
+2025-02-03 13:40:18 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\MAC_server_7.11_Expert_SMB_20250203134018.md
+2025-02-03 13:40:18 - INFO - Generated file: MAC_server_7.11_Expert_SMB_20250203134018.md, Topic: MAC server, Version: 7.11, Level: Expert, Scale: SMB
+2025-02-03 13:40:42 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\MAC_server_7.11_Expert_Enterprise_20250203134042.md
+2025-02-03 13:40:42 - INFO - Generated file: MAC_server_7.11_Expert_Enterprise_20250203134042.md, Topic: MAC server, Version: 7.11, Level: Expert, Scale: Enterprise
+2025-02-03 13:41:10 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\MAC_server_7.11_Expert_ISP_20250203134110.md
+2025-02-03 13:41:10 - INFO - Generated file: MAC_server_7.11_Expert_ISP_20250203134110.md, Topic: MAC server, Version: 7.11, Level: Expert, Scale: ISP
+2025-02-03 13:41:35 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\MAC_server_7.11_Expert_Hotspot Network_20250203134135.md
+2025-02-03 13:41:35 - INFO - Generated file: MAC_server_7.11_Expert_Hotspot Network_20250203134135.md, Topic: MAC server, Version: 7.11, Level: Expert, Scale: Hotspot Network
+2025-02-03 13:41:56 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\MAC_server_7.11_Expert_Point-to-Point Link_20250203134156.md
+2025-02-03 13:41:56 - INFO - Generated file: MAC_server_7.11_Expert_Point-to-Point Link_20250203134156.md, Topic: MAC server, Version: 7.11, Level: Expert, Scale: Point-to-Point Link
+2025-02-03 13:42:21 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\MAC_server_7.12_Basic_SOHO_20250203134221.md
+2025-02-03 13:42:21 - INFO - Generated file: MAC_server_7.12_Basic_SOHO_20250203134221.md, Topic: MAC server, Version: 7.12, Level: Basic, Scale: SOHO
+2025-02-03 13:43:05 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\MAC_server_7.12_Basic_SMB_20250203134305.md
+2025-02-03 13:43:05 - INFO - Generated file: MAC_server_7.12_Basic_SMB_20250203134305.md, Topic: MAC server, Version: 7.12, Level: Basic, Scale: SMB
+2025-02-03 13:43:32 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\MAC_server_7.12_Basic_Enterprise_20250203134332.md
+2025-02-03 13:43:32 - INFO - Generated file: MAC_server_7.12_Basic_Enterprise_20250203134332.md, Topic: MAC server, Version: 7.12, Level: Basic, Scale: Enterprise
+2025-02-03 13:44:03 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\MAC_server_7.12_Basic_ISP_20250203134403.md
+2025-02-03 13:44:03 - INFO - Generated file: MAC_server_7.12_Basic_ISP_20250203134403.md, Topic: MAC server, Version: 7.12, Level: Basic, Scale: ISP
+2025-02-03 13:44:33 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\MAC_server_7.12_Basic_Hotspot Network_20250203134433.md
+2025-02-03 13:44:33 - INFO - Generated file: MAC_server_7.12_Basic_Hotspot Network_20250203134433.md, Topic: MAC server, Version: 7.12, Level: Basic, Scale: Hotspot Network
+2025-02-03 13:44:57 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\MAC_server_7.12_Basic_Point-to-Point Link_20250203134457.md
+2025-02-03 13:44:57 - INFO - Generated file: MAC_server_7.12_Basic_Point-to-Point Link_20250203134457.md, Topic: MAC server, Version: 7.12, Level: Basic, Scale: Point-to-Point Link
+2025-02-03 13:45:25 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\MAC_server_7.12_Advanced_SOHO_20250203134525.md
+2025-02-03 13:45:25 - INFO - Generated file: MAC_server_7.12_Advanced_SOHO_20250203134525.md, Topic: MAC server, Version: 7.12, Level: Advanced, Scale: SOHO
+2025-02-03 13:46:01 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\MAC_server_7.12_Advanced_SMB_20250203134601.md
+2025-02-03 13:46:01 - INFO - Generated file: MAC_server_7.12_Advanced_SMB_20250203134601.md, Topic: MAC server, Version: 7.12, Level: Advanced, Scale: SMB
+2025-02-03 13:46:32 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\MAC_server_7.12_Advanced_Enterprise_20250203134632.md
+2025-02-03 13:46:32 - INFO - Generated file: MAC_server_7.12_Advanced_Enterprise_20250203134632.md, Topic: MAC server, Version: 7.12, Level: Advanced, Scale: Enterprise
+2025-02-03 13:47:08 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\MAC_server_7.12_Advanced_ISP_20250203134708.md
+2025-02-03 13:47:08 - INFO - Generated file: MAC_server_7.12_Advanced_ISP_20250203134708.md, Topic: MAC server, Version: 7.12, Level: Advanced, Scale: ISP
+2025-02-03 13:47:41 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\MAC_server_7.12_Advanced_Hotspot Network_20250203134741.md
+2025-02-03 13:47:41 - INFO - Generated file: MAC_server_7.12_Advanced_Hotspot Network_20250203134741.md, Topic: MAC server, Version: 7.12, Level: Advanced, Scale: Hotspot Network
+2025-02-03 13:48:19 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\MAC_server_7.12_Advanced_Point-to-Point Link_20250203134819.md
+2025-02-03 13:48:19 - INFO - Generated file: MAC_server_7.12_Advanced_Point-to-Point Link_20250203134819.md, Topic: MAC server, Version: 7.12, Level: Advanced, Scale: Point-to-Point Link
+2025-02-03 13:48:50 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\MAC_server_7.12_Expert_SOHO_20250203134850.md
+2025-02-03 13:48:50 - INFO - Generated file: MAC_server_7.12_Expert_SOHO_20250203134850.md, Topic: MAC server, Version: 7.12, Level: Expert, Scale: SOHO
