@@ -1,0 +1,13 @@
+2025-02-03 12:48:59,276 - INFO - Searching https://api.github.com/search/repositories?q=%22RouterOS%20v7%22%20%2B%20language%3ARouterOS%2Bcreated%3A%3E%3D2021-12-01&per_page=100&page=1&sort=stars&order=desc
+2025-02-03 12:50:11,724 - INFO - Searching https://api.github.com/search/repositories?q=%22RouterOS%20v7%22%20%2B%20language%3ARouterOS%2Bcreated%3A%3E%3D2021-12-01&per_page=100&page=1&sort=stars&order=desc
+2025-02-03 12:50:12,099 - INFO - Request to https://api.github.com/search/repositories?q=%22RouterOS%20v7%22%20%2B%20language%3ARouterOS%2Bcreated%3A%3E%3D2021-12-01&per_page=100&page=1&sort=stars&order=desc completed. Response code 200
+2025-02-03 12:50:12,100 - INFO - No more repos found.
+2025-02-03 12:51:12,093 - INFO - Searching https://api.github.com/search/repositories?q=%22RouterOS%20v7%22%2Bcreated%3A%3E%3D2021-12-01+in:name&per_page=100&page=1&sort=stars&order=desc
+2025-02-03 12:51:12,461 - INFO - Request to https://api.github.com/search/repositories?q=%22RouterOS%20v7%22%2Bcreated%3A%3E%3D2021-12-01+in:name&per_page=100&page=1&sort=stars&order=desc completed. Response code 200
+2025-02-03 12:51:12,462 - INFO - No more repos found.
+2025-02-03 12:52:57,059 - INFO - Searching https://api.github.com/search/repositories?q=%22mikrotik%22%2Bcreated%3A2021-12-01..%2A+in:name&per_page=100&page=1&sort=stars&order=desc
+2025-02-03 12:52:57,425 - INFO - Request to https://api.github.com/search/repositories?q=%22mikrotik%22%2Bcreated%3A2021-12-01..%2A+in:name&per_page=100&page=1&sort=stars&order=desc completed. Response code 200
+2025-02-03 12:52:57,425 - INFO - No more repos found.
+2025-02-03 12:55:04,890 - INFO - Searching https://api.github.com/search/repositories?q=%22mikrotik%22%2Bcreated%3A2021-12-01..%2Ain:name&per_page=100&page=1&sort=stars&order=desc
+2025-02-03 12:55:05,277 - INFO - Request to https://api.github.com/search/repositories?q=%22mikrotik%22%2Bcreated%3A2021-12-01..%2Ain:name&per_page=100&page=1&sort=stars&order=desc completed. Response code 200
+2025-02-03 12:55:05,277 - INFO - No more repos found.

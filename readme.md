@@ -1,6 +1,6 @@
 
 
-## **the idea is to gather all the mikrotik related information on internet and train a distilled mini LLM for the most accurate and least compute footprint mikrotik AI assistant.**
+## **the idea is to gather all the mikrotik related information on internet + generate synthetic data from various state of the art LLM models and train a distilled mini LLM for the most accurate and least compute footprint mikrotik AI assistant.**
 
 **data sources**
 
