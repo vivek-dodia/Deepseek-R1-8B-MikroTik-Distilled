@@ -56,7 +56,20 @@ class MikroTikForumCrawler:
         ]
 
     def clean_forum_content(self, content: str) -> str:
-        """Clean forum content and preserve structure"""
+        """Clean forum content and preserve structure.
+
+        This function takes raw HTML content from a forum and processes it to
+        remove unnecessary elements such as navigation bars, footers, and
+        scripts. It then extracts relevant information from each post, including
+        the author's name, post date, and content. The cleaned posts are
+        formatted into a structured string for further use.
+
+        Args:
+            content (str): The raw HTML content of the forum.
+
+        Returns:
+            str: A formatted string containing the cleaned posts, separated by "---".
+        """
         soup = BeautifulSoup(content, 'html.parser')
         
         # Remove unnecessary elements
@@ -102,7 +115,22 @@ Date: {date.get_text(strip=True) if date else 'Unknown'}
         return "\n---\n".join(posts)
 
     def is_relevant_thread(self, title: str, content: str) -> bool:
-        """Check if thread is relevant to core features or API"""
+        """Check if a thread is relevant to core features or API.
+
+        This function evaluates the relevance of a thread based on its title and
+        content. It combines the title and content into a single lowercase
+        string and checks for the presence of specific keywords that indicate
+        relevance to core features or API usage. Additionally, it looks for
+        common commands and code snippets that are typically associated with
+        technical discussions or inquiries.
+
+        Args:
+            title (str): The title of the thread.
+            content (str): The content of the thread.
+
+        Returns:
+            bool: True if the thread is relevant, False otherwise.
+        """
         text = (title + " " + content).lower()
         
         # Check for relevant keywords
@@ -135,7 +163,23 @@ Date: {date.get_text(strip=True) if date else 'Unknown'}
         return "\n\n".join(formatted_content)
 
     async def get_thread_urls(self, section_id: str, crawler: AsyncWebCrawler) -> list:
-        """Get thread URLs from a forum section"""
+        """Retrieve thread URLs from a specified forum section.
+
+        This function constructs URLs for threads within a given section of a
+        forum by iterating through the pages of that section. It utilizes an
+        asynchronous web crawler to fetch the HTML content of each page, parses
+        the content to extract thread links, and compiles a list of these URLs.
+        The process continues until there are no more pages to retrieve or an
+        error occurs.
+
+        Args:
+            section_id (str): The identifier for the forum section from which to retrieve thread URLs.
+            crawler (AsyncWebCrawler): An instance of an asynchronous web crawler used to fetch page content.
+
+        Returns:
+            list: A list of strings containing the full URLs of the threads found in the
+                specified section.
+        """
         thread_urls = []
         page = 0
         while True:
@@ -173,7 +217,21 @@ Date: {date.get_text(strip=True) if date else 'Unknown'}
         return thread_urls
 
     async def crawl_thread(self, url: str, crawler: AsyncWebCrawler):
-        """Crawl a single forum thread"""
+        """Crawl a single forum thread and save its content if relevant.
+
+        This method checks if the provided URL has already been visited. If not,
+        it logs the crawling action, attempts to fetch the thread's HTML content
+        using an asynchronous web crawler, and parses the content to extract the
+        title and main content. If the thread is deemed relevant based on
+        certain criteria, it cleans the content and saves it to a markdown file
+        with metadata. The method also handles any exceptions that may occur
+        during the crawling process.
+
+        Args:
+            url (str): The URL of the forum thread to crawl.
+            crawler (AsyncWebCrawler): An instance of an asynchronous web crawler used to fetch the thread's
+                content.
+        """
         if url in self.visited_urls:
             return
         
