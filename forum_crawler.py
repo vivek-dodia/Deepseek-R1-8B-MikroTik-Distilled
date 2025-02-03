@@ -21,13 +21,13 @@ class MikroTikForumCrawler:
         self.run_config = CrawlerRunConfig(word_count_threshold=0)
         self.base_forum_url = "https://forum.mikrotik.com"
         
-        # Forum sections to crawl
+        # Expanded forum sections
         self.forum_sections = {
-            "2": "RouterOS",         # RouterOS General
-            "49": "v7",             # RouterOS v7
-            "7": "Scripts",         # Scripts
-            "31": "Routing",        # Routing
-            "34": "Firewall",       # Firewall
+            "2": "RouterOS",          # RouterOS General
+            "49": "v7",              # RouterOS v7
+            "7": "Scripts",          # Scripts
+            "31": "Routing",         # Routing
+            "34": "Firewall",        # Firewall
             "33": "VPN",            # VPN
             "35": "IPv6",           # IPv6
             "32": "Wireless",       # Wireless
@@ -37,6 +37,13 @@ class MikroTikForumCrawler:
             "39": "PPP",            # PPP
             "40": "HotSpot",        # HotSpot
             "41": "API",            # API
+            "42": "IPSec",          # IPSec
+            "43": "VLAN",           # VLAN
+            "44": "CAPsMAN",        # CAPsMAN
+            "45": "Container",       # Container
+            "46": "Switch",         # Switch
+            "47": "Hardware",       # Hardware
+            "48": "Troubleshooting" # Troubleshooting
         }
 
         # Keywords for identifying relevant content
@@ -69,7 +76,8 @@ class MikroTikForumCrawler:
         # Remove minimal unnecessary elements
         unwanted_selectors = [
             'script', 'style', '.signature',
-            '.posting-icons', '.back2top', '.buttons'
+            '.posting-icons', '.back2top', '.buttons',
+            '.header', '.footer', '.navbar'
         ]
         
         for selector in unwanted_selectors:
@@ -108,6 +116,13 @@ Date: {date.get_text(strip=True) if date else 'Unknown'}
                 formatted_content.append(f"```\n{code_text}\n```")
             code.decompose()
         
+        # Process quotes
+        for quote in content_element.select('blockquote'):
+            quote_text = quote.get_text(strip=True)
+            if quote_text:
+                formatted_content.append(f"> {quote_text}")
+            quote.decompose()
+        
         # Get remaining text
         text = content_element.get_text(strip=True)
         if text:
@@ -125,26 +140,14 @@ Date: {date.get_text(strip=True) if date else 'Unknown'}
         ]
         return any(cmd in text.lower() for cmd in commands)
 
-    def is_relevant_thread(self, title: str, content: str) -> bool:
-        """Check if thread is relevant with looser criteria"""
-        text = (title + " " + content).lower()
-        
-        # Check for any relevant content
-        has_relevance = (
-            any(keyword in text for keyword in self.relevant_keywords) or
-            any(term in text for term in self.networking_terms) or
-            self.has_mikrotik_commands(text)
-        )
-        
-        return has_relevance
-
     async def get_thread_urls(self, section_id: str, crawler: AsyncWebCrawler) -> list:
-        """Get thread URLs from a forum section"""
-        thread_urls = []
+        """Get thread URLs from a forum section including all pages"""
+        thread_urls = set()  # Using set to avoid duplicates
         page = 0
+        max_pages = 100  # Safety limit
         
-        while True:
-            url = f"{self.base_forum_url}/viewforum.php?f={section_id}&start={page * 50}"
+        while page < max_pages:
+            url = f"{self.base_forum_url}/viewforum.php?f={section_id}&sort=desc&start={page * 50}"
             logging.info(f"Getting page {page} from section {section_id}")
             
             try:
@@ -153,19 +156,26 @@ Date: {date.get_text(strip=True) if date else 'Unknown'}
                     break
                 
                 soup = BeautifulSoup(result.html, 'html.parser')
-                topics = soup.select('.topictitle')
+                topics = soup.select('a.topictitle')  # Modified selector
+                
                 if not topics:
+                    logging.info(f"No topics found on page {page} for section {section_id}")
                     break
                 
                 for topic in topics:
                     href = topic.get('href')
-                    if href:
+                    if href and 'viewtopic.php' in href:
                         full_url = urljoin(self.base_forum_url, href)
-                        thread_urls.append(full_url)
+                        thread_urls.add(full_url)
                 
-                if not soup.select_one('a.next'):
+                # Check for "No topics" message
+                if soup.find(string=lambda text: 'No topics' in str(text)):
                     break
-                    
+                
+                # More robust next page check
+                if not soup.select('.pagination') or not soup.select('a.next'):
+                    break
+                
                 page += 1
                 await asyncio.sleep(1)
                 
@@ -173,7 +183,8 @@ Date: {date.get_text(strip=True) if date else 'Unknown'}
                 logging.error(f"Error getting threads from section {section_id}, page {page}: {str(e)}")
                 break
         
-        return thread_urls
+        logging.info(f"Found {len(thread_urls)} unique threads in section {section_id}")
+        return list(thread_urls)
 
     async def crawl_thread(self, url: str, crawler: AsyncWebCrawler):
         """Crawl a single forum thread"""
@@ -198,11 +209,18 @@ Date: {date.get_text(strip=True) if date else 'Unknown'}
                     save_path = self.base_save_path / f"thread_{thread_id}.md"
                     save_path.parent.mkdir(parents=True, exist_ok=True)
                     
+                    # Extract forum section
+                    section = "Unknown"
+                    for section_id, section_name in self.forum_sections.items():
+                        if f"f={section_id}" in url:
+                            section = section_name
+                            break
+                    
                     metadata = f"""---
 title: {title}
 source_url: {url}
 crawled_date: {datetime.now().isoformat()}
-section: mikrotik_forum
+section: {section}
 type: forum_thread
 ---
 
