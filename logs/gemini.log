@@ -324,3 +324,198 @@
 2025-02-03 02:07:31 - INFO - Generated file: IP_Pools_7.12_Expert_Point-to-Point Link_20250203020731.md, Topic: IP Pools, Version: 7.12, Level: Expert, Scale: Point-to-Point Link
 2025-02-03 02:08:32 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Routing_6.48_Basic_SOHO_20250203020832.md
 2025-02-03 02:08:32 - INFO - Generated file: IP_Routing_6.48_Basic_SOHO_20250203020832.md, Topic: IP Routing, Version: 6.48, Level: Basic, Scale: SOHO
+2025-02-03 02:09:09 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Routing_6.48_Basic_SMB_20250203020908.md
+2025-02-03 02:09:09 - INFO - Generated file: IP_Routing_6.48_Basic_SMB_20250203020908.md, Topic: IP Routing, Version: 6.48, Level: Basic, Scale: SMB
+2025-02-03 02:10:09 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Routing_6.48_Basic_Enterprise_20250203021009.md
+2025-02-03 02:10:09 - INFO - Generated file: IP_Routing_6.48_Basic_Enterprise_20250203021009.md, Topic: IP Routing, Version: 6.48, Level: Basic, Scale: Enterprise
+2025-02-03 02:10:57 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Routing_6.48_Basic_ISP_20250203021057.md
+2025-02-03 02:10:57 - INFO - Generated file: IP_Routing_6.48_Basic_ISP_20250203021057.md, Topic: IP Routing, Version: 6.48, Level: Basic, Scale: ISP
+2025-02-03 02:11:58 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Routing_6.48_Basic_Hotspot Network_20250203021158.md
+2025-02-03 02:11:58 - INFO - Generated file: IP_Routing_6.48_Basic_Hotspot Network_20250203021158.md, Topic: IP Routing, Version: 6.48, Level: Basic, Scale: Hotspot Network
+2025-02-03 02:12:59 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Routing_6.48_Basic_Point-to-Point Link_20250203021259.md
+2025-02-03 02:12:59 - INFO - Generated file: IP_Routing_6.48_Basic_Point-to-Point Link_20250203021259.md, Topic: IP Routing, Version: 6.48, Level: Basic, Scale: Point-to-Point Link
+2025-02-03 02:14:00 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Routing_6.48_Advanced_SOHO_20250203021400.md
+2025-02-03 02:14:00 - INFO - Generated file: IP_Routing_6.48_Advanced_SOHO_20250203021400.md, Topic: IP Routing, Version: 6.48, Level: Advanced, Scale: SOHO
+2025-02-03 02:14:54 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Routing_6.48_Advanced_SMB_20250203021454.md
+2025-02-03 02:14:54 - INFO - Generated file: IP_Routing_6.48_Advanced_SMB_20250203021454.md, Topic: IP Routing, Version: 6.48, Level: Advanced, Scale: SMB
+2025-02-03 02:15:54 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Routing_6.48_Advanced_Enterprise_20250203021554.md
+2025-02-03 02:15:54 - INFO - Generated file: IP_Routing_6.48_Advanced_Enterprise_20250203021554.md, Topic: IP Routing, Version: 6.48, Level: Advanced, Scale: Enterprise
+2025-02-03 02:16:44 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Routing_6.48_Advanced_ISP_20250203021644.md
+2025-02-03 02:16:44 - INFO - Generated file: IP_Routing_6.48_Advanced_ISP_20250203021644.md, Topic: IP Routing, Version: 6.48, Level: Advanced, Scale: ISP
+2025-02-03 02:17:18 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Routing_6.48_Advanced_Hotspot Network_20250203021718.md
+2025-02-03 02:17:18 - INFO - Generated file: IP_Routing_6.48_Advanced_Hotspot Network_20250203021718.md, Topic: IP Routing, Version: 6.48, Level: Advanced, Scale: Hotspot Network
+2025-02-03 02:17:56 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Routing_6.48_Advanced_Point-to-Point Link_20250203021756.md
+2025-02-03 02:17:56 - INFO - Generated file: IP_Routing_6.48_Advanced_Point-to-Point Link_20250203021756.md, Topic: IP Routing, Version: 6.48, Level: Advanced, Scale: Point-to-Point Link
+2025-02-03 02:18:45 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Routing_6.48_Expert_SOHO_20250203021845.md
+2025-02-03 02:18:45 - INFO - Generated file: IP_Routing_6.48_Expert_SOHO_20250203021845.md, Topic: IP Routing, Version: 6.48, Level: Expert, Scale: SOHO
+2025-02-03 02:19:46 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Routing_6.48_Expert_SMB_20250203021946.md
+2025-02-03 02:19:46 - INFO - Generated file: IP_Routing_6.48_Expert_SMB_20250203021946.md, Topic: IP Routing, Version: 6.48, Level: Expert, Scale: SMB
+2025-02-03 02:20:47 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Routing_6.48_Expert_Enterprise_20250203022047.md
+2025-02-03 02:20:47 - INFO - Generated file: IP_Routing_6.48_Expert_Enterprise_20250203022047.md, Topic: IP Routing, Version: 6.48, Level: Expert, Scale: Enterprise
+2025-02-03 02:21:23 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Routing_6.48_Expert_ISP_20250203022123.md
+2025-02-03 02:21:23 - INFO - Generated file: IP_Routing_6.48_Expert_ISP_20250203022123.md, Topic: IP Routing, Version: 6.48, Level: Expert, Scale: ISP
+2025-02-03 02:22:23 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Routing_6.48_Expert_Hotspot Network_20250203022223.md
+2025-02-03 02:22:23 - INFO - Generated file: IP_Routing_6.48_Expert_Hotspot Network_20250203022223.md, Topic: IP Routing, Version: 6.48, Level: Expert, Scale: Hotspot Network
+2025-02-03 02:22:59 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Routing_6.48_Expert_Point-to-Point Link_20250203022259.md
+2025-02-03 02:22:59 - INFO - Generated file: IP_Routing_6.48_Expert_Point-to-Point Link_20250203022259.md, Topic: IP Routing, Version: 6.48, Level: Expert, Scale: Point-to-Point Link
+2025-02-03 02:24:01 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Routing_7.11_Basic_SOHO_20250203022401.md
+2025-02-03 02:24:01 - INFO - Generated file: IP_Routing_7.11_Basic_SOHO_20250203022401.md, Topic: IP Routing, Version: 7.11, Level: Basic, Scale: SOHO
+2025-02-03 02:24:34 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Routing_7.11_Basic_SMB_20250203022434.md
+2025-02-03 02:24:34 - INFO - Generated file: IP_Routing_7.11_Basic_SMB_20250203022434.md, Topic: IP Routing, Version: 7.11, Level: Basic, Scale: SMB
+2025-02-03 02:25:25 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Routing_7.11_Basic_Enterprise_20250203022525.md
+2025-02-03 02:25:25 - INFO - Generated file: IP_Routing_7.11_Basic_Enterprise_20250203022525.md, Topic: IP Routing, Version: 7.11, Level: Basic, Scale: Enterprise
+2025-02-03 02:26:26 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Routing_7.11_Basic_ISP_20250203022626.md
+2025-02-03 02:26:26 - INFO - Generated file: IP_Routing_7.11_Basic_ISP_20250203022626.md, Topic: IP Routing, Version: 7.11, Level: Basic, Scale: ISP
+2025-02-03 02:27:16 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Routing_7.11_Basic_Hotspot Network_20250203022716.md
+2025-02-03 02:27:16 - INFO - Generated file: IP_Routing_7.11_Basic_Hotspot Network_20250203022716.md, Topic: IP Routing, Version: 7.11, Level: Basic, Scale: Hotspot Network
+2025-02-03 02:28:09 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Routing_7.11_Basic_Point-to-Point Link_20250203022809.md
+2025-02-03 02:28:09 - INFO - Generated file: IP_Routing_7.11_Basic_Point-to-Point Link_20250203022809.md, Topic: IP Routing, Version: 7.11, Level: Basic, Scale: Point-to-Point Link
+2025-02-03 02:28:46 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Routing_7.11_Advanced_SOHO_20250203022846.md
+2025-02-03 02:28:46 - INFO - Generated file: IP_Routing_7.11_Advanced_SOHO_20250203022846.md, Topic: IP Routing, Version: 7.11, Level: Advanced, Scale: SOHO
+2025-02-03 02:29:47 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Routing_7.11_Advanced_SMB_20250203022947.md
+2025-02-03 02:29:47 - INFO - Generated file: IP_Routing_7.11_Advanced_SMB_20250203022947.md, Topic: IP Routing, Version: 7.11, Level: Advanced, Scale: SMB
+2025-02-03 02:30:37 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Routing_7.11_Advanced_Enterprise_20250203023037.md
+2025-02-03 02:30:37 - INFO - Generated file: IP_Routing_7.11_Advanced_Enterprise_20250203023037.md, Topic: IP Routing, Version: 7.11, Level: Advanced, Scale: Enterprise
+2025-02-03 02:31:20 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Routing_7.11_Advanced_ISP_20250203023120.md
+2025-02-03 02:31:20 - INFO - Generated file: IP_Routing_7.11_Advanced_ISP_20250203023120.md, Topic: IP Routing, Version: 7.11, Level: Advanced, Scale: ISP
+2025-02-03 02:32:20 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Routing_7.11_Advanced_Hotspot Network_20250203023220.md
+2025-02-03 02:32:20 - INFO - Generated file: IP_Routing_7.11_Advanced_Hotspot Network_20250203023220.md, Topic: IP Routing, Version: 7.11, Level: Advanced, Scale: Hotspot Network
+2025-02-03 02:33:21 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Routing_7.11_Advanced_Point-to-Point Link_20250203023321.md
+2025-02-03 02:33:21 - INFO - Generated file: IP_Routing_7.11_Advanced_Point-to-Point Link_20250203023321.md, Topic: IP Routing, Version: 7.11, Level: Advanced, Scale: Point-to-Point Link
+2025-02-03 02:34:09 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Routing_7.11_Expert_SOHO_20250203023409.md
+2025-02-03 02:34:09 - INFO - Generated file: IP_Routing_7.11_Expert_SOHO_20250203023409.md, Topic: IP Routing, Version: 7.11, Level: Expert, Scale: SOHO
+2025-02-03 02:35:10 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Routing_7.11_Expert_SMB_20250203023510.md
+2025-02-03 02:35:10 - INFO - Generated file: IP_Routing_7.11_Expert_SMB_20250203023510.md, Topic: IP Routing, Version: 7.11, Level: Expert, Scale: SMB
+2025-02-03 02:36:04 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Routing_7.11_Expert_Enterprise_20250203023604.md
+2025-02-03 02:36:04 - INFO - Generated file: IP_Routing_7.11_Expert_Enterprise_20250203023604.md, Topic: IP Routing, Version: 7.11, Level: Expert, Scale: Enterprise
+2025-02-03 02:36:51 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Routing_7.11_Expert_ISP_20250203023651.md
+2025-02-03 02:36:51 - INFO - Generated file: IP_Routing_7.11_Expert_ISP_20250203023651.md, Topic: IP Routing, Version: 7.11, Level: Expert, Scale: ISP
+2025-02-03 02:37:45 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Routing_7.11_Expert_Hotspot Network_20250203023745.md
+2025-02-03 02:37:45 - INFO - Generated file: IP_Routing_7.11_Expert_Hotspot Network_20250203023745.md, Topic: IP Routing, Version: 7.11, Level: Expert, Scale: Hotspot Network
+2025-02-03 02:38:42 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Routing_7.11_Expert_Point-to-Point Link_20250203023842.md
+2025-02-03 02:38:42 - INFO - Generated file: IP_Routing_7.11_Expert_Point-to-Point Link_20250203023842.md, Topic: IP Routing, Version: 7.11, Level: Expert, Scale: Point-to-Point Link
+2025-02-03 02:39:34 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Routing_7.12_Basic_SOHO_20250203023934.md
+2025-02-03 02:39:34 - INFO - Generated file: IP_Routing_7.12_Basic_SOHO_20250203023934.md, Topic: IP Routing, Version: 7.12, Level: Basic, Scale: SOHO
+2025-02-03 02:40:35 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Routing_7.12_Basic_SMB_20250203024035.md
+2025-02-03 02:40:35 - INFO - Generated file: IP_Routing_7.12_Basic_SMB_20250203024035.md, Topic: IP Routing, Version: 7.12, Level: Basic, Scale: SMB
+2025-02-03 02:41:19 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Routing_7.12_Basic_Enterprise_20250203024119.md
+2025-02-03 02:41:19 - INFO - Generated file: IP_Routing_7.12_Basic_Enterprise_20250203024119.md, Topic: IP Routing, Version: 7.12, Level: Basic, Scale: Enterprise
+2025-02-03 02:42:14 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Routing_7.12_Basic_ISP_20250203024214.md
+2025-02-03 02:42:14 - INFO - Generated file: IP_Routing_7.12_Basic_ISP_20250203024214.md, Topic: IP Routing, Version: 7.12, Level: Basic, Scale: ISP
+2025-02-03 02:42:57 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Routing_7.12_Basic_Hotspot Network_20250203024257.md
+2025-02-03 02:42:57 - INFO - Generated file: IP_Routing_7.12_Basic_Hotspot Network_20250203024257.md, Topic: IP Routing, Version: 7.12, Level: Basic, Scale: Hotspot Network
+2025-02-03 11:07:42 - ERROR - Error generating content for topic 'IP Routing', version '7.12', level 'Basic', scale 'Point-to-Point Link': 504 Deadline Exceeded
+2025-02-03 11:24:32 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Addressing_(IPv4_and_IPv6)_6.48_Basic_SOHO_20250203112432.md
+2025-02-03 11:24:32 - INFO - Generated file: IP_Addressing_(IPv4_and_IPv6)_6.48_Basic_SOHO_20250203112432.md, Topic: IP Addressing (IPv4 and IPv6), Version: 6.48, Level: Basic, Scale: SOHO
+2025-02-03 11:25:09 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Addressing_(IPv4_and_IPv6)_6.48_Basic_SMB_20250203112509.md
+2025-02-03 11:25:09 - INFO - Generated file: IP_Addressing_(IPv4_and_IPv6)_6.48_Basic_SMB_20250203112509.md, Topic: IP Addressing (IPv4 and IPv6), Version: 6.48, Level: Basic, Scale: SMB
+2025-02-03 11:25:47 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Addressing_(IPv4_and_IPv6)_6.48_Basic_Enterprise_20250203112547.md
+2025-02-03 11:25:47 - INFO - Generated file: IP_Addressing_(IPv4_and_IPv6)_6.48_Basic_Enterprise_20250203112547.md, Topic: IP Addressing (IPv4 and IPv6), Version: 6.48, Level: Basic, Scale: Enterprise
+2025-02-03 11:26:15 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Addressing_(IPv4_and_IPv6)_6.48_Basic_ISP_20250203112615.md
+2025-02-03 11:26:15 - INFO - Generated file: IP_Addressing_(IPv4_and_IPv6)_6.48_Basic_ISP_20250203112615.md, Topic: IP Addressing (IPv4 and IPv6), Version: 6.48, Level: Basic, Scale: ISP
+2025-02-03 11:26:50 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Addressing_(IPv4_and_IPv6)_6.48_Basic_Hotspot Network_20250203112650.md
+2025-02-03 11:26:50 - INFO - Generated file: IP_Addressing_(IPv4_and_IPv6)_6.48_Basic_Hotspot Network_20250203112650.md, Topic: IP Addressing (IPv4 and IPv6), Version: 6.48, Level: Basic, Scale: Hotspot Network
+2025-02-03 11:27:18 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Addressing_(IPv4_and_IPv6)_6.48_Basic_Point-to-Point Link_20250203112718.md
+2025-02-03 11:27:18 - INFO - Generated file: IP_Addressing_(IPv4_and_IPv6)_6.48_Basic_Point-to-Point Link_20250203112718.md, Topic: IP Addressing (IPv4 and IPv6), Version: 6.48, Level: Basic, Scale: Point-to-Point Link
+2025-02-03 11:27:46 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Addressing_(IPv4_and_IPv6)_6.48_Advanced_SOHO_20250203112746.md
+2025-02-03 11:27:46 - INFO - Generated file: IP_Addressing_(IPv4_and_IPv6)_6.48_Advanced_SOHO_20250203112746.md, Topic: IP Addressing (IPv4 and IPv6), Version: 6.48, Level: Advanced, Scale: SOHO
+2025-02-03 11:28:21 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Addressing_(IPv4_and_IPv6)_6.48_Advanced_SMB_20250203112821.md
+2025-02-03 11:28:21 - INFO - Generated file: IP_Addressing_(IPv4_and_IPv6)_6.48_Advanced_SMB_20250203112821.md, Topic: IP Addressing (IPv4 and IPv6), Version: 6.48, Level: Advanced, Scale: SMB
+2025-02-03 11:29:03 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Addressing_(IPv4_and_IPv6)_6.48_Advanced_Enterprise_20250203112903.md
+2025-02-03 11:29:03 - INFO - Generated file: IP_Addressing_(IPv4_and_IPv6)_6.48_Advanced_Enterprise_20250203112903.md, Topic: IP Addressing (IPv4 and IPv6), Version: 6.48, Level: Advanced, Scale: Enterprise
+2025-02-03 11:29:37 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Addressing_(IPv4_and_IPv6)_6.48_Advanced_ISP_20250203112937.md
+2025-02-03 11:29:37 - INFO - Generated file: IP_Addressing_(IPv4_and_IPv6)_6.48_Advanced_ISP_20250203112937.md, Topic: IP Addressing (IPv4 and IPv6), Version: 6.48, Level: Advanced, Scale: ISP
+2025-02-03 11:30:06 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Addressing_(IPv4_and_IPv6)_6.48_Advanced_Hotspot Network_20250203113006.md
+2025-02-03 11:30:06 - INFO - Generated file: IP_Addressing_(IPv4_and_IPv6)_6.48_Advanced_Hotspot Network_20250203113006.md, Topic: IP Addressing (IPv4 and IPv6), Version: 6.48, Level: Advanced, Scale: Hotspot Network
+2025-02-03 11:30:29 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Addressing_(IPv4_and_IPv6)_6.48_Advanced_Point-to-Point Link_20250203113029.md
+2025-02-03 11:30:29 - INFO - Generated file: IP_Addressing_(IPv4_and_IPv6)_6.48_Advanced_Point-to-Point Link_20250203113029.md, Topic: IP Addressing (IPv4 and IPv6), Version: 6.48, Level: Advanced, Scale: Point-to-Point Link
+2025-02-03 11:31:03 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Addressing_(IPv4_and_IPv6)_6.48_Expert_SOHO_20250203113103.md
+2025-02-03 11:31:03 - INFO - Generated file: IP_Addressing_(IPv4_and_IPv6)_6.48_Expert_SOHO_20250203113103.md, Topic: IP Addressing (IPv4 and IPv6), Version: 6.48, Level: Expert, Scale: SOHO
+2025-02-03 11:31:35 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Addressing_(IPv4_and_IPv6)_6.48_Expert_SMB_20250203113135.md
+2025-02-03 11:31:35 - INFO - Generated file: IP_Addressing_(IPv4_and_IPv6)_6.48_Expert_SMB_20250203113135.md, Topic: IP Addressing (IPv4 and IPv6), Version: 6.48, Level: Expert, Scale: SMB
+2025-02-03 11:32:06 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Addressing_(IPv4_and_IPv6)_6.48_Expert_Enterprise_20250203113206.md
+2025-02-03 11:32:06 - INFO - Generated file: IP_Addressing_(IPv4_and_IPv6)_6.48_Expert_Enterprise_20250203113206.md, Topic: IP Addressing (IPv4 and IPv6), Version: 6.48, Level: Expert, Scale: Enterprise
+2025-02-03 11:32:50 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Addressing_(IPv4_and_IPv6)_6.48_Expert_ISP_20250203113250.md
+2025-02-03 11:32:50 - INFO - Generated file: IP_Addressing_(IPv4_and_IPv6)_6.48_Expert_ISP_20250203113250.md, Topic: IP Addressing (IPv4 and IPv6), Version: 6.48, Level: Expert, Scale: ISP
+2025-02-03 11:33:23 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Addressing_(IPv4_and_IPv6)_6.48_Expert_Hotspot Network_20250203113323.md
+2025-02-03 11:33:23 - INFO - Generated file: IP_Addressing_(IPv4_and_IPv6)_6.48_Expert_Hotspot Network_20250203113323.md, Topic: IP Addressing (IPv4 and IPv6), Version: 6.48, Level: Expert, Scale: Hotspot Network
+2025-02-03 11:33:46 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Addressing_(IPv4_and_IPv6)_6.48_Expert_Point-to-Point Link_20250203113346.md
+2025-02-03 11:33:46 - INFO - Generated file: IP_Addressing_(IPv4_and_IPv6)_6.48_Expert_Point-to-Point Link_20250203113346.md, Topic: IP Addressing (IPv4 and IPv6), Version: 6.48, Level: Expert, Scale: Point-to-Point Link
+2025-02-03 11:34:15 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Addressing_(IPv4_and_IPv6)_7.11_Basic_SOHO_20250203113415.md
+2025-02-03 11:34:15 - INFO - Generated file: IP_Addressing_(IPv4_and_IPv6)_7.11_Basic_SOHO_20250203113415.md, Topic: IP Addressing (IPv4 and IPv6), Version: 7.11, Level: Basic, Scale: SOHO
+2025-02-03 11:34:53 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Addressing_(IPv4_and_IPv6)_7.11_Basic_SMB_20250203113453.md
+2025-02-03 11:34:53 - INFO - Generated file: IP_Addressing_(IPv4_and_IPv6)_7.11_Basic_SMB_20250203113453.md, Topic: IP Addressing (IPv4 and IPv6), Version: 7.11, Level: Basic, Scale: SMB
+2025-02-03 11:35:22 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Addressing_(IPv4_and_IPv6)_7.11_Basic_Enterprise_20250203113522.md
+2025-02-03 11:35:22 - INFO - Generated file: IP_Addressing_(IPv4_and_IPv6)_7.11_Basic_Enterprise_20250203113522.md, Topic: IP Addressing (IPv4 and IPv6), Version: 7.11, Level: Basic, Scale: Enterprise
+2025-02-03 11:35:57 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Addressing_(IPv4_and_IPv6)_7.11_Basic_ISP_20250203113557.md
+2025-02-03 11:35:57 - INFO - Generated file: IP_Addressing_(IPv4_and_IPv6)_7.11_Basic_ISP_20250203113557.md, Topic: IP Addressing (IPv4 and IPv6), Version: 7.11, Level: Basic, Scale: ISP
+2025-02-03 11:36:32 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Addressing_(IPv4_and_IPv6)_7.11_Basic_Hotspot Network_20250203113632.md
+2025-02-03 11:36:32 - INFO - Generated file: IP_Addressing_(IPv4_and_IPv6)_7.11_Basic_Hotspot Network_20250203113632.md, Topic: IP Addressing (IPv4 and IPv6), Version: 7.11, Level: Basic, Scale: Hotspot Network
+2025-02-03 11:36:57 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Addressing_(IPv4_and_IPv6)_7.11_Basic_Point-to-Point Link_20250203113657.md
+2025-02-03 11:36:57 - INFO - Generated file: IP_Addressing_(IPv4_and_IPv6)_7.11_Basic_Point-to-Point Link_20250203113657.md, Topic: IP Addressing (IPv4 and IPv6), Version: 7.11, Level: Basic, Scale: Point-to-Point Link
+2025-02-03 11:37:56 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Addressing_(IPv4_and_IPv6)_7.11_Advanced_SOHO_20250203113756.md
+2025-02-03 11:37:56 - INFO - Generated file: IP_Addressing_(IPv4_and_IPv6)_7.11_Advanced_SOHO_20250203113756.md, Topic: IP Addressing (IPv4 and IPv6), Version: 7.11, Level: Advanced, Scale: SOHO
+2025-02-03 11:38:35 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Addressing_(IPv4_and_IPv6)_7.11_Advanced_SMB_20250203113835.md
+2025-02-03 11:38:35 - INFO - Generated file: IP_Addressing_(IPv4_and_IPv6)_7.11_Advanced_SMB_20250203113835.md, Topic: IP Addressing (IPv4 and IPv6), Version: 7.11, Level: Advanced, Scale: SMB
+2025-02-03 11:39:11 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Addressing_(IPv4_and_IPv6)_7.11_Advanced_Enterprise_20250203113911.md
+2025-02-03 11:39:11 - INFO - Generated file: IP_Addressing_(IPv4_and_IPv6)_7.11_Advanced_Enterprise_20250203113911.md, Topic: IP Addressing (IPv4 and IPv6), Version: 7.11, Level: Advanced, Scale: Enterprise
+2025-02-03 11:39:46 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Addressing_(IPv4_and_IPv6)_7.11_Advanced_ISP_20250203113946.md
+2025-02-03 11:39:46 - INFO - Generated file: IP_Addressing_(IPv4_and_IPv6)_7.11_Advanced_ISP_20250203113946.md, Topic: IP Addressing (IPv4 and IPv6), Version: 7.11, Level: Advanced, Scale: ISP
+2025-02-03 11:40:18 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Addressing_(IPv4_and_IPv6)_7.11_Advanced_Hotspot Network_20250203114018.md
+2025-02-03 11:40:18 - INFO - Generated file: IP_Addressing_(IPv4_and_IPv6)_7.11_Advanced_Hotspot Network_20250203114018.md, Topic: IP Addressing (IPv4 and IPv6), Version: 7.11, Level: Advanced, Scale: Hotspot Network
+2025-02-03 11:40:51 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Addressing_(IPv4_and_IPv6)_7.11_Advanced_Point-to-Point Link_20250203114051.md
+2025-02-03 11:40:51 - INFO - Generated file: IP_Addressing_(IPv4_and_IPv6)_7.11_Advanced_Point-to-Point Link_20250203114051.md, Topic: IP Addressing (IPv4 and IPv6), Version: 7.11, Level: Advanced, Scale: Point-to-Point Link
+2025-02-03 11:41:40 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Addressing_(IPv4_and_IPv6)_7.11_Expert_SOHO_20250203114140.md
+2025-02-03 11:41:40 - INFO - Generated file: IP_Addressing_(IPv4_and_IPv6)_7.11_Expert_SOHO_20250203114140.md, Topic: IP Addressing (IPv4 and IPv6), Version: 7.11, Level: Expert, Scale: SOHO
+2025-02-03 11:42:16 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Addressing_(IPv4_and_IPv6)_7.11_Expert_SMB_20250203114216.md
+2025-02-03 11:42:16 - INFO - Generated file: IP_Addressing_(IPv4_and_IPv6)_7.11_Expert_SMB_20250203114216.md, Topic: IP Addressing (IPv4 and IPv6), Version: 7.11, Level: Expert, Scale: SMB
+2025-02-03 11:42:57 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Addressing_(IPv4_and_IPv6)_7.11_Expert_Enterprise_20250203114257.md
+2025-02-03 11:42:57 - INFO - Generated file: IP_Addressing_(IPv4_and_IPv6)_7.11_Expert_Enterprise_20250203114257.md, Topic: IP Addressing (IPv4 and IPv6), Version: 7.11, Level: Expert, Scale: Enterprise
+2025-02-03 11:43:37 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Addressing_(IPv4_and_IPv6)_7.11_Expert_ISP_20250203114337.md
+2025-02-03 11:43:37 - INFO - Generated file: IP_Addressing_(IPv4_and_IPv6)_7.11_Expert_ISP_20250203114337.md, Topic: IP Addressing (IPv4 and IPv6), Version: 7.11, Level: Expert, Scale: ISP
+2025-02-03 11:44:26 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Addressing_(IPv4_and_IPv6)_7.11_Expert_Hotspot Network_20250203114426.md
+2025-02-03 11:44:26 - INFO - Generated file: IP_Addressing_(IPv4_and_IPv6)_7.11_Expert_Hotspot Network_20250203114426.md, Topic: IP Addressing (IPv4 and IPv6), Version: 7.11, Level: Expert, Scale: Hotspot Network
+2025-02-03 11:44:54 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Addressing_(IPv4_and_IPv6)_7.11_Expert_Point-to-Point Link_20250203114454.md
+2025-02-03 11:44:54 - INFO - Generated file: IP_Addressing_(IPv4_and_IPv6)_7.11_Expert_Point-to-Point Link_20250203114454.md, Topic: IP Addressing (IPv4 and IPv6), Version: 7.11, Level: Expert, Scale: Point-to-Point Link
+2025-02-03 11:45:24 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Addressing_(IPv4_and_IPv6)_7.12_Basic_SOHO_20250203114524.md
+2025-02-03 11:45:24 - INFO - Generated file: IP_Addressing_(IPv4_and_IPv6)_7.12_Basic_SOHO_20250203114524.md, Topic: IP Addressing (IPv4 and IPv6), Version: 7.12, Level: Basic, Scale: SOHO
+2025-02-03 11:45:57 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Addressing_(IPv4_and_IPv6)_7.12_Basic_SMB_20250203114557.md
+2025-02-03 11:45:57 - INFO - Generated file: IP_Addressing_(IPv4_and_IPv6)_7.12_Basic_SMB_20250203114557.md, Topic: IP Addressing (IPv4 and IPv6), Version: 7.12, Level: Basic, Scale: SMB
+2025-02-03 11:46:40 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Addressing_(IPv4_and_IPv6)_7.12_Basic_Enterprise_20250203114640.md
+2025-02-03 11:46:40 - INFO - Generated file: IP_Addressing_(IPv4_and_IPv6)_7.12_Basic_Enterprise_20250203114640.md, Topic: IP Addressing (IPv4 and IPv6), Version: 7.12, Level: Basic, Scale: Enterprise
+2025-02-03 11:47:18 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Addressing_(IPv4_and_IPv6)_7.12_Basic_ISP_20250203114718.md
+2025-02-03 11:47:18 - INFO - Generated file: IP_Addressing_(IPv4_and_IPv6)_7.12_Basic_ISP_20250203114718.md, Topic: IP Addressing (IPv4 and IPv6), Version: 7.12, Level: Basic, Scale: ISP
+2025-02-03 11:47:59 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Addressing_(IPv4_and_IPv6)_7.12_Basic_Hotspot Network_20250203114759.md
+2025-02-03 11:47:59 - INFO - Generated file: IP_Addressing_(IPv4_and_IPv6)_7.12_Basic_Hotspot Network_20250203114759.md, Topic: IP Addressing (IPv4 and IPv6), Version: 7.12, Level: Basic, Scale: Hotspot Network
+2025-02-03 11:48:32 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Addressing_(IPv4_and_IPv6)_7.12_Basic_Point-to-Point Link_20250203114832.md
+2025-02-03 11:48:32 - INFO - Generated file: IP_Addressing_(IPv4_and_IPv6)_7.12_Basic_Point-to-Point Link_20250203114832.md, Topic: IP Addressing (IPv4 and IPv6), Version: 7.12, Level: Basic, Scale: Point-to-Point Link
+2025-02-03 11:49:30 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Addressing_(IPv4_and_IPv6)_7.12_Advanced_SOHO_20250203114930.md
+2025-02-03 11:49:30 - INFO - Generated file: IP_Addressing_(IPv4_and_IPv6)_7.12_Advanced_SOHO_20250203114930.md, Topic: IP Addressing (IPv4 and IPv6), Version: 7.12, Level: Advanced, Scale: SOHO
+2025-02-03 11:50:05 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Addressing_(IPv4_and_IPv6)_7.12_Advanced_SMB_20250203115005.md
+2025-02-03 11:50:05 - INFO - Generated file: IP_Addressing_(IPv4_and_IPv6)_7.12_Advanced_SMB_20250203115005.md, Topic: IP Addressing (IPv4 and IPv6), Version: 7.12, Level: Advanced, Scale: SMB
+2025-02-03 11:50:40 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Addressing_(IPv4_and_IPv6)_7.12_Advanced_Enterprise_20250203115040.md
+2025-02-03 11:50:40 - INFO - Generated file: IP_Addressing_(IPv4_and_IPv6)_7.12_Advanced_Enterprise_20250203115040.md, Topic: IP Addressing (IPv4 and IPv6), Version: 7.12, Level: Advanced, Scale: Enterprise
+2025-02-03 11:51:10 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Addressing_(IPv4_and_IPv6)_7.12_Advanced_ISP_20250203115110.md
+2025-02-03 11:51:10 - INFO - Generated file: IP_Addressing_(IPv4_and_IPv6)_7.12_Advanced_ISP_20250203115110.md, Topic: IP Addressing (IPv4 and IPv6), Version: 7.12, Level: Advanced, Scale: ISP
+2025-02-03 11:51:53 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Addressing_(IPv4_and_IPv6)_7.12_Advanced_Hotspot Network_20250203115153.md
+2025-02-03 11:51:53 - INFO - Generated file: IP_Addressing_(IPv4_and_IPv6)_7.12_Advanced_Hotspot Network_20250203115153.md, Topic: IP Addressing (IPv4 and IPv6), Version: 7.12, Level: Advanced, Scale: Hotspot Network
+2025-02-03 11:52:21 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Addressing_(IPv4_and_IPv6)_7.12_Advanced_Point-to-Point Link_20250203115221.md
+2025-02-03 11:52:21 - INFO - Generated file: IP_Addressing_(IPv4_and_IPv6)_7.12_Advanced_Point-to-Point Link_20250203115221.md, Topic: IP Addressing (IPv4 and IPv6), Version: 7.12, Level: Advanced, Scale: Point-to-Point Link
+2025-02-03 11:52:54 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Addressing_(IPv4_and_IPv6)_7.12_Expert_SOHO_20250203115254.md
+2025-02-03 11:52:54 - INFO - Generated file: IP_Addressing_(IPv4_and_IPv6)_7.12_Expert_SOHO_20250203115254.md, Topic: IP Addressing (IPv4 and IPv6), Version: 7.12, Level: Expert, Scale: SOHO
+2025-02-03 11:53:24 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Addressing_(IPv4_and_IPv6)_7.12_Expert_SMB_20250203115324.md
+2025-02-03 11:53:24 - INFO - Generated file: IP_Addressing_(IPv4_and_IPv6)_7.12_Expert_SMB_20250203115324.md, Topic: IP Addressing (IPv4 and IPv6), Version: 7.12, Level: Expert, Scale: SMB
+2025-02-03 11:54:04 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Addressing_(IPv4_and_IPv6)_7.12_Expert_Enterprise_20250203115404.md
+2025-02-03 11:54:04 - INFO - Generated file: IP_Addressing_(IPv4_and_IPv6)_7.12_Expert_Enterprise_20250203115404.md, Topic: IP Addressing (IPv4 and IPv6), Version: 7.12, Level: Expert, Scale: Enterprise
+2025-02-03 11:54:37 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Addressing_(IPv4_and_IPv6)_7.12_Expert_ISP_20250203115437.md
+2025-02-03 11:54:37 - INFO - Generated file: IP_Addressing_(IPv4_and_IPv6)_7.12_Expert_ISP_20250203115437.md, Topic: IP Addressing (IPv4 and IPv6), Version: 7.12, Level: Expert, Scale: ISP
+2025-02-03 11:55:24 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Addressing_(IPv4_and_IPv6)_7.12_Expert_Hotspot Network_20250203115524.md
+2025-02-03 11:55:24 - INFO - Generated file: IP_Addressing_(IPv4_and_IPv6)_7.12_Expert_Hotspot Network_20250203115524.md, Topic: IP Addressing (IPv4 and IPv6), Version: 7.12, Level: Expert, Scale: Hotspot Network
+2025-02-03 11:55:56 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Addressing_(IPv4_and_IPv6)_7.12_Expert_Point-to-Point Link_20250203115556.md
+2025-02-03 11:55:56 - INFO - Generated file: IP_Addressing_(IPv4_and_IPv6)_7.12_Expert_Point-to-Point Link_20250203115556.md, Topic: IP Addressing (IPv4 and IPv6), Version: 7.12, Level: Expert, Scale: Point-to-Point Link
+2025-02-03 11:56:27 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Pools_6.48_Basic_SOHO_20250203115627.md
+2025-02-03 11:56:27 - INFO - Generated file: IP_Pools_6.48_Basic_SOHO_20250203115627.md, Topic: IP Pools, Version: 6.48, Level: Basic, Scale: SOHO
+2025-02-03 11:56:53 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Pools_6.48_Basic_SMB_20250203115653.md
+2025-02-03 11:56:53 - INFO - Generated file: IP_Pools_6.48_Basic_SMB_20250203115653.md, Topic: IP Pools, Version: 6.48, Level: Basic, Scale: SMB
+2025-02-03 11:57:18 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Pools_6.48_Basic_Enterprise_20250203115718.md
+2025-02-03 11:57:18 - INFO - Generated file: IP_Pools_6.48_Basic_Enterprise_20250203115718.md, Topic: IP Pools, Version: 6.48, Level: Basic, Scale: Enterprise
