@@ -1205,3 +1205,354 @@
 2025-02-02 21:58:40,676 - INFO - Processing forum section: API (ID: 41)
 2025-02-02 21:58:40,677 - INFO - Getting page 0 from section 41
 2025-02-02 21:58:41,143 - INFO - Found 0 threads in section API
+2025-02-02 22:01:38,999 - INFO - Starting forum crawl, saving to: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum
+2025-02-02 22:01:39,603 - INFO - Processing forum section: RouterOS (ID: 2)
+2025-02-02 22:01:39,603 - INFO - Getting page 0 from section 2
+2025-02-02 22:01:40,444 - INFO - Found 57 threads in section RouterOS
+2025-02-02 22:01:40,444 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=2&t=214357&p=1123429&amp;sid=3b77a3334c914448dbbc02bfdff4c3aa#p1123429
+2025-02-02 22:01:40,444 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=2&t=175272&p=871239&amp;sid=3b77a3334c914448dbbc02bfdff4c3aa#p871239
+2025-02-02 22:01:40,514 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_214357.md
+2025-02-02 22:01:40,660 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_175272.md
+2025-02-02 22:01:42,666 - INFO - Completed batch 1 of 29 in section RouterOS
+2025-02-02 22:01:42,666 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=2&t=214377&p=1123337&amp;sid=3b77a3334c914448dbbc02bfdff4c3aa#p1123337
+2025-02-02 22:01:42,667 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=2&t=213426&p=1115760&amp;sid=3b77a3334c914448dbbc02bfdff4c3aa#p1115760
+2025-02-02 22:01:42,788 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_214377.md
+2025-02-02 22:01:42,927 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_213426.md
+2025-02-02 22:01:44,939 - INFO - Completed batch 2 of 29 in section RouterOS
+2025-02-02 22:01:44,939 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=2&t=211174&p=1123115&amp;sid=3b77a3334c914448dbbc02bfdff4c3aa#p1123115
+2025-02-02 22:01:44,940 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=2&t=184457&p=921733&amp;sid=3b77a3334c914448dbbc02bfdff4c3aa#p921733
+2025-02-02 22:01:44,982 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_211174.md
+2025-02-02 22:01:45,148 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_184457.md
+2025-02-02 22:01:47,154 - INFO - Completed batch 3 of 29 in section RouterOS
+2025-02-02 22:01:47,154 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=2&t=214151&p=1122718&amp;sid=3b77a3334c914448dbbc02bfdff4c3aa#p1122718
+2025-02-02 22:01:47,154 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=2&t=213973&p=1119770&amp;sid=3b77a3334c914448dbbc02bfdff4c3aa#p1119770
+2025-02-02 22:01:47,213 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_214151.md
+2025-02-02 22:01:47,702 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_213973.md
+2025-02-02 22:01:49,709 - INFO - Completed batch 4 of 29 in section RouterOS
+2025-02-02 22:01:49,709 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=2&t=214267&p=1122464&amp;sid=3b77a3334c914448dbbc02bfdff4c3aa#p1122464
+2025-02-02 22:01:49,709 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=2&t=214281&p=1122534&amp;sid=3b77a3334c914448dbbc02bfdff4c3aa#p1122534
+2025-02-02 22:01:49,771 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_214267.md
+2025-02-02 22:01:49,813 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_214281.md
+2025-02-02 22:01:51,815 - INFO - Completed batch 5 of 29 in section RouterOS
+2025-02-02 22:01:51,815 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=2&t=213944&p=1119908&amp;sid=3b77a3334c914448dbbc02bfdff4c3aa#p1119908
+2025-02-02 22:01:51,815 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=2&t=213724&p=1121556&amp;sid=3b77a3334c914448dbbc02bfdff4c3aa#p1121556
+2025-02-02 22:01:51,874 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_213944.md
+2025-02-02 22:01:52,004 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_213724.md
+2025-02-02 22:01:54,010 - INFO - Completed batch 6 of 29 in section RouterOS
+2025-02-02 22:01:54,010 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=2&t=213819&p=1119329&amp;sid=3b77a3334c914448dbbc02bfdff4c3aa#p1119329
+2025-02-02 22:01:54,010 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=2&t=214219&p=1121881&amp;sid=3b77a3334c914448dbbc02bfdff4c3aa#p1121881
+2025-02-02 22:01:54,060 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_213819.md
+2025-02-02 22:01:54,140 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_214219.md
+2025-02-02 22:01:56,140 - INFO - Completed batch 7 of 29 in section RouterOS
+2025-02-02 22:01:56,140 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=2&t=214183&p=1121532&amp;sid=3b77a3334c914448dbbc02bfdff4c3aa#p1121532
+2025-02-02 22:01:56,140 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=2&t=214175&p=1121497&amp;sid=3b77a3334c914448dbbc02bfdff4c3aa#p1121497
+2025-02-02 22:01:56,395 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_214183.md
+2025-02-02 22:01:56,474 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_214175.md
+2025-02-02 22:01:58,480 - INFO - Completed batch 8 of 29 in section RouterOS
+2025-02-02 22:01:58,480 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=2&t=214154&p=1121405&amp;sid=3b77a3334c914448dbbc02bfdff4c3aa#p1121405
+2025-02-02 22:01:58,480 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=2&t=214177&p=1121530&amp;sid=3b77a3334c914448dbbc02bfdff4c3aa#p1121530
+2025-02-02 22:01:58,584 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_214154.md
+2025-02-02 22:01:58,663 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_214177.md
+2025-02-02 22:02:00,677 - INFO - Completed batch 9 of 29 in section RouterOS
+2025-02-02 22:02:00,677 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=2&t=214096&p=1121023&amp;sid=3b77a3334c914448dbbc02bfdff4c3aa#p1121023
+2025-02-02 22:02:00,677 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=2&t=209239&p=1085433&amp;sid=3b77a3334c914448dbbc02bfdff4c3aa#p1085433
+2025-02-02 22:02:00,843 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_214096.md
+2025-02-02 22:02:00,990 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_209239.md
+2025-02-02 22:02:02,994 - INFO - Completed batch 10 of 29 in section RouterOS
+2025-02-02 22:02:02,994 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=2&t=214108&p=1120993&amp;sid=3b77a3334c914448dbbc02bfdff4c3aa#p1120993
+2025-02-02 22:02:02,994 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=2&t=214082&p=1120860&amp;sid=3b77a3334c914448dbbc02bfdff4c3aa#p1120860
+2025-02-02 22:02:03,036 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_214108.md
+2025-02-02 22:02:03,075 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_214082.md
+2025-02-02 22:02:05,078 - INFO - Completed batch 11 of 29 in section RouterOS
+2025-02-02 22:02:05,078 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=2&t=214079&p=1120649&amp;sid=3b77a3334c914448dbbc02bfdff4c3aa#p1120649
+2025-02-02 22:02:05,078 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=2&t=214064&p=1120540&amp;sid=3b77a3334c914448dbbc02bfdff4c3aa#p1120540
+2025-02-02 22:02:05,119 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_214079.md
+2025-02-02 22:02:05,164 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_214064.md
+2025-02-02 22:02:07,179 - INFO - Completed batch 12 of 29 in section RouterOS
+2025-02-02 22:02:07,179 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=2&t=214020&p=1120202&amp;sid=3b77a3334c914448dbbc02bfdff4c3aa#p1120202
+2025-02-02 22:02:07,180 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=2&t=209607&p=1105694&amp;sid=3b77a3334c914448dbbc02bfdff4c3aa#p1105694
+2025-02-02 22:02:07,227 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_214020.md
+2025-02-02 22:02:07,291 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_209607.md
+2025-02-02 22:02:09,295 - INFO - Completed batch 13 of 29 in section RouterOS
+2025-02-02 22:02:09,295 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=2&t=213995&p=1119977&amp;sid=3b77a3334c914448dbbc02bfdff4c3aa#p1119977
+2025-02-02 22:02:09,295 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=2&t=204158&p=1119824&amp;sid=3b77a3334c914448dbbc02bfdff4c3aa#p1119824
+2025-02-02 22:02:09,387 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_213995.md
+2025-02-02 22:02:09,440 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_204158.md
+2025-02-02 22:02:11,447 - INFO - Completed batch 14 of 29 in section RouterOS
+2025-02-02 22:02:11,447 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=2&t=213972&p=1119783&amp;sid=3b77a3334c914448dbbc02bfdff4c3aa#p1119783
+2025-02-02 22:02:11,448 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=2&t=213943&p=1119620&amp;sid=3b77a3334c914448dbbc02bfdff4c3aa#p1119620
+2025-02-02 22:02:11,556 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_213972.md
+2025-02-02 22:02:11,656 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_213943.md
+2025-02-02 22:02:13,668 - INFO - Completed batch 15 of 29 in section RouterOS
+2025-02-02 22:02:13,668 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=2&t=213914&p=1119522&amp;sid=3b77a3334c914448dbbc02bfdff4c3aa#p1119522
+2025-02-02 22:02:13,668 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=2&t=201379&p=1035328&amp;sid=3b77a3334c914448dbbc02bfdff4c3aa#p1035328
+2025-02-02 22:02:13,715 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_213914.md
+2025-02-02 22:02:13,761 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_201379.md
+2025-02-02 22:02:15,774 - INFO - Completed batch 16 of 29 in section RouterOS
+2025-02-02 22:02:15,774 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=2&t=212632&p=1110020&amp;sid=3b77a3334c914448dbbc02bfdff4c3aa#p1110020
+2025-02-02 22:02:15,774 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=2&t=213932&p=1119392&amp;sid=3b77a3334c914448dbbc02bfdff4c3aa#p1119392
+2025-02-02 22:02:16,388 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_212632.md
+2025-02-02 22:02:16,436 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_213932.md
+2025-02-02 22:02:18,450 - INFO - Completed batch 17 of 29 in section RouterOS
+2025-02-02 22:02:18,450 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=2&t=159417&p=783308&amp;sid=3b77a3334c914448dbbc02bfdff4c3aa#p783308
+2025-02-02 22:02:18,450 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=2&t=213901&p=1119176&amp;sid=3b77a3334c914448dbbc02bfdff4c3aa#p1119176
+2025-02-02 22:02:18,596 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_159417.md
+2025-02-02 22:02:18,649 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_213901.md
+2025-02-02 22:02:20,654 - INFO - Completed batch 18 of 29 in section RouterOS
+2025-02-02 22:02:20,654 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=2&t=203175&p=1047005&amp;sid=3b77a3334c914448dbbc02bfdff4c3aa#p1047005
+2025-02-02 22:02:20,654 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=2&t=213840&p=1118708&amp;sid=3b77a3334c914448dbbc02bfdff4c3aa#p1118708
+2025-02-02 22:02:20,714 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_203175.md
+2025-02-02 22:02:20,764 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_213840.md
+2025-02-02 22:02:22,775 - INFO - Completed batch 19 of 29 in section RouterOS
+2025-02-02 22:02:22,775 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=2&t=213771&p=1118367&amp;sid=3b77a3334c914448dbbc02bfdff4c3aa#p1118367
+2025-02-02 22:02:22,775 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=2&t=213691&p=1118434&amp;sid=3b77a3334c914448dbbc02bfdff4c3aa#p1118434
+2025-02-02 22:02:22,901 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_213771.md
+2025-02-02 22:02:22,982 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_213691.md
+2025-02-02 22:02:24,987 - INFO - Completed batch 20 of 29 in section RouterOS
+2025-02-02 22:02:24,987 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=2&t=213805&p=1118583&amp;sid=3b77a3334c914448dbbc02bfdff4c3aa#p1118583
+2025-02-02 22:02:24,987 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=2&t=213356&p=1117809&amp;sid=3b77a3334c914448dbbc02bfdff4c3aa#p1117809
+2025-02-02 22:02:25,035 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_213805.md
+2025-02-02 22:02:25,172 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_213356.md
+2025-02-02 22:02:27,186 - INFO - Completed batch 21 of 29 in section RouterOS
+2025-02-02 22:02:27,186 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=2&t=213801&p=1118394&amp;sid=3b77a3334c914448dbbc02bfdff4c3aa#p1118394
+2025-02-02 22:02:27,186 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=2&t=210246&p=1092183&amp;sid=3b77a3334c914448dbbc02bfdff4c3aa#p1092183
+2025-02-02 22:02:27,226 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_213801.md
+2025-02-02 22:02:27,317 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_210246.md
+2025-02-02 22:02:29,325 - INFO - Completed batch 22 of 29 in section RouterOS
+2025-02-02 22:02:29,325 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=2&t=213718&p=1117827&amp;sid=3b77a3334c914448dbbc02bfdff4c3aa#p1117827
+2025-02-02 22:02:29,325 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=2&t=189289&p=975068&amp;sid=3b77a3334c914448dbbc02bfdff4c3aa#p975068
+2025-02-02 22:02:29,412 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_213718.md
+2025-02-02 22:02:29,493 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_189289.md
+2025-02-02 22:02:31,499 - INFO - Completed batch 23 of 29 in section RouterOS
+2025-02-02 22:02:31,499 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=2&t=193182&p=981628&amp;sid=3b77a3334c914448dbbc02bfdff4c3aa#p981628
+2025-02-02 22:02:31,499 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=2&t=213681&p=1117633&amp;sid=3b77a3334c914448dbbc02bfdff4c3aa#p1117633
+2025-02-02 22:02:31,695 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_193182.md
+2025-02-02 22:02:31,939 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_213681.md
+2025-02-02 22:02:33,947 - INFO - Completed batch 24 of 29 in section RouterOS
+2025-02-02 22:02:33,947 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=2&t=213610&p=1117216&amp;sid=3b77a3334c914448dbbc02bfdff4c3aa#p1117216
+2025-02-02 22:02:33,948 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=2&t=213421&p=1115765&amp;sid=3b77a3334c914448dbbc02bfdff4c3aa#p1115765
+2025-02-02 22:02:34,596 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_213610.md
+2025-02-02 22:02:34,889 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_213421.md
+2025-02-02 22:02:36,902 - INFO - Completed batch 25 of 29 in section RouterOS
+2025-02-02 22:02:36,902 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=2&t=213668&p=1117437&amp;sid=3b77a3334c914448dbbc02bfdff4c3aa#p1117437
+2025-02-02 22:02:36,902 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=2&t=213632&p=1117218&amp;sid=3b77a3334c914448dbbc02bfdff4c3aa#p1117218
+2025-02-02 22:02:36,963 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_213668.md
+2025-02-02 22:02:37,041 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_213632.md
+2025-02-02 22:02:39,049 - INFO - Completed batch 26 of 29 in section RouterOS
+2025-02-02 22:02:39,049 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=2&t=213622&p=1117281&amp;sid=3b77a3334c914448dbbc02bfdff4c3aa#p1117281
+2025-02-02 22:02:39,049 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=2&t=213628&p=1117166&amp;sid=3b77a3334c914448dbbc02bfdff4c3aa#p1117166
+2025-02-02 22:02:39,179 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_213622.md
+2025-02-02 22:02:39,222 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_213628.md
+2025-02-02 22:02:41,228 - INFO - Completed batch 27 of 29 in section RouterOS
+2025-02-02 22:02:41,228 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=2&t=213600&p=1117058&amp;sid=3b77a3334c914448dbbc02bfdff4c3aa#p1117058
+2025-02-02 22:02:41,228 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=2&t=213508&p=1116158&amp;sid=3b77a3334c914448dbbc02bfdff4c3aa#p1116158
+2025-02-02 22:02:41,282 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_213600.md
+2025-02-02 22:02:41,491 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_213508.md
+2025-02-02 22:02:43,501 - INFO - Completed batch 28 of 29 in section RouterOS
+2025-02-02 22:02:43,501 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=2&t=213564&p=1116837&amp;sid=3b77a3334c914448dbbc02bfdff4c3aa#p1116837
+2025-02-02 22:02:43,698 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_213564.md
+2025-02-02 22:02:45,701 - INFO - Completed batch 29 of 29 in section RouterOS
+2025-02-02 22:02:45,701 - INFO - Processing forum section: v7 (ID: 49)
+2025-02-02 22:02:45,701 - INFO - Getting page 0 from section 49
+2025-02-02 22:02:45,706 - INFO - Found 0 threads in section v7
+2025-02-02 22:02:45,707 - INFO - Processing forum section: Scripts (ID: 7)
+2025-02-02 22:02:45,707 - INFO - Getting page 0 from section 7
+2025-02-02 22:02:46,492 - INFO - Found 66 threads in section Scripts
+2025-02-02 22:02:46,493 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=7&t=210736&p=1119842#p1119842
+2025-02-02 22:02:46,493 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=7&t=211527&p=1123320#p1123320
+2025-02-02 22:02:46,548 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_210736.md
+2025-02-02 22:02:47,075 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_211527.md
+2025-02-02 22:02:49,076 - INFO - Completed batch 1 of 33 in section Scripts
+2025-02-02 22:02:49,076 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=7&t=209752&p=1093463#p1093463
+2025-02-02 22:02:49,076 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=7&t=214173&p=1121523#p1121523
+2025-02-02 22:02:49,160 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_209752.md
+2025-02-02 22:02:49,205 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_214173.md
+2025-02-02 22:02:51,209 - INFO - Completed batch 2 of 33 in section Scripts
+2025-02-02 22:02:51,209 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=7&t=213955&p=1119661#p1119661
+2025-02-02 22:02:51,209 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=7&t=212099&p=1109562#p1109562
+2025-02-02 22:02:51,263 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_213955.md
+2025-02-02 22:02:51,377 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_212099.md
+2025-02-02 22:02:53,390 - INFO - Completed batch 3 of 33 in section Scripts
+2025-02-02 22:02:53,390 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=7&t=213813&p=1118483#p1118483
+2025-02-02 22:02:53,390 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=7&t=213842&p=1118757#p1118757
+2025-02-02 22:02:53,436 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_213813.md
+2025-02-02 22:02:53,623 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_213842.md
+2025-02-02 22:02:55,625 - INFO - Completed batch 4 of 33 in section Scripts
+2025-02-02 22:02:55,625 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=7&t=213815&p=1118717#p1118717
+2025-02-02 22:02:55,625 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=7&t=213687&p=1118313#p1118313
+2025-02-02 22:02:55,683 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_213815.md
+2025-02-02 22:02:55,732 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_213687.md
+2025-02-02 22:02:57,744 - INFO - Completed batch 5 of 33 in section Scripts
+2025-02-02 22:02:57,744 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=7&t=213647&p=1117274#p1117274
+2025-02-02 22:02:57,745 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=7&t=207946&p=1118048#p1118048
+2025-02-02 22:02:57,793 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_213647.md
+2025-02-02 22:02:57,833 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_207946.md
+2025-02-02 22:02:59,837 - INFO - Completed batch 6 of 33 in section Scripts
+2025-02-02 22:02:59,837 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=7&t=213711&p=1117825#p1117825
+2025-02-02 22:02:59,837 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=7&t=213352&p=1115236#p1115236
+2025-02-02 22:02:59,933 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_213711.md
+2025-02-02 22:03:00,041 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_213352.md
+2025-02-02 22:03:02,042 - INFO - Completed batch 7 of 33 in section Scripts
+2025-02-02 22:03:02,042 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=7&t=178693&p=1077021#p1077021
+2025-02-02 22:03:02,042 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=7&t=213302&p=1115018#p1115018
+2025-02-02 22:03:02,303 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_178693.md
+2025-02-02 22:03:02,364 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_213302.md
+2025-02-02 22:03:04,376 - INFO - Completed batch 8 of 33 in section Scripts
+2025-02-02 22:03:04,376 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=7&t=213273&p=1114680#p1114680
+2025-02-02 22:03:04,376 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=7&t=213241&p=1114572#p1114572
+2025-02-02 22:03:04,422 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_213273.md
+2025-02-02 22:03:05,942 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_213241.md
+2025-02-02 22:03:07,942 - INFO - Completed batch 9 of 33 in section Scripts
+2025-02-02 22:03:07,942 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=7&t=211009&p=1097829#p1097829
+2025-02-02 22:03:07,943 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=7&t=212608&p=1113588#p1113588
+2025-02-02 22:03:08,351 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_211009.md
+2025-02-02 22:03:08,426 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_212608.md
+2025-02-02 22:03:10,441 - INFO - Completed batch 10 of 33 in section Scripts
+2025-02-02 22:03:10,441 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=7&t=213098&p=1113316#p1113316
+2025-02-02 22:03:10,441 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=7&t=213089&p=1113279#p1113279
+2025-02-02 22:03:10,492 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_213098.md
+2025-02-02 22:03:10,650 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_213089.md
+2025-02-02 22:03:12,653 - INFO - Completed batch 11 of 33 in section Scripts
+2025-02-02 22:03:12,653 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=7&t=213018&p=1112690#p1112690
+2025-02-02 22:03:12,653 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=7&t=212795&p=1110928#p1110928
+2025-02-02 22:03:12,714 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_213018.md
+2025-02-02 22:03:12,813 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_212795.md
+2025-02-02 22:03:14,819 - INFO - Completed batch 12 of 33 in section Scripts
+2025-02-02 22:03:14,820 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=7&t=212837&p=1111238#p1111238
+2025-02-02 22:03:14,823 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=7&t=212845&p=1111272#p1111272
+2025-02-02 22:03:14,907 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_212837.md
+2025-02-02 22:03:15,051 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_212845.md
+2025-02-02 22:03:17,066 - INFO - Completed batch 13 of 33 in section Scripts
+2025-02-02 22:03:17,066 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=7&t=212832&p=1111178#p1111178
+2025-02-02 22:03:17,066 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=7&t=203076&p=1046622#p1046622
+2025-02-02 22:03:17,116 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_212832.md
+2025-02-02 22:03:18,415 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_203076.md
+2025-02-02 22:03:20,418 - INFO - Completed batch 14 of 33 in section Scripts
+2025-02-02 22:03:20,418 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=7&t=212776&p=1110825#p1110825
+2025-02-02 22:03:20,418 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=7&t=205473&p=1095849#p1095849
+2025-02-02 22:03:20,482 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_212776.md
+2025-02-02 22:03:20,868 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_205473.md
+2025-02-02 22:03:22,878 - INFO - Completed batch 15 of 33 in section Scripts
+2025-02-02 22:03:22,878 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=7&t=212605&p=1109451#p1109451
+2025-02-02 22:03:22,878 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=7&t=207510&p=1107676#p1107676
+2025-02-02 22:03:22,932 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_212605.md
+2025-02-02 22:03:23,037 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_207510.md
+2025-02-02 22:03:25,042 - INFO - Completed batch 16 of 33 in section Scripts
+2025-02-02 22:03:25,042 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=7&t=212242&p=1106962#p1106962
+2025-02-02 22:03:25,042 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=7&t=212190&p=1106491#p1106491
+2025-02-02 22:03:25,183 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_212242.md
+2025-02-02 22:03:25,275 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_212190.md
+2025-02-02 22:03:27,290 - INFO - Completed batch 17 of 33 in section Scripts
+2025-02-02 22:03:27,290 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=7&t=212091&p=1105766#p1105766
+2025-02-02 22:03:27,290 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=7&t=204755&p=1057630#p1057630
+2025-02-02 22:03:27,342 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_212091.md
+2025-02-02 22:03:27,562 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_204755.md
+2025-02-02 22:03:29,571 - INFO - Completed batch 18 of 33 in section Scripts
+2025-02-02 22:03:29,571 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=7&t=211500&p=1102218#p1102218
+2025-02-02 22:03:29,571 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=7&t=211942&p=1104580#p1104580
+2025-02-02 22:03:29,691 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_211500.md
+2025-02-02 22:03:29,744 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_211942.md
+2025-02-02 22:03:31,749 - INFO - Completed batch 19 of 33 in section Scripts
+2025-02-02 22:03:31,749 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=7&t=211612&p=1103995#p1103995
+2025-02-02 22:03:31,749 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=7&t=206576&p=1070277#p1070277
+2025-02-02 22:03:31,858 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_211612.md
+2025-02-02 22:03:31,929 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_206576.md
+2025-02-02 22:03:33,938 - INFO - Completed batch 20 of 33 in section Scripts
+2025-02-02 22:03:33,938 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=7&t=211744&p=1103500#p1103500
+2025-02-02 22:03:33,939 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=7&t=211538&p=1103050#p1103050
+2025-02-02 22:03:34,551 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_211744.md
+2025-02-02 22:03:34,713 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_211538.md
+2025-02-02 22:03:36,724 - INFO - Completed batch 21 of 33 in section Scripts
+2025-02-02 22:03:36,724 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=7&t=203445&p=1103105#p1103105
+2025-02-02 22:03:36,724 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=7&t=211700&p=1103032#p1103032
+2025-02-02 22:03:36,802 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_203445.md
+2025-02-02 22:03:36,903 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_211700.md
+2025-02-02 22:03:38,904 - INFO - Completed batch 22 of 33 in section Scripts
+2025-02-02 22:03:38,904 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=7&t=211636&p=1102585#p1102585
+2025-02-02 22:03:38,904 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=7&t=160180&p=787419#p787419
+2025-02-02 22:03:39,147 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_211636.md
+2025-02-02 22:03:39,230 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_160180.md
+2025-02-02 22:03:41,231 - INFO - Completed batch 23 of 33 in section Scripts
+2025-02-02 22:03:41,231 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=7&t=211455&p=1101410#p1101410
+2025-02-02 22:03:41,232 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=7&t=211196&p=1099246#p1099246
+2025-02-02 22:03:41,302 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_211455.md
+2025-02-02 22:03:41,509 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_211196.md
+2025-02-02 22:03:43,516 - INFO - Completed batch 24 of 33 in section Scripts
+2025-02-02 22:03:43,516 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=7&t=211126&p=1098631#p1098631
+2025-02-02 22:03:43,516 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=7&t=211078&p=1098398#p1098398
+2025-02-02 22:03:43,592 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_211126.md
+2025-02-02 22:03:43,742 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_211078.md
+2025-02-02 22:03:45,745 - INFO - Completed batch 25 of 33 in section Scripts
+2025-02-02 22:03:45,745 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=7&t=211000&p=1097757#p1097757
+2025-02-02 22:03:45,745 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=7&t=210982&p=1097686#p1097686
+2025-02-02 22:03:45,846 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_211000.md
+2025-02-02 22:03:45,916 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_210982.md
+2025-02-02 22:03:47,918 - INFO - Completed batch 26 of 33 in section Scripts
+2025-02-02 22:03:47,918 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=7&t=210484&p=1097770#p1097770
+2025-02-02 22:03:47,919 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=7&t=209500&p=1097608#p1097608
+2025-02-02 22:03:48,349 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_210484.md
+2025-02-02 22:03:48,496 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_209500.md
+2025-02-02 22:03:50,505 - INFO - Completed batch 27 of 33 in section Scripts
+2025-02-02 22:03:50,505 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=7&t=210939&p=1097433#p1097433
+2025-02-02 22:03:50,505 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=7&t=210783&p=1096224#p1096224
+2025-02-02 22:03:50,566 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_210939.md
+2025-02-02 22:03:50,775 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_210783.md
+2025-02-02 22:03:52,788 - INFO - Completed batch 28 of 33 in section Scripts
+2025-02-02 22:03:52,788 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=7&t=210851&p=1096677#p1096677
+2025-02-02 22:03:52,789 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=7&t=210463&p=1094657#p1094657
+2025-02-02 22:03:52,834 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_210851.md
+2025-02-02 22:03:52,986 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_210463.md
+2025-02-02 22:03:54,996 - INFO - Completed batch 29 of 33 in section Scripts
+2025-02-02 22:03:54,996 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=7&t=137645&p=679397#p679397
+2025-02-02 22:03:54,996 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=7&t=210430&p=1093355#p1093355
+2025-02-02 22:03:55,200 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_137645.md
+2025-02-02 22:03:55,232 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_210430.md
+2025-02-02 22:03:57,234 - INFO - Completed batch 30 of 33 in section Scripts
+2025-02-02 22:03:57,234 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=7&t=210393&p=1093116#p1093116
+2025-02-02 22:03:57,234 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=7&t=209909&p=1091519#p1091519
+2025-02-02 22:03:57,275 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_210393.md
+2025-02-02 22:03:57,374 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_209909.md
+2025-02-02 22:03:59,381 - INFO - Completed batch 31 of 33 in section Scripts
+2025-02-02 22:03:59,381 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=7&t=210187&p=1091645#p1091645
+2025-02-02 22:03:59,381 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=7&t=210174&p=1091554#p1091554
+2025-02-02 22:03:59,417 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_210187.md
+2025-02-02 22:03:59,462 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_210174.md
+2025-02-02 22:04:01,476 - INFO - Completed batch 32 of 33 in section Scripts
+2025-02-02 22:04:01,476 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=7&t=209192&p=1088500#p1088500
+2025-02-02 22:04:01,476 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=7&t=209539&p=1089687#p1089687
+2025-02-02 22:04:01,551 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_209192.md
+2025-02-02 22:04:01,639 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_209539.md
+2025-02-02 22:04:03,652 - INFO - Completed batch 33 of 33 in section Scripts
+2025-02-02 22:04:03,652 - INFO - Processing forum section: Routing (ID: 31)
+2025-02-02 22:04:03,652 - INFO - Getting page 0 from section 31
+2025-02-02 22:04:03,657 - INFO - Found 0 threads in section Routing
+2025-02-02 22:04:03,658 - INFO - Processing forum section: Firewall (ID: 34)
+2025-02-02 22:04:03,658 - INFO - Getting page 0 from section 34
+2025-02-02 22:04:03,663 - INFO - Found 0 threads in section Firewall
+2025-02-02 22:04:03,663 - INFO - Processing forum section: VPN (ID: 33)
+2025-02-02 22:04:03,663 - INFO - Getting page 0 from section 33
+2025-02-02 22:04:03,669 - INFO - Found 0 threads in section VPN
+2025-02-02 22:04:03,669 - INFO - Processing forum section: IPv6 (ID: 35)
+2025-02-02 22:04:03,669 - INFO - Getting page 0 from section 35
+2025-02-02 22:04:03,675 - INFO - Found 0 threads in section IPv6
+2025-02-02 22:04:03,675 - INFO - Processing forum section: Wireless (ID: 32)
+2025-02-02 22:04:03,675 - INFO - Getting page 0 from section 32
+2025-02-02 22:04:03,681 - INFO - Found 0 threads in section Wireless
+2025-02-02 22:04:03,681 - INFO - Processing forum section: MPLS (ID: 36)
+2025-02-02 22:04:03,681 - INFO - Getting page 0 from section 36
+2025-02-02 22:04:03,712 - INFO - Found 0 threads in section MPLS
+2025-02-02 22:04:03,713 - INFO - Processing forum section: Queue (ID: 37)
+2025-02-02 22:04:03,713 - INFO - Getting page 0 from section 37
+2025-02-02 22:04:03,718 - INFO - Found 0 threads in section Queue
+2025-02-02 22:04:03,718 - INFO - Processing forum section: Bridge (ID: 38)
+2025-02-02 22:04:03,718 - INFO - Getting page 0 from section 38
+2025-02-02 22:04:03,724 - INFO - Found 0 threads in section Bridge
+2025-02-02 22:04:03,724 - INFO - Processing forum section: PPP (ID: 39)
+2025-02-02 22:04:03,724 - INFO - Getting page 0 from section 39
+2025-02-02 22:04:03,729 - INFO - Found 0 threads in section PPP
+2025-02-02 22:04:03,729 - INFO - Processing forum section: HotSpot (ID: 40)
+2025-02-02 22:04:03,729 - INFO - Getting page 0 from section 40
+2025-02-02 22:04:03,734 - INFO - Found 0 threads in section HotSpot
+2025-02-02 22:04:03,734 - INFO - Processing forum section: API (ID: 41)
+2025-02-02 22:04:03,734 - INFO - Getting page 0 from section 41
+2025-02-02 22:04:03,740 - INFO - Found 0 threads in section API
