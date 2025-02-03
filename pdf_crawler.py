@@ -3,6 +3,20 @@ from PyPDF2 import PdfReader
 import re
 
 def extract_and_format_md(pdf_path: str, output_path: str):
+    """Extract and format content from a PDF file into Markdown.
+
+    This function reads a PDF file specified by `pdf_path`, extracts the
+    text from each page, and formats it into Markdown. It identifies headers
+    based on specific patterns and organizes the content into sections. The
+    formatted Markdown content is then written to a file specified by
+    `output_path`. The function ensures that the output directory exists
+    before writing the file.
+
+    Args:
+        pdf_path (str): The path to the input PDF file.
+        output_path (str): The path where the output Markdown file will be saved.
+    """
+
     reader = PdfReader(pdf_path)
     current_section = ''
     md_content = []
