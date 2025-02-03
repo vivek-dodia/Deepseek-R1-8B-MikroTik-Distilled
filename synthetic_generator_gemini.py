@@ -5,6 +5,8 @@ import google.generativeai as genai
 import time
 from datetime import datetime
 import logging
+import random
+import ipaddress
 
 # Load environment variables
 load_dotenv()
@@ -21,22 +23,28 @@ model = genai.GenerativeModel(model_name="gemini-2.0-flash-exp")
 MIKROTIK_PROMPT_TEMPLATE = """As a highly experienced MikroTik RouterOS expert, generate detailed technical documentation for the following scenario. Include practical examples, configurations, and explanations with a strong focus on MikroTik-specific commands and concepts.
 
 Context:
-- Target RouterOS {version} (6.x or 7.x)
+- Target RouterOS {version} (6.48, 7.x).
 - Configuration Level: {level} (Basic/Advanced/Expert)
-- Network Scale: {scale} (SOHO/SMB/Enterprise/ISP)
+- Network Scale: {scale} (SOHO, SMB, Enterprise, ISP, Hotspot Network, Point-to-Point Link).
+- Provide a specific configuration for the following parameters:
+    - Subnet: {random_subnet}
+    - Interface Name: {random_interface}
 
 Topic: {topic}
+
+Instructions:
+- {instruction_wording}
 
 Required components:
 1. Comprehensive configuration scenario and specific MikroTik requirements.
 2. Step-by-step MikroTik implementation using CLI or Winbox with detailed explanations.
 3. Complete MikroTik CLI configuration commands with relevant parameters.
-4. Common MikroTik-specific pitfalls, troubleshooting, and diagnostics using built-in tools.
+4. Common MikroTik-specific pitfalls, troubleshooting, and diagnostics using built-in tools. Include examples of error scenarios.
 5. Verification and testing steps using MikroTik tools (ping, traceroute, torch, etc.).
-6. Related MikroTik-specific features, capabilities, and limitations.
+6. Related MikroTik-specific features, capabilities, and limitations. Include scenarios using less common features.
 7. MikroTik REST API examples (if applicable), including API endpoint, request method, example JSON payload, and expected response. Ensure these examples use MikroTik specific API calls.
-8. In-depth explanations of core concepts, focusing on MikroTik's implementation (e.g., bridging, routing, firewall).
-9. Security best practices specific to MikroTik routers.
+8. In-depth explanations of core concepts, focusing on MikroTik's implementation (e.g., bridging, routing, firewall). Explain *why* specific commands or configurations are used.
+9. Security best practices specific to MikroTik routers, particularly for less common features.
 10. Detailed explanations and configuration examples for the following MikroTik topics:
 
    - IP Addressing (IPv4 and IPv6)
@@ -74,6 +82,7 @@ Required components:
     - Diagnostics, monitoring and troubleshooting (Including: Bandwidth Test, Detect Internet, Dynamic DNS, Graphing, Health, Interface stats and monitor-traffic, IP Scan, Log, Netwatch, Packet Sniffer, Ping, Profiler, Resource, SNMP, Speed Test, S-RJ10 general guidance, Torch, Traceroute, Traffic Flow, Traffic Generator, Watchdog)
     - Extended features (Including: Container, DLNA Media server, ROSE-storage, SMB, UPS, Wake on LAN, IP packing)
 
+  Explain the trade-offs between using different configurations and settings, especially for more complex features.
 
 Format the output in clean markdown with:
 - Clear section headers
@@ -90,11 +99,12 @@ Special Instructions:
 - Add security best practices relevant to MikroTik routers.
 - Provide clear, executable examples with API calls, requests, and responses.
 - Provide examples of CLI usage via MikroTik's Winbox GUI, where relevant.
+- Ensure all examples are tested and verifiable.
 """
 
 TOPIC_CATEGORIES = {
-    "All_Topics": [
-       "IP Addressing (IPv4 and IPv6)",
+   "All_Topics": [
+        "IP Addressing (IPv4 and IPv6)",
        "IP Pools",
        "IP Routing",
         "IP Settings",
@@ -128,14 +138,15 @@ TOPIC_CATEGORIES = {
        "Hardware",
         "Diagnostics, monitoring and troubleshooting",
         "Extended features",
-    ]
+   ]
 }
 
 SCENARIOS = {
-    "Network_Scale": ["SOHO", "SMB", "Enterprise", "ISP"],
+    "Network_Scale": ["SOHO", "SMB", "Enterprise", "ISP", "Hotspot Network", "Point-to-Point Link"],
     "Complexity": ["Basic", "Advanced", "Expert"],
     "RouterOS_Version": ["6.48", "7.11", "7.12"]
 }
+
 
 # Setup logging
 LOG_DIR = Path("C:\\Users\\Vivek\\Documents\\MikroTik_dis\\logs")
@@ -150,10 +161,42 @@ logging.basicConfig(
 )
 
 
+def generate_random_subnet():
+    """Generates a random /24 IPv4 subnet."""
+    base_ip = str(ipaddress.IPv4Address(random.randint(0, 2**32 - 1)))
+    network = ipaddress.IPv4Network(f"{base_ip}/24", strict=False)
+    return str(network)
+
+def generate_random_interface():
+        """Generates a random interface name."""
+        prefixes = ["ether", "wlan", "vlan", "bridge"]
+        suffix = random.randint(0, 99)
+        return f"{random.choice(prefixes)}-{suffix}"
+
+def generate_instruction_wording():
+        """Generates a different instruction wording."""
+        wordings = [
+           "Create a detailed, step-by-step example",
+           "Implement a practical solution",
+           "Provide a clear configuration example",
+           "Show how to configure this feature",
+           "Demonstrate a working implementation"
+        ]
+        return random.choice(wordings)
+
 def generate_mikrotik_documentation(topic, version, level, scale):
     """Generates MikroTik documentation for a specific scenario."""
+    random_subnet = generate_random_subnet()
+    random_interface = generate_random_interface()
+    instruction_wording = generate_instruction_wording()
     prompt = MIKROTIK_PROMPT_TEMPLATE.format(
-        topic=topic, version=version, level=level, scale=scale
+        topic=topic,
+        version=version,
+        level=level,
+        scale=scale,
+        random_subnet=random_subnet,
+        random_interface=random_interface,
+        instruction_wording=instruction_wording
     )
     try:
         response = model.generate_content(prompt)
