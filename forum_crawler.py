@@ -41,7 +41,22 @@ class MikroTikForumCrawler:
         ]
 
     def clean_forum_content(self, content: str) -> str:
-        """Clean forum content and preserve structure"""
+        """Clean forum content and preserve structure.
+
+        This function takes raw HTML content from a forum and processes it to
+        remove unnecessary elements such as navigation bars, footers, and
+        scripts. It extracts relevant information from each post, including the
+        author, date, and content, while preserving the structure of the posts.
+        The cleaned content is formatted and returned as a string. This is
+        particularly useful for displaying forum posts in a more readable
+        format.
+
+        Args:
+            content (str): The raw HTML content of the forum.
+
+        Returns:
+            str: A formatted string containing the cleaned forum posts.
+        """
         soup = BeautifulSoup(content, 'html.parser')
         
         # Remove unnecessary elements
@@ -87,7 +102,22 @@ Date: {date.get_text(strip=True) if date else 'Unknown'}
         return "\n---\n".join(posts)
 
     def format_post_content(self, content_element) -> str:
-        """Format post content preserving code blocks and structure"""
+        """Format post content preserving code blocks and structure.
+
+        This function processes the given content element to format its content
+        by preserving code blocks and maintaining the overall structure. It
+        first extracts and formats any code blocks found within the content,
+        wrapping them in triple backticks for proper Markdown representation.
+        After processing the code blocks, it retrieves the remaining text
+        content and appends it to the formatted output.
+
+        Args:
+            content_element (BeautifulSoup): A BeautifulSoup object representing
+
+        Returns:
+            str: The formatted post content as a string, with code blocks
+            properly wrapped and other text included.
+        """
         formatted_content = []
         
         # Process code blocks first
@@ -105,7 +135,23 @@ Date: {date.get_text(strip=True) if date else 'Unknown'}
         return "\n\n".join(formatted_content)
 
     async def search_forum(self, query: str, crawler: AsyncWebCrawler) -> list:
-        """Search forum with specific query"""
+        """Search for forum topics based on a specific query.
+
+        This function constructs a search URL using the provided query and
+        performs an asynchronous request to the forum's search endpoint. It
+        parses the resulting HTML to extract URLs of the topics that match the
+        search criteria. If the search is successful, it returns a list of topic
+        URLs. In case of any errors during the search, it logs the error and
+        returns an empty list.
+
+        Args:
+            query (str): The search query to find relevant forum topics.
+            crawler (AsyncWebCrawler): An instance of AsyncWebCrawler used
+                to perform the asynchronous web request.
+
+        Returns:
+            list: A list of URLs for the topics found in the forum.
+        """
         search_url = f"{self.base_forum_url}/search.php?keywords={query}&terms=all&author=&sc=1&sf=titleonly&sr=topics&sk=t&sd=d&st=0&ch=300&t=0&submit=Search"
         
         try:
@@ -125,7 +171,18 @@ Date: {date.get_text(strip=True) if date else 'Unknown'}
             return []
 
     async def crawl_thread(self, url: str, crawler: AsyncWebCrawler):
-        """Crawl a single forum thread"""
+        """Crawl a single forum thread and save its content.
+
+        This method checks if the provided URL has already been visited. If not,
+        it logs the crawling process, retrieves the thread's HTML content using
+        the provided crawler, and extracts relevant information such as the
+        thread title and cleaned content. If the content is valid, it saves the
+        data in a markdown file with appropriate metadata.
+
+        Args:
+            url (str): The URL of the forum thread to crawl.
+            crawler (AsyncWebCrawler): An instance of AsyncWebCrawler used to fetch the thread content.
+        """
         if url in self.visited_urls:
             return
         
@@ -165,7 +222,16 @@ type: forum_thread
             logging.error(f"Failed thread {url}: {str(e)}")
 
     async def crawl(self):
-        """Main crawling function"""
+        """Main function to initiate the crawling process for forum content.
+
+        This function sets up the necessary directory for saving the crawled
+        data and utilizes an asynchronous web crawler to search for forum
+        threads based on predefined search queries. For each query, it processes
+        the results in batches to crawl individual threads while respecting
+        server load by introducing a delay between batches.  It logs the
+        progress of the crawling operation, including the number of threads
+        found for each query and the completion of each batch.
+        """
         self.base_save_path.mkdir(parents=True, exist_ok=True)
         logging.info(f"Saving forum content to: {self.base_save_path}")
         
