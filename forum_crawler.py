@@ -32,13 +32,28 @@ class MikroTikForumCrawler:
         
         # Search queries focused on RouterOS 7
         self.search_queries = [
-            "router+os+7+upgrade",
-            "routeros+7+configuration",
-            "ros+7+migration",
-            "routeros+7+scripting",
-            "ros+7+firewall",
-            "ros+7+routing"
-        ]
+    # RouterOS 7 specific
+    "routeros+7",
+    "ros+7",
+    # RouterOS 6 and 7 common topics
+    "routeros+solved",
+    "mikrotik+script+solved",
+    "mikrotik+firewall+solved",
+    "mikrotik+routing+solved",
+    "mikrotik+vpn+solved",
+    "mikrotik+vlan+solved",
+    "mikrotik+bridge+solved",
+    "mikrotik+wireless+solved",
+    "mikrotik+configuration+solved",
+    # Common use cases
+    "mikrotik+bgp+solved",
+    "mikrotik+ospf+solved",
+    "mikrotik+nat+solved",
+    "mikrotik+ipsec+solved",
+    "mikrotik+queue+solved",
+    "mikrotik+hotspot+solved",
+    "mikrotik+pppoe+solved"
+]
 
     def clean_forum_content(self, content: str) -> str:
         """Clean forum content and preserve structure"""
