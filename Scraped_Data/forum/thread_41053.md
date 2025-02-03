@@ -1,10 +1,10 @@
 ---
 title: Thread-41053
-url: https://forum.mikrotik.com/viewtopic.php?t=41053&sid=3b77a3334c914448dbbc02bfdff4c3aa
+url: https://forum.mikrotik.com/viewtopic.php?t=41053&sid=49f92a630bc7970d8ca50523be880e8f
 thread_id: 41053
 section: RouterOS
 post_count: 18
-date_crawled: 2025-02-03T13:01:51.833449
+date_crawled: 2025-02-03T14:00:46.044591
 ---
 
 ### Post 1
