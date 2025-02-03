@@ -1,7 +1,7 @@
 ---
 title: Supout.rif
-source_url: https://help.mikrotik.com/docs/spaces/ROS/pages/328106/Supout.rif ,
-crawled_date: 2025-02-02T20:25:17.943576
+source_url: https://help.mikrotik.com/docs/spaces/ROS/pages/328106/Supout.rif,
+crawled_date: 2025-02-02T21:08:50.786663
 section: mikrotik_docs
 type: documentation
 ---
