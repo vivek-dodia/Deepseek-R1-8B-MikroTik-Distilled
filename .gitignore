@@ -1,2 +1,4 @@
 crawl4ai/
 .env
+Scraped_Data/github_repos/
+Scraped_Data/gitlab_repos/
