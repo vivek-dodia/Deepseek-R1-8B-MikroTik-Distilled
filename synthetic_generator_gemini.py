@@ -35,54 +35,44 @@ Topic: {topic}
 Instructions:
 - {instruction_wording}
 
-Required components:
-1. Comprehensive configuration scenario and specific MikroTik requirements.
-2. Step-by-step MikroTik implementation using CLI or Winbox with detailed explanations.
-3. Complete MikroTik CLI configuration commands with relevant parameters.
-4. Common MikroTik-specific pitfalls, troubleshooting, and diagnostics using built-in tools. Include examples of error scenarios.
-5. Verification and testing steps using MikroTik tools (ping, traceroute, torch, etc.).
-6. Related MikroTik-specific features, capabilities, and limitations. Include scenarios using less common features.
-7. MikroTik REST API examples (if applicable), including API endpoint, request method, example JSON payload, and expected response. Ensure these examples use MikroTik specific API calls.
-8. In-depth explanations of core concepts, focusing on MikroTik's implementation (e.g., bridging, routing, firewall). Explain *why* specific commands or configurations are used.
-9. Security best practices specific to MikroTik routers, particularly for less common features.
-10. Detailed explanations and configuration examples for the following MikroTik topics:
+## Scenario Description:
+Provide a clear and concise description of the scenario being addressed.
 
-   - IP Addressing (IPv4 and IPv6)
-   - IP Pools
-   - IP Routing
-   - IP Settings
-   - MAC server
-   - RoMON
-   - WinBox
-   - Certificates
-   - PPP AAA
-   - RADIUS
-   - User / User groups
-   - Bridging and Switching
-   - MACVLAN
-   - L3 Hardware Offloading
-   - MACsec
-   - Quality of Service
-   - Switch Chip Features
-   - VLAN
-   - VXLAN
-   - Firewall and Quality of Service (Including: Connection tracking, Firewall, Packet Flow in RouterOS, Queues, Firewall and QoS Case Studies, Kid Control, UPnP, NAT-PMP)
-   - IP Services (DHCP, DNS, SOCKS, Proxy)
-   - High Availability Solutions (Including: Load Balancing, Bonding, Bonding Examples, HA Case Studies, Multi-chassis Link Aggregation Group, VRRP, VRRP Configuration Examples)
-   - Mobile Networking (Including: GPS, LTE, PPP, SMS, Dual SIM Application)
-   - Multi Protocol Label Switching - MPLS (Including: MPLS Overview, MPLS MTU, Forwarding and Label Bindings, EXP bit and MPLS Queuing, LDP, VPLS, Traffic Eng, MPLS Reference)
-   - Network Management (Including: ARP, Cloud, DHCP, DNS, SOCKS, Proxy, Openflow)
-   - Routing (Including: Routing Protocol Overview, Moving from ROSv6 to v7 with examples, Routing Protocol Multi-core Support, Policy Routing, Virtual Routing and Forwarding - VRF, OSPF, RIP, BGP, RPKI, Route Selection and Filters, Multicast, Routing Debugging Tools, Routing Reference, BFD, IS-IS)
-   - System Information and Utilities (Including: Clock, Device-mode, E-mail, Fetch, Files, Identity, Interface Lists, Neighbor discovery, Note, NTP, Partitions, Precision Time Protocol, Scheduler, Services, TFTP)
-   - Virtual Private Networks (Including: 6to4, EoIP, GRE, IPIP, IPsec, L2TP, OpenVPN, PPPoE, PPTP, SSTP, WireGuard, ZeroTier)
-   - Wired Connections (Including: Ethernet, MikroTik wired interface compatibility, PWR Line)
-   - Wireless (Including: WiFi, Wireless Interface, W60G, CAPsMAN, HWMPplus mesh, Nv2, Interworking Profiles, Wireless Case Studies, Spectral scan)
-    - Internet of Things (Including: Bluetooth, GPIO, Lora, MQTT)
-    - Hardware (Including: Disks, Grounding, LCD Touchscreen, LEDs, MTU in RouterOS, Peripherals, PoE-Out, Ports, Product Naming, RouterBOARD, USB Features)
-    - Diagnostics, monitoring and troubleshooting (Including: Bandwidth Test, Detect Internet, Dynamic DNS, Graphing, Health, Interface stats and monitor-traffic, IP Scan, Log, Netwatch, Packet Sniffer, Ping, Profiler, Resource, SNMP, Speed Test, S-RJ10 general guidance, Torch, Traceroute, Traffic Flow, Traffic Generator, Watchdog)
-    - Extended features (Including: Container, DLNA Media server, ROSE-storage, SMB, UPS, Wake on LAN, IP packing)
+## Implementation Steps:
+Provide a step-by-step guide, explain each step and why it is needed. Provide examples of CLI or winbox GUI instructions, before *and* after each configuration step and the effect each step is supposed to have. The output should be very specific, actionable and complete.
+1. **Step 1**: ...
+2. **Step 2**: ...
+...
 
-  Explain the trade-offs between using different configurations and settings, especially for more complex features.
+## Complete Configuration Commands:
+Provide a complete set of MikroTik CLI commands to implement the setup, including a full explanation for each parameter.
+
+## Common Pitfalls and Solutions:
+Outline common problems that may arise from this configuration. Also suggest methods to diagnose and fix these problems. If there are potential security or configuration issues, be sure to highlight these. Include information for potential resource issues, such as high CPU or memory usage.
+
+## Verification and Testing Steps:
+Provide detailed steps on how to verify this configuration is working as expected. Include specific MikroTik tools (ping, traceroute, torch, etc.).
+
+## Related Features and Considerations:
+Discuss any other relevant MikroTik features or considerations that could be used in combination with the current setup. Explain the impact of the current configuration in the real world scenarios.
+
+## MikroTik REST API Examples (if applicable):
+Provide clear, executable REST API examples if applicable including API endpoint, request method, example JSON payload, and the expected response. Ensure these examples use MikroTik specific API calls, and provide a complete description of each parameter. If an error can arise from an api call, describe how to handle it.
+
+## Security Best Practices
+Outline key security best practices for this configuration, specifically for less common features.
+
+## Self Critique and Improvements
+Critique this configuration. What can be improved, or further modified to make it better?
+
+## Detailed Explanations of Topic
+Provide clear and detailed information on the given topic.
+
+## Detailed Explanation of Trade-offs
+Explain the trade-offs between using different configurations and settings, especially for more complex features.
+
+## Configuration for Specific RouterOS Versions:
+If targeting a specific RouterOS version, instruct the model to only use commands relevant to that version.
 
 Format the output in clean markdown with:
 - Clear section headers
@@ -138,6 +128,16 @@ TOPIC_CATEGORIES = {
        "Hardware",
         "Diagnostics, monitoring and troubleshooting",
         "Extended features",
+       "Multi-WAN Failover with Load Balancing",
+        "Complex VPN Tunneling (IPsec or WireGuard)",
+        "Advanced QoS with HTB and PCQ",
+        "BGP with Multiple Upstream Providers",
+       "MPLS L3 VPN",
+        "Hotspot with RADIUS Authentication and Custom Branding",
+        "Centralized Logging and Monitoring",
+        "Advanced Firewall with Layer 7 Filtering",
+       "Dynamic DNS with Scripting",
+        "High Availability (HA) with VRRP",
    ]
 }
 
@@ -196,7 +196,7 @@ def generate_mikrotik_documentation(topic, version, level, scale):
         scale=scale,
         random_subnet=random_subnet,
         random_interface=random_interface,
-        instruction_wording=instruction_wording
+        instruction_wording=instruction_wording,
     )
     try:
         response = model.generate_content(prompt)

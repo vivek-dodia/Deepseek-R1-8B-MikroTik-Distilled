@@ -4492,3 +4492,1099 @@ playwright._impl._errors.TargetClosedError: Target page, context or browser has 
 2025-02-03 02:09:33,108 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=212607&p=1109309#p1109309
 2025-02-03 02:09:33,108 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213117&p=1113526#p1113526
 2025-02-03 02:09:33,199 - INFO - Getting page 6 from https://forum.mikrotik.com/viewforum.php?f=2&start=300
+2025-02-03 02:11:30,890 - INFO - Starting forum crawl, saving to: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum
+2025-02-03 02:11:31,360 - INFO - Processing section: RouterOS (ID: 2)
+2025-02-03 02:11:31,361 - INFO - Getting page 0 from https://forum.mikrotik.com/viewforum.php?f=2&start=0
+2025-02-03 02:11:33,413 - INFO - Result for https://forum.mikrotik.com/viewforum.php?f=2&start=0 was successful: True
+2025-02-03 02:11:34,130 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214357&p=1123429&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1123429
+2025-02-03 02:11:34,130 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=175272&p=871239&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p871239
+2025-02-03 02:11:34,130 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214377&p=1123337&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1123337
+2025-02-03 02:11:34,131 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213426&p=1115760&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1115760
+2025-02-03 02:11:34,131 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=211174&p=1123115&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1123115
+2025-02-03 02:11:34,131 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=184457&p=921733&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p921733
+2025-02-03 02:11:34,131 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214151&p=1122718&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1122718
+2025-02-03 02:11:34,131 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213973&p=1119770&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1119770
+2025-02-03 02:11:34,131 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214267&p=1122464&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1122464
+2025-02-03 02:11:34,132 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214281&p=1122534&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1122534
+2025-02-03 02:11:34,132 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213944&p=1119908&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1119908
+2025-02-03 02:11:34,132 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213724&p=1121556&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1121556
+2025-02-03 02:11:34,132 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213819&p=1119329&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1119329
+2025-02-03 02:11:34,132 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214219&p=1121881&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1121881
+2025-02-03 02:11:34,133 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214183&p=1121532&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1121532
+2025-02-03 02:11:34,133 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214175&p=1121497&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1121497
+2025-02-03 02:11:34,133 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214154&p=1121405&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1121405
+2025-02-03 02:11:34,133 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214177&p=1121530&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1121530
+2025-02-03 02:11:34,133 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214096&p=1121023&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1121023
+2025-02-03 02:11:34,133 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=209239&p=1085433&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1085433
+2025-02-03 02:11:34,133 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214108&p=1120993&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1120993
+2025-02-03 02:11:34,134 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214082&p=1120860&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1120860
+2025-02-03 02:11:34,134 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214079&p=1120649&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1120649
+2025-02-03 02:11:34,134 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214064&p=1120540&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1120540
+2025-02-03 02:11:34,134 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214020&p=1120202&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1120202
+2025-02-03 02:11:34,134 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=209607&p=1105694&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1105694
+2025-02-03 02:11:34,135 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213995&p=1119977&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1119977
+2025-02-03 02:11:34,135 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=204158&p=1119824&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1119824
+2025-02-03 02:11:34,135 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213972&p=1119783&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1119783
+2025-02-03 02:11:34,135 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213943&p=1119620&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1119620
+2025-02-03 02:11:34,135 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213914&p=1119522&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1119522
+2025-02-03 02:11:34,135 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=201379&p=1035328&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1035328
+2025-02-03 02:11:34,136 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=212632&p=1110020&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1110020
+2025-02-03 02:11:34,136 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213932&p=1119392&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1119392
+2025-02-03 02:11:34,136 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=159417&p=783308&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p783308
+2025-02-03 02:11:34,136 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213901&p=1119176&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1119176
+2025-02-03 02:11:34,136 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=203175&p=1047005&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1047005
+2025-02-03 02:11:34,137 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213840&p=1118708&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1118708
+2025-02-03 02:11:34,137 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213771&p=1118367&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1118367
+2025-02-03 02:11:34,137 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213691&p=1118434&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1118434
+2025-02-03 02:11:34,137 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213805&p=1118583&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1118583
+2025-02-03 02:11:34,137 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213356&p=1117809&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1117809
+2025-02-03 02:11:34,137 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213801&p=1118394&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1118394
+2025-02-03 02:11:34,138 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=210246&p=1092183&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1092183
+2025-02-03 02:11:34,138 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213718&p=1117827&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1117827
+2025-02-03 02:11:34,138 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=189289&p=975068&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p975068
+2025-02-03 02:11:34,138 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=193182&p=981628&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p981628
+2025-02-03 02:11:34,138 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213681&p=1117633&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1117633
+2025-02-03 02:11:34,138 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213610&p=1117216&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1117216
+2025-02-03 02:11:34,139 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213421&p=1115765&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1115765
+2025-02-03 02:11:34,139 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213668&p=1117437&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1117437
+2025-02-03 02:11:34,139 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213632&p=1117218&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1117218
+2025-02-03 02:11:34,139 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213622&p=1117281&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1117281
+2025-02-03 02:11:34,139 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213628&p=1117166&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1117166
+2025-02-03 02:11:34,139 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213600&p=1117058&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1117058
+2025-02-03 02:11:34,140 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213508&p=1116158&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1116158
+2025-02-03 02:11:34,140 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213564&p=1116837&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1116837
+2025-02-03 02:11:34,229 - INFO - Getting page 1 from https://forum.mikrotik.com/viewforum.php?f=2&start=50
+2025-02-03 02:11:36,258 - INFO - Result for https://forum.mikrotik.com/viewforum.php?f=2&start=50 was successful: True
+2025-02-03 02:11:36,972 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214151&p=1122718&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1122718
+2025-02-03 02:11:36,973 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213973&p=1119770&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1119770
+2025-02-03 02:11:36,973 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214267&p=1122464&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1122464
+2025-02-03 02:11:36,973 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214281&p=1122534&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1122534
+2025-02-03 02:11:36,973 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213944&p=1119908&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1119908
+2025-02-03 02:11:36,973 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213724&p=1121556&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1121556
+2025-02-03 02:11:36,974 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213819&p=1119329&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1119329
+2025-02-03 02:11:36,974 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214219&p=1121881&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1121881
+2025-02-03 02:11:36,974 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214183&p=1121532&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1121532
+2025-02-03 02:11:36,974 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214175&p=1121497&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1121497
+2025-02-03 02:11:36,974 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214154&p=1121405&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1121405
+2025-02-03 02:11:36,974 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214177&p=1121530&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1121530
+2025-02-03 02:11:36,974 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214096&p=1121023&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1121023
+2025-02-03 02:11:36,975 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=209239&p=1085433&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1085433
+2025-02-03 02:11:36,975 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214108&p=1120993&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1120993
+2025-02-03 02:11:36,975 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214082&p=1120860&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1120860
+2025-02-03 02:11:36,975 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214079&p=1120649&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1120649
+2025-02-03 02:11:36,975 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214064&p=1120540&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1120540
+2025-02-03 02:11:36,975 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214020&p=1120202&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1120202
+2025-02-03 02:11:36,976 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=209607&p=1105694&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1105694
+2025-02-03 02:11:36,976 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213995&p=1119977&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1119977
+2025-02-03 02:11:36,976 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=204158&p=1119824&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1119824
+2025-02-03 02:11:36,976 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213972&p=1119783&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1119783
+2025-02-03 02:11:36,976 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213943&p=1119620&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1119620
+2025-02-03 02:11:36,976 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213914&p=1119522&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1119522
+2025-02-03 02:11:36,977 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=201379&p=1035328&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1035328
+2025-02-03 02:11:36,977 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=212632&p=1110020&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1110020
+2025-02-03 02:11:36,977 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213932&p=1119392&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1119392
+2025-02-03 02:11:36,977 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=159417&p=783308&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p783308
+2025-02-03 02:11:36,977 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213901&p=1119176&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1119176
+2025-02-03 02:11:36,978 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=203175&p=1047005&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1047005
+2025-02-03 02:11:36,978 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213840&p=1118708&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1118708
+2025-02-03 02:11:36,978 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213771&p=1118367&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1118367
+2025-02-03 02:11:36,978 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213691&p=1118434&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1118434
+2025-02-03 02:11:36,978 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213805&p=1118583&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1118583
+2025-02-03 02:11:36,978 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213356&p=1117809&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1117809
+2025-02-03 02:11:36,979 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213801&p=1118394&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1118394
+2025-02-03 02:11:36,979 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=210246&p=1092183&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1092183
+2025-02-03 02:11:36,979 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213718&p=1117827&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1117827
+2025-02-03 02:11:36,979 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=189289&p=975068&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p975068
+2025-02-03 02:11:36,979 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=193182&p=981628&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p981628
+2025-02-03 02:11:36,979 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213681&p=1117633&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1117633
+2025-02-03 02:11:36,980 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213610&p=1117216&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1117216
+2025-02-03 02:11:36,980 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213421&p=1115765&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1115765
+2025-02-03 02:11:36,980 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213668&p=1117437&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1117437
+2025-02-03 02:11:36,980 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213632&p=1117218&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1117218
+2025-02-03 02:11:36,980 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213622&p=1117281&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1117281
+2025-02-03 02:11:36,981 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213628&p=1117166&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1117166
+2025-02-03 02:11:36,981 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213600&p=1117058&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1117058
+2025-02-03 02:11:36,981 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213508&p=1116158&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1116158
+2025-02-03 02:11:36,981 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213564&p=1116837&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1116837
+2025-02-03 02:11:36,981 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213418&p=1116791&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1116791
+2025-02-03 02:11:36,981 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213134&p=1113840&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1113840
+2025-02-03 02:11:36,982 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213486&p=1116349&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1116349
+2025-02-03 02:11:36,982 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213495&p=1116315&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1116315
+2025-02-03 02:11:36,982 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213436&p=1116319&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1116319
+2025-02-03 02:11:37,069 - INFO - Getting page 2 from https://forum.mikrotik.com/viewforum.php?f=2&start=100
+2025-02-03 11:14:37,468 - INFO - Starting forum crawl, saving to: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum
+2025-02-03 11:14:41,778 - INFO - Processing section: RouterOS (ID: 2)
+2025-02-03 11:14:41,779 - INFO - Getting page 0 from https://forum.mikrotik.com/viewforum.php?f=2&start=0
+2025-02-03 11:14:44,046 - INFO - Result for https://forum.mikrotik.com/viewforum.php?f=2&start=0 was successful: True
+2025-02-03 11:14:44,770 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214357&p=1123429&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1123429
+2025-02-03 11:14:44,771 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=175272&p=871239&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p871239
+2025-02-03 11:14:44,771 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214377&p=1123337&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1123337
+2025-02-03 11:14:44,771 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213426&p=1115760&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1115760
+2025-02-03 11:14:44,771 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=211174&p=1123115&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1123115
+2025-02-03 11:14:44,771 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=184457&p=921733&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p921733
+2025-02-03 11:14:44,772 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214151&p=1122718&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1122718
+2025-02-03 11:14:44,807 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213973&p=1119770&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1119770
+2025-02-03 11:14:44,808 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214267&p=1122464&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1122464
+2025-02-03 11:14:44,808 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214281&p=1122534&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1122534
+2025-02-03 11:14:44,808 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213944&p=1119908&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1119908
+2025-02-03 11:14:44,808 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213724&p=1121556&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1121556
+2025-02-03 11:14:44,809 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213819&p=1119329&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1119329
+2025-02-03 11:14:44,809 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214219&p=1121881&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1121881
+2025-02-03 11:14:44,809 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214183&p=1121532&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1121532
+2025-02-03 11:14:44,809 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214175&p=1121497&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1121497
+2025-02-03 11:14:44,809 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214154&p=1121405&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1121405
+2025-02-03 11:14:44,810 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214177&p=1121530&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1121530
+2025-02-03 11:14:44,810 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214096&p=1121023&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1121023
+2025-02-03 11:14:44,810 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=209239&p=1085433&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1085433
+2025-02-03 11:14:44,810 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214108&p=1120993&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1120993
+2025-02-03 11:14:44,810 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214082&p=1120860&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1120860
+2025-02-03 11:14:44,811 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214079&p=1120649&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1120649
+2025-02-03 11:14:44,811 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214064&p=1120540&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1120540
+2025-02-03 11:14:44,811 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214020&p=1120202&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1120202
+2025-02-03 11:14:44,811 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=209607&p=1105694&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1105694
+2025-02-03 11:14:44,811 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213995&p=1119977&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1119977
+2025-02-03 11:14:44,811 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=204158&p=1119824&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1119824
+2025-02-03 11:14:44,812 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213972&p=1119783&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1119783
+2025-02-03 11:14:44,812 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213943&p=1119620&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1119620
+2025-02-03 11:14:44,812 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213914&p=1119522&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1119522
+2025-02-03 11:14:44,812 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=201379&p=1035328&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1035328
+2025-02-03 11:14:44,812 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=212632&p=1110020&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1110020
+2025-02-03 11:14:44,812 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213932&p=1119392&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1119392
+2025-02-03 11:14:44,813 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=159417&p=783308&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p783308
+2025-02-03 11:14:44,813 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213901&p=1119176&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1119176
+2025-02-03 11:14:44,813 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=203175&p=1047005&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1047005
+2025-02-03 11:14:44,813 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213840&p=1118708&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1118708
+2025-02-03 11:14:44,813 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213771&p=1118367&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1118367
+2025-02-03 11:14:44,813 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213691&p=1118434&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1118434
+2025-02-03 11:14:44,814 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213805&p=1118583&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1118583
+2025-02-03 11:14:44,814 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213356&p=1117809&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1117809
+2025-02-03 11:14:44,814 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213801&p=1118394&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1118394
+2025-02-03 11:14:44,814 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=210246&p=1092183&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1092183
+2025-02-03 11:14:44,814 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213718&p=1117827&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1117827
+2025-02-03 11:14:44,815 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=189289&p=975068&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p975068
+2025-02-03 11:14:44,815 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=193182&p=981628&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p981628
+2025-02-03 11:14:44,815 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213681&p=1117633&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1117633
+2025-02-03 11:14:44,815 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213610&p=1117216&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1117216
+2025-02-03 11:14:44,815 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213421&p=1115765&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1115765
+2025-02-03 11:14:44,815 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213668&p=1117437&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1117437
+2025-02-03 11:14:44,816 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213632&p=1117218&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1117218
+2025-02-03 11:14:44,816 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213622&p=1117281&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1117281
+2025-02-03 11:14:44,816 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213628&p=1117166&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1117166
+2025-02-03 11:14:44,816 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213600&p=1117058&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1117058
+2025-02-03 11:14:44,816 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213508&p=1116158&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1116158
+2025-02-03 11:14:44,816 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213564&p=1116837&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1116837
+2025-02-03 11:14:44,906 - INFO - Getting page 1 from https://forum.mikrotik.com/viewforum.php?f=2&start=50
+2025-02-03 11:19:21,087 - DEBUG - Using proactor: IocpProactor
+2025-02-03 11:19:21,089 - INFO - Starting forum crawl at: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum
+2025-02-03 11:19:21,827 - INFO - Processing section: RouterOS (ID: 2)
+2025-02-03 11:22:17,800 - DEBUG - Using proactor: IocpProactor
+2025-02-03 11:22:17,801 - INFO - Starting forum crawl at: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum
+2025-02-03 11:22:18,341 - INFO - Processing section: RouterOS (ID: 2)
+2025-02-03 11:22:18,341 - DEBUG - Fetching page 0 from https://forum.mikrotik.com/viewforum.php?f=2&start=0
+2025-02-03 11:22:20,390 - DEBUG - executing <function connect.<locals>.connector at 0x000001D400DC3920>
+2025-02-03 11:22:20,391 - DEBUG - operation <function connect.<locals>.connector at 0x000001D400DC3920> completed
+2025-02-03 11:22:20,391 - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Connection object at 0x000001D4021545E0>, '\n                CREATE TABLE IF NOT EXISTS crawled_data (\n                    url TEXT PRIMARY KEY,\n                    html TEXT,\n                    cleaned_html TEXT,\n                    markdown TEXT,\n                    extracted_content TEXT,\n                    success BOOLEAN,\n                    media TEXT DEFAULT "{}",\n                    links TEXT DEFAULT "{}",\n                    metadata TEXT DEFAULT "{}",\n                    screenshot TEXT DEFAULT "",\n                    response_headers TEXT DEFAULT "{}",\n                    downloaded_files TEXT DEFAULT "{}"  -- New column added\n                )\n            ', [])
+2025-02-03 11:22:20,392 - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Connection object at 0x000001D4021545E0>, '\n                CREATE TABLE IF NOT EXISTS crawled_data (\n                    url TEXT PRIMARY KEY,\n                    html TEXT,\n                    cleaned_html TEXT,\n                    markdown TEXT,\n                    extracted_content TEXT,\n                    success BOOLEAN,\n                    media TEXT DEFAULT "{}",\n                    links TEXT DEFAULT "{}",\n                    metadata TEXT DEFAULT "{}",\n                    screenshot TEXT DEFAULT "",\n                    response_headers TEXT DEFAULT "{}",\n                    downloaded_files TEXT DEFAULT "{}"  -- New column added\n                )\n            ', []) completed
+2025-02-03 11:22:20,392 - DEBUG - executing functools.partial(<built-in method commit of sqlite3.Connection object at 0x000001D4021545E0>)
+2025-02-03 11:22:20,393 - DEBUG - operation functools.partial(<built-in method commit of sqlite3.Connection object at 0x000001D4021545E0>) completed
+2025-02-03 11:22:20,393 - DEBUG - executing functools.partial(<built-in method close of sqlite3.Connection object at 0x000001D4021545E0>)
+2025-02-03 11:22:20,393 - DEBUG - operation functools.partial(<built-in method close of sqlite3.Connection object at 0x000001D4021545E0>) completed
+2025-02-03 11:22:20,394 - DEBUG - executing <function connect.<locals>.connector at 0x000001D400DC3EC0>
+2025-02-03 11:22:20,394 - DEBUG - operation <function connect.<locals>.connector at 0x000001D400DC3EC0> completed
+2025-02-03 11:22:20,394 - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Connection object at 0x000001D4021545E0>, "SELECT name FROM sqlite_master WHERE type='table' AND name='crawled_data'", [])
+2025-02-03 11:22:20,395 - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Connection object at 0x000001D4021545E0>, "SELECT name FROM sqlite_master WHERE type='table' AND name='crawled_data'", []) completed
+2025-02-03 11:22:20,395 - DEBUG - executing functools.partial(<built-in method fetchone of sqlite3.Cursor object at 0x000001D400B32940>)
+2025-02-03 11:22:20,395 - DEBUG - operation functools.partial(<built-in method fetchone of sqlite3.Cursor object at 0x000001D400B32940>) completed
+2025-02-03 11:22:20,395 - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x000001D400B32940>)
+2025-02-03 11:22:20,396 - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x000001D400B32940>) completed
+2025-02-03 11:22:20,396 - DEBUG - executing functools.partial(<built-in method close of sqlite3.Connection object at 0x000001D4021545E0>)
+2025-02-03 11:22:20,396 - DEBUG - operation functools.partial(<built-in method close of sqlite3.Connection object at 0x000001D4021545E0>) completed
+2025-02-03 11:22:20,397 - DEBUG - executing <function connect.<locals>.connector at 0x000001D400DC3EC0>
+2025-02-03 11:22:20,397 - DEBUG - operation <function connect.<locals>.connector at 0x000001D400DC3EC0> completed
+2025-02-03 11:22:20,397 - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Connection object at 0x000001D4021544F0>, 'PRAGMA journal_mode = WAL', [])
+2025-02-03 11:22:20,398 - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Connection object at 0x000001D4021544F0>, 'PRAGMA journal_mode = WAL', []) completed
+2025-02-03 11:22:20,398 - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Connection object at 0x000001D4021544F0>, 'PRAGMA busy_timeout = 5000', [])
+2025-02-03 11:22:20,398 - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Connection object at 0x000001D4021544F0>, 'PRAGMA busy_timeout = 5000', []) completed
+2025-02-03 11:22:20,399 - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Connection object at 0x000001D4021544F0>, 'PRAGMA table_info(crawled_data)', [])
+2025-02-03 11:22:20,399 - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Connection object at 0x000001D4021544F0>, 'PRAGMA table_info(crawled_data)', []) completed
+2025-02-03 11:22:20,399 - DEBUG - executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x000001D400B329C0>)
+2025-02-03 11:22:20,399 - DEBUG - operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x000001D400B329C0>) completed
+2025-02-03 11:22:20,399 - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x000001D400B329C0>)
+2025-02-03 11:22:20,400 - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x000001D400B329C0>) completed
+2025-02-03 11:22:20,400 - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Connection object at 0x000001D4021544F0>, 'SELECT * FROM crawled_data WHERE url = ?', ('https://forum.mikrotik.com/viewforum.php?f=2&start=0',))
+2025-02-03 11:22:20,402 - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Connection object at 0x000001D4021544F0>, 'SELECT * FROM crawled_data WHERE url = ?', ('https://forum.mikrotik.com/viewforum.php?f=2&start=0',)) completed
+2025-02-03 11:22:20,402 - DEBUG - executing functools.partial(<built-in method fetchone of sqlite3.Cursor object at 0x000001D400B32AC0>)
+2025-02-03 11:22:20,402 - DEBUG - operation functools.partial(<built-in method fetchone of sqlite3.Cursor object at 0x000001D400B32AC0>) completed
+2025-02-03 11:22:20,439 - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x000001D400B32AC0>)
+2025-02-03 11:22:20,440 - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x000001D400B32AC0>) completed
+2025-02-03 11:22:20,440 - DEBUG - executing functools.partial(<built-in method commit of sqlite3.Connection object at 0x000001D4021544F0>)
+2025-02-03 11:22:20,440 - DEBUG - operation functools.partial(<built-in method commit of sqlite3.Connection object at 0x000001D4021544F0>) completed
+2025-02-03 11:22:20,441 - DEBUG - executing functools.partial(<built-in method close of sqlite3.Connection object at 0x000001D4021544F0>)
+2025-02-03 11:22:20,441 - DEBUG - operation functools.partial(<built-in method close of sqlite3.Connection object at 0x000001D4021544F0>) completed
+2025-02-03 11:22:21,147 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214357&p=1123429&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1123429
+2025-02-03 11:22:21,147 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=175272&p=871239&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p871239
+2025-02-03 11:22:21,148 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214377&p=1123337&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1123337
+2025-02-03 11:22:21,148 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213426&p=1115760&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1115760
+2025-02-03 11:22:21,148 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=211174&p=1123115&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1123115
+2025-02-03 11:22:21,148 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=184457&p=921733&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p921733
+2025-02-03 11:22:21,148 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214151&p=1122718&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1122718
+2025-02-03 11:22:21,149 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213973&p=1119770&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1119770
+2025-02-03 11:22:21,149 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214267&p=1122464&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1122464
+2025-02-03 11:22:21,149 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214281&p=1122534&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1122534
+2025-02-03 11:22:21,149 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213944&p=1119908&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1119908
+2025-02-03 11:22:21,149 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213724&p=1121556&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1121556
+2025-02-03 11:22:21,149 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213819&p=1119329&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1119329
+2025-02-03 11:22:21,150 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214219&p=1121881&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1121881
+2025-02-03 11:22:21,150 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214183&p=1121532&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1121532
+2025-02-03 11:22:21,150 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214175&p=1121497&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1121497
+2025-02-03 11:22:21,150 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214154&p=1121405&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1121405
+2025-02-03 11:22:21,150 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214177&p=1121530&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1121530
+2025-02-03 11:22:21,150 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214096&p=1121023&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1121023
+2025-02-03 11:22:21,150 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=209239&p=1085433&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1085433
+2025-02-03 11:22:21,151 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214108&p=1120993&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1120993
+2025-02-03 11:22:21,151 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214082&p=1120860&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1120860
+2025-02-03 11:22:21,151 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214079&p=1120649&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1120649
+2025-02-03 11:22:21,151 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214064&p=1120540&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1120540
+2025-02-03 11:22:21,151 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214020&p=1120202&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1120202
+2025-02-03 11:22:21,151 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=209607&p=1105694&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1105694
+2025-02-03 11:22:21,152 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213995&p=1119977&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1119977
+2025-02-03 11:22:21,152 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=204158&p=1119824&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1119824
+2025-02-03 11:22:21,152 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213972&p=1119783&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1119783
+2025-02-03 11:22:21,152 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213943&p=1119620&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1119620
+2025-02-03 11:22:21,152 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213914&p=1119522&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1119522
+2025-02-03 11:22:21,152 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=201379&p=1035328&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1035328
+2025-02-03 11:22:21,153 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=212632&p=1110020&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1110020
+2025-02-03 11:22:21,153 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213932&p=1119392&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1119392
+2025-02-03 11:22:21,153 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=159417&p=783308&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p783308
+2025-02-03 11:22:21,153 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213901&p=1119176&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1119176
+2025-02-03 11:22:21,153 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=203175&p=1047005&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1047005
+2025-02-03 11:22:21,153 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213840&p=1118708&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1118708
+2025-02-03 11:22:21,154 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213771&p=1118367&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1118367
+2025-02-03 11:22:21,154 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213691&p=1118434&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1118434
+2025-02-03 11:22:21,154 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213805&p=1118583&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1118583
+2025-02-03 11:22:21,154 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213356&p=1117809&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1117809
+2025-02-03 11:22:21,154 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213801&p=1118394&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1118394
+2025-02-03 11:22:21,154 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=210246&p=1092183&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1092183
+2025-02-03 11:22:21,155 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213718&p=1117827&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1117827
+2025-02-03 11:22:21,155 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=189289&p=975068&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p975068
+2025-02-03 11:22:21,155 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=193182&p=981628&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p981628
+2025-02-03 11:22:21,155 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213681&p=1117633&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1117633
+2025-02-03 11:22:21,155 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213610&p=1117216&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1117216
+2025-02-03 11:22:21,155 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213421&p=1115765&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1115765
+2025-02-03 11:22:21,156 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213668&p=1117437&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1117437
+2025-02-03 11:22:21,156 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213632&p=1117218&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1117218
+2025-02-03 11:22:21,156 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213622&p=1117281&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1117281
+2025-02-03 11:22:21,156 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213628&p=1117166&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1117166
+2025-02-03 11:22:21,156 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213600&p=1117058&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1117058
+2025-02-03 11:22:21,156 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213508&p=1116158&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1116158
+2025-02-03 11:22:21,156 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213564&p=1116837&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1116837
+2025-02-03 11:22:21,241 - DEBUG - Fetching page 1 from https://forum.mikrotik.com/viewforum.php?f=2&start=50
+2025-02-03 11:22:23,246 - DEBUG - executing <function connect.<locals>.connector at 0x000001D46970C680>
+2025-02-03 11:22:23,246 - DEBUG - operation <function connect.<locals>.connector at 0x000001D46970C680> completed
+2025-02-03 11:22:23,247 - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Connection object at 0x000001D402154A90>, 'PRAGMA journal_mode = WAL', [])
+2025-02-03 11:22:23,283 - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Connection object at 0x000001D402154A90>, 'PRAGMA journal_mode = WAL', []) completed
+2025-02-03 11:22:23,283 - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Connection object at 0x000001D402154A90>, 'PRAGMA busy_timeout = 5000', [])
+2025-02-03 11:22:23,283 - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Connection object at 0x000001D402154A90>, 'PRAGMA busy_timeout = 5000', []) completed
+2025-02-03 11:22:23,284 - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Connection object at 0x000001D402154A90>, 'PRAGMA table_info(crawled_data)', [])
+2025-02-03 11:22:23,284 - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Connection object at 0x000001D402154A90>, 'PRAGMA table_info(crawled_data)', []) completed
+2025-02-03 11:22:23,284 - DEBUG - executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x000001D404313240>)
+2025-02-03 11:22:23,284 - DEBUG - operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x000001D404313240>) completed
+2025-02-03 11:22:23,285 - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x000001D404313240>)
+2025-02-03 11:22:23,285 - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x000001D404313240>) completed
+2025-02-03 11:22:23,285 - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Connection object at 0x000001D402154A90>, 'SELECT * FROM crawled_data WHERE url = ?', ('https://forum.mikrotik.com/viewforum.php?f=2&start=50',))
+2025-02-03 11:22:23,287 - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Connection object at 0x000001D402154A90>, 'SELECT * FROM crawled_data WHERE url = ?', ('https://forum.mikrotik.com/viewforum.php?f=2&start=50',)) completed
+2025-02-03 11:22:23,287 - DEBUG - executing functools.partial(<built-in method fetchone of sqlite3.Cursor object at 0x000001D404313440>)
+2025-02-03 11:22:23,287 - DEBUG - operation functools.partial(<built-in method fetchone of sqlite3.Cursor object at 0x000001D404313440>) completed
+2025-02-03 11:22:23,490 - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x000001D404313440>)
+2025-02-03 11:22:23,491 - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x000001D404313440>) completed
+2025-02-03 11:22:23,491 - DEBUG - executing functools.partial(<built-in method commit of sqlite3.Connection object at 0x000001D402154A90>)
+2025-02-03 11:22:23,491 - DEBUG - operation functools.partial(<built-in method commit of sqlite3.Connection object at 0x000001D402154A90>) completed
+2025-02-03 11:22:23,491 - DEBUG - executing functools.partial(<built-in method close of sqlite3.Connection object at 0x000001D402154A90>)
+2025-02-03 11:22:23,492 - DEBUG - operation functools.partial(<built-in method close of sqlite3.Connection object at 0x000001D402154A90>) completed
+2025-02-03 11:22:24,223 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214151&p=1122718&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1122718
+2025-02-03 11:22:24,224 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213973&p=1119770&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1119770
+2025-02-03 11:22:24,224 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214267&p=1122464&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1122464
+2025-02-03 11:22:24,224 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214281&p=1122534&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1122534
+2025-02-03 11:22:24,224 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213944&p=1119908&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1119908
+2025-02-03 11:22:24,225 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213724&p=1121556&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1121556
+2025-02-03 11:22:24,225 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213819&p=1119329&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1119329
+2025-02-03 11:22:24,225 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214219&p=1121881&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1121881
+2025-02-03 11:22:24,225 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214183&p=1121532&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1121532
+2025-02-03 11:22:24,226 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214175&p=1121497&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1121497
+2025-02-03 11:22:24,226 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214154&p=1121405&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1121405
+2025-02-03 11:22:24,226 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214177&p=1121530&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1121530
+2025-02-03 11:22:24,226 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214096&p=1121023&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1121023
+2025-02-03 11:22:24,226 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=209239&p=1085433&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1085433
+2025-02-03 11:22:24,226 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214108&p=1120993&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1120993
+2025-02-03 11:22:24,227 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214082&p=1120860&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1120860
+2025-02-03 11:22:24,227 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214079&p=1120649&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1120649
+2025-02-03 11:22:24,227 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214064&p=1120540&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1120540
+2025-02-03 11:22:24,227 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214020&p=1120202&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1120202
+2025-02-03 11:22:24,227 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=209607&p=1105694&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1105694
+2025-02-03 11:22:24,227 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213995&p=1119977&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1119977
+2025-02-03 11:22:24,228 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=204158&p=1119824&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1119824
+2025-02-03 11:22:24,228 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213972&p=1119783&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1119783
+2025-02-03 11:22:24,228 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213943&p=1119620&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1119620
+2025-02-03 11:22:24,228 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213914&p=1119522&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1119522
+2025-02-03 11:22:24,228 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=201379&p=1035328&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1035328
+2025-02-03 11:22:24,228 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=212632&p=1110020&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1110020
+2025-02-03 11:22:24,229 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213932&p=1119392&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1119392
+2025-02-03 11:22:24,229 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=159417&p=783308&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p783308
+2025-02-03 11:22:24,229 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213901&p=1119176&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1119176
+2025-02-03 11:22:24,229 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=203175&p=1047005&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1047005
+2025-02-03 11:22:24,229 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213840&p=1118708&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1118708
+2025-02-03 11:22:24,229 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213771&p=1118367&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1118367
+2025-02-03 11:22:24,230 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213691&p=1118434&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1118434
+2025-02-03 11:22:24,230 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213805&p=1118583&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1118583
+2025-02-03 11:22:24,230 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213356&p=1117809&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1117809
+2025-02-03 11:22:24,230 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213801&p=1118394&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1118394
+2025-02-03 11:22:24,230 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=210246&p=1092183&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1092183
+2025-02-03 11:22:24,231 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213718&p=1117827&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1117827
+2025-02-03 11:22:24,231 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=189289&p=975068&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p975068
+2025-02-03 11:22:24,231 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=193182&p=981628&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p981628
+2025-02-03 11:22:24,231 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213681&p=1117633&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1117633
+2025-02-03 11:22:24,231 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213610&p=1117216&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1117216
+2025-02-03 11:22:24,231 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213421&p=1115765&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1115765
+2025-02-03 11:22:24,232 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213668&p=1117437&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1117437
+2025-02-03 11:22:24,232 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213632&p=1117218&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1117218
+2025-02-03 11:22:24,232 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213622&p=1117281&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1117281
+2025-02-03 11:22:24,232 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213628&p=1117166&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1117166
+2025-02-03 11:22:24,232 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213600&p=1117058&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1117058
+2025-02-03 11:22:24,232 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213508&p=1116158&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1116158
+2025-02-03 11:22:24,232 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213564&p=1116837&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1116837
+2025-02-03 11:22:24,233 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213418&p=1116791&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1116791
+2025-02-03 11:22:24,233 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213134&p=1113840&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1113840
+2025-02-03 11:22:24,233 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213486&p=1116349&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1116349
+2025-02-03 11:22:24,233 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213495&p=1116315&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1116315
+2025-02-03 11:22:24,233 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213436&p=1116319&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1116319
+2025-02-03 11:22:24,318 - DEBUG - Fetching page 2 from https://forum.mikrotik.com/viewforum.php?f=2&start=100
+2025-02-03 11:22:26,464 - DEBUG - executing <function connect.<locals>.connector at 0x000001D400B48540>
+2025-02-03 11:22:26,464 - DEBUG - operation <function connect.<locals>.connector at 0x000001D400B48540> completed
+2025-02-03 11:22:26,464 - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Connection object at 0x000001D4021545E0>, 'PRAGMA journal_mode = WAL', [])
+2025-02-03 11:22:26,465 - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Connection object at 0x000001D4021545E0>, 'PRAGMA journal_mode = WAL', []) completed
+2025-02-03 11:22:26,466 - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Connection object at 0x000001D4021545E0>, 'PRAGMA busy_timeout = 5000', [])
+2025-02-03 11:22:26,466 - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Connection object at 0x000001D4021545E0>, 'PRAGMA busy_timeout = 5000', []) completed
+2025-02-03 11:22:26,466 - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Connection object at 0x000001D4021545E0>, 'PRAGMA table_info(crawled_data)', [])
+2025-02-03 11:22:26,466 - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Connection object at 0x000001D4021545E0>, 'PRAGMA table_info(crawled_data)', []) completed
+2025-02-03 11:22:26,466 - DEBUG - executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x000001D402144E40>)
+2025-02-03 11:22:26,467 - DEBUG - operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x000001D402144E40>) completed
+2025-02-03 11:22:26,467 - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x000001D402144E40>)
+2025-02-03 11:22:26,467 - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x000001D402144E40>) completed
+2025-02-03 11:22:26,467 - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Connection object at 0x000001D4021545E0>, 'SELECT * FROM crawled_data WHERE url = ?', ('https://forum.mikrotik.com/viewforum.php?f=2&start=100',))
+2025-02-03 11:22:26,504 - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Connection object at 0x000001D4021545E0>, 'SELECT * FROM crawled_data WHERE url = ?', ('https://forum.mikrotik.com/viewforum.php?f=2&start=100',)) completed
+2025-02-03 11:22:26,504 - DEBUG - executing functools.partial(<built-in method fetchone of sqlite3.Cursor object at 0x000001D40217BBC0>)
+2025-02-03 11:22:26,505 - DEBUG - operation functools.partial(<built-in method fetchone of sqlite3.Cursor object at 0x000001D40217BBC0>) completed
+2025-02-03 11:22:26,705 - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x000001D40217BBC0>)
+2025-02-03 11:22:26,706 - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x000001D40217BBC0>) completed
+2025-02-03 11:22:26,706 - DEBUG - executing functools.partial(<built-in method commit of sqlite3.Connection object at 0x000001D4021545E0>)
+2025-02-03 11:22:26,707 - DEBUG - operation functools.partial(<built-in method commit of sqlite3.Connection object at 0x000001D4021545E0>) completed
+2025-02-03 11:22:26,707 - DEBUG - executing functools.partial(<built-in method close of sqlite3.Connection object at 0x000001D4021545E0>)
+2025-02-03 11:22:26,707 - DEBUG - operation functools.partial(<built-in method close of sqlite3.Connection object at 0x000001D4021545E0>) completed
+2025-02-03 11:22:27,429 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214267&p=1122464#p1122464
+2025-02-03 11:22:27,429 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214281&p=1122534#p1122534
+2025-02-03 11:22:27,430 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213944&p=1119908#p1119908
+2025-02-03 11:22:27,430 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213724&p=1121556#p1121556
+2025-02-03 11:22:27,430 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213819&p=1119329#p1119329
+2025-02-03 11:22:27,430 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214219&p=1121881#p1121881
+2025-02-03 11:22:27,430 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214183&p=1121532#p1121532
+2025-02-03 11:22:27,430 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214175&p=1121497#p1121497
+2025-02-03 11:22:27,431 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214154&p=1121405#p1121405
+2025-02-03 11:22:27,431 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214177&p=1121530#p1121530
+2025-02-03 11:22:27,431 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214096&p=1121023#p1121023
+2025-02-03 11:22:27,431 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=209239&p=1085433#p1085433
+2025-02-03 11:22:27,431 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214108&p=1120993#p1120993
+2025-02-03 11:22:27,431 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214082&p=1120860#p1120860
+2025-02-03 11:22:27,431 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214079&p=1120649#p1120649
+2025-02-03 11:22:27,432 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214064&p=1120540#p1120540
+2025-02-03 11:22:27,432 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214020&p=1120202#p1120202
+2025-02-03 11:22:27,432 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=209607&p=1105694#p1105694
+2025-02-03 11:22:27,432 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213995&p=1119977#p1119977
+2025-02-03 11:22:27,432 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=204158&p=1119824#p1119824
+2025-02-03 11:22:27,432 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213972&p=1119783#p1119783
+2025-02-03 11:22:27,433 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213943&p=1119620#p1119620
+2025-02-03 11:22:27,433 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213914&p=1119522#p1119522
+2025-02-03 11:22:27,433 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=201379&p=1035328#p1035328
+2025-02-03 11:22:27,433 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=212632&p=1110020#p1110020
+2025-02-03 11:22:27,433 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213932&p=1119392#p1119392
+2025-02-03 11:22:27,433 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=159417&p=783308#p783308
+2025-02-03 11:22:27,433 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213901&p=1119176#p1119176
+2025-02-03 11:22:27,434 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=203175&p=1047005#p1047005
+2025-02-03 11:22:27,434 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213840&p=1118708#p1118708
+2025-02-03 11:22:27,434 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213771&p=1118367#p1118367
+2025-02-03 11:22:27,434 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213691&p=1118434#p1118434
+2025-02-03 11:22:27,434 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213805&p=1118583#p1118583
+2025-02-03 11:22:27,435 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213356&p=1117809#p1117809
+2025-02-03 11:22:27,435 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213801&p=1118394#p1118394
+2025-02-03 11:22:27,435 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=210246&p=1092183#p1092183
+2025-02-03 11:22:27,435 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213718&p=1117827#p1117827
+2025-02-03 11:22:27,436 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=189289&p=975068#p975068
+2025-02-03 11:22:27,436 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=193182&p=981628#p981628
+2025-02-03 11:22:27,436 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213681&p=1117633#p1117633
+2025-02-03 11:22:27,436 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213610&p=1117216#p1117216
+2025-02-03 11:22:27,436 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213421&p=1115765#p1115765
+2025-02-03 11:22:27,436 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213668&p=1117437#p1117437
+2025-02-03 11:22:27,437 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213632&p=1117218#p1117218
+2025-02-03 11:22:27,437 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213622&p=1117281#p1117281
+2025-02-03 11:22:27,437 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213628&p=1117166#p1117166
+2025-02-03 11:22:27,437 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213600&p=1117058#p1117058
+2025-02-03 11:22:27,437 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213508&p=1116158#p1116158
+2025-02-03 11:22:27,437 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213564&p=1116837#p1116837
+2025-02-03 11:22:27,437 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213418&p=1116791#p1116791
+2025-02-03 11:22:27,438 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213134&p=1113840#p1113840
+2025-02-03 11:22:27,438 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213486&p=1116349#p1116349
+2025-02-03 11:22:27,438 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213495&p=1116315#p1116315
+2025-02-03 11:22:27,438 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213436&p=1116319#p1116319
+2025-02-03 11:22:27,438 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213377&p=1115976#p1115976
+2025-02-03 11:22:27,438 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213427&p=1115775#p1115775
+2025-02-03 11:22:27,439 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213069&p=1115616#p1115616
+2025-02-03 11:22:27,526 - DEBUG - Fetching page 3 from https://forum.mikrotik.com/viewforum.php?f=2&start=150
+2025-02-03 11:22:29,533 - DEBUG - executing <function connect.<locals>.connector at 0x000001D400B48540>
+2025-02-03 11:22:29,533 - DEBUG - operation <function connect.<locals>.connector at 0x000001D400B48540> completed
+2025-02-03 11:22:29,534 - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Connection object at 0x000001D402154A90>, 'PRAGMA journal_mode = WAL', [])
+2025-02-03 11:22:29,534 - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Connection object at 0x000001D402154A90>, 'PRAGMA journal_mode = WAL', []) completed
+2025-02-03 11:22:29,535 - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Connection object at 0x000001D402154A90>, 'PRAGMA busy_timeout = 5000', [])
+2025-02-03 11:22:29,535 - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Connection object at 0x000001D402154A90>, 'PRAGMA busy_timeout = 5000', []) completed
+2025-02-03 11:22:29,535 - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Connection object at 0x000001D402154A90>, 'PRAGMA table_info(crawled_data)', [])
+2025-02-03 11:22:29,535 - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Connection object at 0x000001D402154A90>, 'PRAGMA table_info(crawled_data)', []) completed
+2025-02-03 11:22:29,536 - DEBUG - executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x000001D404CDB940>)
+2025-02-03 11:22:29,536 - DEBUG - operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x000001D404CDB940>) completed
+2025-02-03 11:22:29,536 - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x000001D404CDB940>)
+2025-02-03 11:22:29,536 - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x000001D404CDB940>) completed
+2025-02-03 11:22:29,536 - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Connection object at 0x000001D402154A90>, 'SELECT * FROM crawled_data WHERE url = ?', ('https://forum.mikrotik.com/viewforum.php?f=2&start=150',))
+2025-02-03 11:22:29,537 - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Connection object at 0x000001D402154A90>, 'SELECT * FROM crawled_data WHERE url = ?', ('https://forum.mikrotik.com/viewforum.php?f=2&start=150',)) completed
+2025-02-03 11:22:29,537 - DEBUG - executing functools.partial(<built-in method fetchone of sqlite3.Cursor object at 0x000001D404CDB7C0>)
+2025-02-03 11:22:29,538 - DEBUG - operation functools.partial(<built-in method fetchone of sqlite3.Cursor object at 0x000001D404CDB7C0>) completed
+2025-02-03 11:22:29,732 - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x000001D404CDB7C0>)
+2025-02-03 11:22:29,732 - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x000001D404CDB7C0>) completed
+2025-02-03 11:22:29,732 - DEBUG - executing functools.partial(<built-in method commit of sqlite3.Connection object at 0x000001D402154A90>)
+2025-02-03 11:22:29,734 - DEBUG - operation functools.partial(<built-in method commit of sqlite3.Connection object at 0x000001D402154A90>) completed
+2025-02-03 11:22:29,734 - DEBUG - executing functools.partial(<built-in method close of sqlite3.Connection object at 0x000001D402154A90>)
+2025-02-03 11:22:29,734 - DEBUG - operation functools.partial(<built-in method close of sqlite3.Connection object at 0x000001D402154A90>) completed
+2025-02-03 11:22:30,582 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214183&p=1121532#p1121532
+2025-02-03 11:22:30,582 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214175&p=1121497#p1121497
+2025-02-03 11:22:30,582 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214154&p=1121405#p1121405
+2025-02-03 11:22:30,582 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214177&p=1121530#p1121530
+2025-02-03 11:22:30,583 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214096&p=1121023#p1121023
+2025-02-03 11:22:30,583 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=209239&p=1085433#p1085433
+2025-02-03 11:22:30,583 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214108&p=1120993#p1120993
+2025-02-03 11:22:30,583 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214082&p=1120860#p1120860
+2025-02-03 11:22:30,583 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214079&p=1120649#p1120649
+2025-02-03 11:22:30,583 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214064&p=1120540#p1120540
+2025-02-03 11:22:30,583 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214020&p=1120202#p1120202
+2025-02-03 11:22:30,584 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=209607&p=1105694#p1105694
+2025-02-03 11:22:30,584 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213995&p=1119977#p1119977
+2025-02-03 11:22:30,584 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=204158&p=1119824#p1119824
+2025-02-03 11:22:30,584 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213972&p=1119783#p1119783
+2025-02-03 11:22:30,584 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213943&p=1119620#p1119620
+2025-02-03 11:22:30,584 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213914&p=1119522#p1119522
+2025-02-03 11:22:30,584 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=201379&p=1035328#p1035328
+2025-02-03 11:22:30,585 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=212632&p=1110020#p1110020
+2025-02-03 11:22:30,585 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213932&p=1119392#p1119392
+2025-02-03 11:22:30,585 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=159417&p=783308#p783308
+2025-02-03 11:22:30,585 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213901&p=1119176#p1119176
+2025-02-03 11:22:30,585 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=203175&p=1047005#p1047005
+2025-02-03 11:22:30,585 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213840&p=1118708#p1118708
+2025-02-03 11:22:30,586 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213771&p=1118367#p1118367
+2025-02-03 11:22:30,586 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213691&p=1118434#p1118434
+2025-02-03 11:22:30,586 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213805&p=1118583#p1118583
+2025-02-03 11:22:30,586 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213356&p=1117809#p1117809
+2025-02-03 11:22:30,586 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213801&p=1118394#p1118394
+2025-02-03 11:22:30,586 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=210246&p=1092183#p1092183
+2025-02-03 11:22:30,586 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213718&p=1117827#p1117827
+2025-02-03 11:22:30,587 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=189289&p=975068#p975068
+2025-02-03 11:22:30,587 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=193182&p=981628#p981628
+2025-02-03 11:22:30,587 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213681&p=1117633#p1117633
+2025-02-03 11:22:30,587 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213610&p=1117216#p1117216
+2025-02-03 11:22:30,587 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213421&p=1115765#p1115765
+2025-02-03 11:22:30,587 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213668&p=1117437#p1117437
+2025-02-03 11:22:30,587 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213632&p=1117218#p1117218
+2025-02-03 11:22:30,588 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213622&p=1117281#p1117281
+2025-02-03 11:22:30,588 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213628&p=1117166#p1117166
+2025-02-03 11:22:30,588 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213600&p=1117058#p1117058
+2025-02-03 11:22:30,588 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213508&p=1116158#p1116158
+2025-02-03 11:22:30,588 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213564&p=1116837#p1116837
+2025-02-03 11:22:30,588 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213418&p=1116791#p1116791
+2025-02-03 11:22:30,588 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213134&p=1113840#p1113840
+2025-02-03 11:22:30,589 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213486&p=1116349#p1116349
+2025-02-03 11:22:30,589 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213495&p=1116315#p1116315
+2025-02-03 11:22:30,589 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213436&p=1116319#p1116319
+2025-02-03 11:22:30,589 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213377&p=1115976#p1115976
+2025-02-03 11:22:30,589 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213427&p=1115775#p1115775
+2025-02-03 11:22:30,589 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213069&p=1115616#p1115616
+2025-02-03 11:22:30,589 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213341&p=1115185#p1115185
+2025-02-03 11:22:30,590 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213163&p=1114617#p1114617
+2025-02-03 11:22:30,590 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213255&p=1114573#p1114573
+2025-02-03 11:22:30,675 - DEBUG - Fetching page 4 from https://forum.mikrotik.com/viewforum.php?f=2&start=200
+2025-02-03 11:26:39,345 - DEBUG - Using proactor: IocpProactor
+2025-02-03 11:26:39,347 - INFO - Starting forum crawl at: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum
+2025-02-03 11:26:39,834 - INFO - Processing section: RouterOS (ID: 2)
+2025-02-03 11:26:39,834 - DEBUG - Fetching page 0 from https://forum.mikrotik.com/viewforum.php?f=2&start=0
+2025-02-03 11:26:41,841 - DEBUG - executing <function connect.<locals>.connector at 0x00000127756D3920>
+2025-02-03 11:26:41,841 - DEBUG - operation <function connect.<locals>.connector at 0x00000127756D3920> completed
+2025-02-03 11:26:41,842 - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Connection object at 0x0000012776A645E0>, '\n                CREATE TABLE IF NOT EXISTS crawled_data (\n                    url TEXT PRIMARY KEY,\n                    html TEXT,\n                    cleaned_html TEXT,\n                    markdown TEXT,\n                    extracted_content TEXT,\n                    success BOOLEAN,\n                    media TEXT DEFAULT "{}",\n                    links TEXT DEFAULT "{}",\n                    metadata TEXT DEFAULT "{}",\n                    screenshot TEXT DEFAULT "",\n                    response_headers TEXT DEFAULT "{}",\n                    downloaded_files TEXT DEFAULT "{}"  -- New column added\n                )\n            ', [])
+2025-02-03 11:26:41,843 - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Connection object at 0x0000012776A645E0>, '\n                CREATE TABLE IF NOT EXISTS crawled_data (\n                    url TEXT PRIMARY KEY,\n                    html TEXT,\n                    cleaned_html TEXT,\n                    markdown TEXT,\n                    extracted_content TEXT,\n                    success BOOLEAN,\n                    media TEXT DEFAULT "{}",\n                    links TEXT DEFAULT "{}",\n                    metadata TEXT DEFAULT "{}",\n                    screenshot TEXT DEFAULT "",\n                    response_headers TEXT DEFAULT "{}",\n                    downloaded_files TEXT DEFAULT "{}"  -- New column added\n                )\n            ', []) completed
+2025-02-03 11:26:41,843 - DEBUG - executing functools.partial(<built-in method commit of sqlite3.Connection object at 0x0000012776A645E0>)
+2025-02-03 11:26:41,843 - DEBUG - operation functools.partial(<built-in method commit of sqlite3.Connection object at 0x0000012776A645E0>) completed
+2025-02-03 11:26:41,843 - DEBUG - executing functools.partial(<built-in method close of sqlite3.Connection object at 0x0000012776A645E0>)
+2025-02-03 11:26:41,844 - DEBUG - operation functools.partial(<built-in method close of sqlite3.Connection object at 0x0000012776A645E0>) completed
+2025-02-03 11:26:41,844 - DEBUG - executing <function connect.<locals>.connector at 0x00000127756D3EC0>
+2025-02-03 11:26:41,844 - DEBUG - operation <function connect.<locals>.connector at 0x00000127756D3EC0> completed
+2025-02-03 11:26:41,845 - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Connection object at 0x0000012776A645E0>, "SELECT name FROM sqlite_master WHERE type='table' AND name='crawled_data'", [])
+2025-02-03 11:26:41,845 - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Connection object at 0x0000012776A645E0>, "SELECT name FROM sqlite_master WHERE type='table' AND name='crawled_data'", []) completed
+2025-02-03 11:26:41,846 - DEBUG - executing functools.partial(<built-in method fetchone of sqlite3.Cursor object at 0x00000127754427C0>)
+2025-02-03 11:26:41,846 - DEBUG - operation functools.partial(<built-in method fetchone of sqlite3.Cursor object at 0x00000127754427C0>) completed
+2025-02-03 11:26:41,846 - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x00000127754427C0>)
+2025-02-03 11:26:41,846 - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x00000127754427C0>) completed
+2025-02-03 11:26:41,846 - DEBUG - executing functools.partial(<built-in method close of sqlite3.Connection object at 0x0000012776A645E0>)
+2025-02-03 11:26:41,847 - DEBUG - operation functools.partial(<built-in method close of sqlite3.Connection object at 0x0000012776A645E0>) completed
+2025-02-03 11:26:41,847 - DEBUG - executing <function connect.<locals>.connector at 0x00000127756D3EC0>
+2025-02-03 11:26:41,848 - DEBUG - operation <function connect.<locals>.connector at 0x00000127756D3EC0> completed
+2025-02-03 11:26:41,848 - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Connection object at 0x0000012776A644F0>, 'PRAGMA journal_mode = WAL', [])
+2025-02-03 11:26:41,848 - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Connection object at 0x0000012776A644F0>, 'PRAGMA journal_mode = WAL', []) completed
+2025-02-03 11:26:41,849 - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Connection object at 0x0000012776A644F0>, 'PRAGMA busy_timeout = 5000', [])
+2025-02-03 11:26:41,849 - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Connection object at 0x0000012776A644F0>, 'PRAGMA busy_timeout = 5000', []) completed
+2025-02-03 11:26:41,849 - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Connection object at 0x0000012776A644F0>, 'PRAGMA table_info(crawled_data)', [])
+2025-02-03 11:26:41,849 - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Connection object at 0x0000012776A644F0>, 'PRAGMA table_info(crawled_data)', []) completed
+2025-02-03 11:26:41,849 - DEBUG - executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x0000012775442840>)
+2025-02-03 11:26:41,850 - DEBUG - operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x0000012775442840>) completed
+2025-02-03 11:26:41,850 - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000012775442840>)
+2025-02-03 11:26:41,850 - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000012775442840>) completed
+2025-02-03 11:26:41,850 - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Connection object at 0x0000012776A644F0>, 'SELECT * FROM crawled_data WHERE url = ?', ('https://forum.mikrotik.com/viewforum.php?f=2&start=0',))
+2025-02-03 11:26:41,851 - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Connection object at 0x0000012776A644F0>, 'SELECT * FROM crawled_data WHERE url = ?', ('https://forum.mikrotik.com/viewforum.php?f=2&start=0',)) completed
+2025-02-03 11:26:41,851 - DEBUG - executing functools.partial(<built-in method fetchone of sqlite3.Cursor object at 0x0000012775442940>)
+2025-02-03 11:26:41,851 - DEBUG - operation functools.partial(<built-in method fetchone of sqlite3.Cursor object at 0x0000012775442940>) completed
+2025-02-03 11:26:41,883 - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000012775442940>)
+2025-02-03 11:26:41,883 - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000012775442940>) completed
+2025-02-03 11:26:41,883 - DEBUG - executing functools.partial(<built-in method commit of sqlite3.Connection object at 0x0000012776A644F0>)
+2025-02-03 11:26:41,884 - DEBUG - operation functools.partial(<built-in method commit of sqlite3.Connection object at 0x0000012776A644F0>) completed
+2025-02-03 11:26:41,884 - DEBUG - executing functools.partial(<built-in method close of sqlite3.Connection object at 0x0000012776A644F0>)
+2025-02-03 11:26:41,884 - DEBUG - operation functools.partial(<built-in method close of sqlite3.Connection object at 0x0000012776A644F0>) completed
+2025-02-03 11:26:42,616 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214357&p=1123429&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1123429
+2025-02-03 11:26:42,617 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=175272&p=871239&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p871239
+2025-02-03 11:26:42,617 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214377&p=1123337&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1123337
+2025-02-03 11:26:42,617 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213426&p=1115760&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1115760
+2025-02-03 11:26:42,617 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=211174&p=1123115&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1123115
+2025-02-03 11:26:42,617 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=184457&p=921733&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p921733
+2025-02-03 11:26:42,618 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214151&p=1122718&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1122718
+2025-02-03 11:26:42,618 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213973&p=1119770&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1119770
+2025-02-03 11:26:42,618 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214267&p=1122464&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1122464
+2025-02-03 11:26:42,618 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214281&p=1122534&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1122534
+2025-02-03 11:26:42,618 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213944&p=1119908&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1119908
+2025-02-03 11:26:42,618 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213724&p=1121556&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1121556
+2025-02-03 11:26:42,619 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213819&p=1119329&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1119329
+2025-02-03 11:26:42,619 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214219&p=1121881&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1121881
+2025-02-03 11:26:42,619 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214183&p=1121532&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1121532
+2025-02-03 11:26:42,619 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214175&p=1121497&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1121497
+2025-02-03 11:26:42,619 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214154&p=1121405&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1121405
+2025-02-03 11:26:42,619 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214177&p=1121530&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1121530
+2025-02-03 11:26:42,619 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214096&p=1121023&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1121023
+2025-02-03 11:26:42,620 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=209239&p=1085433&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1085433
+2025-02-03 11:26:42,620 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214108&p=1120993&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1120993
+2025-02-03 11:26:42,620 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214082&p=1120860&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1120860
+2025-02-03 11:26:42,620 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214079&p=1120649&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1120649
+2025-02-03 11:26:42,620 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214064&p=1120540&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1120540
+2025-02-03 11:26:42,620 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214020&p=1120202&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1120202
+2025-02-03 11:26:42,621 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=209607&p=1105694&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1105694
+2025-02-03 11:26:42,621 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213995&p=1119977&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1119977
+2025-02-03 11:26:42,621 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=204158&p=1119824&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1119824
+2025-02-03 11:26:42,621 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213972&p=1119783&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1119783
+2025-02-03 11:26:42,621 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213943&p=1119620&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1119620
+2025-02-03 11:26:42,621 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213914&p=1119522&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1119522
+2025-02-03 11:26:42,622 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=201379&p=1035328&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1035328
+2025-02-03 11:26:42,622 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=212632&p=1110020&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1110020
+2025-02-03 11:26:42,622 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213932&p=1119392&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1119392
+2025-02-03 11:26:42,622 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=159417&p=783308&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p783308
+2025-02-03 11:26:42,622 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213901&p=1119176&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1119176
+2025-02-03 11:26:42,623 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=203175&p=1047005&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1047005
+2025-02-03 11:26:42,623 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213840&p=1118708&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1118708
+2025-02-03 11:26:42,623 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213771&p=1118367&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1118367
+2025-02-03 11:26:42,623 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213691&p=1118434&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1118434
+2025-02-03 11:26:42,623 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213805&p=1118583&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1118583
+2025-02-03 11:26:42,624 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213356&p=1117809&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1117809
+2025-02-03 11:26:42,624 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213801&p=1118394&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1118394
+2025-02-03 11:26:42,624 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=210246&p=1092183&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1092183
+2025-02-03 11:26:42,624 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213718&p=1117827&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1117827
+2025-02-03 11:26:42,624 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=189289&p=975068&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p975068
+2025-02-03 11:26:42,624 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=193182&p=981628&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p981628
+2025-02-03 11:26:42,624 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213681&p=1117633&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1117633
+2025-02-03 11:26:42,625 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213610&p=1117216&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1117216
+2025-02-03 11:26:42,625 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213421&p=1115765&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1115765
+2025-02-03 11:26:42,625 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213668&p=1117437&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1117437
+2025-02-03 11:26:42,625 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213632&p=1117218&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1117218
+2025-02-03 11:26:42,625 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213622&p=1117281&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1117281
+2025-02-03 11:26:42,625 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213628&p=1117166&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1117166
+2025-02-03 11:26:42,626 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213600&p=1117058&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1117058
+2025-02-03 11:26:42,626 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213508&p=1116158&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1116158
+2025-02-03 11:26:42,626 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213564&p=1116837&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1116837
+2025-02-03 11:26:42,712 - DEBUG - Fetching page 1 from https://forum.mikrotik.com/viewforum.php?f=2&start=50
+2025-02-03 11:26:44,713 - DEBUG - executing <function connect.<locals>.connector at 0x000001275E048680>
+2025-02-03 11:26:44,713 - DEBUG - operation <function connect.<locals>.connector at 0x000001275E048680> completed
+2025-02-03 11:26:44,714 - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Connection object at 0x0000012776A64A90>, 'PRAGMA journal_mode = WAL', [])
+2025-02-03 11:26:44,715 - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Connection object at 0x0000012776A64A90>, 'PRAGMA journal_mode = WAL', []) completed
+2025-02-03 11:26:44,715 - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Connection object at 0x0000012776A64A90>, 'PRAGMA busy_timeout = 5000', [])
+2025-02-03 11:26:44,715 - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Connection object at 0x0000012776A64A90>, 'PRAGMA busy_timeout = 5000', []) completed
+2025-02-03 11:26:44,715 - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Connection object at 0x0000012776A64A90>, 'PRAGMA table_info(crawled_data)', [])
+2025-02-03 11:26:44,715 - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Connection object at 0x0000012776A64A90>, 'PRAGMA table_info(crawled_data)', []) completed
+2025-02-03 11:26:44,716 - DEBUG - executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x0000012778C230C0>)
+2025-02-03 11:26:44,716 - DEBUG - operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x0000012778C230C0>) completed
+2025-02-03 11:26:44,716 - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000012778C230C0>)
+2025-02-03 11:26:44,716 - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000012778C230C0>) completed
+2025-02-03 11:26:44,716 - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Connection object at 0x0000012776A64A90>, 'SELECT * FROM crawled_data WHERE url = ?', ('https://forum.mikrotik.com/viewforum.php?f=2&start=50',))
+2025-02-03 11:26:44,717 - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Connection object at 0x0000012776A64A90>, 'SELECT * FROM crawled_data WHERE url = ?', ('https://forum.mikrotik.com/viewforum.php?f=2&start=50',)) completed
+2025-02-03 11:26:44,717 - DEBUG - executing functools.partial(<built-in method fetchone of sqlite3.Cursor object at 0x0000012778C232C0>)
+2025-02-03 11:26:44,717 - DEBUG - operation functools.partial(<built-in method fetchone of sqlite3.Cursor object at 0x0000012778C232C0>) completed
+2025-02-03 11:26:44,736 - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000012778C232C0>)
+2025-02-03 11:26:44,736 - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x0000012778C232C0>) completed
+2025-02-03 11:26:44,736 - DEBUG - executing functools.partial(<built-in method commit of sqlite3.Connection object at 0x0000012776A64A90>)
+2025-02-03 11:26:44,736 - DEBUG - operation functools.partial(<built-in method commit of sqlite3.Connection object at 0x0000012776A64A90>) completed
+2025-02-03 11:26:44,737 - DEBUG - executing functools.partial(<built-in method close of sqlite3.Connection object at 0x0000012776A64A90>)
+2025-02-03 11:26:44,775 - DEBUG - operation functools.partial(<built-in method close of sqlite3.Connection object at 0x0000012776A64A90>) completed
+2025-02-03 11:26:45,484 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214151&p=1122718&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1122718
+2025-02-03 11:26:45,484 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213973&p=1119770&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1119770
+2025-02-03 11:26:45,484 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214267&p=1122464&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1122464
+2025-02-03 11:26:45,484 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214281&p=1122534&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1122534
+2025-02-03 11:26:45,485 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213944&p=1119908&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1119908
+2025-02-03 11:26:45,485 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213724&p=1121556&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1121556
+2025-02-03 11:26:45,485 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213819&p=1119329&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1119329
+2025-02-03 11:26:45,485 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214219&p=1121881&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1121881
+2025-02-03 11:26:45,485 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214183&p=1121532&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1121532
+2025-02-03 11:26:45,485 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214175&p=1121497&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1121497
+2025-02-03 11:26:45,486 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214154&p=1121405&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1121405
+2025-02-03 11:26:45,486 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214177&p=1121530&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1121530
+2025-02-03 11:26:45,486 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214096&p=1121023&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1121023
+2025-02-03 11:26:45,486 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=209239&p=1085433&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1085433
+2025-02-03 11:26:45,486 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214108&p=1120993&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1120993
+2025-02-03 11:26:45,486 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214082&p=1120860&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1120860
+2025-02-03 11:26:45,487 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214079&p=1120649&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1120649
+2025-02-03 11:26:45,487 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214064&p=1120540&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1120540
+2025-02-03 11:26:45,487 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214020&p=1120202&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1120202
+2025-02-03 11:26:45,487 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=209607&p=1105694&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1105694
+2025-02-03 11:26:45,487 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213995&p=1119977&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1119977
+2025-02-03 11:26:45,487 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=204158&p=1119824&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1119824
+2025-02-03 11:26:45,488 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213972&p=1119783&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1119783
+2025-02-03 11:26:45,488 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213943&p=1119620&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1119620
+2025-02-03 11:26:45,488 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213914&p=1119522&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1119522
+2025-02-03 11:26:45,488 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=201379&p=1035328&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1035328
+2025-02-03 11:26:45,488 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=212632&p=1110020&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1110020
+2025-02-03 11:26:45,488 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213932&p=1119392&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1119392
+2025-02-03 11:26:45,488 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=159417&p=783308&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p783308
+2025-02-03 11:26:45,489 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213901&p=1119176&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1119176
+2025-02-03 11:26:45,489 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=203175&p=1047005&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1047005
+2025-02-03 11:26:45,489 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213840&p=1118708&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1118708
+2025-02-03 11:26:45,489 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213771&p=1118367&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1118367
+2025-02-03 11:26:45,489 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213691&p=1118434&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1118434
+2025-02-03 11:26:45,490 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213805&p=1118583&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1118583
+2025-02-03 11:26:45,490 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213356&p=1117809&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1117809
+2025-02-03 11:26:45,490 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213801&p=1118394&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1118394
+2025-02-03 11:26:45,490 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=210246&p=1092183&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1092183
+2025-02-03 11:26:45,490 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213718&p=1117827&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1117827
+2025-02-03 11:26:45,490 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=189289&p=975068&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p975068
+2025-02-03 11:26:45,491 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=193182&p=981628&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p981628
+2025-02-03 11:26:45,491 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213681&p=1117633&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1117633
+2025-02-03 11:26:45,491 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213610&p=1117216&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1117216
+2025-02-03 11:26:45,491 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213421&p=1115765&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1115765
+2025-02-03 11:26:45,491 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213668&p=1117437&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1117437
+2025-02-03 11:26:45,491 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213632&p=1117218&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1117218
+2025-02-03 11:26:45,491 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213622&p=1117281&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1117281
+2025-02-03 11:26:45,492 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213628&p=1117166&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1117166
+2025-02-03 11:26:45,492 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213600&p=1117058&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1117058
+2025-02-03 11:26:45,492 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213508&p=1116158&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1116158
+2025-02-03 11:26:45,492 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213564&p=1116837&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1116837
+2025-02-03 11:26:45,492 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213418&p=1116791&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1116791
+2025-02-03 11:26:45,493 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213134&p=1113840&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1113840
+2025-02-03 11:26:45,493 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213486&p=1116349&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1116349
+2025-02-03 11:26:45,493 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213495&p=1116315&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1116315
+2025-02-03 11:26:45,493 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213436&p=1116319&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1116319
+2025-02-03 11:26:45,579 - DEBUG - Fetching page 2 from https://forum.mikrotik.com/viewforum.php?f=2&start=100
+2025-02-03 11:26:47,721 - DEBUG - executing <function connect.<locals>.connector at 0x00000127754544A0>
+2025-02-03 11:26:47,721 - DEBUG - operation <function connect.<locals>.connector at 0x00000127754544A0> completed
+2025-02-03 11:26:47,722 - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Connection object at 0x0000012776A645E0>, 'PRAGMA journal_mode = WAL', [])
+2025-02-03 11:26:47,723 - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Connection object at 0x0000012776A645E0>, 'PRAGMA journal_mode = WAL', []) completed
+2025-02-03 11:26:47,723 - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Connection object at 0x0000012776A645E0>, 'PRAGMA busy_timeout = 5000', [])
+2025-02-03 11:26:47,723 - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Connection object at 0x0000012776A645E0>, 'PRAGMA busy_timeout = 5000', []) completed
+2025-02-03 11:26:47,723 - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Connection object at 0x0000012776A645E0>, 'PRAGMA table_info(crawled_data)', [])
+2025-02-03 11:26:47,723 - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Connection object at 0x0000012776A645E0>, 'PRAGMA table_info(crawled_data)', []) completed
+2025-02-03 11:26:47,724 - DEBUG - executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x000001277526D2C0>)
+2025-02-03 11:26:47,724 - DEBUG - operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x000001277526D2C0>) completed
+2025-02-03 11:26:47,724 - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x000001277526D2C0>)
+2025-02-03 11:26:47,724 - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x000001277526D2C0>) completed
+2025-02-03 11:26:47,724 - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Connection object at 0x0000012776A645E0>, 'SELECT * FROM crawled_data WHERE url = ?', ('https://forum.mikrotik.com/viewforum.php?f=2&start=100',))
+2025-02-03 11:26:47,725 - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Connection object at 0x0000012776A645E0>, 'SELECT * FROM crawled_data WHERE url = ?', ('https://forum.mikrotik.com/viewforum.php?f=2&start=100',)) completed
+2025-02-03 11:26:47,725 - DEBUG - executing functools.partial(<built-in method fetchone of sqlite3.Cursor object at 0x000001277526F540>)
+2025-02-03 11:26:47,725 - DEBUG - operation functools.partial(<built-in method fetchone of sqlite3.Cursor object at 0x000001277526F540>) completed
+2025-02-03 11:26:47,741 - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x000001277526F540>)
+2025-02-03 11:26:47,741 - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x000001277526F540>) completed
+2025-02-03 11:26:47,742 - DEBUG - executing functools.partial(<built-in method commit of sqlite3.Connection object at 0x0000012776A645E0>)
+2025-02-03 11:26:47,742 - DEBUG - operation functools.partial(<built-in method commit of sqlite3.Connection object at 0x0000012776A645E0>) completed
+2025-02-03 11:26:47,742 - DEBUG - executing functools.partial(<built-in method close of sqlite3.Connection object at 0x0000012776A645E0>)
+2025-02-03 11:26:47,743 - DEBUG - operation functools.partial(<built-in method close of sqlite3.Connection object at 0x0000012776A645E0>) completed
+2025-02-03 11:26:48,453 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214267&p=1122464#p1122464
+2025-02-03 11:26:48,453 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214281&p=1122534#p1122534
+2025-02-03 11:26:48,453 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213944&p=1119908#p1119908
+2025-02-03 11:26:48,453 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213724&p=1121556#p1121556
+2025-02-03 11:26:48,454 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213819&p=1119329#p1119329
+2025-02-03 11:26:48,454 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214219&p=1121881#p1121881
+2025-02-03 11:26:48,454 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214183&p=1121532#p1121532
+2025-02-03 11:26:48,454 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214175&p=1121497#p1121497
+2025-02-03 11:26:48,454 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214154&p=1121405#p1121405
+2025-02-03 11:26:48,455 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214177&p=1121530#p1121530
+2025-02-03 11:26:48,455 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214096&p=1121023#p1121023
+2025-02-03 11:26:48,455 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=209239&p=1085433#p1085433
+2025-02-03 11:26:48,455 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214108&p=1120993#p1120993
+2025-02-03 11:26:48,455 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214082&p=1120860#p1120860
+2025-02-03 11:26:48,455 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214079&p=1120649#p1120649
+2025-02-03 11:26:48,456 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214064&p=1120540#p1120540
+2025-02-03 11:26:48,456 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214020&p=1120202#p1120202
+2025-02-03 11:26:48,456 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=209607&p=1105694#p1105694
+2025-02-03 11:26:48,456 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213995&p=1119977#p1119977
+2025-02-03 11:26:48,456 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=204158&p=1119824#p1119824
+2025-02-03 11:26:48,456 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213972&p=1119783#p1119783
+2025-02-03 11:26:48,457 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213943&p=1119620#p1119620
+2025-02-03 11:26:48,457 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213914&p=1119522#p1119522
+2025-02-03 11:26:48,457 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=201379&p=1035328#p1035328
+2025-02-03 11:26:48,457 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=212632&p=1110020#p1110020
+2025-02-03 11:26:48,457 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213932&p=1119392#p1119392
+2025-02-03 11:26:48,457 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=159417&p=783308#p783308
+2025-02-03 11:26:48,458 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213901&p=1119176#p1119176
+2025-02-03 11:26:48,458 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=203175&p=1047005#p1047005
+2025-02-03 11:26:48,458 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213840&p=1118708#p1118708
+2025-02-03 11:26:48,458 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213771&p=1118367#p1118367
+2025-02-03 11:26:48,458 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213691&p=1118434#p1118434
+2025-02-03 11:26:48,458 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213805&p=1118583#p1118583
+2025-02-03 11:26:48,459 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213356&p=1117809#p1117809
+2025-02-03 11:26:48,459 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213801&p=1118394#p1118394
+2025-02-03 11:26:48,459 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=210246&p=1092183#p1092183
+2025-02-03 11:26:48,459 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213718&p=1117827#p1117827
+2025-02-03 11:26:48,459 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=189289&p=975068#p975068
+2025-02-03 11:26:48,459 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=193182&p=981628#p981628
+2025-02-03 11:26:48,459 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213681&p=1117633#p1117633
+2025-02-03 11:26:48,460 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213610&p=1117216#p1117216
+2025-02-03 11:26:48,460 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213421&p=1115765#p1115765
+2025-02-03 11:26:48,460 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213668&p=1117437#p1117437
+2025-02-03 11:26:48,460 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213632&p=1117218#p1117218
+2025-02-03 11:26:48,460 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213622&p=1117281#p1117281
+2025-02-03 11:26:48,460 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213628&p=1117166#p1117166
+2025-02-03 11:26:48,461 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213600&p=1117058#p1117058
+2025-02-03 11:26:48,461 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213508&p=1116158#p1116158
+2025-02-03 11:26:48,461 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213564&p=1116837#p1116837
+2025-02-03 11:26:48,461 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213418&p=1116791#p1116791
+2025-02-03 11:26:48,461 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213134&p=1113840#p1113840
+2025-02-03 11:26:48,461 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213486&p=1116349#p1116349
+2025-02-03 11:26:48,462 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213495&p=1116315#p1116315
+2025-02-03 11:26:48,462 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213436&p=1116319#p1116319
+2025-02-03 11:26:48,462 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213377&p=1115976#p1115976
+2025-02-03 11:26:48,462 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213427&p=1115775#p1115775
+2025-02-03 11:26:48,462 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213069&p=1115616#p1115616
+2025-02-03 11:26:48,548 - DEBUG - Fetching page 3 from https://forum.mikrotik.com/viewforum.php?f=2&start=150
+2025-02-03 11:26:50,557 - DEBUG - executing <function connect.<locals>.connector at 0x00000127754544A0>
+2025-02-03 11:26:50,557 - DEBUG - operation <function connect.<locals>.connector at 0x00000127754544A0> completed
+2025-02-03 11:26:50,557 - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Connection object at 0x0000012776A64A90>, 'PRAGMA journal_mode = WAL', [])
+2025-02-03 11:26:50,558 - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Connection object at 0x0000012776A64A90>, 'PRAGMA journal_mode = WAL', []) completed
+2025-02-03 11:26:50,559 - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Connection object at 0x0000012776A64A90>, 'PRAGMA busy_timeout = 5000', [])
+2025-02-03 11:26:50,559 - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Connection object at 0x0000012776A64A90>, 'PRAGMA busy_timeout = 5000', []) completed
+2025-02-03 11:26:50,559 - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Connection object at 0x0000012776A64A90>, 'PRAGMA table_info(crawled_data)', [])
+2025-02-03 11:26:50,559 - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Connection object at 0x0000012776A64A90>, 'PRAGMA table_info(crawled_data)', []) completed
+2025-02-03 11:26:50,559 - DEBUG - executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x00000127796E77C0>)
+2025-02-03 11:26:50,560 - DEBUG - operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x00000127796E77C0>) completed
+2025-02-03 11:26:50,560 - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x00000127796E77C0>)
+2025-02-03 11:26:50,560 - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x00000127796E77C0>) completed
+2025-02-03 11:26:50,560 - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Connection object at 0x0000012776A64A90>, 'SELECT * FROM crawled_data WHERE url = ?', ('https://forum.mikrotik.com/viewforum.php?f=2&start=150',))
+2025-02-03 11:26:50,561 - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Connection object at 0x0000012776A64A90>, 'SELECT * FROM crawled_data WHERE url = ?', ('https://forum.mikrotik.com/viewforum.php?f=2&start=150',)) completed
+2025-02-03 11:26:50,561 - DEBUG - executing functools.partial(<built-in method fetchone of sqlite3.Cursor object at 0x00000127796E7640>)
+2025-02-03 11:26:50,561 - DEBUG - operation functools.partial(<built-in method fetchone of sqlite3.Cursor object at 0x00000127796E7640>) completed
+2025-02-03 11:26:50,577 - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x00000127796E7640>)
+2025-02-03 11:26:50,578 - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x00000127796E7640>) completed
+2025-02-03 11:26:50,578 - DEBUG - executing functools.partial(<built-in method commit of sqlite3.Connection object at 0x0000012776A64A90>)
+2025-02-03 11:26:50,578 - DEBUG - operation functools.partial(<built-in method commit of sqlite3.Connection object at 0x0000012776A64A90>) completed
+2025-02-03 11:26:50,578 - DEBUG - executing functools.partial(<built-in method close of sqlite3.Connection object at 0x0000012776A64A90>)
+2025-02-03 11:26:50,579 - DEBUG - operation functools.partial(<built-in method close of sqlite3.Connection object at 0x0000012776A64A90>) completed
+2025-02-03 11:26:51,464 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214183&p=1121532#p1121532
+2025-02-03 11:26:51,464 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214175&p=1121497#p1121497
+2025-02-03 11:26:51,465 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214154&p=1121405#p1121405
+2025-02-03 11:26:51,465 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214177&p=1121530#p1121530
+2025-02-03 11:26:51,465 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214096&p=1121023#p1121023
+2025-02-03 11:26:51,465 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=209239&p=1085433#p1085433
+2025-02-03 11:26:51,465 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214108&p=1120993#p1120993
+2025-02-03 11:26:51,466 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214082&p=1120860#p1120860
+2025-02-03 11:26:51,466 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214079&p=1120649#p1120649
+2025-02-03 11:26:51,466 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214064&p=1120540#p1120540
+2025-02-03 11:26:51,466 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=214020&p=1120202#p1120202
+2025-02-03 11:26:51,466 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=209607&p=1105694#p1105694
+2025-02-03 11:26:51,467 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213995&p=1119977#p1119977
+2025-02-03 11:26:51,467 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=204158&p=1119824#p1119824
+2025-02-03 11:26:51,467 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213972&p=1119783#p1119783
+2025-02-03 11:26:51,467 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213943&p=1119620#p1119620
+2025-02-03 11:26:51,467 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213914&p=1119522#p1119522
+2025-02-03 11:26:51,468 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=201379&p=1035328#p1035328
+2025-02-03 11:26:51,468 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=212632&p=1110020#p1110020
+2025-02-03 11:26:51,468 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213932&p=1119392#p1119392
+2025-02-03 11:26:51,468 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=159417&p=783308#p783308
+2025-02-03 11:26:51,468 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213901&p=1119176#p1119176
+2025-02-03 11:26:51,469 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=203175&p=1047005#p1047005
+2025-02-03 11:26:51,469 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213840&p=1118708#p1118708
+2025-02-03 11:26:51,469 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213771&p=1118367#p1118367
+2025-02-03 11:26:51,469 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213691&p=1118434#p1118434
+2025-02-03 11:26:51,469 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213805&p=1118583#p1118583
+2025-02-03 11:26:51,469 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213356&p=1117809#p1117809
+2025-02-03 11:26:51,469 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213801&p=1118394#p1118394
+2025-02-03 11:26:51,470 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=210246&p=1092183#p1092183
+2025-02-03 11:26:51,470 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213718&p=1117827#p1117827
+2025-02-03 11:26:51,470 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=189289&p=975068#p975068
+2025-02-03 11:26:51,470 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=193182&p=981628#p981628
+2025-02-03 11:26:51,470 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213681&p=1117633#p1117633
+2025-02-03 11:26:51,470 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213610&p=1117216#p1117216
+2025-02-03 11:26:51,471 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213421&p=1115765#p1115765
+2025-02-03 11:26:51,471 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213668&p=1117437#p1117437
+2025-02-03 11:26:51,471 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213632&p=1117218#p1117218
+2025-02-03 11:26:51,471 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213622&p=1117281#p1117281
+2025-02-03 11:26:51,471 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213628&p=1117166#p1117166
+2025-02-03 11:26:51,471 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213600&p=1117058#p1117058
+2025-02-03 11:26:51,472 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213508&p=1116158#p1116158
+2025-02-03 11:26:51,472 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213564&p=1116837#p1116837
+2025-02-03 11:26:51,472 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213418&p=1116791#p1116791
+2025-02-03 11:26:51,472 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213134&p=1113840#p1113840
+2025-02-03 11:26:51,472 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213486&p=1116349#p1116349
+2025-02-03 11:26:51,472 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213495&p=1116315#p1116315
+2025-02-03 11:26:51,473 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213436&p=1116319#p1116319
+2025-02-03 11:26:51,473 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213377&p=1115976#p1115976
+2025-02-03 11:26:51,473 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213427&p=1115775#p1115775
+2025-02-03 11:26:51,473 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213069&p=1115616#p1115616
+2025-02-03 11:26:51,473 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213341&p=1115185#p1115185
+2025-02-03 11:26:51,473 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213163&p=1114617#p1114617
+2025-02-03 11:26:51,473 - DEBUG - Added thread URL: https://forum.mikrotik.com/viewtopic.php?f=2&t=213255&p=1114573#p1114573
+2025-02-03 11:26:51,560 - DEBUG - Fetching page 4 from https://forum.mikrotik.com/viewforum.php?f=2&start=200
+2025-02-03 11:27:50,708 - INFO - Starting forum crawl, saving to: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum
+2025-02-03 11:27:51,221 - INFO - Processing section: RouterOS (ID: 2)
+2025-02-03 11:27:51,221 - INFO - Getting page 0 from https://forum.mikrotik.com/viewforum.php?f=2&start=0
+2025-02-03 11:27:53,264 - INFO - Result for https://forum.mikrotik.com/viewforum.php?f=2&start=0 was successful: True
+2025-02-03 11:27:53,963 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214357&p=1123429&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1123429
+2025-02-03 11:27:53,964 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=175272&p=871239&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p871239
+2025-02-03 11:27:53,964 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214377&p=1123337&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1123337
+2025-02-03 11:27:53,964 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213426&p=1115760&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1115760
+2025-02-03 11:27:53,964 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=211174&p=1123115&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1123115
+2025-02-03 11:27:53,964 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=184457&p=921733&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p921733
+2025-02-03 11:27:53,965 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214151&p=1122718&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1122718
+2025-02-03 11:27:53,965 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213973&p=1119770&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1119770
+2025-02-03 11:27:53,965 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214267&p=1122464&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1122464
+2025-02-03 11:27:53,965 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214281&p=1122534&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1122534
+2025-02-03 11:27:53,965 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213944&p=1119908&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1119908
+2025-02-03 11:27:53,965 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213724&p=1121556&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1121556
+2025-02-03 11:27:53,966 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213819&p=1119329&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1119329
+2025-02-03 11:27:53,966 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214219&p=1121881&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1121881
+2025-02-03 11:27:53,966 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214183&p=1121532&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1121532
+2025-02-03 11:27:53,966 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214175&p=1121497&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1121497
+2025-02-03 11:27:53,966 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214154&p=1121405&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1121405
+2025-02-03 11:27:53,966 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214177&p=1121530&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1121530
+2025-02-03 11:27:53,966 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214096&p=1121023&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1121023
+2025-02-03 11:27:53,967 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=209239&p=1085433&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1085433
+2025-02-03 11:27:53,967 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214108&p=1120993&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1120993
+2025-02-03 11:27:53,967 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214082&p=1120860&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1120860
+2025-02-03 11:27:53,967 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214079&p=1120649&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1120649
+2025-02-03 11:27:53,967 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214064&p=1120540&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1120540
+2025-02-03 11:27:53,968 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214020&p=1120202&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1120202
+2025-02-03 11:27:53,968 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=209607&p=1105694&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1105694
+2025-02-03 11:27:53,968 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213995&p=1119977&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1119977
+2025-02-03 11:27:53,968 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=204158&p=1119824&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1119824
+2025-02-03 11:27:53,968 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213972&p=1119783&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1119783
+2025-02-03 11:27:53,968 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213943&p=1119620&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1119620
+2025-02-03 11:27:53,969 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213914&p=1119522&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1119522
+2025-02-03 11:27:53,969 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=201379&p=1035328&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1035328
+2025-02-03 11:27:53,969 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=212632&p=1110020&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1110020
+2025-02-03 11:27:54,039 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213932&p=1119392&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1119392
+2025-02-03 11:27:54,039 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=159417&p=783308&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p783308
+2025-02-03 11:27:54,039 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213901&p=1119176&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1119176
+2025-02-03 11:27:54,039 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=203175&p=1047005&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1047005
+2025-02-03 11:27:54,039 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213840&p=1118708&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1118708
+2025-02-03 11:27:54,040 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213771&p=1118367&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1118367
+2025-02-03 11:27:54,040 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213691&p=1118434&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1118434
+2025-02-03 11:27:54,040 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213805&p=1118583&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1118583
+2025-02-03 11:27:54,040 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213356&p=1117809&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1117809
+2025-02-03 11:27:54,040 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213801&p=1118394&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1118394
+2025-02-03 11:27:54,040 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=210246&p=1092183&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1092183
+2025-02-03 11:27:54,041 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213718&p=1117827&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1117827
+2025-02-03 11:27:54,041 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=189289&p=975068&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p975068
+2025-02-03 11:27:54,041 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=193182&p=981628&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p981628
+2025-02-03 11:27:54,041 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213681&p=1117633&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1117633
+2025-02-03 11:27:54,041 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213610&p=1117216&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1117216
+2025-02-03 11:27:54,041 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213421&p=1115765&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1115765
+2025-02-03 11:27:54,042 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213668&p=1117437&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1117437
+2025-02-03 11:27:54,042 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213632&p=1117218&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1117218
+2025-02-03 11:27:54,042 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213622&p=1117281&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1117281
+2025-02-03 11:27:54,042 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213628&p=1117166&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1117166
+2025-02-03 11:27:54,042 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213600&p=1117058&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1117058
+2025-02-03 11:27:54,042 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213508&p=1116158&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1116158
+2025-02-03 11:27:54,043 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213564&p=1116837&amp%3Bsid=3b77a3334c914448dbbc02bfdff4c3aa#p1116837
+2025-02-03 11:27:54,130 - INFO - Getting page 1 from https://forum.mikrotik.com/viewforum.php?f=2&start=50
+2025-02-03 11:27:56,168 - INFO - Result for https://forum.mikrotik.com/viewforum.php?f=2&start=50 was successful: True
+2025-02-03 11:27:56,892 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214151&p=1122718&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1122718
+2025-02-03 11:27:56,893 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213973&p=1119770&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1119770
+2025-02-03 11:27:56,893 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214267&p=1122464&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1122464
+2025-02-03 11:27:56,893 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214281&p=1122534&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1122534
+2025-02-03 11:27:56,893 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213944&p=1119908&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1119908
+2025-02-03 11:27:56,894 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213724&p=1121556&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1121556
+2025-02-03 11:27:56,894 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213819&p=1119329&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1119329
+2025-02-03 11:27:56,894 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214219&p=1121881&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1121881
+2025-02-03 11:27:56,894 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214183&p=1121532&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1121532
+2025-02-03 11:27:56,894 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214175&p=1121497&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1121497
+2025-02-03 11:27:56,894 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214154&p=1121405&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1121405
+2025-02-03 11:27:56,895 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214177&p=1121530&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1121530
+2025-02-03 11:27:56,895 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214096&p=1121023&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1121023
+2025-02-03 11:27:56,895 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=209239&p=1085433&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1085433
+2025-02-03 11:27:56,895 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214108&p=1120993&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1120993
+2025-02-03 11:27:56,895 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214082&p=1120860&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1120860
+2025-02-03 11:27:56,896 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214079&p=1120649&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1120649
+2025-02-03 11:27:56,896 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214064&p=1120540&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1120540
+2025-02-03 11:27:56,896 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214020&p=1120202&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1120202
+2025-02-03 11:27:56,896 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=209607&p=1105694&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1105694
+2025-02-03 11:27:56,896 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213995&p=1119977&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1119977
+2025-02-03 11:27:56,896 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=204158&p=1119824&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1119824
+2025-02-03 11:27:56,897 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213972&p=1119783&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1119783
+2025-02-03 11:27:56,897 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213943&p=1119620&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1119620
+2025-02-03 11:27:56,897 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213914&p=1119522&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1119522
+2025-02-03 11:27:56,897 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=201379&p=1035328&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1035328
+2025-02-03 11:27:56,897 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=212632&p=1110020&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1110020
+2025-02-03 11:27:56,897 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213932&p=1119392&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1119392
+2025-02-03 11:27:56,898 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=159417&p=783308&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p783308
+2025-02-03 11:27:56,898 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213901&p=1119176&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1119176
+2025-02-03 11:27:56,898 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=203175&p=1047005&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1047005
+2025-02-03 11:27:56,898 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213840&p=1118708&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1118708
+2025-02-03 11:27:56,898 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213771&p=1118367&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1118367
+2025-02-03 11:27:56,898 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213691&p=1118434&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1118434
+2025-02-03 11:27:56,899 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213805&p=1118583&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1118583
+2025-02-03 11:27:56,899 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213356&p=1117809&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1117809
+2025-02-03 11:27:56,899 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213801&p=1118394&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1118394
+2025-02-03 11:27:56,899 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=210246&p=1092183&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1092183
+2025-02-03 11:27:56,899 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213718&p=1117827&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1117827
+2025-02-03 11:27:56,900 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=189289&p=975068&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p975068
+2025-02-03 11:27:56,900 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=193182&p=981628&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p981628
+2025-02-03 11:27:56,900 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213681&p=1117633&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1117633
+2025-02-03 11:27:56,900 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213610&p=1117216&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1117216
+2025-02-03 11:27:56,900 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213421&p=1115765&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1115765
+2025-02-03 11:27:56,901 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213668&p=1117437&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1117437
+2025-02-03 11:27:56,901 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213632&p=1117218&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1117218
+2025-02-03 11:27:56,901 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213622&p=1117281&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1117281
+2025-02-03 11:27:56,901 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213628&p=1117166&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1117166
+2025-02-03 11:27:56,901 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213600&p=1117058&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1117058
+2025-02-03 11:27:56,901 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213508&p=1116158&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1116158
+2025-02-03 11:27:56,902 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213564&p=1116837&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1116837
+2025-02-03 11:27:56,902 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213418&p=1116791&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1116791
+2025-02-03 11:27:56,902 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213134&p=1113840&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1113840
+2025-02-03 11:27:56,902 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213486&p=1116349&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1116349
+2025-02-03 11:27:56,902 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213495&p=1116315&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1116315
+2025-02-03 11:27:56,902 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213436&p=1116319&amp%3Bsid=49f92a630bc7970d8ca50523be880e8f#p1116319
+2025-02-03 11:27:56,990 - INFO - Getting page 2 from https://forum.mikrotik.com/viewforum.php?f=2&start=100
+2025-02-03 11:27:59,152 - INFO - Result for https://forum.mikrotik.com/viewforum.php?f=2&start=100 was successful: True
+2025-02-03 11:27:59,872 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214267&p=1122464#p1122464
+2025-02-03 11:27:59,872 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214281&p=1122534#p1122534
+2025-02-03 11:27:59,872 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213944&p=1119908#p1119908
+2025-02-03 11:27:59,873 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213724&p=1121556#p1121556
+2025-02-03 11:27:59,873 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213819&p=1119329#p1119329
+2025-02-03 11:27:59,873 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214219&p=1121881#p1121881
+2025-02-03 11:27:59,873 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214183&p=1121532#p1121532
+2025-02-03 11:27:59,873 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214175&p=1121497#p1121497
+2025-02-03 11:27:59,874 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214154&p=1121405#p1121405
+2025-02-03 11:27:59,874 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214177&p=1121530#p1121530
+2025-02-03 11:27:59,874 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214096&p=1121023#p1121023
+2025-02-03 11:27:59,874 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=209239&p=1085433#p1085433
+2025-02-03 11:27:59,874 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214108&p=1120993#p1120993
+2025-02-03 11:27:59,874 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214082&p=1120860#p1120860
+2025-02-03 11:27:59,875 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214079&p=1120649#p1120649
+2025-02-03 11:27:59,875 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214064&p=1120540#p1120540
+2025-02-03 11:27:59,875 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214020&p=1120202#p1120202
+2025-02-03 11:27:59,875 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=209607&p=1105694#p1105694
+2025-02-03 11:27:59,875 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213995&p=1119977#p1119977
+2025-02-03 11:27:59,875 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=204158&p=1119824#p1119824
+2025-02-03 11:27:59,876 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213972&p=1119783#p1119783
+2025-02-03 11:27:59,876 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213943&p=1119620#p1119620
+2025-02-03 11:27:59,876 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213914&p=1119522#p1119522
+2025-02-03 11:27:59,876 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=201379&p=1035328#p1035328
+2025-02-03 11:27:59,876 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=212632&p=1110020#p1110020
+2025-02-03 11:27:59,876 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213932&p=1119392#p1119392
+2025-02-03 11:27:59,877 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=159417&p=783308#p783308
+2025-02-03 11:27:59,877 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213901&p=1119176#p1119176
+2025-02-03 11:27:59,877 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=203175&p=1047005#p1047005
+2025-02-03 11:27:59,877 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213840&p=1118708#p1118708
+2025-02-03 11:27:59,877 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213771&p=1118367#p1118367
+2025-02-03 11:27:59,877 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213691&p=1118434#p1118434
+2025-02-03 11:27:59,878 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213805&p=1118583#p1118583
+2025-02-03 11:27:59,878 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213356&p=1117809#p1117809
+2025-02-03 11:27:59,878 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213801&p=1118394#p1118394
+2025-02-03 11:27:59,878 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=210246&p=1092183#p1092183
+2025-02-03 11:27:59,878 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213718&p=1117827#p1117827
+2025-02-03 11:27:59,878 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=189289&p=975068#p975068
+2025-02-03 11:27:59,879 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=193182&p=981628#p981628
+2025-02-03 11:27:59,879 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213681&p=1117633#p1117633
+2025-02-03 11:27:59,879 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213610&p=1117216#p1117216
+2025-02-03 11:27:59,879 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213421&p=1115765#p1115765
+2025-02-03 11:27:59,879 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213668&p=1117437#p1117437
+2025-02-03 11:27:59,879 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213632&p=1117218#p1117218
+2025-02-03 11:27:59,880 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213622&p=1117281#p1117281
+2025-02-03 11:27:59,880 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213628&p=1117166#p1117166
+2025-02-03 11:27:59,880 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213600&p=1117058#p1117058
+2025-02-03 11:27:59,880 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213508&p=1116158#p1116158
+2025-02-03 11:27:59,880 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213564&p=1116837#p1116837
+2025-02-03 11:27:59,880 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213418&p=1116791#p1116791
+2025-02-03 11:27:59,881 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213134&p=1113840#p1113840
+2025-02-03 11:27:59,881 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213486&p=1116349#p1116349
+2025-02-03 11:27:59,881 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213495&p=1116315#p1116315
+2025-02-03 11:27:59,881 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213436&p=1116319#p1116319
+2025-02-03 11:27:59,881 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213377&p=1115976#p1115976
+2025-02-03 11:27:59,881 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213427&p=1115775#p1115775
+2025-02-03 11:27:59,882 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213069&p=1115616#p1115616
+2025-02-03 11:27:59,970 - INFO - Getting page 3 from https://forum.mikrotik.com/viewforum.php?f=2&start=150
+2025-02-03 11:28:01,998 - INFO - Result for https://forum.mikrotik.com/viewforum.php?f=2&start=150 was successful: True
+2025-02-03 11:28:02,882 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214183&p=1121532#p1121532
+2025-02-03 11:28:02,883 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214175&p=1121497#p1121497
+2025-02-03 11:28:02,883 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214154&p=1121405#p1121405
+2025-02-03 11:28:02,883 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214177&p=1121530#p1121530
+2025-02-03 11:28:02,883 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214096&p=1121023#p1121023
+2025-02-03 11:28:02,883 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=209239&p=1085433#p1085433
+2025-02-03 11:28:02,884 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214108&p=1120993#p1120993
+2025-02-03 11:28:02,884 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214082&p=1120860#p1120860
+2025-02-03 11:28:02,884 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214079&p=1120649#p1120649
+2025-02-03 11:28:02,884 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214064&p=1120540#p1120540
+2025-02-03 11:28:02,884 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=214020&p=1120202#p1120202
+2025-02-03 11:28:02,884 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=209607&p=1105694#p1105694
+2025-02-03 11:28:02,884 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213995&p=1119977#p1119977
+2025-02-03 11:28:02,885 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=204158&p=1119824#p1119824
+2025-02-03 11:28:02,885 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213972&p=1119783#p1119783
+2025-02-03 11:28:02,885 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213943&p=1119620#p1119620
+2025-02-03 11:28:02,885 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213914&p=1119522#p1119522
+2025-02-03 11:28:02,885 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=201379&p=1035328#p1035328
+2025-02-03 11:28:02,885 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=212632&p=1110020#p1110020
+2025-02-03 11:28:02,885 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213932&p=1119392#p1119392
+2025-02-03 11:28:02,886 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=159417&p=783308#p783308
+2025-02-03 11:28:02,886 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213901&p=1119176#p1119176
+2025-02-03 11:28:02,886 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=203175&p=1047005#p1047005
+2025-02-03 11:28:02,886 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213840&p=1118708#p1118708
+2025-02-03 11:28:02,886 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213771&p=1118367#p1118367
+2025-02-03 11:28:02,886 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213691&p=1118434#p1118434
+2025-02-03 11:28:02,886 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213805&p=1118583#p1118583
+2025-02-03 11:28:02,887 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213356&p=1117809#p1117809
+2025-02-03 11:28:02,887 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213801&p=1118394#p1118394
+2025-02-03 11:28:02,887 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=210246&p=1092183#p1092183
+2025-02-03 11:28:02,887 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213718&p=1117827#p1117827
+2025-02-03 11:28:02,887 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=189289&p=975068#p975068
+2025-02-03 11:28:02,887 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=193182&p=981628#p981628
+2025-02-03 11:28:02,887 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213681&p=1117633#p1117633
+2025-02-03 11:28:02,888 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213610&p=1117216#p1117216
+2025-02-03 11:28:02,888 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213421&p=1115765#p1115765
+2025-02-03 11:28:02,888 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213668&p=1117437#p1117437
+2025-02-03 11:28:02,888 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213632&p=1117218#p1117218
+2025-02-03 11:28:02,888 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213622&p=1117281#p1117281
+2025-02-03 11:28:02,888 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213628&p=1117166#p1117166
+2025-02-03 11:28:02,889 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213600&p=1117058#p1117058
+2025-02-03 11:28:02,889 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213508&p=1116158#p1116158
+2025-02-03 11:28:02,889 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213564&p=1116837#p1116837
+2025-02-03 11:28:02,889 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213418&p=1116791#p1116791
+2025-02-03 11:28:02,889 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213134&p=1113840#p1113840
+2025-02-03 11:28:02,889 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213486&p=1116349#p1116349
+2025-02-03 11:28:02,889 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213495&p=1116315#p1116315
+2025-02-03 11:28:02,890 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213436&p=1116319#p1116319
+2025-02-03 11:28:02,890 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213377&p=1115976#p1115976
+2025-02-03 11:28:02,890 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213427&p=1115775#p1115775
+2025-02-03 11:28:02,890 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213069&p=1115616#p1115616
+2025-02-03 11:28:02,890 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213341&p=1115185#p1115185
+2025-02-03 11:28:02,890 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213163&p=1114617#p1114617
+2025-02-03 11:28:02,890 - INFO - Found thread url https://forum.mikrotik.com/viewtopic.php?f=2&t=213255&p=1114573#p1114573
+2025-02-03 11:28:02,979 - INFO - Getting page 4 from https://forum.mikrotik.com/viewforum.php?f=2&start=200

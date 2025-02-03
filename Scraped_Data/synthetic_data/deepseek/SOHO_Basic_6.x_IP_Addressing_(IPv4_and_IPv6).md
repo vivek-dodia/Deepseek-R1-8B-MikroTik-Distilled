@@ -1,233 +1,284 @@
 # MikroTik RouterOS Documentation: IP Addressing (IPv4 and IPv6)
 
-## **Introduction**
-This documentation provides a comprehensive guide to configuring and managing IP addressing (IPv4 and IPv6) on MikroTik RouterOS version 6.x for a Small Office/Home Office (SOHO) network. It includes both Command Line Interface (CLI) and API examples for basic configurations.
+## **1. Architecture Diagram Requirements**
+
+### **Network Diagram (Mermaid Syntax)**
+
+```mermaid
+graph TD
+    A[Internet] -->|Public IP| B[MikroTik Router]
+    B -->|Private IP| C[SOHO LAN]
+    C --> D[PC1]
+    C --> E[PC2]
+    C --> F[Printer]
+    C --> G[WiFi Access Point]
+    B -->|IPv6| H[IPv6 Internet]
+```
+
+- **A**: Internet connection with a public IPv4/IPv6 address.
+- **B**: MikroTik Router acting as the gateway.
+- **C**: SOHO LAN with private IPv4 and IPv6 addressing.
+- **D, E, F, G**: Devices in the SOHO network.
+- **H**: IPv6 Internet connectivity.
 
 ---
 
-## **1. IPv4 Addressing**
+## **2. CLI Configuration with Inline Comments**
 
-### **1.1 Assigning IPv4 Addresses to Interfaces**
-To assign an IPv4 address to an interface, use the `/ip address` menu.
+### **IPv4 Configuration**
 
-#### **CLI Example:**
-```bash
-/ip address add address=192.168.1.1/24 interface=ether1
-```
-- `address=192.168.1.1/24`: Specifies the IP address and subnet mask.
-- `interface=ether1`: Specifies the interface to which the IP address is assigned.
+```routeros
+# Set the router's identity
+/system identity set name=SOHO-Router
 
-#### **API Example:**
-```bash
-/ip/address/add
-=address=192.168.1.1/24
-=interface=ether1
-```
+# Configure the WAN interface with a static IP (replace with your ISP details)
+/ip address add address=192.0.2.1/24 interface=ether1
 
----
+# Configure the LAN interface with a private IP range
+/ip address add address=192.168.88.1/24 interface=ether2
 
-### **1.2 Viewing IPv4 Addresses**
-To view the list of configured IPv4 addresses:
+# Enable DHCP server for the LAN
+/ip pool add name=dhcp_pool ranges=192.168.88.100-192.168.88.200
+/ip dhcp-server add interface=ether2 address-pool=dhcp_pool disabled=no
+/ip dhcp-server network add address=192.168.88.0/24 gateway=192.168.88.1 dns-server=8.8.8.8,8.8.4.4
 
-#### **CLI Example:**
-```bash
-/ip address print
+# Add a default route for IPv4
+/ip route add gateway=192.0.2.254
 ```
 
-#### **API Example:**
-```bash
-/ip/address/print
-```
+### **IPv6 Configuration**
 
----
+```routeros
+# Enable IPv6 on the router
+/ipv6 settings set disable-ipv6=no
 
-### **1.3 Removing an IPv4 Address**
-To remove an IPv4 address from an interface:
+# Configure IPv6 on the WAN interface (replace with your ISP details)
+/ipv6 address add address=2001:db8::1/64 interface=ether1 advertise=yes
 
-#### **CLI Example:**
-```bash
-/ip address remove [find address=192.168.1.1/24]
-```
+# Configure IPv6 on the LAN interface
+/ipv6 address add address=2001:db8:1::1/64 interface=ether2 advertise=yes
 
-#### **API Example:**
-```bash
-/ip/address/remove
-=.id=*1
-```
+# Enable DHCPv6 server for the LAN
+/ipv6 dhcp-server add interface=ether2 address-pool=dhcpv6_pool
+/ipv6 pool add name=dhcpv6_pool prefix=2001:db8:1::/64 prefix-length=64
 
----
-
-### **1.4 Configuring DHCP Client for IPv4**
-To configure an interface to obtain an IPv4 address via DHCP:
-
-#### **CLI Example:**
-```bash
-/ip dhcp-client add interface=ether1
-```
-
-#### **API Example:**
-```bash
-/ip/dhcp-client/add
-=interface=ether1
+# Add a default route for IPv6
+/ipv6 route add gateway=2001:db8::1
 ```
 
 ---
 
-## **2. IPv6 Addressing**
+## **3. REST API Implementation (Python Code)**
 
-### **2.1 Assigning IPv6 Addresses to Interfaces**
-To assign an IPv6 address to an interface, use the `/ipv6 address` menu.
+### **Python Script to Configure IP Addressing**
 
-#### **CLI Example:**
-```bash
-/ipv6 address add address=2001:db8::1/64 interface=ether1
-```
-- `address=2001:db8::1/64`: Specifies the IPv6 address and prefix length.
-- `interface=ether1`: Specifies the interface to which the IPv6 address is assigned.
+```python
+import requests
+from requests.auth import HTTPBasicAuth
 
-#### **API Example:**
-```bash
-/ipv6/address/add
-=address=2001:db8::1/64
-=interface=ether1
-```
+# Router details
+router_ip = "192.168.88.1"
+username = "admin"
+password = "admin"
 
----
+# API endpoint
+base_url = f"http://{router_ip}/rest"
 
-### **2.2 Viewing IPv6 Addresses**
-To view the list of configured IPv6 addresses:
+# Configure IPv4
+def configure_ipv4():
+    url = f"{base_url}/ip/address"
+    data = {
+        "address": "192.168.88.1/24",
+        "interface": "ether2",
+        "disabled": "no"
+    }
+    response = requests.post(url, json=data, auth=HTTPBasicAuth(username, password))
+    if response.status_code == 201:
+        print("IPv4 configuration successful.")
+    else:
+        print(f"Failed to configure IPv4: {response.text}")
 
-#### **CLI Example:**
-```bash
-/ipv6 address print
-```
+# Configure IPv6
+def configure_ipv6():
+    url = f"{base_url}/ipv6/address"
+    data = {
+        "address": "2001:db8:1::1/64",
+        "interface": "ether2",
+        "advertise": "yes"
+    }
+    response = requests.post(url, json=data, auth=HTTPBasicAuth(username, password))
+    if response.status_code == 201:
+        print("IPv6 configuration successful.")
+    else:
+        print(f"Failed to configure IPv6: {response.text}")
 
-#### **API Example:**
-```bash
-/ipv6/address/print
-```
-
----
-
-### **2.3 Removing an IPv6 Address**
-To remove an IPv6 address from an interface:
-
-#### **CLI Example:**
-```bash
-/ipv6 address remove [find address=2001:db8::1/64]
-```
-
-#### **API Example:**
-```bash
-/ipv6/address/remove
-=.id=*1
-```
-
----
-
-### **2.4 Configuring DHCPv6 Client for IPv6**
-To configure an interface to obtain an IPv6 address via DHCPv6:
-
-#### **CLI Example:**
-```bash
-/ipv6 dhcp-client add interface=ether1
-```
-
-#### **API Example:**
-```bash
-/ipv6/dhcp-client/add
-=interface=ether1
+# Main function
+if __name__ == "__main__":
+    configure_ipv4()
+    configure_ipv6()
 ```
 
 ---
 
-## **3. Dual-Stack Configuration (IPv4 and IPv6)**
+## **4. Common Debugging Scenarios**
 
-### **3.1 Assigning Both IPv4 and IPv6 Addresses**
-To configure an interface with both IPv4 and IPv6 addresses:
+### **Scenario 1: No Internet Access**
+- **Check IP Addressing**: Verify that the WAN interface has the correct IP address.
+  ```routeros
+  /ip address print
+  ```
+- **Check Routes**: Ensure the default route is configured.
+  ```routeros
+  /ip route print
+  ```
 
-#### **CLI Example:**
-```bash
-/ip address add address=192.168.1.1/24 interface=ether1
-/ipv6 address add address=2001:db8::1/64 interface=ether1
+### **Scenario 2: DHCP Issues**
+- **Check DHCP Server**: Ensure the DHCP server is running and has available IPs.
+  ```routeros
+  /ip dhcp-server print
+  /ip pool print
+  ```
+
+### **Scenario 3: IPv6 Not Working**
+- **Check IPv6 Settings**: Ensure IPv6 is enabled.
+  ```routeros
+  /ipv6 settings print
+  ```
+- **Check IPv6 Addresses**: Verify IPv6 addresses are assigned.
+  ```routeros
+  /ipv6 address print
+  ```
+
+---
+
+## **5. Version-Specific Considerations**
+
+- **RouterOS 6.x**: IPv6 support is stable, but some advanced features may require RouterOS 7.x.
+- **RouterOS 7.x**: Improved IPv6 support and additional features like DHCPv6-PD.
+
+---
+
+## **6. Security Hardening Measures**
+
+- **Disable Unused Services**: Turn off unnecessary services like Telnet.
+  ```routeros
+  /ip service disable telnet
+  ```
+- **Enable Firewall**: Configure a basic firewall to protect the router.
+  ```routeros
+  /ip firewall filter add chain=input action=drop protocol=tcp dst-port=23
+  ```
+- **Use Strong Passwords**: Always use strong, unique passwords for the router.
+
+---
+
+## **7. Performance Optimization Tips**
+
+- **Limit DHCP Leases**: Avoid overloading the DHCP server by limiting the number of leases.
+  ```routeros
+  /ip pool set dhcp_pool ranges=192.168.88.100-192.168.88.150
+  ```
+- **Enable FastTrack**: Improve throughput by enabling FastTrack for IPv4.
+  ```routeros
+  /ip firewall filter add chain=forward action=fasttrack-connection connection-state=established,related
+  ```
+
+---
+
+## **8. Real-World Deployment Examples**
+
+### **Example 1: Small Office with 10 Devices**
+- **IPv4**: Use a `/24` subnet for the LAN.
+- **IPv6**: Use a `/64` prefix for the LAN.
+
+### **Example 2: Home Network with IoT Devices**
+- **IPv4**: Use a `/24` subnet with DHCP reservations for IoT devices.
+- **IPv6**: Use SLAAC for automatic IPv6 address assignment.
+
+---
+
+## **9. Scalability Considerations**
+
+- **Subnetting**: Use smaller subnets for different departments or device types.
+- **VLANs**: Implement VLANs to segment traffic and improve scalability.
+
+---
+
+## **10. Monitoring Configurations**
+
+- **Enable SNMP**: Monitor the router using SNMP.
+  ```routeros
+  /snmp set enabled=yes
+  ```
+- **Use Traffic Flow**: Monitor traffic with Traffic Flow.
+  ```routeros
+  /ip traffic-flow set enabled=yes
+  ```
+
+---
+
+## **11. Disaster Recovery Steps**
+
+- **Backup Configuration**: Regularly back up the router configuration.
+  ```routeros
+  /system backup save name=backup
+  ```
+- **Restore Configuration**: Restore from a backup in case of failure.
+  ```routeros
+  /system backup load name=backup
+  ```
+
+---
+
+## **12. Automated Backup Scripts**
+
+### **RouterOS Script for Automated Backups**
+
+```routeros
+/system script add name=backup_script source="/system backup save name=backup-[/system clock get date]-[/system clock get time]"
+/system scheduler add name=backup_scheduler interval=1d on-event=backup_script
 ```
 
-#### **API Example:**
-```bash
-/ip/address/add
-=address=192.168.1.1/24
-=interface=ether1
+### **Python Script for Automated Backups**
 
-/ipv6/address/add
-=address=2001:db8::1/64
-=interface=ether1
+```python
+import requests
+from requests.auth import HTTPBasicAuth
+
+# Router details
+router_ip = "192.168.88.1"
+username = "admin"
+password = "admin"
+
+# API endpoint
+base_url = f"http://{router_ip}/rest"
+
+# Backup configuration
+def backup_config():
+    url = f"{base_url}/system/backup"
+    data = {
+        "name": "backup"
+    }
+    response = requests.post(url, json=data, auth=HTTPBasicAuth(username, password))
+    if response.status_code == 201:
+        print("Backup successful.")
+    else:
+        print(f"Failed to backup: {response.text}")
+
+# Main function
+if __name__ == "__main__":
+    backup_config()
 ```
 
 ---
 
-### **3.2 Enabling IPv6 Neighbor Discovery**
-To enable IPv6 Neighbor Discovery (ND) on an interface:
+## **13. Comparative Tables**
 
-#### **CLI Example:**
-```bash
-/ipv6 nd add interface=ether1
-```
+### **IPv4 vs IPv6 Configuration**
 
-#### **API Example:**
-```bash
-/ipv6/nd/add
-=interface=ether1
-```
-
----
-
-## **4. Basic Troubleshooting**
-
-### **4.1 Checking IP Connectivity**
-To test connectivity using `ping`:
-
-#### **CLI Example:**
-```bash
-/ping 192.168.1.1
-/ping 2001:db8::1
-```
-
-#### **API Example:**
-```bash
-/ping
-=address=192.168.1.1
-
-/ping
-=address=2001:db8::1
-```
-
----
-
-### **4.2 Viewing Routing Tables**
-To view the IPv4 and IPv6 routing tables:
-
-#### **CLI Example:**
-```bash
-/ip route print
-/ipv6 route print
-```
-
-#### **API Example:**
-```bash
-/ip/route/print
-/ipv6/route/print
-```
-
----
-
-## **5. Conclusion**
-This guide covers the basic configuration of IPv4 and IPv6 addressing on MikroTik RouterOS 6.x for a SOHO network. By following these examples, you can set up and manage IP addresses, configure DHCP, and troubleshoot connectivity issues effectively.
-
-For more advanced configurations, refer to the official MikroTik documentation or consult with a MikroTik Certified Engineer.
-
---- 
-
-**Note:** Ensure that your MikroTik device is running RouterOS version 6.x, as some commands or features may differ in other versions.
+| Feature               | IPv4 Configuration                     | IPv6 Configuration                     |
+|-----------------------|----------------------------------------|----------------------------------------|
+| Address Assignment    | DHCP or Static                       
 
 ## API Reference Cheat Sheet
 ```python
