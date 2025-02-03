@@ -21,21 +21,39 @@ class MikroTikForumCrawler:
         self.run_config = CrawlerRunConfig(word_count_threshold=0)
         self.base_forum_url = "https://forum.mikrotik.com"
         
-        # Forum sections to crawl
+        # Core RouterOS features and API sections
         self.forum_sections = {
             "2": "RouterOS",         # RouterOS General
-            "7": "Scripts",          # Scripts
             "49": "v7",             # RouterOS v7
-            "31": "Routing",        # Routing
-            "32": "Wireless",       # Wireless
-            "23": "CAPsMAN",        # CAPsMAN
-            "9": "Hardware",        # Hardware
-            "13": "The Dude",       # The Dude
-            "27": "SwOS",           # SwOS
-            "35": "IPv6",           # IPv6
-            "33": "VPN",            # VPN
-            "34": "Firewall"        # Firewall
+            "7": "Scripts",         # Scripts (includes API)
+            "31": "Routing",        # Core: Routing
+            "34": "Firewall",       # Core: Firewall
+            "33": "VPN",            # Core: VPN
+            "35": "IPv6",           # Core: IPv6
+            "32": "Wireless",       # Core: Wireless
+            "36": "MPLS",           # Core: MPLS
+            "37": "Queue",          # Core: Queue
+            "38": "Bridge",         # Core: Bridge
+            "39": "PPP",            # Core: PPP
+            "40": "HotSpot",        # Core: HotSpot
+            "41": "API"             # API specific
         }
+        
+        # Keywords to identify relevant threads
+        self.relevant_keywords = [
+            'api', 'rest', 'script', 'automation',
+            'bgp', 'ospf', 'mpls', 'vpls',
+            'firewall', 'nat', 'mangle', 'filter',
+            'bridge', 'vlan', 'trunk', 'bonding',
+            'vpn', 'ipsec', 'l2tp', 'sstp', 'openvpn',
+            'queue', 'qos', 'shaping',
+            'ppp', 'pppoe', 'pptp',
+            'hotspot', 'captive', 'portal',
+            'ipv6', 'dhcp', 'dns',
+            'routing', 'route', 'policy',
+            'configuration', 'setup', 'migration',
+            'ros6', 'ros7', 'routeros'
+        ]
 
     def clean_forum_content(self, content: str) -> str:
         """Clean forum content and preserve structure"""
@@ -46,7 +64,8 @@ class MikroTikForumCrawler:
             '.postprofile', '.navbar', '.footer', '.headerbar',
             '.search-box', '.pagination', '.notice', '.rules',
             'script', 'style', '.avatar', '.signature',
-            '.posting-icons', '.back2top', '.buttons'
+            '.posting-icons', '.back2top', '.buttons',
+            '#page-body > h2', '#page-footer'
         ]
         
         for selector in unwanted_selectors:
@@ -63,7 +82,10 @@ class MikroTikForumCrawler:
                 if author and content:
                     content_text = content.get_text(strip=True)
                     code_blocks = content.select('code, pre')
-                    has_commands = any(cmd in content_text for cmd in ['/ip', '/system', '/interface'])
+                    has_commands = any(cmd in content_text for cmd in [
+                        '/ip', '/system', '/interface', '/queue', '/routing',
+                        'api', 'script', 'function', 'return'
+                    ])
                     
                     post_data = f"""### Author: {author.get_text(strip=True)}
 Date: {date.get_text(strip=True) if date else 'Unknown'}
@@ -78,6 +100,21 @@ Date: {date.get_text(strip=True) if date else 'Unknown'}
                 continue
         
         return "\n---\n".join(posts)
+
+    def is_relevant_thread(self, title: str, content: str) -> bool:
+        """Check if thread is relevant to core features or API"""
+        text = (title + " " + content).lower()
+        
+        # Check for relevant keywords
+        has_keyword = any(keyword in text for keyword in self.relevant_keywords)
+        
+        # Check for code or commands
+        has_code = any(cmd in text for cmd in [
+            '/ip', '/system', '/interface', '/queue', '/routing',
+            'api', 'rest', 'curl', 'http', 'script', 'function'
+        ])
+        
+        return has_keyword or has_code
 
     def format_post_content(self, content_element) -> str:
         """Format post content preserving code blocks and structure"""
@@ -127,7 +164,7 @@ Date: {date.get_text(strip=True) if date else 'Unknown'}
                     break
                     
                 page += 1
-                await asyncio.sleep(1)  # Be nice to the server
+                await asyncio.sleep(1)
                 
             except Exception as e:
                 logging.error(f"Error getting threads from section {section_id}, page {page}: {str(e)}")
@@ -150,26 +187,32 @@ Date: {date.get_text(strip=True) if date else 'Unknown'}
                 soup = BeautifulSoup(result.html, 'html.parser')
                 title = soup.select_one('.topic-title')
                 title = title.get_text(strip=True) if title else "Untitled Thread"
+                content = soup.select_one('.content')
+                content_text = content.get_text(strip=True) if content else ""
                 
-                cleaned_content = self.clean_forum_content(result.html)
-                
-                if cleaned_content.strip():
-                    thread_id = url.split('t=')[-1].split('&')[0]
-                    save_path = self.base_save_path / f"thread_{thread_id}.md"
-                    save_path.parent.mkdir(parents=True, exist_ok=True)
+                if self.is_relevant_thread(title, content_text):
+                    cleaned_content = self.clean_forum_content(result.html)
                     
-                    metadata = f"""---
+                    if cleaned_content.strip():
+                        thread_id = url.split('t=')[-1].split('&')[0]
+                        save_path = self.base_save_path / f"thread_{thread_id}.md"
+                        save_path.parent.mkdir(parents=True, exist_ok=True)
+                        
+                        metadata = f"""---
 title: {title}
 source_url: {url}
 crawled_date: {datetime.now().isoformat()}
 section: mikrotik_forum
 type: forum_thread
+keywords: {', '.join(kw for kw in self.relevant_keywords if kw in title.lower() or kw in content_text.lower())}
 ---
 
 {cleaned_content}"""
-                    
-                    save_path.write_text(metadata, encoding="utf-8")
-                    logging.info(f"Saved thread: {save_path}")
+                        
+                        save_path.write_text(metadata, encoding="utf-8")
+                        logging.info(f"Saved relevant thread: {save_path}")
+                else:
+                    logging.debug(f"Skipped non-relevant thread: {title}")
         
         except Exception as e:
             logging.error(f"Failed thread {url}: {str(e)}")
