@@ -9,3 +9,4 @@
 -   threads from mikrotik forum - Scraped_Data/forum
 -   SYNTHETIC DATA generated from gemini 2.0 - Scraped_Data/synthetic_data/gemini2.0
 -   SYNTHETIC DATA generated from deepseek R1 - Scraped_Data/synthetic_data/deepseek
+-   700+ repos from github and gitlab which are tagged with "Mikrotik" which are created since Dec-2021 (release of Router OS 7 + rest api) are stored Scraped_Data/github_repos/ && gitlab_repos/ (cannot be pushed to git due to file size)
