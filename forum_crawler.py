@@ -21,39 +21,21 @@ class MikroTikForumCrawler:
         self.run_config = CrawlerRunConfig(word_count_threshold=0)
         self.base_forum_url = "https://forum.mikrotik.com"
         
-        # Priority forums
-        self.priority_forums = {
-            "2": "RouterOS",     # RouterOS General
-            "7": "Scripts",      # Scripts
-            "49": "v7",         # RouterOS v7 specific forum
-            "31": "Routing",    # Routing Protocols
-            "32": "Wireless"    # Wireless configurations
+        # Forum sections to crawl
+        self.forum_sections = {
+            "2": "RouterOS",         # RouterOS General
+            "7": "Scripts",          # Scripts
+            "49": "v7",             # RouterOS v7
+            "31": "Routing",        # Routing
+            "32": "Wireless",       # Wireless
+            "23": "CAPsMAN",        # CAPsMAN
+            "9": "Hardware",        # Hardware
+            "13": "The Dude",       # The Dude
+            "27": "SwOS",           # SwOS
+            "35": "IPv6",           # IPv6
+            "33": "VPN",            # VPN
+            "34": "Firewall"        # Firewall
         }
-        
-        # Search queries focused on RouterOS 7
-        self.search_queries = [
-    # RouterOS 7 specific
-    "routeros+7",
-    "ros+7",
-    # RouterOS 6 and 7 common topics
-    "routeros+solved",
-    "mikrotik+script+solved",
-    "mikrotik+firewall+solved",
-    "mikrotik+routing+solved",
-    "mikrotik+vpn+solved",
-    "mikrotik+vlan+solved",
-    "mikrotik+bridge+solved",
-    "mikrotik+wireless+solved",
-    "mikrotik+configuration+solved",
-    # Common use cases
-    "mikrotik+bgp+solved",
-    "mikrotik+ospf+solved",
-    "mikrotik+nat+solved",
-    "mikrotik+ipsec+solved",
-    "mikrotik+queue+solved",
-    "mikrotik+hotspot+solved",
-    "mikrotik+pppoe+solved"
-]
 
     def clean_forum_content(self, content: str) -> str:
         """Clean forum content and preserve structure"""
@@ -74,16 +56,12 @@ class MikroTikForumCrawler:
         posts = []
         for post in soup.select('.post'):
             try:
-                # Extract post information
                 author = post.select_one('.author')
                 content = post.select_one('.content')
                 date = post.select_one('.date')
                 
                 if author and content:
-                    # Clean the content text
                     content_text = content.get_text(strip=True)
-                    
-                    # Check if post contains code or commands
                     code_blocks = content.select('code, pre')
                     has_commands = any(cmd in content_text for cmd in ['/ip', '/system', '/interface'])
                     
@@ -119,25 +97,43 @@ Date: {date.get_text(strip=True) if date else 'Unknown'}
         
         return "\n\n".join(formatted_content)
 
-    async def search_forum(self, query: str, crawler: AsyncWebCrawler) -> list:
-        """Search forum with specific query"""
-        search_url = f"{self.base_forum_url}/search.php?keywords={query}&terms=all&author=&sc=1&sf=titleonly&sr=topics&sk=t&sd=d&st=0&ch=300&t=0&submit=Search"
-        
-        try:
-            result = await crawler.arun(search_url, config=self.run_config)
-            thread_urls = []
+    async def get_thread_urls(self, section_id: str, crawler: AsyncWebCrawler) -> list:
+        """Get thread URLs from a forum section"""
+        thread_urls = []
+        page = 0
+        while True:
+            url = f"{self.base_forum_url}/viewforum.php?f={section_id}&start={page * 50}"
+            logging.info(f"Getting page {page} from section {section_id}")
             
-            if result.success:
+            try:
+                result = await crawler.arun(url, config=self.run_config)
+                if not result.success:
+                    break
+                
                 soup = BeautifulSoup(result.html, 'html.parser')
-                for topic in soup.select('.topictitle'):
+                topics = soup.select('.topictitle')
+                if not topics:
+                    break
+                
+                for topic in topics:
                     href = topic.get('href')
                     if href:
-                        thread_urls.append(urljoin(self.base_forum_url, href))
-            
-            return thread_urls
-        except Exception as e:
-            logging.error(f"Error searching forum: {str(e)}")
-            return []
+                        full_url = urljoin(self.base_forum_url, href)
+                        thread_urls.append(full_url)
+                
+                # Check if there's a next page
+                next_page = soup.select_one('a.next')
+                if not next_page:
+                    break
+                    
+                page += 1
+                await asyncio.sleep(1)  # Be nice to the server
+                
+            except Exception as e:
+                logging.error(f"Error getting threads from section {section_id}, page {page}: {str(e)}")
+                break
+        
+        return thread_urls
 
     async def crawl_thread(self, url: str, crawler: AsyncWebCrawler):
         """Crawl a single forum thread"""
@@ -157,8 +153,7 @@ Date: {date.get_text(strip=True) if date else 'Unknown'}
                 
                 cleaned_content = self.clean_forum_content(result.html)
                 
-                if cleaned_content.strip():  # Only save if there's actual content
-                    # Create a clean filename from the thread ID
+                if cleaned_content.strip():
                     thread_id = url.split('t=')[-1].split('&')[0]
                     save_path = self.base_save_path / f"thread_{thread_id}.md"
                     save_path.parent.mkdir(parents=True, exist_ok=True)
@@ -182,20 +177,20 @@ type: forum_thread
     async def crawl(self):
         """Main crawling function"""
         self.base_save_path.mkdir(parents=True, exist_ok=True)
-        logging.info(f"Saving forum content to: {self.base_save_path}")
+        logging.info(f"Starting forum crawl, saving to: {self.base_save_path}")
         
         async with AsyncWebCrawler(config=self.browser_config) as crawler:
-            for query in self.search_queries:
-                logging.info(f"Processing search query: {query}")
-                thread_urls = await self.search_forum(query, crawler)
-                logging.info(f"Found {len(thread_urls)} threads for query: {query}")
+            for section_id, section_name in self.forum_sections.items():
+                logging.info(f"Processing forum section: {section_name} (ID: {section_id})")
+                thread_urls = await self.get_thread_urls(section_id, crawler)
+                logging.info(f"Found {len(thread_urls)} threads in section {section_name}")
                 
                 for i in range(0, len(thread_urls), 2):
                     batch = thread_urls[i:i+2]
                     tasks = [self.crawl_thread(url, crawler) for url in batch]
                     await asyncio.gather(*tasks)
-                    await asyncio.sleep(2)  # Be nice to the server
-                    logging.info(f"Completed batch {i//2 + 1} of {(len(thread_urls) + 1)//2}")
+                    await asyncio.sleep(2)
+                    logging.info(f"Completed batch {i//2 + 1} of {(len(thread_urls) + 1)//2} in section {section_name}")
 
 if __name__ == "__main__":
     crawler = MikroTikForumCrawler()
