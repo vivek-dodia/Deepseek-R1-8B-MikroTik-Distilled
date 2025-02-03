@@ -1,0 +1,42 @@
+2025-02-02 21:19:46,426 - INFO - Saving forum content to: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum
+2025-02-02 21:19:46,918 - INFO - Processing search query: router+os+7+upgrade
+2025-02-02 21:19:49,127 - INFO - Found 3 threads for query: router+os+7+upgrade
+2025-02-02 21:19:49,128 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=2&t=198294&p=1016718&amp;sid=84e8598ad66375fa6b8fa24383dc5f02#p1016718
+2025-02-02 21:19:49,128 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=2&t=172385&p=842750&amp;sid=84e8598ad66375fa6b8fa24383dc5f02#p842750
+2025-02-02 21:19:49,816 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_172385.md
+2025-02-02 21:19:52,028 - INFO - Completed batch 1 of 2
+2025-02-02 21:19:52,028 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=2&t=134228&p=660579&amp;sid=84e8598ad66375fa6b8fa24383dc5f02#p660579
+2025-02-02 21:19:54,757 - INFO - Completed batch 2 of 2
+2025-02-02 21:19:54,757 - INFO - Processing search query: routeros+7+configuration
+2025-02-02 21:19:55,850 - INFO - Found 4 threads for query: routeros+7+configuration
+2025-02-02 21:19:55,850 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=2&t=205306&p=1060939#p1060939
+2025-02-02 21:19:55,851 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=21&t=184711&p=929194#p929194
+2025-02-02 21:19:56,626 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_205306.md
+2025-02-02 21:19:57,667 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_184711.md
+2025-02-02 21:19:59,674 - INFO - Completed batch 1 of 2
+2025-02-02 21:19:59,674 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=13&t=155118&p=767460#p767460
+2025-02-02 21:19:59,674 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=13&t=134393&p=662165#p662165
+2025-02-02 21:20:00,667 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_155118.md
+2025-02-02 21:20:01,144 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_134393.md
+2025-02-02 21:20:03,158 - INFO - Completed batch 2 of 2
+2025-02-02 21:20:03,158 - INFO - Processing search query: ros+7+migration
+2025-02-02 21:20:03,768 - INFO - Found 0 threads for query: ros+7+migration
+2025-02-02 21:20:03,768 - INFO - Processing search query: routeros+7+scripting
+2025-02-02 21:20:04,420 - INFO - Found 2 threads for query: routeros+7+scripting
+2025-02-02 21:20:04,420 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=9&t=205965&p=1064904#p1064904
+2025-02-02 21:20:04,421 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=9&t=137962&p=679768#p679768
+2025-02-02 21:20:05,233 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_137962.md
+2025-02-02 21:20:05,310 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_205965.md
+2025-02-02 21:20:07,318 - INFO - Completed batch 1 of 1
+2025-02-02 21:20:07,318 - INFO - Processing search query: ros+7+firewall
+2025-02-02 21:20:08,162 - INFO - Found 1 threads for query: ros+7+firewall
+2025-02-02 21:20:08,163 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=2&t=167322&p=821361#p821361
+2025-02-02 21:20:08,881 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_167322.md
+2025-02-02 21:20:10,885 - INFO - Completed batch 1 of 1
+2025-02-02 21:20:10,885 - INFO - Processing search query: ros+7+routing
+2025-02-02 21:20:11,899 - INFO - Found 2 threads for query: ros+7+routing
+2025-02-02 21:20:11,899 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=13&t=211117&p=1098563#p1098563
+2025-02-02 21:20:11,900 - INFO - Crawling thread: https://forum.mikrotik.com/viewtopic.php?f=2&t=132194&p=649404#p649404
+2025-02-02 21:20:13,391 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_211117.md
+2025-02-02 21:20:13,835 - INFO - Saved thread: C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\forum\thread_132194.md
+2025-02-02 21:20:15,849 - INFO - Completed batch 1 of 1
