@@ -1,0 +1,28 @@
+2025-02-02 23:44:40,691 - ERROR - Error generating SOHO_Basic_6.x_IP_Addressing_(IPv4_and_IPv6).md: 400 Client Error: Bad Request for url: https://api.deepseek.com/v1/chat/completions
+2025-02-02 23:44:40,691 - ERROR - Response Content: {"error":{"message":"Model Not Exist","type":"invalid_request_error","param":null,"code":"invalid_request_error"}}
+2025-02-02 23:44:41,225 - ERROR - Error generating SOHO_Basic_6.x_IP_Pools_Management.md: 400 Client Error: Bad Request for url: https://api.deepseek.com/v1/chat/completions
+2025-02-02 23:44:41,225 - ERROR - Response Content: {"error":{"message":"Model Not Exist","type":"invalid_request_error","param":null,"code":"invalid_request_error"}}
+2025-02-02 23:44:41,743 - ERROR - Error generating SOHO_Basic_6.x_L3_Hardware_Offloading.md: 400 Client Error: Bad Request for url: https://api.deepseek.com/v1/chat/completions
+2025-02-02 23:44:41,743 - ERROR - Response Content: {"error":{"message":"Model Not Exist","type":"invalid_request_error","param":null,"code":"invalid_request_error"}}
+2025-02-02 23:44:42,323 - ERROR - Error generating SOHO_Basic_6.x_MACsec_Implementation.md: 400 Client Error: Bad Request for url: https://api.deepseek.com/v1/chat/completions
+2025-02-02 23:44:42,323 - ERROR - Response Content: {"error":{"message":"Model Not Exist","type":"invalid_request_error","param":null,"code":"invalid_request_error"}}
+2025-02-02 23:44:42,846 - ERROR - Error generating SOHO_Basic_6.x_VXLAN_Configuration.md: 400 Client Error: Bad Request for url: https://api.deepseek.com/v1/chat/completions
+2025-02-02 23:44:42,846 - ERROR - Response Content: {"error":{"message":"Model Not Exist","type":"invalid_request_error","param":null,"code":"invalid_request_error"}}
+2025-02-02 23:44:43,372 - ERROR - Error generating SOHO_Basic_6.x_Certificate_Management.md: 400 Client Error: Bad Request for url: https://api.deepseek.com/v1/chat/completions
+2025-02-02 23:44:43,372 - ERROR - Response Content: {"error":{"message":"Model Not Exist","type":"invalid_request_error","param":null,"code":"invalid_request_error"}}
+2025-02-02 23:44:43,882 - ERROR - Error generating SOHO_Basic_6.x_PPP_AAA_Configuration.md: 400 Client Error: Bad Request for url: https://api.deepseek.com/v1/chat/completions
+2025-02-02 23:44:43,882 - ERROR - Response Content: {"error":{"message":"Model Not Exist","type":"invalid_request_error","param":null,"code":"invalid_request_error"}}
+2025-02-02 23:44:44,405 - ERROR - Error generating SOHO_Basic_6.x_RADIUS_Integration.md: 400 Client Error: Bad Request for url: https://api.deepseek.com/v1/chat/completions
+2025-02-02 23:44:44,405 - ERROR - Response Content: {"error":{"message":"Model Not Exist","type":"invalid_request_error","param":null,"code":"invalid_request_error"}}
+2025-02-02 23:44:44,935 - ERROR - Error generating SOHO_Basic_6.x_User/Group_Management.md: 400 Client Error: Bad Request for url: https://api.deepseek.com/v1/chat/completions
+2025-02-02 23:44:44,935 - ERROR - Response Content: {"error":{"message":"Model Not Exist","type":"invalid_request_error","param":null,"code":"invalid_request_error"}}
+2025-02-02 23:44:45,539 - ERROR - Error generating SOHO_Basic_6.x_Firewall_Advanced_Filtering.md: 400 Client Error: Bad Request for url: https://api.deepseek.com/v1/chat/completions
+2025-02-02 23:44:45,539 - ERROR - Response Content: {"error":{"message":"Model Not Exist","type":"invalid_request_error","param":null,"code":"invalid_request_error"}}
+2025-02-02 23:44:46,076 - ERROR - Error generating SOHO_Basic_6.x_CAPsMAN_Deployment.md: 400 Client Error: Bad Request for url: https://api.deepseek.com/v1/chat/completions
+2025-02-02 23:44:46,076 - ERROR - Response Content: {"error":{"message":"Model Not Exist","type":"invalid_request_error","param":null,"code":"invalid_request_error"}}
+2025-02-02 23:47:08,899 - ERROR - Error generating SOHO_Basic_6.x_IP_Addressing_(IPv4_and_IPv6).md: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out.
+2025-02-02 23:50:01,814 - ERROR - Error generating SOHO_Basic_6.x_IP_Addressing_(IPv4_and_IPv6).md: Expecting value: line 1 column 1 (char 0)
+2025-02-02 23:50:40,434 - ERROR - Failed to load LLM credentials: [Errno 2] No such file or directory: 'C:\\Users\\Vivek\\Documents\\MikroTik_dis\\config\\credentials\\llm.json'
+2025-02-02 23:53:24,574 - ERROR - Error generating SOHO_Basic_6.x_IP_Pools_Management.md: Expecting value: line 1 column 1 (char 0)
+2025-02-02 23:57:06,616 - ERROR - Error generating SOHO_Basic_6.x_IP_Addressing_(IPv4_and_IPv6).md: Expecting value: line 1 column 1 (char 0)
+2025-02-02 23:58:06,973 - ERROR - Error generating SOHO_Basic_6.x_IP_Pools.md: Expecting value: line 1 column 1 (char 0)

@@ -1,71 +1,115 @@
-## VLAN Configuration in MikroTik RouterOS 6.48
+## MikroTik RouterOS VLAN Configuration Documentation
 
-### Configuration Scenario and Requirements
+**Configuration Level:** Basic
 
-This configuration guide covers the setup of VLANs on a MikroTik RouterOS 6.48 device. We will create multiple VLANs, assign them to physical interfaces, and configure inter-VLAN routing.
+**Network Scale:** Enterprise
+
+### 1. Configuration Scenario and Requirements
+
+Configure Virtual LANs (VLANs) on a MikroTik RouterOS-based network to segment traffic and improve security.
 
 **Requirements:**
+- RouterOS version 6.48 or later
+- Physical network devices that support VLAN tagging
 
-- RouterOS 6.48 or higher
-- Ethernet switch with VLAN support
-- Physical interfaces on the RouterOS device
+### 2. Step-by-Step Implementation
 
-### Step-by-Step Implementation
+**Step 1: Create the VLAN Interface**
 
-**1. Create VLANs**
+- Go to Interfaces > VLAN
+- Click on "+" button
+- Enter a name for the VLAN interface (e.g., "VLAN10")
+- Select the physical interface to which the VLAN will be tagged (e.g., "ether1")
+- Enter a VLAN ID (e.g., "10")
+- Click "Apply"
 
-```
-/interface vlan add name=VLAN10
-/interface vlan add name=VLAN20
-```
+**Step 2: Configure the VLAN Interface**
 
-**2. Assign VLANs to Physical Interfaces**
+- Go to Interfaces > VLAN10 (the newly created VLAN interface)
+- Configure IPv4 address, Subnet mask, and Gateway as needed
+- Enable "DHCP Client" or configure static IP settings
+- Click "Apply"
 
-```
-/interface bridge port add bridge=bridge1 interface=ether1 vlan-id=10
-/interface bridge port add bridge=bridge1 interface=ether2 vlan-id=20
-```
+**Step 3: Add VLAN Member Interfaces**
 
-**3. Enable Inter-VLAN Routing**
+- Go to Interfaces > ether1 (physical interface)
+- Select the "VLAN" tab
+- Check the box for "VLAN10" (the VLAN interface created in step 1)
+- Click "Apply"
 
-```
-/ip routing add src-address=192.168.10.0/24 dst-address=192.168.20.0/24 gateway=192.168.20.1
-```
-
-**4. Configure DHCP Server for Each VLAN**
-
-```
-/ip dhcp-server add address-pool=VLAN10 interface=VLAN10
-/ip dhcp-server add address-pool=VLAN20 interface=VLAN20
-```
-
-### Complete Configuration Commands
+### 3. Complete Configuration Commands
 
 ```
-/interface vlan add name=VLAN10
-/interface vlan add name=VLAN20
-/interface bridge port add bridge=bridge1 interface=ether1 vlan-id=10
-/interface bridge port add bridge=bridge1 interface=ether2 vlan-id=20
-/ip routing add src-address=192.168.10.0/24 dst-address=192.168.20.0/24 gateway=192.168.20.1
-/ip dhcp-server add address-pool=VLAN10 interface=VLAN10
-/ip dhcp-server add address-pool=VLAN20 interface=VLAN20
+/interface vlan add name=VLAN10 interface=ether1 vlan-id=10
+/interface vlan set VLAN10 address=192.168.10.1/24
+/interface vlan set VLAN10 dhcp-client enable=yes
+/interface ethernet set ether1 vlan-mode=tagged
+/interface ethernet set ether1 vlan-tagged-interface=VLAN10
 ```
 
-### Common Pitfalls and Solutions
+### 4. Common Pitfalls and Solutions
 
-- Ensure the physical interfaces support VLAN tagging.
-- Verify that the VLAN IDs match between the RouterOS device and the switch.
-- Check for any firewall rules that may block inter-VLAN traffic.
-- If devices are not able to communicate across VLANs, verify the routing and DHCP configuration.
+- **VLAN ID Conflict:** Ensure that the VLAN ID used is unique across the network to avoid conflicts.
+- **Incorrect Interface Assignment:** Double-check that the physical interface selected for VLAN tagging is capable of supporting it.
+- **Misconfigured IP Settings:** Verify that the IP address, subnet mask, and gateway are correctly configured for the VLAN interface.
 
-### Verification and Testing Steps
+### 5. Verification and Testing Steps
 
-1. Connect devices to the different VLANs.
-2. Assign IP addresses from the DHCP pool to the devices.
-3. Ping between devices on different VLANs to verify connectivity.
+- Go to Interfaces > VLAN10
+- Check the status of the interface, it should be "active"
+- Ping from a device connected to the VLAN to verify connectivity
+- Check DHCP lease or static IP assignment on the VLAN interface
 
-### Related Features and Considerations
+### 6. Related Features and Considerations
 
-- **VLAN Trunking:** Extend VLANs across multiple physical interfaces to create larger VLANs.
-- **QinQ:** Encapsulate multiple VLANs within a single trunk.
-- **Security:** Implement VLAN ACLs to restrict traffic between VLANs.
+- **Bridge Configuration:** For more advanced VLAN configurations, consider using MikroTik's bridging capabilities to connect VLAN interfaces.
+- **Firewall Rules:** Implement appropriate firewall rules to restrict traffic between different VLANs as required.
+- **Security Best Practices:** Consider isolating sensitive VLANs from untrusted networks using ACLs or other security measures.
+
+### 7. MikroTik REST API Examples
+
+**Endpoint:** `/interface/vlan`
+
+**Request Method:** GET
+
+**Example Payload:**
+
+```
+{
+  ".proplist": "interface,name,vlan-id"
+}
+```
+
+**Expected Response:**
+
+```
+[
+  {
+    "interface": "VLAN10",
+    "name": "VLAN10",
+    "vlan-id": "10"
+  }
+]
+```
+
+**Request Method:** POST
+
+**Example Payload:**
+
+```
+{
+  "interface": "VLAN20",
+  "name": "VLAN20",
+  "vlan-id": "20"
+}
+```
+
+**Expected Response:**
+
+```
+{
+  "interface": "VLAN20",
+  "name": "VLAN20",
+  "vlan-id": "20"
+}
+```
