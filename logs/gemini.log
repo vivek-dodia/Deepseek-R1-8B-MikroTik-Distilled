@@ -17623,3 +17623,47 @@
 2025-02-03 21:23:53 - INFO - Generated file: IP_Settings_6.48_Expert_SOHO_20250203212353.md, Topic: IP Settings, Version: 6.48, Level: Expert, Scale: SOHO
 2025-02-03 21:24:28 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Settings_6.48_Expert_SMB_20250203212428.md
 2025-02-03 21:24:28 - INFO - Generated file: IP_Settings_6.48_Expert_SMB_20250203212428.md, Topic: IP Settings, Version: 6.48, Level: Expert, Scale: SMB
+2025-02-03 21:24:51,184 - INFO - Successfully generated SOHO_Basic_6.x_VXLAN.md
+2025-02-03 21:25:03 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Settings_6.48_Expert_Enterprise_20250203212503.md
+2025-02-03 21:25:03 - INFO - Generated file: IP_Settings_6.48_Expert_Enterprise_20250203212503.md, Topic: IP Settings, Version: 6.48, Level: Expert, Scale: Enterprise
+2025-02-03 21:25:35 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Settings_6.48_Expert_ISP_20250203212535.md
+2025-02-03 21:25:35 - INFO - Generated file: IP_Settings_6.48_Expert_ISP_20250203212535.md, Topic: IP Settings, Version: 6.48, Level: Expert, Scale: ISP
+2025-02-03 21:26:01 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Settings_6.48_Expert_Hotspot Network_20250203212601.md
+2025-02-03 21:26:01 - INFO - Generated file: IP_Settings_6.48_Expert_Hotspot Network_20250203212601.md, Topic: IP Settings, Version: 6.48, Level: Expert, Scale: Hotspot Network
+2025-02-03 21:26:05,938 - INFO - Successfully generated SOHO_Basic_6.x_Firewall_and_Quality_of_Service.md
+2025-02-03 21:26:37 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Settings_6.48_Expert_Point-to-Point Link_20250203212637.md
+2025-02-03 21:26:37 - INFO - Generated file: IP_Settings_6.48_Expert_Point-to-Point Link_20250203212637.md, Topic: IP Settings, Version: 6.48, Level: Expert, Scale: Point-to-Point Link
+2025-02-03 21:27:05 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Settings_7.11_Basic_SOHO_20250203212705.md
+2025-02-03 21:27:05 - INFO - Generated file: IP_Settings_7.11_Basic_SOHO_20250203212705.md, Topic: IP Settings, Version: 7.11, Level: Basic, Scale: SOHO
+2025-02-03 21:27:18,146 - INFO - Successfully generated SOHO_Basic_6.x_Connection_tracking.md
+2025-02-03 21:27:32 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Settings_7.11_Basic_SMB_20250203212732.md
+2025-02-03 21:27:32 - INFO - Generated file: IP_Settings_7.11_Basic_SMB_20250203212732.md, Topic: IP Settings, Version: 7.11, Level: Basic, Scale: SMB
+2025-02-03 21:28:01 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Settings_7.11_Basic_Enterprise_20250203212801.md
+2025-02-03 21:28:01 - INFO - Generated file: IP_Settings_7.11_Basic_Enterprise_20250203212801.md, Topic: IP Settings, Version: 7.11, Level: Basic, Scale: Enterprise
+2025-02-03 21:28:27,069 - INFO - Successfully generated SOHO_Basic_6.x_Firewall.md
+2025-02-03 21:28:28 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Settings_7.11_Basic_ISP_20250203212828.md
+2025-02-03 21:28:28 - INFO - Generated file: IP_Settings_7.11_Basic_ISP_20250203212828.md, Topic: IP Settings, Version: 7.11, Level: Basic, Scale: ISP
+2025-02-03 21:28:57 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Settings_7.11_Basic_Hotspot Network_20250203212857.md
+2025-02-03 21:28:57 - INFO - Generated file: IP_Settings_7.11_Basic_Hotspot Network_20250203212857.md, Topic: IP Settings, Version: 7.11, Level: Basic, Scale: Hotspot Network
+2025-02-03 21:29:22 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Settings_7.11_Basic_Point-to-Point Link_20250203212922.md
+2025-02-03 21:29:22 - INFO - Generated file: IP_Settings_7.11_Basic_Point-to-Point Link_20250203212922.md, Topic: IP Settings, Version: 7.11, Level: Basic, Scale: Point-to-Point Link
+2025-02-03 21:29:52,311 - INFO - Successfully generated SOHO_Basic_6.x_Packet_Flow_in_RouterOS.md
+2025-02-03 21:29:57 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Settings_7.11_Advanced_SOHO_20250203212957.md
+2025-02-03 21:29:57 - INFO - Generated file: IP_Settings_7.11_Advanced_SOHO_20250203212957.md, Topic: IP Settings, Version: 7.11, Level: Advanced, Scale: SOHO
+2025-02-03 21:30:35 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Settings_7.11_Advanced_SMB_20250203213035.md
+2025-02-03 21:30:35 - INFO - Generated file: IP_Settings_7.11_Advanced_SMB_20250203213035.md, Topic: IP Settings, Version: 7.11, Level: Advanced, Scale: SMB
+2025-02-03 21:31:09,238 - INFO - Successfully generated SOHO_Basic_6.x_Queues.md
+2025-02-03 21:31:18 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Settings_7.11_Advanced_Enterprise_20250203213118.md
+2025-02-03 21:31:18 - INFO - Generated file: IP_Settings_7.11_Advanced_Enterprise_20250203213118.md, Topic: IP Settings, Version: 7.11, Level: Advanced, Scale: Enterprise
+2025-02-03 21:31:49 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Settings_7.11_Advanced_ISP_20250203213149.md
+2025-02-03 21:31:49 - INFO - Generated file: IP_Settings_7.11_Advanced_ISP_20250203213149.md, Topic: IP Settings, Version: 7.11, Level: Advanced, Scale: ISP
+2025-02-03 21:32:27 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Settings_7.11_Advanced_Hotspot Network_20250203213227.md
+2025-02-03 21:32:27 - INFO - Generated file: IP_Settings_7.11_Advanced_Hotspot Network_20250203213227.md, Topic: IP Settings, Version: 7.11, Level: Advanced, Scale: Hotspot Network
+2025-02-03 21:32:32,206 - INFO - Successfully generated SOHO_Basic_6.x_Firewall_and_QoS_Case_Studies.md
+2025-02-03 21:33:01 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Settings_7.11_Advanced_Point-to-Point Link_20250203213301.md
+2025-02-03 21:33:01 - INFO - Generated file: IP_Settings_7.11_Advanced_Point-to-Point Link_20250203213301.md, Topic: IP Settings, Version: 7.11, Level: Advanced, Scale: Point-to-Point Link
+2025-02-03 21:33:31,942 - INFO - Successfully generated SOHO_Basic_6.x_Kid_Control.md
+2025-02-03 21:33:32 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Settings_7.11_Expert_SOHO_20250203213332.md
+2025-02-03 21:33:32 - INFO - Generated file: IP_Settings_7.11_Expert_SOHO_20250203213332.md, Topic: IP Settings, Version: 7.11, Level: Expert, Scale: SOHO
+2025-02-03 21:34:01 - INFO - Successfully saved to Scraped_Data\synthetic_data\gemini2.0\IP_Settings_7.11_Expert_SMB_20250203213401.md
+2025-02-03 21:34:01 - INFO - Generated file: IP_Settings_7.11_Expert_SMB_20250203213401.md, Topic: IP Settings, Version: 7.11, Level: Expert, Scale: SMB
