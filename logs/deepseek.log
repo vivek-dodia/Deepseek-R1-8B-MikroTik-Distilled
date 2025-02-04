@@ -71,3 +71,392 @@
 2025-02-03 20:38:02,075 - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
 2025-02-03 20:39:10,173 - INFO - Attempt 4 to generate content
 2025-02-03 20:41:32,383 - ERROR - Error generating SOHO_Basic_6.x_IP_Addressing_(IPv4_and_IPv6).md: Expecting value: line 1 column 1 (char 0)
+2025-02-04 10:54:38,180 - ERROR - Error generating SOHO_Basic_6.x_IP_Pools.md: Expecting value: line 1 column 1 (char 0)
+2025-02-04 10:55:38,696 - ERROR - Error generating SOHO_Basic_6.x_IP_Routing.md: Expecting value: line 1 column 1 (char 0)
+2025-02-04 10:56:39,179 - ERROR - Error generating SOHO_Basic_6.x_IP_Settings.md: Expecting value: line 1 column 1 (char 0)
+2025-02-04 10:57:39,508 - ERROR - Error generating SOHO_Basic_6.x_MAC_server.md: Expecting value: line 1 column 1 (char 0)
+2025-02-04 10:58:40,048 - ERROR - Error generating SOHO_Basic_6.x_RoMON.md: Expecting value: line 1 column 1 (char 0)
+2025-02-04 11:00:41,373 - ERROR - Error generating SOHO_Basic_6.x_WinBox.md: Expecting value: line 1 column 1 (char 0)
+2025-02-04 11:02:42,668 - ERROR - Error generating SOHO_Basic_6.x_Certificates.md: Expecting value: line 1 column 1 (char 0)
+2025-02-04 11:03:43,084 - ERROR - Error generating SOHO_Basic_6.x_PPP_AAA.md: Expecting value: line 1 column 1 (char 0)
+2025-02-04 11:04:43,559 - ERROR - Error generating SOHO_Basic_6.x_RADIUS.md: Expecting value: line 1 column 1 (char 0)
+2025-02-04 11:05:43,929 - ERROR - Error generating SOHO_Basic_6.x_User_/_User_groups.md: Expecting value: line 1 column 1 (char 0)
+2025-02-04 11:07:45,285 - ERROR - Error generating SOHO_Basic_6.x_Bridging_and_Switching.md: Expecting value: line 1 column 1 (char 0)
+2025-02-04 11:09:46,501 - ERROR - Error generating SOHO_Basic_6.x_MACVLAN.md: Expecting value: line 1 column 1 (char 0)
+2025-02-04 11:10:46,879 - ERROR - Error generating SOHO_Basic_6.x_L3_Hardware_Offloading.md: Expecting value: line 1 column 1 (char 0)
+2025-02-04 11:11:47,258 - ERROR - Error generating SOHO_Basic_6.x_MACsec.md: Expecting value: line 1 column 1 (char 0)
+2025-02-04 11:12:47,737 - ERROR - Error generating SOHO_Basic_6.x_VLAN.md: Expecting value: line 1 column 1 (char 0)
+2025-02-04 11:15:57,629 - ERROR - Error generating SOHO_Basic_6.x_Firewall_and_Quality_of_Service.md: Expecting value: line 1 column 1 (char 0)
+2025-02-04 11:16:57,991 - ERROR - Error generating SOHO_Basic_6.x_Connection_tracking.md: Expecting value: line 1 column 1 (char 0)
+2025-02-04 11:17:58,376 - ERROR - Error generating SOHO_Basic_6.x_Firewall.md: Expecting value: line 1 column 1 (char 0)
+2025-02-04 11:18:58,859 - ERROR - Error generating SOHO_Basic_6.x_Packet_Flow_in_RouterOS.md: Expecting value: line 1 column 1 (char 0)
+2025-02-04 11:19:59,235 - ERROR - Error generating SOHO_Basic_6.x_Queues.md: Expecting value: line 1 column 1 (char 0)
+2025-02-04 11:22:01,053 - ERROR - Error generating SOHO_Basic_6.x_Firewall_and_QoS_Case_Studies.md: Expecting value: line 1 column 1 (char 0)
+2025-02-04 11:23:01,395 - ERROR - Error generating SOHO_Basic_6.x_Kid_Control.md: Expecting value: line 1 column 1 (char 0)
+2025-02-04 11:24:01,789 - ERROR - Error generating SOHO_Basic_6.x_UPnP.md: Expecting value: line 1 column 1 (char 0)
+2025-02-04 11:26:03,080 - ERROR - Error generating SOHO_Basic_6.x_NAT-PMP.md: Expecting value: line 1 column 1 (char 0)
+2025-02-04 11:28:04,776 - ERROR - Error generating SOHO_Basic_6.x_IP_Services.md: Expecting value: line 1 column 1 (char 0)
+2025-02-04 11:29:05,108 - ERROR - Error generating SOHO_Basic_6.x_High_Availability_Solutions.md: Expecting value: line 1 column 1 (char 0)
+2025-02-04 11:32:44,744 - ERROR - Error generating SOHO_Basic_6.x_IP_Addressing_(IPv4_and_IPv6).md: Request timed out.
+2025-02-04 11:32:44,744 - ERROR - Full traceback:
+Traceback (most recent call last):
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_transports\default.py", line 72, in map_httpcore_exceptions
+    yield
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_transports\default.py", line 116, in __iter__
+    for part in self._httpcore_stream:
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_sync\connection_pool.py", line 407, in __iter__
+    raise exc from None
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_sync\connection_pool.py", line 403, in __iter__
+    for part in self._stream:
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_sync\http11.py", line 342, in __iter__
+    raise exc
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_sync\http11.py", line 334, in __iter__
+    for chunk in self._connection._receive_response_body(**kwargs):
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_sync\http11.py", line 203, in _receive_response_body
+    event = self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_sync\http11.py", line 217, in _receive_event
+    data = self._network_stream.read(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_backends\sync.py", line 126, in read
+    with map_exceptions(exc_map):
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ReadTimeout: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\site-packages\openai\_base_client.py", line 993, in _request
+    response = self._client.send(
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 940, in send
+    raise exc
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 934, in send
+    response.read()
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_models.py", line 815, in read
+    self._content = b"".join(self.iter_bytes())
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_models.py", line 831, in iter_bytes
+    for raw_bytes in self.iter_raw():
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_models.py", line 885, in iter_raw
+    for raw_stream_bytes in self.stream:
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 127, in __iter__
+    for chunk in self._stream:
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_transports\default.py", line 115, in __iter__
+    with map_httpcore_exceptions():
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_transports\default.py", line 89, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadTimeout: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Vivek\Documents\MikroTik_dis\synthetic_generator_deepseek.py", line 295, in generate_documentation
+    response = client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\site-packages\openai\_utils\_utils.py", line 275, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\site-packages\openai\resources\chat\completions.py", line 859, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\site-packages\openai\_base_client.py", line 1280, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\site-packages\openai\_base_client.py", line 957, in request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\site-packages\openai\_base_client.py", line 1002, in _request
+    return self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\site-packages\openai\_base_client.py", line 1095, in _retry_request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\site-packages\openai\_base_client.py", line 1002, in _request
+    return self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\site-packages\openai\_base_client.py", line 1095, in _retry_request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\site-packages\openai\_base_client.py", line 1012, in _request
+    raise APITimeoutError(request=request) from err
+openai.APITimeoutError: Request timed out.
+2025-02-04 11:34:52,783 - ERROR - Error generating SOHO_Basic_6.x_IP_Addressing_(IPv4_and_IPv6).md: Expecting value: line 1 column 1 (char 0)
+2025-02-04 11:34:52,783 - ERROR - Full traceback:
+Traceback (most recent call last):
+  File "C:\Users\Vivek\Documents\MikroTik_dis\synthetic_generator_deepseek.py", line 295, in generate_documentation
+    response = client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\site-packages\openai\_utils\_utils.py", line 275, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\site-packages\openai\resources\chat\completions.py", line 859, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\site-packages\openai\_base_client.py", line 1280, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\site-packages\openai\_base_client.py", line 957, in request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\site-packages\openai\_base_client.py", line 1063, in _request
+    return self._process_response(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\site-packages\openai\_base_client.py", line 1162, in _process_response
+    return api_response.parse()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\site-packages\openai\_response.py", line 317, in parse
+    parsed = self._parse(to=to)
+             ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\site-packages\openai\_response.py", line 259, in _parse
+    data = response.json()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_models.py", line 766, in json
+    return jsonlib.loads(self.content, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2025-02-04 11:35:53,239 - ERROR - Error generating SOHO_Basic_6.x_IP_Pools.md: Expecting value: line 1 column 1 (char 0)
+2025-02-04 11:35:53,239 - ERROR - Full traceback:
+Traceback (most recent call last):
+  File "C:\Users\Vivek\Documents\MikroTik_dis\synthetic_generator_deepseek.py", line 295, in generate_documentation
+    response = client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\site-packages\openai\_utils\_utils.py", line 275, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\site-packages\openai\resources\chat\completions.py", line 859, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\site-packages\openai\_base_client.py", line 1280, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\site-packages\openai\_base_client.py", line 957, in request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\site-packages\openai\_base_client.py", line 1063, in _request
+    return self._process_response(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\site-packages\openai\_base_client.py", line 1162, in _process_response
+    return api_response.parse()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\site-packages\openai\_response.py", line 317, in parse
+    parsed = self._parse(to=to)
+             ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\site-packages\openai\_response.py", line 259, in _parse
+    data = response.json()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_models.py", line 766, in json
+    return jsonlib.loads(self.content, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2025-02-04 11:41:53,177 - ERROR - Error generating SOHO_Basic_6.x_IP_Pools.md: Expecting value: line 1 column 1 (char 0)
+2025-02-04 11:41:53,177 - ERROR - Full General Error Traceback:
+Traceback (most recent call last):
+  File "C:\Users\Vivek\Documents\MikroTik_dis\synthetic_generator_deepseek.py", line 319, in generate_documentation
+    response = generate_content_with_retry(client, prompt, filename)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\site-packages\tenacity\__init__.py", line 336, in wrapped_f
+    return copy(f, *args, **kw)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\site-packages\tenacity\__init__.py", line 475, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\site-packages\tenacity\__init__.py", line 376, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\site-packages\tenacity\__init__.py", line 398, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+                                     ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\site-packages\tenacity\__init__.py", line 478, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vivek\Documents\MikroTik_dis\synthetic_generator_deepseek.py", line 276, in generate_content_with_retry
+    response = client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\site-packages\openai\_utils\_utils.py", line 275, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\site-packages\openai\resources\chat\completions.py", line 859, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\site-packages\openai\_base_client.py", line 1280, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\site-packages\openai\_base_client.py", line 957, in request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\site-packages\openai\_base_client.py", line 1063, in _request
+    return self._process_response(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\site-packages\openai\_base_client.py", line 1162, in _process_response
+    return api_response.parse()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\site-packages\openai\_response.py", line 317, in parse
+    parsed = self._parse(to=to)
+             ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\site-packages\openai\_response.py", line 259, in _parse
+    data = response.json()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_models.py", line 766, in json
+    return jsonlib.loads(self.content, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2025-02-04 11:42:53,656 - ERROR - Error generating SOHO_Basic_6.x_IP_Routing.md: Expecting value: line 1 column 1 (char 0)
+2025-02-04 11:42:53,656 - ERROR - Full General Error Traceback:
+Traceback (most recent call last):
+  File "C:\Users\Vivek\Documents\MikroTik_dis\synthetic_generator_deepseek.py", line 319, in generate_documentation
+    response = generate_content_with_retry(client, prompt, filename)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\site-packages\tenacity\__init__.py", line 336, in wrapped_f
+    return copy(f, *args, **kw)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\site-packages\tenacity\__init__.py", line 475, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\site-packages\tenacity\__init__.py", line 376, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\site-packages\tenacity\__init__.py", line 398, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+                                     ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\site-packages\tenacity\__init__.py", line 478, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vivek\Documents\MikroTik_dis\synthetic_generator_deepseek.py", line 276, in generate_content_with_retry
+    response = client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\site-packages\openai\_utils\_utils.py", line 275, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\site-packages\openai\resources\chat\completions.py", line 859, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\site-packages\openai\_base_client.py", line 1280, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\site-packages\openai\_base_client.py", line 957, in request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\site-packages\openai\_base_client.py", line 1063, in _request
+    return self._process_response(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\site-packages\openai\_base_client.py", line 1162, in _process_response
+    return api_response.parse()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\site-packages\openai\_response.py", line 317, in parse
+    parsed = self._parse(to=to)
+             ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\site-packages\openai\_response.py", line 259, in _parse
+    data = response.json()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_models.py", line 766, in json
+    return jsonlib.loads(self.content, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vivek\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2025-02-04 11:45:35,138 - ERROR - Error generating SOHO_Basic_6.x_IP_Addressing_(IPv4_and_IPv6).md: Expecting value: line 1 column 1 (char 0)
+2025-02-04 11:46:35,614 - ERROR - Error generating SOHO_Basic_6.x_IP_Pools.md: Expecting value: line 1 column 1 (char 0)
+2025-02-04 11:49:38,068 - ERROR - Error generating SOHO_Basic_6.x_IP_Routing.md: Request timed out.
+2025-02-04 11:50:38,484 - ERROR - Error generating SOHO_Basic_6.x_IP_Settings.md: Expecting value: line 1 column 1 (char 0)
+2025-02-04 11:54:04,627 - INFO - Skipping existing file: SOHO_Basic_6.x_IP_Addressing_(IPv4_and_IPv6).md
+2025-02-04 11:54:05,102 - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-04 11:54:35,111 - INFO - Retrying request to /chat/completions in 0.402822 seconds
+2025-02-04 11:54:35,939 - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-04 11:55:05,946 - INFO - Retrying request to /chat/completions in 0.926021 seconds
+2025-02-04 11:55:07,326 - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-04 11:55:37,327 - ERROR - API error for topic IP Pools: Request timed out.
+2025-02-04 11:55:42,200 - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-04 11:56:12,212 - INFO - Retrying request to /chat/completions in 0.495071 seconds
+2025-02-04 11:56:13,308 - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-04 11:56:43,318 - INFO - Retrying request to /chat/completions in 0.898223 seconds
+2025-02-04 11:56:44,639 - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-04 11:57:14,649 - ERROR - API error for topic IP Pools: Request timed out.
+2025-02-04 11:57:19,582 - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-04 11:57:49,588 - INFO - Retrying request to /chat/completions in 0.459484 seconds
+2025-02-04 11:57:50,855 - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-04 11:58:20,857 - INFO - Retrying request to /chat/completions in 0.770651 seconds
+2025-02-04 11:58:22,559 - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-04 11:58:52,560 - ERROR - API error for topic IP Pools: Request timed out.
+2025-02-04 11:58:52,560 - ERROR - Failed to generate SOHO_Basic_6.x_IP_Pools.md: RetryError[<Future at 0x217a31b4690 state=finished raised APITimeoutError>]
+2025-02-04 11:58:52,988 - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-04 11:59:22,989 - INFO - Retrying request to /chat/completions in 0.429271 seconds
+2025-02-04 11:59:23,829 - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-04 11:59:53,832 - INFO - Retrying request to /chat/completions in 0.963347 seconds
+2025-02-04 11:59:55,208 - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-04 12:00:25,213 - ERROR - API error for topic IP Routing: Request timed out.
+2025-02-04 12:00:29,666 - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-04 12:00:59,673 - INFO - Retrying request to /chat/completions in 0.442362 seconds
+2025-02-04 12:01:00,564 - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-04 12:01:30,569 - INFO - Retrying request to /chat/completions in 0.776934 seconds
+2025-02-04 12:01:31,738 - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-04 12:02:01,745 - ERROR - API error for topic IP Routing: Request timed out.
+2025-02-04 12:02:06,236 - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-04 12:02:36,242 - INFO - Retrying request to /chat/completions in 0.394204 seconds
+2025-02-04 12:02:37,037 - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-04 12:03:07,047 - INFO - Retrying request to /chat/completions in 0.863734 seconds
+2025-02-04 12:03:08,327 - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-04 12:03:38,331 - INFO - Process interrupted by user
+2025-02-04 12:03:38,331 - INFO - Documentation generation process completed
+2025-02-04 12:04:06,790 - INFO - Skipping existing file: SOHO_Basic_6.x_IP_Addressing_(IPv4_and_IPv6).md
+2025-02-04 12:04:07,705 - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-04 12:05:07,708 - ERROR - API error for topic IP Pools: Expecting value: line 1 column 1 (char 0)
+2025-02-04 12:05:07,708 - ERROR - Failed to generate IP Pools: Expecting value: line 1 column 1 (char 0)
+2025-02-04 12:05:10,127 - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-04 12:06:10,129 - ERROR - API error for topic IP Routing: Expecting value: line 1 column 1 (char 0)
+2025-02-04 12:06:10,129 - ERROR - Failed to generate IP Routing: Expecting value: line 1 column 1 (char 0)
+2025-02-04 12:06:12,130 - WARNING - Batch completely failed, waiting 60 seconds...
+2025-02-04 12:07:12,633 - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-04 12:08:12,628 - ERROR - API error for topic IP Settings: Expecting value: line 1 column 1 (char 0)
+2025-02-04 12:08:12,628 - ERROR - Failed to generate IP Settings: Expecting value: line 1 column 1 (char 0)
+2025-02-04 12:08:14,629 - WARNING - Batch completely failed, waiting 60 seconds...
+2025-02-04 12:09:15,559 - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-04 12:10:42,468 - INFO - Successfully generated: SOHO_Basic_6.x_MAC_server.md
+2025-02-04 12:10:47,823 - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-04 12:11:47,835 - INFO - Retrying request to /chat/completions in 0.486239 seconds
+2025-02-04 12:11:48,871 - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"

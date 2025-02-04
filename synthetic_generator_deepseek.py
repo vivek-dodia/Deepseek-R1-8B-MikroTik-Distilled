@@ -1,23 +1,29 @@
 import os
 import logging
-from dotenv import load_dotenv
-from pathlib import Path
-from openai import OpenAI
 import time
+from pathlib import Path
+from openai import OpenAI, APITimeoutError
+import requests
 from requests.auth import HTTPBasicAuth
 from urllib3.util import ssl_
+from tenacity import retry, stop_after_attempt, wait_exponential, retry_if_exception_type
+from dotenv import load_dotenv
+
 ssl_.DEFAULT_CIPHERS = 'ALL:@SECLEVEL=1'
-
 load_dotenv()
+
 API_KEY = os.getenv("DEEPSEEK")
+BASE_DIR = Path("C:/Users/Vivek/Documents/MikroTik_dis/Scraped_Data/synthetic_data/deepseek")
+LOG_DIR = Path("C:/Users/Vivek/Documents/MikroTik_dis/logs")
+LOG_FILE = LOG_DIR / "deepseek.log"
 
-BASE_DIR = r"C:\Users\Vivek\Documents\MikroTik_dis\Scraped_Data\synthetic_data\deepseek"
-LOG_DIR = r"C:\Users\Vivek\Documents\MikroTik_dis\logs"
-LOG_FILE = Path(LOG_DIR) / "deepseek.log"
-
-SCALES = ["SOHO", "SMB", "Enterprise", "ISP"]
-LEVELS = ["Basic", "Advanced", "Expert"]
-VERSIONS = ["6.x", "7.x"]
+# Configuration
+SCALES = ["SOHO"]  # Start with just SOHO for testing
+LEVELS = ["Basic"]  # Start with just Basic
+VERSIONS = ["6.x"]  # Start with just 6.x
+MAX_RETRIES = 5
+TIMEOUT = 60
+BATCH_SIZE = 3
 
 EXTENDED_TOPICS = {
     "Core Networking": [
@@ -223,135 +229,163 @@ EXTENDED_TOPICS = {
       ]
 }
 
-PROMPT_TEMPLATE = """Generate comprehensive MikroTik RouterOS documentation with CLI and API examples for:
+PROMPT_TEMPLATE = """Generate concise MikroTik RouterOS documentation for:
+Topic: {topic}
+RouterOS: {version}
+Scale: {scale}
+Level: {level}
 
-**Topic:** {topic}
-**RouterOS Version:** {version}
-**Network Scale:** {scale}
-**Complexity Level:** {level}
+Include:
+1. CLI configuration with comments
+2. REST API example (Python)
+3. Common debugging steps
+4. Security measures
+5. Performance tips
 
-Include these components:
-1. Architecture diagram requirements
-2. CLI configuration with inline comments
-3. REST API implementation (Python code)
-4. Common debugging scenarios
-5. Version-specific considerations
-6. Security hardening measures
-7. Performance optimization tips
-
-Special requirements for {scale} environments:
-- Include real-world deployment examples
-- Show scalability considerations
-- Provide monitoring configurations
-- Add disaster recovery steps
-- Include automated backup scripts
-
-Format requirements:
-- Use Markdown with technical notation
-- Commands in RouterOS code blocks
-- API examples in Python with error handling
-- Network diagrams in mermaid syntax
-- Comparative tables for different approaches
+Format:
+- Use Markdown
+- Keep CLI examples practical
+- Include error handling in API code
 """
 
-# Configure logging
-Path(LOG_DIR).mkdir(parents=True, exist_ok=True)
-logging.basicConfig(filename=LOG_FILE, level=logging.ERROR,
-                    format='%(asctime)s - %(levelname)s - %(message)s')
+logging.basicConfig(
+    filename=LOG_FILE,
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s'
+)
+
+@retry(
+    stop=stop_after_attempt(MAX_RETRIES),
+    wait=wait_exponential(multiplier=1, min=4, max=30),
+    retry=retry_if_exception_type((APITimeoutError, requests.exceptions.Timeout))
+)
+def generate_completion(client, prompt, topic):
+    try:
+        response = client.chat.completions.create(
+            model="deepseek-reasoner",
+            messages=[
+                {"role": "system", "content": "You are a MikroTik expert. Provide practical documentation."},
+                {"role": "user", "content": prompt}
+            ],
+            max_tokens=1500,
+            temperature=0.7,
+            timeout=TIMEOUT
+        )
+        return response.choices[0].message.content
+    except Exception as e:
+        logging.error(f"API error for topic {topic}: {str(e)}")
+        raise
+
+def process_topic_batch(client, batch, scale, level, version):
+    results = []
+    for topic in batch:
+        try:
+            prompt = PROMPT_TEMPLATE.format(
+                topic=topic,
+                version=version,
+                level=level,
+                scale=scale
+            )
+            
+            filename = f"{scale}_{level}_{version}_{topic.replace(' ','_')}.md"
+            filepath = BASE_DIR / filename
+            
+            if filepath.exists():
+                logging.info(f"Skipping existing file: {filename}")
+                continue
+
+            content = generate_completion(client, prompt, topic)
+            enhanced_content = add_technical_enhancements(content)
+            
+            with open(filepath, 'w', encoding='utf-8') as f:
+                f.write(enhanced_content)
+            
+            logging.info(f"Successfully generated: {filename}")
+            print(f"Generated: {filename}")
+            
+            results.append((topic, True))
+            time.sleep(5)  # Rate limiting between files
+            
+        except Exception as e:
+            logging.error(f"Failed to generate {topic}: {str(e)}")
+            results.append((topic, False))
+            time.sleep(2)
+            
+    return results
 
 def generate_documentation():
-    Path(BASE_DIR).mkdir(parents=True, exist_ok=True)
-
     if not API_KEY:
-        print("Missing DEEPSEEK in .env file")
-        exit(1)
-    
-    try:
-        client = OpenAI(api_key=API_KEY, base_url="https://api.deepseek.com/v1")
-    except Exception as e:
-        print(f"Failed to initialize the deepseek client: {str(e)}")
-        exit(1)
-    
-    while True: # Recursive Loop
-        for version in VERSIONS:
-            for level in LEVELS:
-                for scale in SCALES:
-                    for category, topics in EXTENDED_TOPICS.items():
-                        for topic in topics:
-                            prompt = PROMPT_TEMPLATE.format(
-                                topic=topic,
-                                version=version,
-                                level=level,
-                                scale=scale
-                            )
-                            
-                            filename = f"{scale}_{level}_{version}_{topic.replace(' ','_')}.md"
-                            filepath = Path(BASE_DIR) / filename
-                            
-                            try:
-                                command_response = client.chat.completions.create(
-                                    model="deepseek-chat",
-                                    messages=[{
-                                        "role": "system",
-                                        "content": "You are a MikroTik Certified Engineer. Provide expert documentation with CLI/API examples and technical diagrams."
-                                    }, {
-                                        "role": "user",
-                                        "content": prompt
-                                    }],
-                                    max_tokens=2000, # Adjusted tokens here if needed
-                                    temperature=0.1,
-                                    stream=False,
-                                    timeout=60 # Added timeout
-                                )
+        raise ValueError("Missing DEEPSEEK API key in .env file")
+
+    BASE_DIR.mkdir(parents=True, exist_ok=True)
+    LOG_DIR.mkdir(parents=True, exist_ok=True)
+
+    client = OpenAI(
+        api_key=API_KEY,
+        base_url="https://api.deepseek.com/v1",
+        timeout=TIMEOUT
+    )
+
+    while True:
+        try:
+            for version in VERSIONS:
+                for level in LEVELS:
+                    for scale in SCALES:
+                        for category, topics in EXTENDED_TOPICS.items():
+                            # Process topics in batches
+                            for i in range(0, len(topics), BATCH_SIZE):
+                                batch = topics[i:i + BATCH_SIZE]
+                                results = process_topic_batch(client, batch, scale, level, version)
                                 
-                                content = command_response.choices[0].message.content
-                                enhanced_content = add_technical_enhancements(content)
-                                
-                                with open(filepath, 'w', encoding='utf-8') as f:
-                                    f.write(enhanced_content)
-                                print(f"Generated: {filename}")
-                            
-                            except Exception as e:
-                                logging.error(f"Error generating {filename}: {str(e)}")
-                                if hasattr(e,'response'):
-                                    logging.error(f"Response Content: {e.response.content.decode()}")
-                                print(f"Error generating {filename}: {str(e)}")
-        print("All Topics Done, Sleeping for 10 seconds")
-        time.sleep(10)
+                                # If all failed in batch, wait longer
+                                if all(not success for _, success in results):
+                                    logging.warning("Batch completely failed, waiting 60 seconds...")
+                                    time.sleep(60)
+                                else:
+                                    time.sleep(10)  # Normal batch delay
+            
+            logging.info("Completed full cycle, waiting before next iteration")
+            time.sleep(30)
+            
+        except KeyboardInterrupt:
+            logging.info("Process interrupted by user")
+            break
+        except Exception as e:
+            logging.error(f"Critical error: {str(e)}")
+            time.sleep(60)
 
 def add_technical_enhancements(content):
-    enhancements = """\n\n## API Reference Cheat Sheet
+    api_helper = """\n\n## API Helper Class
 ```python
-# Universal API Helper Function
-def mikrotik_api_call(
-    method: str,
-    endpoint: str,
-    data: dict = None,
-    timeout: int = 10
-) -> dict:
-    '''
-    Universal MikroTik API handler with error checking
-    '''
-    try:
-        response = requests.request(
-            method,
-            f"https://{ROUTER_IP}/rest{endpoint}",
-            auth=HTTPBasicAuth(API_USER, API_PASS),
-            json=data,
-            verify=SSL_VERIFY,
-            timeout=timeout
-        )
-        response.raise_for_status()
-        return response.json()
-    except requests.exceptions.HTTPError as e:
-        print(f"API Error: {e.response.status_code} - {e.response.text}")
-        return {"error": str(e)}
+class MikrotikAPI:
+    def __init__(self, router_ip: str, api_user: str, api_pass: str, verify_ssl: bool = False):
+        self.base_url = f"https://{router_ip}/rest"
+        self.auth = HTTPBasicAuth(api_user, api_pass)
+        self.verify_ssl = verify_ssl
+        self.session = requests.Session()
+        self.timeout = 30
+    
+    def api_call(self, method: str, endpoint: str, data: dict = None):
+        try:
+            response = self.session.request(
+                method,
+                f"{self.base_url}{endpoint}",
+                auth=self.auth,
+                json=data,
+                verify=self.verify_ssl,
+                timeout=self.timeout
+            )
+            response.raise_for_status()
+            return response.json()
+        except requests.exceptions.RequestException as e:
+            return {"error": f"API request failed: {str(e)}"}
 ```\n"""
-    return content + enhancements
+    return content + api_helper
 
 if __name__ == "__main__":
     try:
-      generate_documentation()
-    except KeyboardInterrupt:
-        print("Documentation generation interrupted by user.")
-    print("Documentation generation completed!")
+        generate_documentation()
+    except Exception as e:
+        logging.error(f"Application terminated: {str(e)}")
+    finally:
+        logging.info("Documentation generation completed")
