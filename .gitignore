@@ -2,4 +2,4 @@ crawl4ai/
 .env
 Scraped_Data/github_repos/
 Scraped_Data/gitlab_repos/
-MikroTik_dis/forum_crawler.log
+forum_crawler.log
