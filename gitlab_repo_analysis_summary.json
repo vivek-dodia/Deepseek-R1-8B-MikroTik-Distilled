@@ -1,0 +1,4783 @@
+{
+  "total_repos": 181,
+  "processed_repos": 181,
+  "failed_repos": 0,
+  "repo_statistics": {
+    "01-template-hostpot-mikrotik": {
+      "total_files": 17,
+      "total_size": 6007524,
+      "file_types": {
+        ".html": 8,
+        ".jpeg": 1,
+        ".txt": 1,
+        ".png": 1,
+        ".css": 1,
+        ".gif": 3,
+        ".jpg": 1,
+        ".js": 1
+      },
+      "categories": {
+        "other": 15,
+        "documentation": 1,
+        "code": 1
+      },
+      "doc_files": [
+        "errors.txt"
+      ],
+      "main_language": "js",
+      "has_tests": false,
+      "has_ci": false
+    },
+    "0day-mikrotik": {
+      "total_files": 3,
+      "total_size": 5518,
+      "file_types": {
+        ".py": 2,
+        ".md": 1
+      },
+      "categories": {
+        "code": 2,
+        "readme": 1,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": "py",
+      "has_tests": false,
+      "has_ci": false
+    },
+    "acceso-a-internet-aula-con-mikrotik-y-flask": {
+      "total_files": 9,
+      "total_size": 6883,
+      "file_types": {
+        ".md": 1,
+        "": 1,
+        ".py": 1,
+        ".pyc": 2,
+        ".txt": 1,
+        ".css": 1,
+        ".html": 2
+      },
+      "categories": {
+        "readme": 1,
+        "other": 6,
+        "code": 1,
+        "documentation": 1
+      },
+      "doc_files": [
+        "aula-flask\\como_instalar_flask.txt"
+      ],
+      "main_language": "py",
+      "has_tests": false,
+      "has_ci": false
+    },
+    "am2": {
+      "total_files": 222,
+      "total_size": 3098201,
+      "file_types": {
+        ".php": 13,
+        "": 2,
+        ".md": 4,
+        ".css": 2,
+        ".js": 39,
+        ".json": 2,
+        ".html": 19,
+        ".pug": 24,
+        ".scss": 116,
+        ".sass": 1
+      },
+      "categories": {
+        "code": 52,
+        "license": 2,
+        "readme": 2,
+        "other": 162,
+        "documentation": 2,
+        "config": 2
+      },
+      "doc_files": [
+        "vali-admin-master\\CODE_OF_CONDUCT.md",
+        "vali-admin-master\\CONTRIBUTING.md"
+      ],
+      "main_language": "js",
+      "has_tests": false,
+      "has_ci": false
+    },
+    "ansible-ee-mikrotik": {
+      "total_files": 1,
+      "total_size": 6326,
+      "file_types": {
+        ".md": 1
+      },
+      "categories": {
+        "readme": 1,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": false
+    },
+    "ansible-mikrotik": {
+      "total_files": 5,
+      "total_size": 3714,
+      "file_types": {
+        "": 1,
+        ".yml": 3,
+        ".md": 1
+      },
+      "categories": {
+        "license": 1,
+        "config": 3,
+        "readme": 1,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": false
+    },
+    "ansible-mikrotik-exporter": {
+      "total_files": 19,
+      "total_size": 10787,
+      "file_types": {
+        "": 2,
+        ".yml": 12,
+        ".md": 1,
+        ".py": 1,
+        ".j2": 3
+      },
+      "categories": {
+        "other": 4,
+        "license": 1,
+        "config": 12,
+        "readme": 1,
+        "test": 1,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": "py",
+      "has_tests": true,
+      "has_ci": false
+    },
+    "ansible-mikrotik-l2tp-client": {
+      "total_files": 7,
+      "total_size": 18034,
+      "file_types": {
+        "": 1,
+        ".md": 2,
+        ".yml": 3,
+        ".j2": 1
+      },
+      "categories": {
+        "license": 1,
+        "readme": 1,
+        "config": 3,
+        "documentation": 1,
+        "other": 1
+      },
+      "doc_files": [
+        "docs\\l2tp-example.md"
+      ],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": false
+    },
+    "ansible-mikrotik-ospf": {
+      "total_files": 17,
+      "total_size": 27173,
+      "file_types": {
+        "": 1,
+        ".md": 2,
+        ".yml": 2,
+        ".j2": 12
+      },
+      "categories": {
+        "license": 1,
+        "readme": 1,
+        "config": 2,
+        "documentation": 1,
+        "other": 12
+      },
+      "doc_files": [
+        "docs\\ospf.md"
+      ],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": false
+    },
+    "ansible-mikrotik-static-routes": {
+      "total_files": 7,
+      "total_size": 10679,
+      "file_types": {
+        "": 1,
+        ".md": 2,
+        ".yml": 3,
+        ".j2": 1
+      },
+      "categories": {
+        "license": 1,
+        "readme": 1,
+        "config": 3,
+        "documentation": 1,
+        "other": 1
+      },
+      "doc_files": [
+        "docs\\routes.md"
+      ],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": false
+    },
+    "ansible-mikrotik-users": {
+      "total_files": 7,
+      "total_size": 7214,
+      "file_types": {
+        "": 1,
+        ".md": 2,
+        ".yml": 3,
+        ".j2": 1
+      },
+      "categories": {
+        "license": 1,
+        "readme": 1,
+        "config": 3,
+        "documentation": 1,
+        "other": 1
+      },
+      "doc_files": [
+        "docs\\users.md"
+      ],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": false
+    },
+    "ansible-role-setup-chr-mikrotik": {
+      "total_files": 15,
+      "total_size": 12437,
+      "file_types": {
+        "": 2,
+        ".md": 1,
+        ".yml": 11,
+        ".rst": 1
+      },
+      "categories": {
+        "other": 2,
+        "readme": 1,
+        "config": 11,
+        "documentation": 1
+      },
+      "doc_files": [
+        "molecule\\default\\INSTALL.rst"
+      ],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": false
+    },
+    "ansible-telnet-mikrotik": {
+      "total_files": 7,
+      "total_size": 35615,
+      "file_types": {
+        "": 2,
+        ".yaml": 1,
+        ".md": 1,
+        ".py": 2,
+        ".pyc": 1
+      },
+      "categories": {
+        "other": 3,
+        "config": 1,
+        "readme": 1,
+        "code": 2,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": "py",
+      "has_tests": false,
+      "has_ci": false
+    },
+    "api-graphic": {
+      "total_files": 11,
+      "total_size": 244308,
+      "file_types": {
+        ".py": 3,
+        ".md": 1,
+        ".xml": 3,
+        ".gif": 1,
+        ".ico": 1,
+        ".pyc": 2
+      },
+      "categories": {
+        "code": 3,
+        "readme": 1,
+        "other": 7,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": "py",
+      "has_tests": false,
+      "has_ci": false
+    },
+    "auto-settings-route": {
+      "total_files": 6,
+      "total_size": 28663,
+      "file_types": {
+        ".md": 1,
+        "": 2,
+        ".j2": 2,
+        ".txt": 1
+      },
+      "categories": {
+        "readme": 1,
+        "other": 4,
+        "documentation": 1
+      },
+      "doc_files": [
+        "template_config\\1.txt"
+      ],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": false
+    },
+    "aws-mikrotik-api": {
+      "total_files": 16,
+      "total_size": 65481,
+      "file_types": {
+        ".cfg": 1,
+        "": 2,
+        ".yml": 6,
+        ".md": 1,
+        ".txt": 1,
+        ".yaml": 2,
+        ".py": 2,
+        ".json": 1
+      },
+      "categories": {
+        "config": 10,
+        "other": 1,
+        "license": 1,
+        "readme": 1,
+        "documentation": 1,
+        "code": 2
+      },
+      "doc_files": [
+        "requirements.txt"
+      ],
+      "main_language": "py",
+      "has_tests": false,
+      "has_ci": true
+    },
+    "AWS-VPC-Site2Site-VPC-with-Mikrotik": {
+      "total_files": 2,
+      "total_size": 3376,
+      "file_types": {
+        ".rsc": 1,
+        ".md": 1
+      },
+      "categories": {
+        "other": 1,
+        "readme": 1,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": false
+    },
+    "backup": {
+      "total_files": 1,
+      "total_size": 6314,
+      "file_types": {
+        ".md": 1
+      },
+      "categories": {
+        "readme": 1,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": false
+    },
+    "bak-ros": {
+      "total_files": 4,
+      "total_size": 4404,
+      "file_types": {
+        "": 3,
+        ".md": 1
+      },
+      "categories": {
+        "other": 2,
+        "license": 1,
+        "readme": 1,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": false
+    },
+    "be-cekmac": {
+      "total_files": 3,
+      "total_size": 73903,
+      "file_types": {
+        ".js": 1,
+        ".json": 2
+      },
+      "categories": {
+        "code": 1,
+        "config": 2,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": "js",
+      "has_tests": false,
+      "has_ci": false
+    },
+    "block": {
+      "total_files": 5,
+      "total_size": 8634,
+      "file_types": {
+        ".pl": 1,
+        "": 3,
+        ".md": 1
+      },
+      "categories": {
+        "other": 4,
+        "readme": 1,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": false
+    },
+    "Brute-force-Mikrotik": {
+      "total_files": 17,
+      "total_size": 256981,
+      "file_types": {
+        ".md": 1,
+        ".php": 1,
+        ".html": 3,
+        ".json": 2,
+        ".js": 6,
+        ".png": 3,
+        ".py": 1
+      },
+      "categories": {
+        "readme": 1,
+        "code": 7,
+        "other": 6,
+        "config": 2,
+        "test": 1,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": "js",
+      "has_tests": true,
+      "has_ci": false
+    },
+    "buananetpbun-github-io": {
+      "total_files": 328,
+      "total_size": 4984969,
+      "file_types": {
+        ".xml": 4,
+        ".js": 3,
+        ".txt": 5,
+        ".html": 293,
+        ".ico": 4,
+        ".md": 5,
+        ".png": 5,
+        ".css": 5,
+        "": 1,
+        ".jpg": 3
+      },
+      "categories": {
+        "other": 314,
+        "code": 3,
+        "documentation": 8,
+        "readme": 2,
+        "license": 1
+      },
+      "doc_files": [
+        "ads.txt",
+        "robots.txt",
+        "SECURITY.md",
+        "mikrotik\\master.txt",
+        "mikrotik\\robots (1).txt",
+        "mikrotik\\robots.txt",
+        "mikrotik\\highlightjs\\CHANGES.md",
+        "mikrotik\\highlightjs\\README.ru.md"
+      ],
+      "main_language": "js",
+      "has_tests": false,
+      "has_ci": false
+    },
+    "cert.pl-hole-for-mikrotik": {
+      "total_files": 7,
+      "total_size": 42873976,
+      "file_types": {
+        ".rsc": 4,
+        ".md": 3
+      },
+      "categories": {
+        "other": 4,
+        "documentation": 2,
+        "readme": 1
+      },
+      "doc_files": [
+        "install-cert.pl-hole-for-mikrotik-dns.md",
+        "install-cert.pl-hole-for-mikrotik.md"
+      ],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": false
+    },
+    "check-all-filesystems": {
+      "total_files": 0,
+      "total_size": 0,
+      "file_types": {},
+      "categories": {
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": false
+    },
+    "check-mikrotik": {
+      "total_files": 45,
+      "total_size": 24831183,
+      "file_types": {
+        ".sln": 1,
+        ".md": 1,
+        ".xaml": 7,
+        ".cs": 20,
+        ".csproj": 1,
+        ".xml": 3,
+        ".plist": 3,
+        ".manifest": 1,
+        ".appxmanifest": 1,
+        ".json": 1,
+        ".svg": 3,
+        ".ttf": 2,
+        ".txt": 1
+      },
+      "categories": {
+        "other": 42,
+        "readme": 1,
+        "config": 1,
+        "documentation": 1
+      },
+      "doc_files": [
+        "Check\\Resources\\Raw\\AboutAssets.txt"
+      ],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": false
+    },
+    "Chimay-Red": {
+      "total_files": 7,
+      "total_size": 862336,
+      "file_types": {
+        ".pdf": 1,
+        ".py": 4,
+        ".txt": 1,
+        ".md": 1
+      },
+      "categories": {
+        "documentation": 2,
+        "code": 4,
+        "readme": 1
+      },
+      "doc_files": [
+        "ChimayRed.pdf",
+        "Misc_Notes.txt"
+      ],
+      "main_language": "py",
+      "has_tests": false,
+      "has_ci": false
+    },
+    "Cloud-hotspot": {
+      "total_files": 1084,
+      "total_size": 20862418,
+      "file_types": {
+        "": 5,
+        ".ico": 1,
+        ".php": 573,
+        ".md": 1,
+        ".iml": 1,
+        ".xml": 6,
+        ".html": 60,
+        ".phps": 9,
+        ".txt": 5,
+        ".sh": 4,
+        ".png": 140,
+        ".js": 109,
+        ".css": 105,
+        ".sql": 1,
+        ".gif": 9,
+        ".map": 6,
+        ".svg": 12,
+        ".eot": 1,
+        ".ttf": 2,
+        ".woff": 5,
+        ".swf": 2,
+        ".psd": 2,
+        ".jpg": 15,
+        ".jpeg": 8,
+        ".conf": 1,
+        ".zip": 1
+      },
+      "categories": {
+        "other": 391,
+        "code": 657,
+        "readme": 1,
+        "test": 29,
+        "documentation": 5,
+        "config": 1
+      },
+      "doc_files": [
+        "application\\libraries\\PHPMailer\\examples\\LGPLv3.txt",
+        "application\\libraries\\PHPMailer\\examples\\docs\\Callback_function_notes.txt",
+        "application\\libraries\\PHPMailer\\examples\\docs\\DomainKeys_notes.txt",
+        "application\\libraries\\PHPMailer\\examples\\docs\\Note_for_SMTP_debugging.txt",
+        "application\\libraries\\PHPMailer\\examples\\docs\\pop3_article.txt"
+      ],
+      "main_language": "php",
+      "has_tests": true,
+      "has_ci": false
+    },
+    "comparando-mikrotik-routeros-com-vyos": {
+      "total_files": 0,
+      "total_size": 0,
+      "file_types": {},
+      "categories": {
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": false
+    },
+    "core": {
+      "total_files": 21,
+      "total_size": 77354,
+      "file_types": {
+        ".yml": 2,
+        ".md": 2,
+        ".py": 17
+      },
+      "categories": {
+        "config": 2,
+        "readme": 2,
+        "code": 17,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": "py",
+      "has_tests": false,
+      "has_ci": true
+    },
+    "createbackup": {
+      "total_files": 12,
+      "total_size": 111061,
+      "file_types": {
+        ".md": 2,
+        ".yml": 8,
+        "": 1,
+        ".png": 1
+      },
+      "categories": {
+        "changelog": 1,
+        "readme": 1,
+        "config": 8,
+        "other": 2,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": false
+    },
+    "dhcpserver": {
+      "total_files": 10,
+      "total_size": 20646,
+      "file_types": {
+        ".md": 2,
+        ".yml": 8
+      },
+      "categories": {
+        "changelog": 1,
+        "readme": 1,
+        "config": 8,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": false
+    },
+    "dnsserver": {
+      "total_files": 9,
+      "total_size": 17222,
+      "file_types": {
+        ".md": 2,
+        ".yml": 7
+      },
+      "categories": {
+        "changelog": 1,
+        "readme": 1,
+        "config": 7,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": false
+    },
+    "docker-freeradius-mysql-mikrotik": {
+      "total_files": 278,
+      "total_size": 960835,
+      "file_types": {
+        "": 160,
+        ".yml": 7,
+        ".md": 6,
+        ".conf": 47,
+        ".sql": 29,
+        ".cnf": 8,
+        ".gdb": 1,
+        ".rst": 3,
+        ".com": 2,
+        ".log": 2,
+        ".save": 1,
+        ".pl": 1,
+        ".orig": 2,
+        ".relay": 1,
+        ".yaml": 1,
+        ".sh": 6,
+        ".py": 1
+      },
+      "categories": {
+        "other": 206,
+        "config": 55,
+        "license": 2,
+        "readme": 5,
+        "documentation": 3,
+        "code": 6,
+        "test": 1
+      },
+      "doc_files": [
+        "etc\\raddb\\README.rst",
+        "etc\\raddb\\mods-available\\README.rst",
+        "etc\\raddb\\mods-config\\README.rst"
+      ],
+      "main_language": "sh",
+      "has_tests": true,
+      "has_ci": false
+    },
+    "docker-routeros": {
+      "total_files": 11,
+      "total_size": 11556,
+      "file_types": {
+        "": 5,
+        ".sh": 3,
+        ".yml": 1,
+        ".md": 1,
+        ".py": 1
+      },
+      "categories": {
+        "other": 4,
+        "code": 4,
+        "config": 1,
+        "license": 1,
+        "readme": 1,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": "sh",
+      "has_tests": false,
+      "has_ci": false
+    },
+    "Easy-HotSpot": {
+      "total_files": 138,
+      "total_size": 2843013,
+      "file_types": {
+        ".php": 101,
+        ".sql": 1,
+        ".ico": 1,
+        ".txt": 1,
+        ".css": 7,
+        ".eot": 2,
+        ".svg": 2,
+        ".ttf": 2,
+        ".woff": 2,
+        ".otf": 1,
+        ".jpg": 1,
+        ".png": 12,
+        ".gif": 2,
+        ".js": 3
+      },
+      "categories": {
+        "code": 104,
+        "other": 33,
+        "documentation": 1
+      },
+      "doc_files": [
+        "readme.txt"
+      ],
+      "main_language": "php",
+      "has_tests": false,
+      "has_ci": false
+    },
+    "fe-mikrotik": {
+      "total_files": 3902,
+      "total_size": 55781480,
+      "file_types": {
+        "": 7,
+        ".json": 14,
+        ".md": 16,
+        ".php": 314,
+        ".sql": 2,
+        ".txt": 9,
+        ".rst": 1,
+        ".html": 119,
+        ".css": 211,
+        ".eot": 14,
+        ".svg": 10,
+        ".ttf": 15,
+        ".woff": 14,
+        ".woff2": 10,
+        ".jpg": 52,
+        ".png": 215,
+        ".gif": 59,
+        ".js": 2776,
+        ".map": 8,
+        ".fla": 1,
+        ".swf": 2,
+        ".otf": 1,
+        ".ico": 1,
+        ".psd": 1,
+        ".bat": 1,
+        ".nuspec": 1,
+        ".scss": 4,
+        ".yml": 1,
+        ".less": 1,
+        ".coffee": 21,
+        ".sh": 1
+      },
+      "categories": {
+        "other": 768,
+        "config": 15,
+        "documentation": 11,
+        "code": 3089,
+        "license": 9,
+        "readme": 6,
+        "changelog": 2,
+        "test": 2
+      },
+      "doc_files": [
+        "contributing.md",
+        "readme.rst",
+        "assets\\plugins\\ckeditor\\CHANGES.md",
+        "assets\\plugins\\ckeditor\\lang\\_translationstatus.txt",
+        "assets\\plugins\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\_translationstatus.txt",
+        "assets\\plugins\\ckeditor\\plugins\\codesnippet\\lib\\highlight\\CHANGES.md",
+        "assets\\plugins\\ckeditor\\plugins\\codesnippet\\lib\\highlight\\README.ru.md",
+        "assets\\plugins\\ckeditor\\plugins\\devtools\\lang\\_translationstatus.txt",
+        "assets\\plugins\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\_translationstatus.txt",
+        "assets\\plugins\\ckeditor\\plugins\\uicolor\\lang\\_translationstatus.txt",
+        "assets\\plugins\\kartik-bootstrap-fileinput\\CHANGE.md"
+      ],
+      "main_language": "js",
+      "has_tests": true,
+      "has_ci": false
+    },
+    "free-login-hotspot-mikrotik": {
+      "total_files": 27,
+      "total_size": 3526118,
+      "file_types": {
+        "": 1,
+        ".md": 1,
+        ".html": 19,
+        ".jpg": 2,
+        ".txt": 2,
+        ".js": 1,
+        ".xsd": 1
+      },
+      "categories": {
+        "other": 23,
+        "readme": 1,
+        "documentation": 2,
+        "code": 1
+      },
+      "doc_files": [
+        "Login Mikrotik zeref.weismann\\errors.txt",
+        "Login Mikrotik zeref.weismann\\lv\\errors.txt"
+      ],
+      "main_language": "js",
+      "has_tests": false,
+      "has_ci": false
+    },
+    "generate-mac-address-mikrotik": {
+      "total_files": 2,
+      "total_size": 537,
+      "file_types": {
+        ".md": 1,
+        "": 1
+      },
+      "categories": {
+        "readme": 1,
+        "other": 1,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": false
+    },
+    "go-mikroticata": {
+      "total_files": 15,
+      "total_size": 68063,
+      "file_types": {
+        "": 2,
+        ".mod": 1,
+        ".sum": 1,
+        ".yaml": 1,
+        ".md": 3,
+        ".sh": 1,
+        ".go": 6
+      },
+      "categories": {
+        "other": 3,
+        "license": 1,
+        "config": 1,
+        "readme": 1,
+        "code": 7,
+        "documentation": 2
+      },
+      "doc_files": [
+        "doc\\architecture.md",
+        "doc\\setup.md"
+      ],
+      "main_language": "go",
+      "has_tests": false,
+      "has_ci": false
+    },
+    "hairpin-nat": {
+      "total_files": 1,
+      "total_size": 1470,
+      "file_types": {
+        ".md": 1
+      },
+      "categories": {
+        "readme": 1,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": false
+    },
+    "hotspot-api": {
+      "total_files": 191,
+      "total_size": 1174531,
+      "file_types": {
+        ".jpg": 1,
+        ".md": 5,
+        ".php": 121,
+        ".css": 3,
+        ".png": 3,
+        ".html": 2,
+        ".bat": 3,
+        ".json": 5,
+        "": 9,
+        ".yml": 3,
+        ".xml": 8,
+        ".0": 2,
+        ".1": 1,
+        ".2": 1,
+        ".3": 1,
+        ".neon": 2,
+        ".ini": 2,
+        ".phpt": 13,
+        ".0a1": 1,
+        ".0a2": 1,
+        ".0a3": 1,
+        ".0a4": 1,
+        ".0a5": 1,
+        ".0b1": 1
+      },
+      "categories": {
+        "other": 53,
+        "readme": 4,
+        "code": 112,
+        "config": 10,
+        "license": 2,
+        "test": 9,
+        "documentation": 1
+      },
+      "doc_files": [
+        "vendor\\phpmailer\\phpmailer\\SECURITY.md"
+      ],
+      "main_language": "php",
+      "has_tests": true,
+      "has_ci": false
+    },
+    "hotspot-login-facebook-mikrotik": {
+      "total_files": 32,
+      "total_size": 2271207,
+      "file_types": {
+        ".php": 3,
+        ".js": 4,
+        ".md": 1,
+        ".css": 2,
+        ".txt": 1,
+        ".eot": 1,
+        ".svg": 1,
+        ".ttf": 6,
+        ".woff": 6,
+        ".woff2": 6,
+        ".png": 1
+      },
+      "categories": {
+        "code": 7,
+        "readme": 1,
+        "other": 23,
+        "license": 1,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": "js",
+      "has_tests": false,
+      "has_ci": false
+    },
+    "hotspottemplate": {
+      "total_files": 103,
+      "total_size": 4604972,
+      "file_types": {
+        ".html": 19,
+        ".txt": 3,
+        ".ico": 1,
+        ".js": 10,
+        ".css": 30,
+        ".map": 1,
+        ".eot": 1,
+        ".svg": 1,
+        ".ttf": 1,
+        ".woff": 1,
+        ".woff2": 1,
+        ".png": 20,
+        ".jpg": 12,
+        ".gif": 1,
+        ".xsd": 1
+      },
+      "categories": {
+        "other": 90,
+        "documentation": 3,
+        "code": 10
+      },
+      "doc_files": [
+        "errors.txt",
+        "hello world.txt",
+        "lv\\errors.txt"
+      ],
+      "main_language": "js",
+      "has_tests": false,
+      "has_ci": false
+    },
+    "integrasi-mikrotik-freeradius-server": {
+      "total_files": 1,
+      "total_size": 372,
+      "file_types": {
+        ".md": 1
+      },
+      "categories": {
+        "documentation": 1
+      },
+      "doc_files": [
+        "integrasimikroradius.md"
+      ],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": false
+    },
+    "interfaces": {
+      "total_files": 16,
+      "total_size": 73705,
+      "file_types": {
+        ".md": 2,
+        ".yml": 14
+      },
+      "categories": {
+        "changelog": 1,
+        "readme": 1,
+        "config": 14,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": false
+    },
+    "konfigurasi-mikrotik-warnet": {
+      "total_files": 1,
+      "total_size": 44384,
+      "file_types": {
+        "": 1
+      },
+      "categories": {
+        "other": 1,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": false
+    },
+    "landing-mikrotik": {
+      "total_files": 30,
+      "total_size": 308571,
+      "file_types": {
+        ".html": 15,
+        ".txt": 2,
+        ".ico": 1,
+        ".js": 6,
+        ".css": 1,
+        ".png": 1,
+        ".svg": 2,
+        ".jpg": 1,
+        ".xsd": 1
+      },
+      "categories": {
+        "other": 22,
+        "documentation": 2,
+        "code": 6
+      },
+      "doc_files": [
+        "errors-en.txt",
+        "errors.txt"
+      ],
+      "main_language": "js",
+      "has_tests": false,
+      "has_ci": false
+    },
+    "learning_routing": {
+      "total_files": 26,
+      "total_size": 22517,
+      "file_types": {
+        ".md": 24,
+        ".py": 1,
+        "": 1
+      },
+      "categories": {
+        "documentation": 24,
+        "test": 1,
+        "other": 1
+      },
+      "doc_files": [
+        "abdel.md",
+        "angel.md",
+        "david.md",
+        "eduard.md",
+        "Erik_docbueno.md",
+        "examples_mikrotik.md",
+        "gonzalo.md",
+        "initialize_gitlab.md",
+        "ivan.md",
+        "jardiel.md",
+        "jesus.md",
+        "radioenlace_mikrotik.md",
+        "roger.md",
+        "sergi.md",
+        "conf_inicial\\configuracion_inicial_jardiel.md",
+        "conf_inicial\\Config_inicial_Abdel.md",
+        "conf_inicial\\conf_incial_davidmellado.md",
+        "conf_inicial\\conf_incial_gonzalo.md",
+        "conf_inicial\\conf_inicial_eduard.md",
+        "conf_inicial\\conf_inicial_francesc.md",
+        "conf_inicial\\conf_inicial_jesus_perez.md",
+        "conf_inicial\\conf_inicial_roger.md",
+        "conf_inicial\\conf_inicial_sergi.md",
+        "conf_inicial\\erik_mikrotic.md"
+      ],
+      "main_language": "py",
+      "has_tests": true,
+      "has_ci": false
+    },
+    "login-hotspot-ptk-mahnetik": {
+      "total_files": 32,
+      "total_size": 1049437,
+      "file_types": {
+        ".md": 1,
+        ".html": 14,
+        ".txt": 1,
+        ".js": 5,
+        ".png": 6,
+        ".css": 3,
+        ".gif": 1,
+        ".xsd": 1
+      },
+      "categories": {
+        "readme": 1,
+        "other": 25,
+        "documentation": 1,
+        "code": 5
+      },
+      "doc_files": [
+        "responsive_login\\errors.txt"
+      ],
+      "main_language": "js",
+      "has_tests": false,
+      "has_ci": false
+    },
+    "login-mikrotik-custome": {
+      "total_files": 0,
+      "total_size": 0,
+      "file_types": {},
+      "categories": {
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": false
+    },
+    "lombamikrotik": {
+      "total_files": 3902,
+      "total_size": 46964153,
+      "file_types": {
+        "": 7,
+        ".json": 14,
+        ".md": 16,
+        ".php": 314,
+        ".sql": 2,
+        ".txt": 9,
+        ".rst": 1,
+        ".html": 119,
+        ".css": 211,
+        ".eot": 14,
+        ".svg": 10,
+        ".ttf": 15,
+        ".woff": 14,
+        ".woff2": 10,
+        ".jpg": 52,
+        ".png": 215,
+        ".gif": 59,
+        ".js": 2776,
+        ".map": 8,
+        ".fla": 1,
+        ".swf": 2,
+        ".otf": 1,
+        ".ico": 1,
+        ".psd": 1,
+        ".bat": 1,
+        ".nuspec": 1,
+        ".scss": 4,
+        ".yml": 1,
+        ".less": 1,
+        ".coffee": 21,
+        ".sh": 1
+      },
+      "categories": {
+        "other": 768,
+        "config": 15,
+        "documentation": 11,
+        "code": 3089,
+        "license": 9,
+        "readme": 6,
+        "changelog": 2,
+        "test": 2
+      },
+      "doc_files": [
+        "contributing.md",
+        "readme.rst",
+        "assets\\plugins\\ckeditor\\CHANGES.md",
+        "assets\\plugins\\ckeditor\\lang\\_translationstatus.txt",
+        "assets\\plugins\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\_translationstatus.txt",
+        "assets\\plugins\\ckeditor\\plugins\\codesnippet\\lib\\highlight\\CHANGES.md",
+        "assets\\plugins\\ckeditor\\plugins\\codesnippet\\lib\\highlight\\README.ru.md",
+        "assets\\plugins\\ckeditor\\plugins\\devtools\\lang\\_translationstatus.txt",
+        "assets\\plugins\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\_translationstatus.txt",
+        "assets\\plugins\\ckeditor\\plugins\\uicolor\\lang\\_translationstatus.txt",
+        "assets\\plugins\\kartik-bootstrap-fileinput\\CHANGE.md"
+      ],
+      "main_language": "js",
+      "has_tests": true,
+      "has_ci": false
+    },
+    "m2w2t": {
+      "total_files": 7,
+      "total_size": 174855,
+      "file_types": {
+        ".pdf": 1,
+        ".tf": 3,
+        ".sh": 1,
+        "": 1,
+        ".md": 1
+      },
+      "categories": {
+        "documentation": 1,
+        "other": 3,
+        "code": 1,
+        "license": 1,
+        "readme": 1
+      },
+      "doc_files": [
+        "2024-09-16-Terraform-For-Mikrotik.pdf"
+      ],
+      "main_language": "sh",
+      "has_tests": false,
+      "has_ci": false
+    },
+    "maas-ros-helper": {
+      "total_files": 4,
+      "total_size": 4247,
+      "file_types": {
+        ".sample": 1,
+        "": 1,
+        ".py": 1,
+        ".txt": 1
+      },
+      "categories": {
+        "other": 1,
+        "license": 1,
+        "code": 1,
+        "documentation": 1
+      },
+      "doc_files": [
+        "requirements.txt"
+      ],
+      "main_language": "py",
+      "has_tests": false,
+      "has_ci": false
+    },
+    "ManageMikrotik": {
+      "total_files": 208,
+      "total_size": 3165646,
+      "file_types": {
+        ".sln": 1,
+        ".md": 2,
+        ".json": 9,
+        ".csproj": 9,
+        ".cs": 114,
+        ".sql": 3,
+        "": 2,
+        ".js": 27,
+        ".vue": 14,
+        ".cshtml": 5,
+        ".ico": 1,
+        ".css": 6,
+        ".svg": 4,
+        ".map": 5,
+        ".eot": 1,
+        ".ttf": 1,
+        ".woff": 1,
+        ".woff2": 1,
+        ".txt": 2
+      },
+      "categories": {
+        "other": 167,
+        "readme": 1,
+        "config": 9,
+        "code": 27,
+        "license": 4,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": "js",
+      "has_tests": false,
+      "has_ci": false
+    },
+    "marib-mikrotik": {
+      "total_files": 41,
+      "total_size": 185017,
+      "file_types": {
+        ".iml": 2,
+        ".kts": 3,
+        ".md": 2,
+        "": 6,
+        ".lock": 1,
+        ".properties": 2,
+        ".bat": 1,
+        ".pro": 1,
+        ".kt": 3,
+        ".xml": 9,
+        ".png": 10,
+        ".jar": 1
+      },
+      "categories": {
+        "other": 38,
+        "documentation": 1,
+        "license": 1,
+        "readme": 1
+      },
+      "doc_files": [
+        "CONTRIBUTING.md"
+      ],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": true
+    },
+    "mikhmonv3": {
+      "total_files": 168,
+      "total_size": 2571319,
+      "file_types": {
+        ".php": 97,
+        "": 1,
+        ".md": 1,
+        ".txt": 1,
+        ".yml": 1,
+        ".css": 14,
+        ".eot": 1,
+        ".svg": 1,
+        ".ttf": 1,
+        ".woff": 1,
+        ".woff2": 1,
+        ".otf": 1,
+        ".less": 14,
+        ".scss": 14,
+        ".png": 3,
+        ".js": 16
+      },
+      "categories": {
+        "code": 113,
+        "license": 1,
+        "readme": 1,
+        "documentation": 1,
+        "config": 1,
+        "other": 51
+      },
+      "doc_files": [
+        "verson.txt"
+      ],
+      "main_language": "php",
+      "has_tests": false,
+      "has_ci": false
+    },
+    "mikrocata": {
+      "total_files": 10,
+      "total_size": 54748,
+      "file_types": {
+        ".conf": 1,
+        "": 2,
+        ".py": 1,
+        ".service": 3,
+        ".md": 1,
+        ".netdev": 1,
+        ".network": 1
+      },
+      "categories": {
+        "config": 1,
+        "license": 1,
+        "code": 1,
+        "other": 6,
+        "readme": 1,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": "py",
+      "has_tests": false,
+      "has_ci": false
+    },
+    "mikrologin.gitlab.io": {
+      "total_files": 0,
+      "total_size": 0,
+      "file_types": {},
+      "categories": {
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": true
+    },
+    "mikronode": {
+      "total_files": 27,
+      "total_size": 101518,
+      "file_types": {
+        "": 3,
+        ".json": 2,
+        ".js": 20,
+        ".md": 1,
+        ".g": 1
+      },
+      "categories": {
+        "other": 4,
+        "config": 2,
+        "code": 13,
+        "readme": 1,
+        "test": 7,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": "js",
+      "has_tests": true,
+      "has_ci": false
+    },
+    "Mikrotik": {
+      "total_files": 9,
+      "total_size": 18713,
+      "file_types": {
+        ".php": 1,
+        ".md": 1,
+        "": 7
+      },
+      "categories": {
+        "code": 1,
+        "readme": 1,
+        "other": 7,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": "php",
+      "has_tests": false,
+      "has_ci": false
+    },
+    "mikrotik-647-default-hs-login": {
+      "total_files": 21,
+      "total_size": 36523,
+      "file_types": {
+        ".html": 14,
+        ".txt": 1,
+        ".ico": 1,
+        ".js": 1,
+        ".css": 1,
+        ".svg": 2,
+        ".xsd": 1
+      },
+      "categories": {
+        "other": 19,
+        "documentation": 1,
+        "code": 1
+      },
+      "doc_files": [
+        "errors.txt"
+      ],
+      "main_language": "js",
+      "has_tests": false,
+      "has_ci": false
+    },
+    "mikrotik-ansible": {
+      "total_files": 4,
+      "total_size": 12147,
+      "file_types": {
+        ".cfg": 1,
+        "": 1,
+        ".md": 1,
+        ".yml": 1
+      },
+      "categories": {
+        "config": 2,
+        "license": 1,
+        "readme": 1,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": false
+    },
+    "mikrotik-app-cloudflare-update": {
+      "total_files": 3,
+      "total_size": 38363,
+      "file_types": {
+        "": 1,
+        ".md": 1,
+        ".rsc": 1
+      },
+      "categories": {
+        "license": 1,
+        "readme": 1,
+        "other": 1,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": false
+    },
+    "mikrotik-auction-app": {
+      "total_files": 46,
+      "total_size": 247240,
+      "file_types": {
+        ".yml": 1,
+        ".txt": 1,
+        ".md": 1,
+        "": 3,
+        ".sql": 1,
+        ".conf": 1,
+        ".ini": 1,
+        ".json": 1,
+        ".lock": 1,
+        ".xml": 1,
+        ".php": 24,
+        ".ico": 1,
+        ".css": 1,
+        ".js": 2,
+        ".html": 6
+      },
+      "categories": {
+        "config": 4,
+        "documentation": 1,
+        "readme": 1,
+        "other": 14,
+        "code": 19,
+        "test": 7
+      },
+      "doc_files": [
+        "original-task-criteria.txt"
+      ],
+      "main_language": "php",
+      "has_tests": true,
+      "has_ci": false
+    },
+    "mikrotik-audit": {
+      "total_files": 59,
+      "total_size": 548234,
+      "file_types": {
+        "": 3,
+        ".example": 1,
+        ".json": 4,
+        ".lock": 1,
+        ".xml": 1,
+        ".js": 5,
+        ".php": 40,
+        ".md": 1,
+        ".ico": 1,
+        ".txt": 1,
+        ".css": 1
+      },
+      "categories": {
+        "other": 8,
+        "config": 4,
+        "code": 42,
+        "readme": 1,
+        "documentation": 1,
+        "test": 3
+      },
+      "doc_files": [
+        "public\\robots.txt"
+      ],
+      "main_language": "php",
+      "has_tests": true,
+      "has_ci": false
+    },
+    "MIKROTIK-AUTO-BACKUP-FROM-BATCH": {
+      "total_files": 2,
+      "total_size": 4024,
+      "file_types": {
+        ".bat": 1,
+        ".md": 1
+      },
+      "categories": {
+        "other": 1,
+        "readme": 1,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": false
+    },
+    "mikrotik-backup": {
+      "total_files": 2,
+      "total_size": 3463,
+      "file_types": {
+        ".txt": 1,
+        ".md": 1
+      },
+      "categories": {
+        "documentation": 1,
+        "readme": 1
+      },
+      "doc_files": [
+        "backup-script.txt"
+      ],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": false
+    },
+    "mikrotik-backup-update": {
+      "total_files": 6,
+      "total_size": 18136,
+      "file_types": {
+        "": 2,
+        ".cid": 1,
+        ".sh": 1,
+        ".update": 1,
+        ".md": 1
+      },
+      "categories": {
+        "other": 3,
+        "code": 1,
+        "license": 1,
+        "readme": 1,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": "sh",
+      "has_tests": false,
+      "has_ci": false
+    },
+    "mikrotik-backups": {
+      "total_files": 3,
+      "total_size": 12134,
+      "file_types": {
+        ".mod": 1,
+        ".sum": 1,
+        ".go": 1
+      },
+      "categories": {
+        "other": 2,
+        "code": 1,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": "go",
+      "has_tests": false,
+      "has_ci": false
+    },
+    "Mikrotik-Bandwidth-Monitoring-Script": {
+      "total_files": 4,
+      "total_size": 588644,
+      "file_types": {
+        ".png": 1,
+        ".md": 1,
+        "": 2
+      },
+      "categories": {
+        "other": 3,
+        "readme": 1,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": false
+    },
+    "mikrotik-beeps": {
+      "total_files": 20,
+      "total_size": 80513,
+      "file_types": {
+        ".sh": 19,
+        ".md": 1
+      },
+      "categories": {
+        "code": 19,
+        "readme": 1,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": "sh",
+      "has_tests": false,
+      "has_ci": false
+    },
+    "Mikrotik-Captive-Protal": {
+      "total_files": 13,
+      "total_size": 857366,
+      "file_types": {
+        ".html": 9,
+        ".txt": 1,
+        ".ico": 1,
+        ".js": 1,
+        ".pdf": 1
+      },
+      "categories": {
+        "other": 10,
+        "documentation": 2,
+        "code": 1
+      },
+      "doc_files": [
+        "src\\errors.txt",
+        "src\\\u0418\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u044f TrustedNet Hotspot.pdf"
+      ],
+      "main_language": "js",
+      "has_tests": false,
+      "has_ci": false
+    },
+    "mikrotik-conf": {
+      "total_files": 5,
+      "total_size": 12212,
+      "file_types": {
+        "": 1,
+        ".rsc": 3,
+        ".md": 1
+      },
+      "categories": {
+        "license": 1,
+        "other": 3,
+        "readme": 1,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": true
+    },
+    "mikrotik-configuration-service": {
+      "total_files": 7,
+      "total_size": 5754,
+      "file_types": {
+        ".conf": 1,
+        ".py": 5,
+        ".md": 1
+      },
+      "categories": {
+        "config": 1,
+        "code": 5,
+        "readme": 1,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": "py",
+      "has_tests": false,
+      "has_ci": false
+    },
+    "mikrotik-configure-management": {
+      "total_files": 9,
+      "total_size": 14881,
+      "file_types": {
+        "": 1,
+        ".md": 2,
+        ".yml": 2,
+        ".j2": 4
+      },
+      "categories": {
+        "license": 1,
+        "readme": 1,
+        "config": 2,
+        "documentation": 1,
+        "other": 4
+      },
+      "doc_files": [
+        "docs\\example.md"
+      ],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": false
+    },
+    "mikrotik-curioso": {
+      "total_files": 1,
+      "total_size": 6277,
+      "file_types": {
+        ".md": 1
+      },
+      "categories": {
+        "readme": 1,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": false
+    },
+    "mikrotik-dns": {
+      "total_files": 6,
+      "total_size": 7745,
+      "file_types": {
+        "": 1,
+        ".md": 1,
+        ".yml": 3,
+        ".j2": 1
+      },
+      "categories": {
+        "license": 1,
+        "readme": 1,
+        "config": 3,
+        "other": 1,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": false
+    },
+    "mikrotik-docker": {
+      "total_files": 0,
+      "total_size": 0,
+      "file_types": {},
+      "categories": {
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": false
+    },
+    "mikrotik-dyn-fw": {
+      "total_files": 4,
+      "total_size": 4463,
+      "file_types": {
+        "": 1,
+        ".mod": 1,
+        ".sum": 1,
+        ".go": 1
+      },
+      "categories": {
+        "other": 3,
+        "code": 1,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": "go",
+      "has_tests": false,
+      "has_ci": false
+    },
+    "mikrotik-execute-custom-script": {
+      "total_files": 0,
+      "total_size": 0,
+      "file_types": {},
+      "categories": {
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": false
+    },
+    "Mikrotik-Exporter": {
+      "total_files": 39,
+      "total_size": 200984,
+      "file_types": {
+        "": 5,
+        ".jpg": 1,
+        ".yml": 3,
+        ".mod": 1,
+        ".sum": 1,
+        ".go": 25,
+        ".md": 2,
+        ".sh": 1
+      },
+      "categories": {
+        "other": 7,
+        "config": 3,
+        "license": 1,
+        "code": 24,
+        "documentation": 1,
+        "readme": 1,
+        "test": 2
+      },
+      "doc_files": [
+        "MAINTAINERS.md"
+      ],
+      "main_language": "go",
+      "has_tests": true,
+      "has_ci": true
+    },
+    "mikrotik-ext-cloudflare": {
+      "total_files": 3,
+      "total_size": 39221,
+      "file_types": {
+        ".rsc": 1,
+        "": 1,
+        ".md": 1
+      },
+      "categories": {
+        "other": 1,
+        "license": 1,
+        "readme": 1,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": false
+    },
+    "mikrotik-firewall2mermaid": {
+      "total_files": 32,
+      "total_size": 363782,
+      "file_types": {
+        ".toml": 2,
+        ".md": 2,
+        "": 1,
+        ".lock": 1,
+        ".py": 26
+      },
+      "categories": {
+        "config": 2,
+        "documentation": 1,
+        "license": 1,
+        "other": 1,
+        "readme": 1,
+        "code": 11,
+        "test": 15
+      },
+      "doc_files": [
+        "Contributing.md"
+      ],
+      "main_language": "py",
+      "has_tests": true,
+      "has_ci": true
+    },
+    "mikrotik-fw-dumper": {
+      "total_files": 3,
+      "total_size": 2073,
+      "file_types": {
+        "": 1,
+        ".sh": 1,
+        ".md": 1
+      },
+      "categories": {
+        "other": 1,
+        "code": 1,
+        "readme": 1,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": "sh",
+      "has_tests": false,
+      "has_ci": false
+    },
+    "mikrotik-hosts-parser": {
+      "total_files": 5,
+      "total_size": 19863,
+      "file_types": {
+        ".php": 2,
+        "": 2,
+        ".md": 1
+      },
+      "categories": {
+        "code": 1,
+        "license": 1,
+        "readme": 1,
+        "test": 1,
+        "other": 1,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": "php",
+      "has_tests": true,
+      "has_ci": false
+    },
+    "mikrotik-hotspot": {
+      "total_files": 57,
+      "total_size": 1819386,
+      "file_types": {
+        ".html": 19,
+        ".txt": 2,
+        ".js": 8,
+        ".png": 4,
+        ".xsd": 1,
+        ".php": 4,
+        ".css": 6,
+        ".map": 2,
+        ".eot": 2,
+        ".svg": 2,
+        ".ttf": 2,
+        ".woff": 2,
+        ".otf": 1,
+        ".jpg": 2
+      },
+      "categories": {
+        "other": 43,
+        "documentation": 2,
+        "code": 12
+      },
+      "doc_files": [
+        "mikrotik\\errors.txt",
+        "mikrotik\\lv\\errors.txt"
+      ],
+      "main_language": "js",
+      "has_tests": false,
+      "has_ci": false
+    },
+    "mikrotik-hotspot-interface": {
+      "total_files": 41,
+      "total_size": 1791878,
+      "file_types": {
+        ".html": 19,
+        ".txt": 2,
+        ".ico": 1,
+        ".md": 2,
+        ".js": 2,
+        ".css": 7,
+        ".map": 6,
+        ".png": 1,
+        ".xsd": 1
+      },
+      "categories": {
+        "other": 35,
+        "documentation": 2,
+        "license": 1,
+        "code": 2,
+        "readme": 1
+      },
+      "doc_files": [
+        "errors.txt",
+        "lv\\errors.txt"
+      ],
+      "main_language": "js",
+      "has_tests": false,
+      "has_ci": false
+    },
+    "mikrotik-hotspot-webinterface": {
+      "total_files": 8,
+      "total_size": 17458,
+      "file_types": {
+        ".html": 5,
+        ".md": 2,
+        ".css": 1
+      },
+      "categories": {
+        "other": 6,
+        "license": 1,
+        "readme": 1,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": false
+    },
+    "mikrotik-import-certficates": {
+      "total_files": 6,
+      "total_size": 8085,
+      "file_types": {
+        "": 1,
+        ".md": 2,
+        ".yml": 2,
+        ".j2": 1
+      },
+      "categories": {
+        "license": 1,
+        "readme": 1,
+        "config": 2,
+        "documentation": 1,
+        "other": 1
+      },
+      "doc_files": [
+        "docs\\certificates.md"
+      ],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": false
+    },
+    "mikrotik-interfaces": {
+      "total_files": 10,
+      "total_size": 14463,
+      "file_types": {
+        "": 1,
+        ".md": 2,
+        ".txt": 1,
+        ".yml": 2,
+        ".j2": 4
+      },
+      "categories": {
+        "license": 1,
+        "readme": 1,
+        "documentation": 2,
+        "config": 2,
+        "other": 4
+      },
+      "doc_files": [
+        "ToDo.txt",
+        "docs\\example.md"
+      ],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": false
+    },
+    "mikrotik-interfaces-addresses-ipv4": {
+      "total_files": 8,
+      "total_size": 8853,
+      "file_types": {
+        "": 1,
+        ".md": 2,
+        ".yml": 2,
+        ".j2": 3
+      },
+      "categories": {
+        "license": 1,
+        "readme": 1,
+        "config": 2,
+        "documentation": 1,
+        "other": 3
+      },
+      "doc_files": [
+        "docs\\example.md"
+      ],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": false
+    },
+    "mikrotik-internet-management": {
+      "total_files": 160,
+      "total_size": 13414584,
+      "file_types": {
+        ".php": 26,
+        ".html": 1,
+        ".md": 1,
+        ".sql": 1,
+        ".css": 28,
+        ".txt": 3,
+        ".eot": 3,
+        ".svg": 3,
+        ".ttf": 13,
+        ".woff": 3,
+        ".woff2": 3,
+        ".otf": 3,
+        ".less": 14,
+        ".scss": 14,
+        ".png": 9,
+        ".bmp": 2,
+        ".ico": 1,
+        ".js": 23,
+        ".map": 6,
+        ".pdf": 2,
+        ".fdf": 1
+      },
+      "categories": {
+        "code": 49,
+        "other": 105,
+        "readme": 1,
+        "documentation": 5
+      },
+      "doc_files": [
+        "Admin\\fonts\\font-awesome-4.7.0\\HELP-US-OUT.txt",
+        "PDFGenarator\\newGen.pdf",
+        "PDFGenarator\\export\\cache\\pdf_flatten.pdf",
+        "PDFGenarator\\export\\pdf\\pdftk.txt",
+        "vendor\\font-awesome-4.7\\HELP-US-OUT.txt"
+      ],
+      "main_language": "php",
+      "has_tests": false,
+      "has_ci": false
+    },
+    "mikrotik-ipsec": {
+      "total_files": 22,
+      "total_size": 35888,
+      "file_types": {
+        "": 1,
+        ".md": 2,
+        ".yml": 2,
+        ".j2": 17
+      },
+      "categories": {
+        "license": 1,
+        "readme": 1,
+        "config": 2,
+        "documentation": 1,
+        "other": 17
+      },
+      "doc_files": [
+        "docs\\example.md"
+      ],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": false
+    },
+    "mikrotik-ipsec-pre-6.44beta61": {
+      "total_files": 22,
+      "total_size": 38420,
+      "file_types": {
+        "": 1,
+        ".md": 2,
+        ".yml": 2,
+        ".j2": 17
+      },
+      "categories": {
+        "license": 1,
+        "readme": 1,
+        "config": 2,
+        "documentation": 1,
+        "other": 17
+      },
+      "doc_files": [
+        "docs\\example.md"
+      ],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": false
+    },
+    "mikrotik-java-api": {
+      "total_files": 65,
+      "total_size": 215135,
+      "file_types": {
+        ".xml": 4,
+        ".mf": 1,
+        "": 2,
+        ".class": 31,
+        ".txt": 2,
+        ".form": 2,
+        ".properties": 3,
+        ".java": 20
+      },
+      "categories": {
+        "other": 43,
+        "documentation": 2,
+        "code": 20
+      },
+      "doc_files": [
+        "build\\classes\\me\\legrange\\mikrotik\\grammar.txt",
+        "src\\me\\legrange\\mikrotik\\grammar.txt"
+      ],
+      "main_language": "java",
+      "has_tests": false,
+      "has_ci": false
+    },
+    "mikrotik-login-page": {
+      "total_files": 0,
+      "total_size": 0,
+      "file_types": {},
+      "categories": {
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": true
+    },
+    "mikrotik-login-template-hibrids-x": {
+      "total_files": 84,
+      "total_size": 1688236,
+      "file_types": {
+        "": 3,
+        ".html": 6,
+        ".txt": 1,
+        ".png": 23,
+        ".js": 16,
+        ".md": 1,
+        ".css": 6,
+        ".svg": 25,
+        ".url": 2,
+        ".db": 1
+      },
+      "categories": {
+        "other": 66,
+        "documentation": 1,
+        "code": 16,
+        "readme": 1
+      },
+      "doc_files": [
+        "errors.txt"
+      ],
+      "main_language": "js",
+      "has_tests": false,
+      "has_ci": false
+    },
+    "mikrotik-manage": {
+      "total_files": 45,
+      "total_size": 206463,
+      "file_types": {
+        ".rsc": 1,
+        ".sqlite3": 1,
+        ".py": 21,
+        ".log": 1,
+        ".txt": 1,
+        ".pyc": 20
+      },
+      "categories": {
+        "other": 23,
+        "code": 20,
+        "documentation": 1,
+        "test": 1
+      },
+      "doc_files": [
+        "mikrotik\\requirements.txt"
+      ],
+      "main_language": "py",
+      "has_tests": true,
+      "has_ci": false
+    },
+    "Mikrotik-Manager": {
+      "total_files": 592,
+      "total_size": 7362153,
+      "file_types": {
+        ".sql": 2,
+        ".md": 1,
+        "": 4,
+        ".php": 235,
+        ".js": 31,
+        ".html": 178,
+        ".css": 20,
+        ".png": 62,
+        ".gif": 39,
+        ".jpg": 11,
+        ".exe": 1,
+        ".properties": 2,
+        ".xml": 2,
+        ".pdf": 2,
+        ".txt": 1,
+        ".ttf": 1
+      },
+      "categories": {
+        "other": 320,
+        "readme": 1,
+        "code": 264,
+        "changelog": 1,
+        "license": 1,
+        "documentation": 3,
+        "test": 2
+      },
+      "doc_files": [
+        "mtik\\user_guide\\images\\codeigniter_1.7.1_helper_reference.pdf",
+        "mtik\\user_guide\\images\\codeigniter_1.7.1_library_reference.pdf",
+        "mtik\\user_guide\\nav\\hacks.txt"
+      ],
+      "main_language": "php",
+      "has_tests": true,
+      "has_ci": false
+    },
+    "mikrotik-mangleproxy-hotspot": {
+      "total_files": 5,
+      "total_size": 9788,
+      "file_types": {
+        ".src": 2,
+        "": 2,
+        ".md": 1
+      },
+      "categories": {
+        "other": 4,
+        "readme": 1,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": false
+    },
+    "mikrotik-monitoring-ups-telegram": {
+      "total_files": 16,
+      "total_size": 528962,
+      "file_types": {
+        ".md": 1,
+        ".jpg": 13,
+        ".rsc": 2
+      },
+      "categories": {
+        "readme": 1,
+        "other": 15,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": false
+    },
+    "mikrotik-nagios": {
+      "total_files": 1,
+      "total_size": 12193,
+      "file_types": {
+        ".bash": 1
+      },
+      "categories": {
+        "other": 1,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": false
+    },
+    "mikrotik-netinstall": {
+      "total_files": 0,
+      "total_size": 0,
+      "file_types": {},
+      "categories": {
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": false
+    },
+    "mikrotik-npk": {
+      "total_files": 5,
+      "total_size": 15371,
+      "file_types": {
+        ".py": 3,
+        "": 1,
+        ".md": 1
+      },
+      "categories": {
+        "code": 3,
+        "license": 1,
+        "readme": 1,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": "py",
+      "has_tests": false,
+      "has_ci": false
+    },
+    "mikrotik-ntp": {
+      "total_files": 5,
+      "total_size": 3057,
+      "file_types": {
+        "": 1,
+        ".md": 2,
+        ".yml": 2
+      },
+      "categories": {
+        "license": 1,
+        "readme": 1,
+        "config": 2,
+        "documentation": 1
+      },
+      "doc_files": [
+        "docs\\example.md"
+      ],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": false
+    },
+    "mikrotik-oneplus": {
+      "total_files": 41,
+      "total_size": 185017,
+      "file_types": {
+        ".iml": 2,
+        ".kts": 3,
+        ".md": 2,
+        "": 6,
+        ".lock": 1,
+        ".properties": 2,
+        ".bat": 1,
+        ".pro": 1,
+        ".kt": 3,
+        ".xml": 9,
+        ".png": 10,
+        ".jar": 1
+      },
+      "categories": {
+        "other": 38,
+        "documentation": 1,
+        "license": 1,
+        "readme": 1
+      },
+      "doc_files": [
+        "CONTRIBUTING.md"
+      ],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": true
+    },
+    "mikrotik-port-forwarder-gui": {
+      "total_files": 72,
+      "total_size": 13825985,
+      "file_types": {
+        ".sln": 1,
+        "": 1,
+        ".lock": 1,
+        ".ide": 1,
+        ".ide-shm": 1,
+        ".ide-wal": 1,
+        ".config": 2,
+        ".cs": 18,
+        ".resx": 4,
+        ".csproj": 1,
+        ".cache": 9,
+        ".exe": 2,
+        ".pdb": 2,
+        ".txt": 2,
+        ".resources": 7,
+        ".dll": 9,
+        ".settings": 1,
+        ".nupkg": 1,
+        ".xml": 8
+      },
+      "categories": {
+        "other": 70,
+        "documentation": 2
+      },
+      "doc_files": [
+        "MikroTikPortForwarder\\obj\\Debug\\MikroTikPortForwarder.csproj.FileListAbsolute.txt",
+        "MikroTikPortForwarder\\obj\\Release\\MikroTikPortForwarder.csproj.FileListAbsolute.txt"
+      ],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": false
+    },
+    "mikrotik-port-scanner": {
+      "total_files": 4,
+      "total_size": 149501,
+      "file_types": {
+        ".bat": 1,
+        ".exe": 1,
+        ".config": 1,
+        ".md": 1
+      },
+      "categories": {
+        "other": 3,
+        "readme": 1,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": false
+    },
+    "mikrotik-radius": {
+      "total_files": 18,
+      "total_size": 116519,
+      "file_types": {
+        ".md": 2,
+        ".json": 2,
+        ".ico": 1,
+        ".html": 1,
+        ".css": 2,
+        ".js": 7,
+        ".svg": 1,
+        ".jsx": 2
+      },
+      "categories": {
+        "readme": 2,
+        "config": 2,
+        "other": 7,
+        "code": 6,
+        "test": 1,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": "js",
+      "has_tests": true,
+      "has_ci": false
+    },
+    "mikrotik-rancher": {
+      "total_files": 1,
+      "total_size": 399,
+      "file_types": {
+        "": 1
+      },
+      "categories": {
+        "other": 1,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": true
+    },
+    "mikrotik-rif-viewer": {
+      "total_files": 19,
+      "total_size": 89574,
+      "file_types": {
+        ".yml": 1,
+        "": 5,
+        ".html": 1,
+        ".json": 4,
+        ".md": 1,
+        ".png": 1,
+        ".ts": 4,
+        ".vue": 1,
+        ".css": 1
+      },
+      "categories": {
+        "config": 5,
+        "other": 12,
+        "license": 1,
+        "readme": 1,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": true
+    },
+    "mikrotik-router": {
+      "total_files": 7,
+      "total_size": 2310747,
+      "file_types": {
+        ".md": 1,
+        ".png": 6
+      },
+      "categories": {
+        "readme": 1,
+        "other": 6,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": false
+    },
+    "mikrotik-routeros-automatic-backup-and-update": {
+      "total_files": 0,
+      "total_size": 0,
+      "file_types": {},
+      "categories": {
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": false
+    },
+    "mikrotik-routeros-backup": {
+      "total_files": 3,
+      "total_size": 1184,
+      "file_types": {
+        ".cfg": 1,
+        ".sh": 1,
+        ".yml": 1
+      },
+      "categories": {
+        "config": 2,
+        "code": 1,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": "sh",
+      "has_tests": false,
+      "has_ci": false
+    },
+    "Mikrotik-RTL-Theme": {
+      "total_files": 71,
+      "total_size": 2792837,
+      "file_types": {
+        ".html": 14,
+        ".txt": 1,
+        "": 1,
+        ".js": 4,
+        ".md": 1,
+        ".css": 4,
+        ".map": 1,
+        ".eot": 2,
+        ".svg": 2,
+        ".ttf": 2,
+        ".woff": 2,
+        ".woff2": 2,
+        ".otf": 1,
+        ".png": 26,
+        ".xml": 1,
+        ".ico": 1,
+        ".json": 1,
+        ".jpg": 4,
+        ".xsd": 1
+      },
+      "categories": {
+        "other": 63,
+        "documentation": 1,
+        "license": 1,
+        "code": 4,
+        "readme": 1,
+        "config": 1
+      },
+      "doc_files": [
+        "errors.txt"
+      ],
+      "main_language": "js",
+      "has_tests": false,
+      "has_ci": false
+    },
+    "Mikrotik-rust": {
+      "total_files": 6,
+      "total_size": 10328,
+      "file_types": {
+        ".yml": 1,
+        ".lock": 1,
+        ".toml": 1,
+        ".rs": 2,
+        ".md": 1
+      },
+      "categories": {
+        "config": 2,
+        "other": 1,
+        "code": 2,
+        "readme": 1,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": "rs",
+      "has_tests": false,
+      "has_ci": false
+    },
+    "mikrotik-scheduled-configuration-rollback": {
+      "total_files": 5,
+      "total_size": 5937,
+      "file_types": {
+        "": 1,
+        ".md": 2,
+        ".yml": 2
+      },
+      "categories": {
+        "license": 1,
+        "readme": 1,
+        "config": 2,
+        "documentation": 1
+      },
+      "doc_files": [
+        "docs\\example.md"
+      ],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": false
+    },
+    "mikrotik-script": {
+      "total_files": 5,
+      "total_size": 37071,
+      "file_types": {
+        ".rsc": 5
+      },
+      "categories": {
+        "other": 5,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": false
+    },
+    "MikroTik-Scripts": {
+      "total_files": 9,
+      "total_size": 44586,
+      "file_types": {
+        ".rsc": 7,
+        ".md": 2
+      },
+      "categories": {
+        "other": 7,
+        "license": 1,
+        "readme": 1,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": false
+    },
+    "mikrotik-snmp-control": {
+      "total_files": 2,
+      "total_size": 2639,
+      "file_types": {
+        "": 1,
+        ".md": 1
+      },
+      "categories": {
+        "other": 1,
+        "readme": 1,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": false
+    },
+    "mikrotik-traffic-grapher": {
+      "total_files": 55,
+      "total_size": 2096644,
+      "file_types": {
+        ".js": 37,
+        ".json": 1,
+        ".md": 1,
+        ".css": 5,
+        ".map": 2,
+        ".eot": 1,
+        ".svg": 1,
+        ".ttf": 1,
+        ".woff": 1,
+        ".jade": 4,
+        ".old": 1
+      },
+      "categories": {
+        "code": 37,
+        "config": 1,
+        "readme": 1,
+        "other": 16,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": "js",
+      "has_tests": false,
+      "has_ci": false
+    },
+    "mikrotik-tty": {
+      "total_files": 11,
+      "total_size": 64320,
+      "file_types": {
+        ".sh": 1,
+        "": 1,
+        ".md": 1,
+        ".pbxproj": 1,
+        ".xcscheme": 1,
+        ".txt": 1,
+        ".c": 3,
+        ".h": 2
+      },
+      "categories": {
+        "code": 6,
+        "other": 3,
+        "readme": 1,
+        "documentation": 1
+      },
+      "doc_files": [
+        "src\\CMakeLists.txt"
+      ],
+      "main_language": "c",
+      "has_tests": false,
+      "has_ci": false
+    },
+    "mikrotik-tune-queue": {
+      "total_files": 5,
+      "total_size": 21856,
+      "file_types": {
+        ".sh": 3,
+        ".md": 2
+      },
+      "categories": {
+        "code": 3,
+        "documentation": 1,
+        "readme": 1
+      },
+      "doc_files": [
+        "help.md"
+      ],
+      "main_language": "sh",
+      "has_tests": false,
+      "has_ci": false
+    },
+    "mikrotik-tunnel": {
+      "total_files": 6,
+      "total_size": 584,
+      "file_types": {
+        ".sh": 1,
+        ".txt": 1,
+        "": 4
+      },
+      "categories": {
+        "code": 1,
+        "documentation": 1,
+        "other": 4
+      },
+      "doc_files": [
+        "install.txt"
+      ],
+      "main_language": "sh",
+      "has_tests": false,
+      "has_ci": false
+    },
+    "mikrotik-uplink-alert": {
+      "total_files": 4,
+      "total_size": 6128,
+      "file_types": {
+        ".cpp": 1,
+        "": 1,
+        ".md": 1,
+        ".h": 1
+      },
+      "categories": {
+        "code": 2,
+        "other": 1,
+        "readme": 1,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": "cpp",
+      "has_tests": false,
+      "has_ci": false
+    },
+    "mikrotik-usage-logging": {
+      "total_files": 9,
+      "total_size": 13340,
+      "file_types": {
+        ".js": 4,
+        ".json": 3,
+        ".md": 1,
+        ".sql": 1
+      },
+      "categories": {
+        "code": 4,
+        "config": 3,
+        "readme": 1,
+        "other": 1,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": "js",
+      "has_tests": false,
+      "has_ci": false
+    },
+    "MikrotikChudo": {
+      "total_files": 0,
+      "total_size": 0,
+      "file_types": {},
+      "categories": {
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": false
+    },
+    "mikrotikexploit": {
+      "total_files": 0,
+      "total_size": 0,
+      "file_types": {},
+      "categories": {
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": false
+    },
+    "mikrotikextdns": {
+      "total_files": 15,
+      "total_size": 93288,
+      "file_types": {
+        "": 3,
+        ".md": 2,
+        ".mod": 1,
+        ".sum": 1,
+        ".go": 1,
+        ".yaml": 6,
+        ".tpl": 1
+      },
+      "categories": {
+        "other": 6,
+        "changelog": 1,
+        "code": 1,
+        "documentation": 1,
+        "config": 6
+      },
+      "doc_files": [
+        "TODO.md"
+      ],
+      "main_language": "go",
+      "has_tests": false,
+      "has_ci": true
+    },
+    "mikrotikgeoip": {
+      "total_files": 7,
+      "total_size": 5121,
+      "file_types": {
+        ".py": 4,
+        ".md": 1,
+        ".txt": 1,
+        ".jinja2": 1
+      },
+      "categories": {
+        "code": 4,
+        "readme": 1,
+        "documentation": 1,
+        "other": 1
+      },
+      "doc_files": [
+        "requirements.txt"
+      ],
+      "main_language": "py",
+      "has_tests": false,
+      "has_ci": true
+    },
+    "mikrotiklab": {
+      "total_files": 7,
+      "total_size": 13347,
+      "file_types": {
+        ".md": 1,
+        ".zip": 6
+      },
+      "categories": {
+        "readme": 1,
+        "other": 6,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": false
+    },
+    "MikrotikSploit": {
+      "total_files": 19,
+      "total_size": 178425,
+      "file_types": {
+        ".py": 13,
+        ".md": 1,
+        ".txt": 1,
+        ".c": 1,
+        ".png": 2,
+        ".jpg": 1
+      },
+      "categories": {
+        "code": 14,
+        "readme": 1,
+        "documentation": 1,
+        "other": 3
+      },
+      "doc_files": [
+        "requirements.txt"
+      ],
+      "main_language": "py",
+      "has_tests": false,
+      "has_ci": true
+    },
+    "mikrotiktodiscord": {
+      "total_files": 0,
+      "total_size": 0,
+      "file_types": {},
+      "categories": {
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": false
+    },
+    "Mikrotik_conf": {
+      "total_files": 4,
+      "total_size": 39008,
+      "file_types": {
+        "": 3,
+        ".md": 1
+      },
+      "categories": {
+        "other": 3,
+        "readme": 1,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": false
+    },
+    "mikrotik_stats": {
+      "total_files": 3,
+      "total_size": 7861,
+      "file_types": {
+        ".rsc": 1,
+        ".py": 1,
+        ".md": 1
+      },
+      "categories": {
+        "other": 1,
+        "code": 1,
+        "readme": 1,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": "py",
+      "has_tests": false,
+      "has_ci": false
+    },
+    "mikrotik_tvswitcher_bot": {
+      "total_files": 4,
+      "total_size": 34991,
+      "file_types": {
+        ".py": 1,
+        ".lock": 1,
+        ".toml": 1,
+        ".md": 1
+      },
+      "categories": {
+        "code": 1,
+        "other": 1,
+        "config": 1,
+        "readme": 1,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": "py",
+      "has_tests": false,
+      "has_ci": false
+    },
+    "MKBRUTUS": {
+      "total_files": 5,
+      "total_size": 49623,
+      "file_types": {
+        ".txt": 1,
+        "": 2,
+        ".py": 1,
+        ".md": 1
+      },
+      "categories": {
+        "documentation": 1,
+        "changelog": 1,
+        "license": 1,
+        "code": 1,
+        "readme": 1
+      },
+      "doc_files": [
+        "agpl.txt"
+      ],
+      "main_language": "py",
+      "has_tests": false,
+      "has_ci": false
+    },
+    "mkLogin": {
+      "total_files": 20,
+      "total_size": 491601,
+      "file_types": {
+        ".php": 8,
+        ".css": 1,
+        ".html": 1,
+        ".jpg": 1,
+        ".png": 1,
+        ".js": 3,
+        ".properties": 3,
+        ".xml": 2
+      },
+      "categories": {
+        "code": 11,
+        "other": 9,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": "php",
+      "has_tests": false,
+      "has_ci": false
+    },
+    "mssqlipbanner": {
+      "total_files": 14,
+      "total_size": 16859,
+      "file_types": {
+        ".sln": 1,
+        ".config": 2,
+        ".cs": 9,
+        ".json": 1,
+        ".csproj": 1
+      },
+      "categories": {
+        "other": 13,
+        "config": 1,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": false
+    },
+    "mtikrtr": {
+      "total_files": 3,
+      "total_size": 12439,
+      "file_types": {
+        "": 1,
+        ".md": 1,
+        ".py": 1
+      },
+      "categories": {
+        "license": 1,
+        "readme": 1,
+        "code": 1,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": "py",
+      "has_tests": false,
+      "has_ci": false
+    },
+    "mtpass": {
+      "total_files": 6,
+      "total_size": 10115,
+      "file_types": {
+        ".sh": 1,
+        ".txt": 1,
+        ".ac": 1,
+        ".am": 1,
+        ".cpp": 1,
+        "": 1
+      },
+      "categories": {
+        "code": 2,
+        "documentation": 1,
+        "other": 3
+      },
+      "doc_files": [
+        "CMakeLists.txt"
+      ],
+      "main_language": "sh",
+      "has_tests": false,
+      "has_ci": false
+    },
+    "musikrotik": {
+      "total_files": 5,
+      "total_size": 47853,
+      "file_types": {
+        "": 4,
+        ".md": 1
+      },
+      "categories": {
+        "license": 1,
+        "readme": 1,
+        "other": 3,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": false
+    },
+    "nd_backup": {
+      "total_files": 10,
+      "total_size": 17931,
+      "file_types": {
+        ".py": 6,
+        ".xlsx": 1,
+        ".md": 1,
+        ".txt": 1,
+        ".log": 1
+      },
+      "categories": {
+        "code": 6,
+        "other": 2,
+        "readme": 1,
+        "documentation": 1
+      },
+      "doc_files": [
+        "requirements.txt"
+      ],
+      "main_language": "py",
+      "has_tests": false,
+      "has_ci": false
+    },
+    "nembak-wms-wifi.id-pakai-mikrotik": {
+      "total_files": 1,
+      "total_size": 45,
+      "file_types": {
+        ".md": 1
+      },
+      "categories": {
+        "documentation": 1
+      },
+      "doc_files": [
+        "link.md"
+      ],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": false
+    },
+    "NetBillAppsv1": {
+      "total_files": 1613,
+      "total_size": 77658873,
+      "file_types": {
+        ".php": 351,
+        ".txt": 5,
+        ".md": 1,
+        ".yml": 1,
+        ".bak": 2,
+        ".css": 372,
+        ".map": 8,
+        ".eot": 18,
+        ".svg": 18,
+        ".ttf": 18,
+        ".woff": 18,
+        ".woff2": 16,
+        ".otf": 2,
+        ".js": 713,
+        ".png": 54,
+        ".scss": 4,
+        ".swf": 2,
+        "": 3,
+        ".mib": 1,
+        ".jpg": 2,
+        ".sh": 1,
+        ".html": 1,
+        ".sql": 2
+      },
+      "categories": {
+        "code": 1050,
+        "documentation": 3,
+        "readme": 1,
+        "test": 15,
+        "config": 1,
+        "other": 541,
+        "license": 2
+      },
+      "doc_files": [
+        "Notes.txt",
+        "server-install.txt",
+        "new\\backup\\server-install.txt"
+      ],
+      "main_language": "js",
+      "has_tests": true,
+      "has_ci": true
+    },
+    "networking": {
+      "total_files": 1,
+      "total_size": 30,
+      "file_types": {
+        ".md": 1
+      },
+      "categories": {
+        "readme": 1,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": false
+    },
+    "network_litebeam_m5_priority": {
+      "total_files": 8,
+      "total_size": 27166,
+      "file_types": {
+        ".txt": 1,
+        ".md": 1,
+        ".cfg": 6
+      },
+      "categories": {
+        "documentation": 1,
+        "readme": 1,
+        "config": 6
+      },
+      "doc_files": [
+        "note.txt"
+      ],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": false
+    },
+    "ntp": {
+      "total_files": 4,
+      "total_size": 4445,
+      "file_types": {
+        ".md": 2,
+        ".yml": 2
+      },
+      "categories": {
+        "changelog": 1,
+        "readme": 1,
+        "config": 2,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": false
+    },
+    "openwrt": {
+      "total_files": 8407,
+      "total_size": 50194586,
+      "file_types": {
+        "": 1276,
+        ".in": 72,
+        ".default": 4,
+        ".md": 3,
+        ".mk": 284,
+        ".txt": 42,
+        ".specs": 1,
+        ".png": 1,
+        ".svg": 1,
+        ".awk": 2,
+        ".sh": 198,
+        ".0": 2,
+        ".failsafe": 2,
+        ".common": 1,
+        ".local": 1,
+        ".conf": 19,
+        ".patch": 4070,
+        ".cfg": 7,
+        ".config": 21,
+        ".defaults": 2,
+        ".init": 28,
+        ".c": 439,
+        ".h": 312,
+        ".s": 16,
+        ".lds": 12,
+        ".diff": 2,
+        ".supp": 1,
+        ".qca4019": 23,
+        ".qca9984": 3,
+        ".qca9888": 4,
+        ".hotplug": 8,
+        ".m4": 35,
+        ".user": 2,
+        ".script": 3,
+        ".json": 8,
+        ".am": 1,
+        ".pptp": 1,
+        ".asnet": 1,
+        ".microsoft": 1,
+        ".chat": 2,
+        ".usb": 2,
+        ".gcom": 11,
+        ".usbmisc": 1,
+        ".pl": 20,
+        ".capabilities": 1,
+        ".initd": 1,
+        ".py": 13,
+        ".guess": 1,
+        ".rpath": 1,
+        ".sub": 1,
+        ".checkpatch": 1,
+        ".pm": 1,
+        ".l": 1,
+        ".y": 1,
+        ".cc": 1,
+        ".4": 63,
+        ".dtsi": 255,
+        ".dts": 1090,
+        ".scr": 1,
+        ".inc": 1,
+        ".bin": 6,
+        ".its": 3,
+        ".nvm": 1,
+        ".images-bcm63xx": 1,
+        ".yaml": 1,
+        ".squashfs": 1,
+        ".builtin": 1,
+        ".bootscript": 7,
+        ".fw": 3,
+        ".sdk": 1,
+        ".toolchain": 1,
+        ".version": 2,
+        ".ggo": 1
+      },
+      "categories": {
+        "other": 7362,
+        "readme": 3,
+        "documentation": 42,
+        "code": 957,
+        "config": 35,
+        "test": 5,
+        "license": 2,
+        "changelog": 1
+      },
+      "doc_files": [
+        "include\\device_table.txt",
+        "package\\boot\\uboot-layerscape\\files\\fsl_ls1012a-frdm-uEnv.txt",
+        "package\\boot\\uboot-layerscape\\files\\fsl_ls1012a-frwy-sdboot-uEnv.txt",
+        "package\\boot\\uboot-layerscape\\files\\fsl_ls1012a-rdb-uEnv.txt",
+        "package\\boot\\uboot-layerscape\\files\\fsl_ls1021a-iot-sdboot-uEnv.txt",
+        "package\\boot\\uboot-layerscape\\files\\fsl_ls1021a-twr-sdboot-uEnv.txt",
+        "package\\boot\\uboot-layerscape\\files\\fsl_ls1021a-twr-uEnv.txt",
+        "package\\boot\\uboot-layerscape\\files\\fsl_ls1043a-rdb-sdboot-uEnv.txt",
+        "package\\boot\\uboot-layerscape\\files\\fsl_ls1043a-rdb-uEnv.txt",
+        "package\\boot\\uboot-layerscape\\files\\fsl_ls1046a-frwy-sdboot-uEnv.txt",
+        "package\\boot\\uboot-layerscape\\files\\fsl_ls1046a-frwy-uEnv.txt",
+        "package\\boot\\uboot-layerscape\\files\\fsl_ls1046a-rdb-sdboot-uEnv.txt",
+        "package\\boot\\uboot-layerscape\\files\\fsl_ls1046a-rdb-uEnv.txt",
+        "package\\boot\\uboot-layerscape\\files\\fsl_ls1088a-rdb-sdboot-uEnv.txt",
+        "package\\boot\\uboot-layerscape\\files\\fsl_ls1088a-rdb-uEnv.txt",
+        "package\\boot\\uboot-layerscape\\files\\fsl_ls2088a-rdb-uEnv.txt",
+        "package\\boot\\uboot-layerscape\\files\\fsl_lx2160a-rdb-sdboot-uEnv.txt",
+        "package\\boot\\uboot-layerscape\\files\\fsl_lx2160a-rdb-uEnv.txt",
+        "package\\boot\\uboot-omap\\files\\boot.scr.txt",
+        "package\\boot\\uboot-sunxi\\uEnv-a64.txt",
+        "package\\boot\\uboot-sunxi\\uEnv-default.txt",
+        "package\\boot\\uboot-sunxi\\uEnv-pangolin.txt",
+        "package\\boot\\uboot-zynq\\files\\uEnv-default.txt",
+        "package\\network\\ipv6\\map\\src\\CMakeLists.txt",
+        "package\\utils\\fritz-tools\\src\\CMakeLists.txt",
+        "package\\utils\\jboot-tools\\src\\CMakeLists.txt",
+        "scripts\\spelling.txt",
+        "target\\linux\\arc770\\image\\uEnv.txt",
+        "target\\linux\\archs38\\image\\uboot.env.txt",
+        "target\\linux\\archs38\\image\\uEnv.txt",
+        "target\\linux\\at91\\image\\uboot-env.txt",
+        "target\\linux\\bcm27xx\\image\\cmdline.txt",
+        "target\\linux\\bcm27xx\\image\\config.txt",
+        "target\\linux\\bcm27xx\\image\\distroconfig.txt",
+        "target\\linux\\generic\\files\\Documentation\\networking\\adm6996.txt",
+        "target\\linux\\generic\\image\\initramfs-base-files.txt",
+        "target\\linux\\mediatek\\image\\mt7623a_unielec_u7623-uEnv.txt",
+        "target\\linux\\mediatek\\image\\mt7623n_bpir2-uEnv.txt",
+        "target\\linux\\sunxi\\base-files\\lib\\firmware\\brcm\\brcmfmac4329-sdio.txt",
+        "target\\linux\\sunxi\\base-files\\lib\\firmware\\brcm\\brcmfmac43362-sdio.txt",
+        "target\\linux\\sunxi\\base-files\\lib\\firmware\\brcm\\brcmfmac43430-sdio.txt",
+        "target\\linux\\sunxi\\base-files\\lib\\firmware\\brcm\\brcmfmac43430a0-sdio.txt"
+      ],
+      "main_language": "c",
+      "has_tests": true,
+      "has_ci": false
+    },
+    "openwrt-ar71xx-mikrotik-rb-nor-flash-16m-ac": {
+      "total_files": 4,
+      "total_size": 115453,
+      "file_types": {
+        "": 2,
+        ".sh": 1,
+        ".md": 1
+      },
+      "categories": {
+        "other": 2,
+        "code": 1,
+        "readme": 1,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": "sh",
+      "has_tests": false,
+      "has_ci": false
+    },
+    "playbooks": {
+      "total_files": 10,
+      "total_size": 60637,
+      "file_types": {
+        ".cfg": 1,
+        "": 3,
+        ".yml": 2,
+        ".yaml": 1,
+        ".j2": 2,
+        ".rsc": 1
+      },
+      "categories": {
+        "config": 4,
+        "other": 6,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": false
+    },
+    "QuickConfigs": {
+      "total_files": 408,
+      "total_size": 18284276,
+      "file_types": {
+        "": 1,
+        ".md": 1,
+        ".txt": 238,
+        ".png": 158,
+        ".xlsx": 1,
+        ".jpg": 2,
+        ".bat": 3,
+        ".ovpn": 1,
+        ".pem": 2,
+        ".key": 1
+      },
+      "categories": {
+        "license": 1,
+        "readme": 1,
+        "documentation": 238,
+        "other": 168
+      },
+      "doc_files": [
+        "Cisco Systems\\Basic GRE Tunnel\\CR1 Config.txt",
+        "Cisco Systems\\Basic GRE Tunnel\\CR2 Config.txt",
+        "Cisco Systems\\Default Network & EIGRP\\EIGRP Config.txt",
+        "Cisco Systems\\EIGRP Default Route Generation\\EIGRP Config.txt",
+        "Cisco Systems\\OSPF Adjacency in Detail\\CR1 Config.txt",
+        "Cisco Systems\\OSPF Adjacency in Detail\\CR2 Config.txt",
+        "Cisco Systems\\OSPF Authentication\\CR1 Config.txt",
+        "Cisco Systems\\OSPF Authentication\\CR2 Config.txt",
+        "Cisco Systems\\OSPF Broadcast Network\\CR1 Config.txt",
+        "Cisco Systems\\OSPF Broadcast Network\\CR2 Config.txt",
+        "Cisco Systems\\OSPF Broadcast Network\\CR3 Config.txt",
+        "Cisco Systems\\OSPF Broadcast Network\\CR4 Config.txt",
+        "Cisco Systems\\OSPF External Route Summarization\\CR1 Config.txt",
+        "Cisco Systems\\OSPF External Route Summarization\\CR2 Config.txt",
+        "Cisco Systems\\OSPF External Route Summarization\\CR3 Config.txt",
+        "Cisco Systems\\OSPF Inter-Area Route Summarization\\CR1 Config.txt",
+        "Cisco Systems\\OSPF Inter-Area Route Summarization\\CR2 Config.txt",
+        "Cisco Systems\\OSPF Inter-Area Route Summarization\\CR3 Config.txt",
+        "Cisco Systems\\OSPF Non-Broadcast Network\\CR1 Config.txt",
+        "Cisco Systems\\OSPF Non-Broadcast Network\\CR2 Config.txt",
+        "Cisco Systems\\OSPF Non-Broadcast Network\\CR3 Config.txt",
+        "Cisco Systems\\OSPF Non-Broadcast Network\\CR4 Config.txt",
+        "Cisco Systems\\OSPF Point-to-Multipoint Network\\book.txt",
+        "Cisco Systems\\OSPF Point-to-Multipoint Network\\CR1 Config.txt",
+        "Cisco Systems\\OSPF Point-to-Multipoint Network\\CR2 Config.txt",
+        "Cisco Systems\\OSPF Point-to-Multipoint Network\\CR3 Config.txt",
+        "Cisco Systems\\OSPF Point-to-Multipoint Network\\CR4 Config.txt",
+        "Cisco Systems\\OSPF Point-to-Multipoint Non-Broadcast Network\\book.txt",
+        "Cisco Systems\\OSPF Point-to-Multipoint Non-Broadcast Network\\CR1 Config.txt",
+        "Cisco Systems\\OSPF Point-to-Multipoint Non-Broadcast Network\\CR2 Config.txt",
+        "Cisco Systems\\OSPF Point-to-Multipoint Non-Broadcast Network\\CR3 Config.txt",
+        "Cisco Systems\\OSPF Point-to-Multipoint Non-Broadcast Network\\CR4 Config.txt",
+        "Cisco Systems\\OSPF Point-to-Point Network\\CR1 Config.txt",
+        "Cisco Systems\\OSPF Point-to-Point Network\\CR2 Config.txt",
+        "Cisco Systems\\PPPoE Server & Client\\PPPoE Client Config.txt",
+        "Cisco Systems\\PPPoE Server & Client\\PPPoE Server Config.txt",
+        "Cisco Systems\\RIP Authentication\\CR1 Config.txt",
+        "Cisco Systems\\RIP Authentication\\CR2 Config.txt",
+        "Cisco Systems\\RIP Filtering\\CR1 Config.txt",
+        "Cisco Systems\\RIP Filtering\\CR2 Config.txt",
+        "Cisco Systems\\RIP Passive Interfaces\\CR1 Config.txt",
+        "Cisco Systems\\RIP Passive Interfaces\\CR2 Config.txt",
+        "Cisco Systems\\RIP Redistribution\\CR1 Config.txt",
+        "Cisco Systems\\RIP Redistribution\\CR2 Config.txt",
+        "Cisco Systems\\RIP Redistribution\\CR3 Config.txt",
+        "Cisco Systems\\RIP Summarization & Default Route\\CR1 Config.txt",
+        "Cisco Systems\\RIP Summarization & Default Route\\CR2 Config.txt",
+        "Cisco Systems\\RIP Summarization & Default Route\\CR3 Config.txt",
+        "Cisco Systems\\RIP Updates & Timers\\CR1 Config.txt",
+        "Cisco Systems\\RIP Updates & Timers\\CR2 Config.txt",
+        "Cisco Systems\\RIP Validate Update Source\\CR1 Config.txt",
+        "Cisco Systems\\RIP Validate Update Source\\CR2 Config.txt",
+        "Cisco Systems\\RIP(ng) Split Horizon & Poison Reverse\\CR1 Config.txt",
+        "Cisco Systems\\RIP(ng) Split Horizon & Poison Reverse\\CR2 Config.txt",
+        "Cisco Systems\\RIP(ng) Split Horizon & Poison Reverse\\CR3 Config.txt",
+        "Cisco Systems\\RIPng\\CR1 Config.txt",
+        "Cisco Systems\\RIPng\\CR2 Config.txt",
+        "Cisco Systems\\RIPng Filtering\\CR1 Config.txt",
+        "Cisco Systems\\RIPng Filtering\\CR2 Config.txt",
+        "Cisco Systems\\RIPng Metric & Offset-Lists\\CR1 Config.txt",
+        "Cisco Systems\\RIPng Metric & Offset-Lists\\CR2 Config.txt",
+        "Cisco Systems\\RIPng Redistribution\\CR1 Config.txt",
+        "Cisco Systems\\RIPng Redistribution\\CR2 Config.txt",
+        "Cisco Systems\\RIPng Redistribution\\CR3 Config.txt",
+        "Cisco Systems\\RIPng Summarization & Default Route\\CR1 Config.txt",
+        "Cisco Systems\\RIPng Summarization & Default Route\\CR2 Config.txt",
+        "Cisco Systems\\RIPng Summarization & Default Route\\CR3 Config.txt",
+        "Cisco Systems\\RIPng Updates & Timers\\CR1 Config.txt",
+        "Cisco Systems\\RIPng Updates & Timers\\CR2 Config.txt",
+        "Juniper Networks\\Application & Application-Set\\Config.txt",
+        "Juniper Networks\\Application & Application-Set\\Windows, Linux & VPCS.txt",
+        "Juniper Networks\\AWS IPsec Site-to-Site VPN\\Config.txt",
+        "Juniper Networks\\AWS IPsec Site-to-Site VPN\\vpn-c0b054a9.txt",
+        "Juniper Networks\\Azure IPsec Site-to-Site VPN\\Config.txt",
+        "Juniper Networks\\Azure IPsec Site-to-Site VPN\\VpnDeviceScript.txt",
+        "Juniper Networks\\Azure IPsec Site-to-Site VPN\\Windows Firewall Rule.txt",
+        "Juniper Networks\\Basic Routing Instance\\Routing Instance Config.txt",
+        "Juniper Networks\\Configuration Basics & User Interface\\Config.txt",
+        "Juniper Networks\\Destination NAT\\Destination NAT Config.txt",
+        "Juniper Networks\\DHCP Local Server\\DHCP Config.txt",
+        "Juniper Networks\\Factory Defaults\\Config.txt",
+        "Juniper Networks\\Firewall Zones & Host Inbound Traffic\\Config.txt",
+        "Juniper Networks\\Firewall Zones & Host Inbound Traffic\\Windows, Linux & VPCS.txt",
+        "Juniper Networks\\IRB Interface (Previously VLAN)\\IRB Config.txt",
+        "Juniper Networks\\IRB Interface (Previously VLAN)\\Old vs New Config.txt",
+        "Juniper Networks\\LACP Link Aggregation\\Config.txt",
+        "Juniper Networks\\Loopback Management Filter\\Loopback Filter Config.txt",
+        "Juniper Networks\\NTP & Time Zones\\Config.txt",
+        "Juniper Networks\\PPPoE Server & Client\\PPPoE Client Config.txt",
+        "Juniper Networks\\PPPoE Server & Client\\PPPoE Server Config.txt",
+        "Juniper Networks\\Site-to-Site Policy-Based VPN\\Policy-Based VPN Config.txt",
+        "Juniper Networks\\Site-to-Site Route-Based VPN\\Route-Based VPN Config.txt",
+        "Juniper Networks\\Source NAT (PAT)\\Source NAT Config.txt",
+        "Juniper Networks\\Syslog & File Logging\\Config.txt",
+        "Juniper Networks\\User Accounts & Login\\Config.txt",
+        "MikroTik\\DHCP Local Server\\DHCP Config.txt",
+        "Ubiquiti\\Adding Linux Packages to EdgeOS\\Configuration.txt",
+        "Ubiquiti\\Advanced Zone Based Firewall (CLI)\\Config.txt",
+        "Ubiquiti\\Altering & Resetting to Factory Defaults\\Config.txt",
+        "Ubiquiti\\Archival & Commit Management\\Config.txt",
+        "Ubiquiti\\Banner\\Config.txt",
+        "Ubiquiti\\Basic Firewall Filter (HTTPS & SSH)\\Config.txt",
+        "Ubiquiti\\Basic Firewall Filter (HTTPS & SSH) (CLI)\\Config.txt",
+        "Ubiquiti\\Basic Interface Bonding\\Config.txt",
+        "Ubiquiti\\Basic Interface Bridging\\Config.txt",
+        "Ubiquiti\\Basic Interface Bridging (CLI)\\Config.txt",
+        "Ubiquiti\\Basic Smart Queue Quality of Service (QoS)\\Configuration.txt",
+        "Ubiquiti\\Basic Traffic Analysis & Deep Packet Inspection (DPI)\\Configuration.txt",
+        "Ubiquiti\\Basic WAN Firewall Filter\\Config.txt",
+        "Ubiquiti\\Basic WAN Firewall Filter (CLI)\\Config.txt",
+        "Ubiquiti\\Basic Zone Based Firewall\\Config.txt",
+        "Ubiquiti\\Basic Zone Based Firewall (CLI)\\Config.txt",
+        "Ubiquiti\\Blocking Adult Websites using Traffic Analysis & Firewall Categories\\Configuration.txt",
+        "Ubiquiti\\Capture Packets & Create PCAP Files (TCPdump)\\Configuration.txt",
+        "Ubiquiti\\DHCP Pools & Reservations\\Config.txt",
+        "Ubiquiti\\DHCP Pools & Reservations (CLI)\\Config.txt",
+        "Ubiquiti\\DNSMASQ & DHCP\\Config.txt",
+        "Ubiquiti\\DNSMASQ & DHCP (CLI)\\Config.txt",
+        "Ubiquiti\\Dual WAN Load-Balancing\\Configuration.txt",
+        "Ubiquiti\\EdgeRouter-X & UAP-AC-Lite Setup\\Configuration Steps.txt",
+        "Ubiquiti\\EdgeRouter-X & UAP-AC-Lite Setup\\Configuration.txt",
+        "Ubiquiti\\EdgeRouter-X Passhrough (Passive) PoE\\Configuration.txt",
+        "Ubiquiti\\Firewall Rules & Guest Network\\Config.txt",
+        "Ubiquiti\\Firewall Rules & Guest Network (CLI)\\Config.txt",
+        "Ubiquiti\\Firewall Rules, Guest VLAN & VIF\\Config.txt",
+        "Ubiquiti\\Firewall Rules, Guest VLAN & VIF (CLI)\\Config.txt",
+        "Ubiquiti\\First Setup & Getting Started\\Config.txt",
+        "Ubiquiti\\First Setup & Getting Started (CLI)\\Config.txt",
+        "Ubiquiti\\Layer 2 Tunneling Protocol (L2TP) (CLI)\\Config.txt",
+        "Ubiquiti\\Layer 2 Tunneling Protocol (L2TP) (CLI)\\Windows Routes.txt",
+        "Ubiquiti\\Layer 3 (L3) Device Adoption Methods\\Configuration.txt",
+        "Ubiquiti\\Learn the Command Line (CLI)\\Config.txt",
+        "Ubiquiti\\LLDP & Discovering CDP\\Config.txt",
+        "Ubiquiti\\Multiple-IP Destination NAT\\Config.txt",
+        "Ubiquiti\\NTP & Time Zones\\Config.txt",
+        "Ubiquiti\\NTP & Time Zones (CLI)\\Config.txt",
+        "Ubiquiti\\Offloading (Hardware Acceleration)\\Config.txt",
+        "Ubiquiti\\OpenVPN (CLI)\\Config.txt",
+        "Ubiquiti\\OSPF Basic Neighborship\\Cisco & Juniper Config.txt",
+        "Ubiquiti\\OSPF Basic Neighborship\\Config.txt",
+        "Ubiquiti\\OSPF Basic Neighborship (CLI)\\Cisco & Juniper Config.txt",
+        "Ubiquiti\\OSPF Basic Neighborship (CLI)\\Config.txt",
+        "Ubiquiti\\OSPF Multiple Area Setup\\Cisco & Juniper Config.txt",
+        "Ubiquiti\\OSPF Multiple Area Setup\\Config.txt",
+        "Ubiquiti\\OSPF Multiple Area Setup (CLI)\\Cisco & Juniper Config.txt",
+        "Ubiquiti\\OSPF Multiple Area Setup (CLI)\\Config.txt",
+        "Ubiquiti\\OSPF Neighbor Authentication\\Cisco & Juniper Config.txt",
+        "Ubiquiti\\OSPF Neighbor Authentication\\Config.txt",
+        "Ubiquiti\\OSPF Neighbor Authentication (CLI)\\Cisco & Juniper Config.txt",
+        "Ubiquiti\\OSPF Neighbor Authentication (CLI)\\Config.txt",
+        "Ubiquiti\\OSPF Route Redistribution\\Cisco & Juniper Config.txt",
+        "Ubiquiti\\OSPF Route Redistribution\\Config.txt",
+        "Ubiquiti\\OSPF Route Redistribution (CLI)\\Cisco & Juniper Config.txt",
+        "Ubiquiti\\OSPF Route Redistribution (CLI)\\Config.txt",
+        "Ubiquiti\\OSPF Route Redistribution with Route-Maps\\Cisco & Juniper Config.txt",
+        "Ubiquiti\\OSPF Route Redistribution with Route-Maps\\Config.txt",
+        "Ubiquiti\\OSPF Route Redistribution with Route-Maps (CLI)\\Cisco & Juniper Config.txt",
+        "Ubiquiti\\OSPF Route Redistribution with Route-Maps (CLI)\\Config.txt",
+        "Ubiquiti\\OSPF Routing over VTI VPN\\Config.txt",
+        "Ubiquiti\\OSPF Routing over VTI VPN\\Juniper VPN Config.txt",
+        "Ubiquiti\\OSPF Routing over VTI VPN (CLI)\\Config.txt",
+        "Ubiquiti\\OSPF Routing over VTI VPN (CLI)\\Juniper VPN Config.txt",
+        "Ubiquiti\\Point-to-Point Tunneling Protocol (PPTP)\\Config.txt",
+        "Ubiquiti\\Point-to-Point Tunneling Protocol (PPTP)\\Windows Routes.txt",
+        "Ubiquiti\\Point-to-Point Tunneling Protocol (PPTP) (CLI)\\Config.txt",
+        "Ubiquiti\\Point-to-Point Tunneling Protocol (PPTP) (CLI)\\Windows Routes.txt",
+        "Ubiquiti\\Port Forwarding\\Config.txt",
+        "Ubiquiti\\Port Forwarding (CLI)\\Config.txt",
+        "Ubiquiti\\Port Forwarding L2TP to Internal Server (NAT-Traversal)\\Configuration.txt",
+        "Ubiquiti\\Port Mirroring\\Config.txt",
+        "Ubiquiti\\Port Mirroring (CLI)\\Config.txt",
+        "Ubiquiti\\PPPoE Client WAN IP-Address from ISP\\Configuration.txt",
+        "Ubiquiti\\RIP Routing over VTI VPN\\Cisco VPN Config.txt",
+        "Ubiquiti\\RIP Routing over VTI VPN\\Config.txt",
+        "Ubiquiti\\RIP Routing over VTI VPN (CLI)\\Cisco VPN Config.txt",
+        "Ubiquiti\\RIP Routing over VTI VPN (CLI)\\Config.txt",
+        "Ubiquiti\\Script EdgeOS Operational Mode Commands\\Configuration.txt",
+        "Ubiquiti\\Site-to-Site IPsec VPN to Linux Server (strongSwan)\\Configuration.txt",
+        "Ubiquiti\\Site-to-Site VPN\\Cisco VPN Config.txt",
+        "Ubiquiti\\Site-to-Site VPN\\Config.txt",
+        "Ubiquiti\\Site-to-Site VPN (CLI)\\Cisco VPN Config.txt",
+        "Ubiquiti\\Site-to-Site VPN (CLI)\\Config.txt",
+        "Ubiquiti\\Site-to-Site VPN to Cisco\\Cisco VPN Config.txt",
+        "Ubiquiti\\Site-to-Site VPN to Cisco\\Config.txt",
+        "Ubiquiti\\Site-to-Site VPN to Cisco (CLI)\\Cisco VPN Config.txt",
+        "Ubiquiti\\Site-to-Site VPN to Cisco (CLI)\\Config.txt",
+        "Ubiquiti\\Site-to-Site VPN to Juniper\\Config.txt",
+        "Ubiquiti\\Site-to-Site VPN to Juniper\\Juniper VPN Config.txt",
+        "Ubiquiti\\Site-to-Site VPN to Juniper (CLI)\\Config.txt",
+        "Ubiquiti\\Site-to-Site VPN to Juniper (CLI)\\Juniper VPN Config.txt",
+        "Ubiquiti\\Site-to-Site VTI VPN\\Config.txt",
+        "Ubiquiti\\Site-to-Site VTI VPN\\Juniper VPN Config.txt",
+        "Ubiquiti\\Site-to-Site VTI VPN (CLI)\\Config.txt",
+        "Ubiquiti\\Site-to-Site VTI VPN (CLI)\\Juniper VPN Config.txt",
+        "Ubiquiti\\Site-to-Site VTI VPN to Cisco\\Cisco VPN Config.txt",
+        "Ubiquiti\\Site-to-Site VTI VPN to Cisco\\Config.txt",
+        "Ubiquiti\\Site-to-Site VTI VPN to Cisco (CLI)\\Cisco VPN Config.txt",
+        "Ubiquiti\\Site-to-Site VTI VPN to Cisco (CLI)\\Config.txt",
+        "Ubiquiti\\Site-to-Site VTI VPN to Juniper\\Config.txt",
+        "Ubiquiti\\Site-to-Site VTI VPN to Juniper\\Juniper VPN Config.txt",
+        "Ubiquiti\\Site-to-Site VTI VPN to Juniper (CLI)\\Config.txt",
+        "Ubiquiti\\Site-to-Site VTI VPN to Juniper (CLI)\\Juniper VPN Config.txt",
+        "Ubiquiti\\SNMPv2\\Config.txt",
+        "Ubiquiti\\SNMPv3\\Config.txt",
+        "Ubiquiti\\Source NAT & Masquerade\\Config.txt",
+        "Ubiquiti\\Source NAT & Masquerade (CLI)\\Config.txt",
+        "Ubiquiti\\Speed Testing (Bandwidth) with iPerf3 (CLI)\\Configuration.txt",
+        "Ubiquiti\\Speed Testing (Bandwidth) with the Bandwidth Tool\\Configuration.txt",
+        "Ubiquiti\\Speedtest.net Bandwidth Test using a Script (CLI)\\Config.txt",
+        "Ubiquiti\\SSH RSA Keys & Authentication (CLI)\\Config.txt",
+        "Ubiquiti\\Static 1to1 Source NAT\\Config.txt",
+        "Ubiquiti\\Static 1to1 Source NAT (CLI)\\Config.txt",
+        "Ubiquiti\\Syslog & File Logging\\Config.txt",
+        "Ubiquiti\\Traffic Analysis & Blocking Categories (Websites) using Firewall\\Configuration.txt",
+        "Ubiquiti\\UAP with Guest WLAN & VLAN Trunks (VIF)\\Configuration.txt",
+        "Ubiquiti\\UniFi Controller in AWS\\Configuration.txt",
+        "Ubiquiti\\UniFi Controller on a Raspberry Pi\\Configuration.txt",
+        "Ubiquiti\\UniFi Controller on Linux\\Configuration.txt",
+        "Ubiquiti\\UniFi Controller on Windows\\Configuration.txt",
+        "Ubiquiti\\Update UniFi AP Firmware through SSH\\Configuration.txt",
+        "Ubiquiti\\Upgrading the UniFi Controller from Version 4 to 5 on Linux\\Configuration.txt",
+        "Ubiquiti\\User Accounts & System Management\\Config.txt",
+        "Ubiquiti\\Using VLAN 1 on a vlan-aware switch0 Interface\\Configuration.txt",
+        "Ubiquiti\\VLANs & Switch Interface\\Config.txt",
+        "Ubiquiti\\VLANs & Switch Interface (CLI)\\Config.txt",
+        "Ubiquiti\\VLANs & Virtual Interfaces (VIF)\\Config.txt",
+        "Ubiquiti\\VLANs & Virtual Interfaces (VIF) (CLI)\\Config.txt",
+        "Ubiquiti\\VRRP\\Cisco VRRP Config.txt",
+        "Ubiquiti\\VRRP\\Config.txt",
+        "Ubiquiti\\VRRP\\Juniper VRRP Config.txt",
+        "Ubiquiti\\VRRP (CLI)\\Cisco VRRP Config.txt",
+        "Ubiquiti\\VRRP (CLI)\\Config.txt",
+        "Ubiquiti\\VRRP (CLI)\\Juniper VRRP Config.txt",
+        "Ubiquiti\\WAN Management & Firewalls\\Config.txt",
+        "Ubiquiti\\WAN Management & Firewalls (CLI)\\Config.txt",
+        "Ubiquiti\\Zone Based Firewall & Guest Network (CLI)\\Config.txt",
+        "Ubiquiti\\Zone Based Firewall & WAN Management (CLI)\\Config.txt",
+        "Ubiquiti\\Zone Based Firewall, Guest VLAN & VIF (CLI)\\Config.txt"
+      ],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": true
+    },
+    "rancangan-sistem-manajemen-identitas-dan-akses-jaringan-pada-mikrotik-menggunakan-gns3": {
+      "total_files": 3,
+      "total_size": 8991253,
+      "file_types": {
+        ".pdf": 2,
+        ".gns3project": 1
+      },
+      "categories": {
+        "documentation": 2,
+        "other": 1
+      },
+      "doc_files": [
+        "Rono_DanuJatmiko_-_Holiday_Project_2024.pdf",
+        "Laporan Tingkat Plagiarisme\\Rono_DanuJatmiko_Holiday_Project_2024-1726812926029.pdf"
+      ],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": false
+    },
+    "responsive-login-hotspot-smktika": {
+      "total_files": 58,
+      "total_size": 2745616,
+      "file_types": {
+        ".html": 6,
+        ".md": 2,
+        ".css": 5,
+        ".eot": 2,
+        ".svg": 2,
+        ".ttf": 2,
+        ".woff": 2,
+        ".otf": 1,
+        ".less": 13,
+        ".scss": 13,
+        ".woff2": 1,
+        ".jpg": 3,
+        ".png": 2,
+        ".js": 4
+      },
+      "categories": {
+        "other": 52,
+        "license": 1,
+        "readme": 1,
+        "code": 4,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": "js",
+      "has_tests": false,
+      "has_ci": false
+    },
+    "Restore-Winbox-Sessions-to-Default": {
+      "total_files": 2,
+      "total_size": 2786,
+      "file_types": {
+        ".md": 1,
+        ".bat": 1
+      },
+      "categories": {
+        "readme": 1,
+        "other": 1,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": false
+    },
+    "routeros": {
+      "total_files": 14,
+      "total_size": 27467,
+      "file_types": {
+        ".yml": 1,
+        "": 1,
+        ".md": 1,
+        ".txt": 1,
+        ".cfg": 1,
+        ".py": 9
+      },
+      "categories": {
+        "config": 2,
+        "license": 1,
+        "readme": 1,
+        "documentation": 1,
+        "code": 5,
+        "test": 4
+      },
+      "doc_files": [
+        "requirements.txt"
+      ],
+      "main_language": "py",
+      "has_tests": true,
+      "has_ci": false
+    },
+    "routeros-api": {
+      "total_files": 9,
+      "total_size": 20666,
+      "file_types": {
+        ".json": 1,
+        ".md": 1,
+        ".php": 7
+      },
+      "categories": {
+        "config": 1,
+        "readme": 1,
+        "code": 7,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": "php",
+      "has_tests": false,
+      "has_ci": false
+    },
+    "routeros-GPL": {
+      "total_files": 79,
+      "total_size": 130562016,
+      "file_types": {
+        "": 2,
+        ".md": 1,
+        ".tgz": 60,
+        ".gz": 16
+      },
+      "categories": {
+        "license": 1,
+        "other": 77,
+        "readme": 1,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": false
+    },
+    "routeros-scripts": {
+      "total_files": 222,
+      "total_size": 1289146,
+      "file_types": {
+        ".rsc": 79,
+        ".md": 63,
+        ".avif": 56,
+        ".png": 2,
+        ".svg": 1,
+        "": 5,
+        ".pem": 10,
+        ".html": 2,
+        ".js": 2,
+        ".css": 2
+      },
+      "categories": {
+        "other": 157,
+        "documentation": 62,
+        "readme": 1,
+        "code": 2
+      },
+      "doc_files": [
+        "BRANCHES.md",
+        "CERTIFICATES.md",
+        "CONTRIBUTIONS.md",
+        "COPYING.md",
+        "INITIAL-COMMANDS.md",
+        "doc\\accesslist-duplicates.md",
+        "doc\\backup-cloud.md",
+        "doc\\backup-email.md",
+        "doc\\backup-partition.md",
+        "doc\\backup-upload.md",
+        "doc\\capsman-download-packages.md",
+        "doc\\capsman-rolling-upgrade.md",
+        "doc\\certificate-renew-issued.md",
+        "doc\\check-certificates.md",
+        "doc\\check-health.md",
+        "doc\\check-lte-firmware-upgrade.md",
+        "doc\\check-routeros-update.md",
+        "doc\\cloud-backup.md",
+        "doc\\collect-wireless-mac.md",
+        "doc\\daily-psk.md",
+        "doc\\dhcp-lease-comment.md",
+        "doc\\dhcp-to-dns.md",
+        "doc\\early-errors.md",
+        "doc\\email-backup.md",
+        "doc\\firmware-upgrade-reboot.md",
+        "doc\\fw-addr-lists.md",
+        "doc\\global-wait.md",
+        "doc\\gps-track.md",
+        "doc\\hotspot-to-wpa.md",
+        "doc\\ip-addr-bridge.md",
+        "doc\\ipsec-to-dns.md",
+        "doc\\ipv6-update.md",
+        "doc\\lease-script.md",
+        "doc\\leds-mode.md",
+        "doc\\log-forward.md",
+        "doc\\mode-button.md",
+        "doc\\netwatch-dns.md",
+        "doc\\netwatch-notify.md",
+        "doc\\netwatch-syslog.md",
+        "doc\\ospf-to-leds.md",
+        "doc\\packages-update.md",
+        "doc\\ppp-on-up.md",
+        "doc\\rotate-ntp.md",
+        "doc\\sms-action.md",
+        "doc\\sms-forward.md",
+        "doc\\ssh-keys-import.md",
+        "doc\\super-mario-theme.md",
+        "doc\\telegram-chat.md",
+        "doc\\unattended-lte-firmware-upgrade.md",
+        "doc\\update-gre-address.md",
+        "doc\\update-tunnelbroker.md",
+        "doc\\upload-backup.md",
+        "doc\\mod\\bridge-port-to.md",
+        "doc\\mod\\bridge-port-vlan.md",
+        "doc\\mod\\inspectvar.md",
+        "doc\\mod\\ipcalc.md",
+        "doc\\mod\\notification-email.md",
+        "doc\\mod\\notification-matrix.md",
+        "doc\\mod\\notification-ntfy.md",
+        "doc\\mod\\notification-telegram.md",
+        "doc\\mod\\scriptrunonce.md",
+        "doc\\mod\\ssh-keys-import.md"
+      ],
+      "main_language": "js",
+      "has_tests": false,
+      "has_ci": false
+    },
+    "RubyTik": {
+      "total_files": 21,
+      "total_size": 21286,
+      "file_types": {
+        ".yml": 1,
+        ".md": 4,
+        "": 4,
+        ".txt": 1,
+        ".gemspec": 1,
+        ".xml": 2,
+        ".rb": 5,
+        ".rbs": 3
+      },
+      "categories": {
+        "config": 1,
+        "changelog": 1,
+        "documentation": 2,
+        "other": 10,
+        "license": 1,
+        "readme": 1,
+        "code": 3,
+        "test": 2
+      },
+      "doc_files": [
+        "CODE_OF_CONDUCT.md",
+        "README-IT.md"
+      ],
+      "main_language": "rb",
+      "has_tests": true,
+      "has_ci": true
+    },
+    "sentinel-mikrotik": {
+      "total_files": 80,
+      "total_size": 263665,
+      "file_types": {
+        ".md": 1,
+        ".service": 1,
+        ".sh": 2,
+        "": 1,
+        ".py": 75
+      },
+      "categories": {
+        "readme": 1,
+        "other": 2,
+        "code": 75,
+        "test": 2,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": "py",
+      "has_tests": true,
+      "has_ci": false
+    },
+    "setidentity": {
+      "total_files": 5,
+      "total_size": 2014,
+      "file_types": {
+        ".md": 2,
+        ".yml": 3
+      },
+      "categories": {
+        "changelog": 1,
+        "readme": 1,
+        "config": 3,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": false
+    },
+    "smtp-brute-force": {
+      "total_files": 1,
+      "total_size": 5933,
+      "file_types": {
+        ".md": 1
+      },
+      "categories": {
+        "readme": 1,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": false
+    },
+    "snooper_mikrotik": {
+      "total_files": 3,
+      "total_size": 83008,
+      "file_types": {
+        ".py": 1,
+        ".png": 1,
+        ".md": 1
+      },
+      "categories": {
+        "code": 1,
+        "other": 1,
+        "readme": 1,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": "py",
+      "has_tests": false,
+      "has_ci": false
+    },
+    "Source-Code-TA": {
+      "total_files": 1560,
+      "total_size": 53543705,
+      "file_types": {
+        "": 15,
+        ".json": 7,
+        ".php": 236,
+        ".md": 2,
+        ".txt": 3,
+        ".rst": 1,
+        ".sql": 3,
+        ".html": 303,
+        ".js": 141,
+        ".xml": 4,
+        ".css": 24,
+        ".map": 5,
+        ".eot": 13,
+        ".svg": 32,
+        ".ttf": 14,
+        ".woff": 13,
+        ".scss": 99,
+        ".woff2": 8,
+        ".jpg": 61,
+        ".jpeg": 51,
+        ".png": 513,
+        ".ico": 4,
+        ".gvdesign": 2,
+        ".inv": 1,
+        ".zip": 1,
+        ".gif": 3,
+        ".otf": 1
+      },
+      "categories": {
+        "other": 1167,
+        "config": 7,
+        "code": 375,
+        "documentation": 4,
+        "license": 3,
+        "readme": 1,
+        "test": 2,
+        "changelog": 1
+      },
+      "doc_files": [
+        "contributing.md",
+        "readme.rst",
+        "assets\\template\\examples\\assets\\img\\flags\\readme.txt",
+        "assets\\template\\img\\flags\\readme.txt"
+      ],
+      "main_language": "php",
+      "has_tests": true,
+      "has_ci": false
+    },
+    "telegram_bot": {
+      "total_files": 23,
+      "total_size": 81570,
+      "file_types": {
+        "": 21,
+        ".md": 1,
+        ".rsc": 1
+      },
+      "categories": {
+        "license": 1,
+        "readme": 1,
+        "other": 21,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": false
+    },
+    "terraform-mikrotik": {
+      "total_files": 31,
+      "total_size": 329409,
+      "file_types": {
+        ".yaml": 3,
+        ".tf": 25,
+        ".tpl": 1,
+        ".md": 1,
+        ".hcl": 1
+      },
+      "categories": {
+        "config": 3,
+        "other": 27,
+        "readme": 1,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": false
+    },
+    "terraform-provider-mikrotik": {
+      "total_files": 8,
+      "total_size": 27587,
+      "file_types": {
+        ".yml": 1,
+        ".mod": 1,
+        ".sum": 1,
+        ".go": 4,
+        ".md": 1
+      },
+      "categories": {
+        "config": 1,
+        "other": 2,
+        "code": 3,
+        "readme": 1,
+        "test": 1,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": "go",
+      "has_tests": true,
+      "has_ci": false
+    },
+    "terraform-provider-routeros": {
+      "total_files": 831,
+      "total_size": 1763325,
+      "file_types": {
+        ".yml": 1,
+        "": 3,
+        ".md": 189,
+        ".mod": 1,
+        ".sum": 1,
+        ".go": 316,
+        ".json": 1,
+        ".tf": 154,
+        ".sh": 139,
+        ".tmpl": 26
+      },
+      "categories": {
+        "config": 2,
+        "other": 185,
+        "changelog": 1,
+        "license": 1,
+        "code": 335,
+        "readme": 1,
+        "documentation": 186,
+        "test": 120
+      },
+      "doc_files": [
+        "docs\\index.md",
+        "docs\\data-sources\\files.md",
+        "docs\\data-sources\\firewall.md",
+        "docs\\data-sources\\interfaces.md",
+        "docs\\data-sources\\ipv6_addresses.md",
+        "docs\\data-sources\\ipv6_firewall.md",
+        "docs\\data-sources\\ip_addresses.md",
+        "docs\\data-sources\\ip_arp.md",
+        "docs\\data-sources\\ip_dhcp_server_leases.md",
+        "docs\\data-sources\\ip_firewall.md",
+        "docs\\data-sources\\ip_routes.md",
+        "docs\\data-sources\\ip_services.md",
+        "docs\\data-sources\\system_resource.md",
+        "docs\\data-sources\\x509.md",
+        "docs\\guides\\easy_import.md",
+        "docs\\guides\\install_package.md",
+        "docs\\resources\\bridge.md",
+        "docs\\resources\\bridge_mlag.md",
+        "docs\\resources\\bridge_port.md",
+        "docs\\resources\\bridge_vlan.md",
+        "docs\\resources\\capsman_aaa.md",
+        "docs\\resources\\capsman_access_list.md",
+        "docs\\resources\\capsman_channel.md",
+        "docs\\resources\\capsman_configuration.md",
+        "docs\\resources\\capsman_datapath.md",
+        "docs\\resources\\capsman_interface.md",
+        "docs\\resources\\capsman_manager.md",
+        "docs\\resources\\capsman_manager_interface.md",
+        "docs\\resources\\capsman_provisioning.md",
+        "docs\\resources\\capsman_rates.md",
+        "docs\\resources\\capsman_security.md",
+        "docs\\resources\\certificate_scep_server.md",
+        "docs\\resources\\container.md",
+        "docs\\resources\\container_config.md",
+        "docs\\resources\\container_envs.md",
+        "docs\\resources\\container_mounts.md",
+        "docs\\resources\\dhcp_client.md",
+        "docs\\resources\\dhcp_client_option.md",
+        "docs\\resources\\dhcp_server.md",
+        "docs\\resources\\dhcp_server_lease.md",
+        "docs\\resources\\dhcp_server_network.md",
+        "docs\\resources\\dns.md",
+        "docs\\resources\\dns_record.md",
+        "docs\\resources\\file.md",
+        "docs\\resources\\firewall_addr_list.md",
+        "docs\\resources\\firewall_filter.md",
+        "docs\\resources\\firewall_mangle.md",
+        "docs\\resources\\firewall_nat.md",
+        "docs\\resources\\gre.md",
+        "docs\\resources\\identity.md",
+        "docs\\resources\\interface_bonding.md",
+        "docs\\resources\\interface_bridge.md",
+        "docs\\resources\\interface_bridge_port.md",
+        "docs\\resources\\interface_bridge_settings.md",
+        "docs\\resources\\interface_bridge_vlan.md",
+        "docs\\resources\\interface_dot1x_client.md",
+        "docs\\resources\\interface_dot1x_server.md",
+        "docs\\resources\\interface_eoip.md",
+        "docs\\resources\\interface_ethernet.md",
+        "docs\\resources\\interface_ethernet_switch.md",
+        "docs\\resources\\interface_ethernet_switch_host.md",
+        "docs\\resources\\interface_ethernet_switch_port.md",
+        "docs\\resources\\interface_ethernet_switch_port_isolation.md",
+        "docs\\resources\\interface_ethernet_switch_rule.md",
+        "docs\\resources\\interface_ethernet_switch_vlan.md",
+        "docs\\resources\\interface_gre.md",
+        "docs\\resources\\interface_ipip.md",
+        "docs\\resources\\interface_list.md",
+        "docs\\resources\\interface_list_member.md",
+        "docs\\resources\\interface_lte.md",
+        "docs\\resources\\interface_lte_apn.md",
+        "docs\\resources\\interface_macvlan.md",
+        "docs\\resources\\interface_ovpn_client.md",
+        "docs\\resources\\interface_ovpn_server.md",
+        "docs\\resources\\interface_pppoe_client.md",
+        "docs\\resources\\interface_veth.md",
+        "docs\\resources\\interface_vlan.md",
+        "docs\\resources\\interface_vrrp.md",
+        "docs\\resources\\interface_wireguard.md",
+        "docs\\resources\\interface_wireguard_peer.md",
+        "docs\\resources\\interface_wireless_cap.md",
+        "docs\\resources\\ipip.md",
+        "docs\\resources\\ipv6_address.md",
+        "docs\\resources\\ipv6_dhcp_client.md",
+        "docs\\resources\\ipv6_dhcp_client_option.md",
+        "docs\\resources\\ipv6_firewall_addr_list.md",
+        "docs\\resources\\ipv6_firewall_filter.md",
+        "docs\\resources\\ipv6_neighbor_discovery.md",
+        "docs\\resources\\ipv6_route.md",
+        "docs\\resources\\ip_address.md",
+        "docs\\resources\\ip_cloud.md",
+        "docs\\resources\\ip_cloud_advanced.md",
+        "docs\\resources\\ip_dhcp_client.md",
+        "docs\\resources\\ip_dhcp_client_option.md",
+        "docs\\resources\\ip_dhcp_relay.md",
+        "docs\\resources\\ip_dhcp_server.md",
+        "docs\\resources\\ip_dhcp_server_config.md",
+        "docs\\resources\\ip_dhcp_server_lease.md",
+        "docs\\resources\\ip_dhcp_server_network.md",
+        "docs\\resources\\ip_dhcp_server_option.md",
+        "docs\\resources\\ip_dhcp_server_option_set.md",
+        "docs\\resources\\ip_dns.md",
+        "docs\\resources\\ip_dns_record.md",
+        "docs\\resources\\ip_firewall_addr_list.md",
+        "docs\\resources\\ip_firewall_connection_tracking.md",
+        "docs\\resources\\ip_firewall_filter.md",
+        "docs\\resources\\ip_firewall_mangle.md",
+        "docs\\resources\\ip_firewall_nat.md",
+        "docs\\resources\\ip_firewall_raw.md",
+        "docs\\resources\\ip_neighbor_discovery_settings.md",
+        "docs\\resources\\ip_pool.md",
+        "docs\\resources\\ip_route.md",
+        "docs\\resources\\ip_service.md",
+        "docs\\resources\\ip_ssh_server.md",
+        "docs\\resources\\ip_upnp.md",
+        "docs\\resources\\ip_upnp_interfaces.md",
+        "docs\\resources\\ip_vrf.md",
+        "docs\\resources\\move_items.md",
+        "docs\\resources\\ovpn_server.md",
+        "docs\\resources\\ppp_aaa.md",
+        "docs\\resources\\ppp_profile.md",
+        "docs\\resources\\ppp_secret.md",
+        "docs\\resources\\radius.md",
+        "docs\\resources\\radius_incoming.md",
+        "docs\\resources\\routing_bgp_connection.md",
+        "docs\\resources\\routing_bgp_template.md",
+        "docs\\resources\\routing_filter_rule.md",
+        "docs\\resources\\routing_ospf_area.md",
+        "docs\\resources\\routing_ospf_instance.md",
+        "docs\\resources\\routing_ospf_interface_template.md",
+        "docs\\resources\\routing_rule.md",
+        "docs\\resources\\routing_table.md",
+        "docs\\resources\\scheduler.md",
+        "docs\\resources\\snmp.md",
+        "docs\\resources\\snmp_community.md",
+        "docs\\resources\\system_certificate.md",
+        "docs\\resources\\system_certificate_scep_server.md",
+        "docs\\resources\\system_clock.md",
+        "docs\\resources\\system_identity.md",
+        "docs\\resources\\system_logging.md",
+        "docs\\resources\\system_logging_action.md",
+        "docs\\resources\\system_ntp_client.md",
+        "docs\\resources\\system_ntp_server.md",
+        "docs\\resources\\system_scheduler.md",
+        "docs\\resources\\system_script.md",
+        "docs\\resources\\system_user.md",
+        "docs\\resources\\system_user_aaa.md",
+        "docs\\resources\\system_user_group.md",
+        "docs\\resources\\system_user_settings.md",
+        "docs\\resources\\tool_bandwidth_server.md",
+        "docs\\resources\\tool_mac_server.md",
+        "docs\\resources\\tool_mac_server_winbox.md",
+        "docs\\resources\\tool_netwatch.md",
+        "docs\\resources\\user_manager_advanced.md",
+        "docs\\resources\\user_manager_attribute.md",
+        "docs\\resources\\user_manager_database.md",
+        "docs\\resources\\user_manager_limitation.md",
+        "docs\\resources\\user_manager_profile.md",
+        "docs\\resources\\user_manager_profile_limitation.md",
+        "docs\\resources\\user_manager_router.md",
+        "docs\\resources\\user_manager_settings.md",
+        "docs\\resources\\user_manager_user.md",
+        "docs\\resources\\user_manager_user_group.md",
+        "docs\\resources\\user_manager_user_profile.md",
+        "docs\\resources\\vlan.md",
+        "docs\\resources\\vrrp.md",
+        "docs\\resources\\wifi.md",
+        "docs\\resources\\wifi_aaa.md",
+        "docs\\resources\\wifi_access_list.md",
+        "docs\\resources\\wifi_cap.md",
+        "docs\\resources\\wifi_capsman.md",
+        "docs\\resources\\wifi_channel.md",
+        "docs\\resources\\wifi_configuration.md",
+        "docs\\resources\\wifi_datapath.md",
+        "docs\\resources\\wifi_interworking.md",
+        "docs\\resources\\wifi_provisioning.md",
+        "docs\\resources\\wifi_security.md",
+        "docs\\resources\\wifi_steering.md",
+        "docs\\resources\\wireguard.md",
+        "docs\\resources\\wireguard_keys.md",
+        "docs\\resources\\wireguard_peer.md",
+        "docs\\resources\\zerotier.md",
+        "docs\\resources\\zerotier_controller.md",
+        "docs\\resources\\zerotier_interface.md",
+        "templates\\guides\\easy_import.md",
+        "templates\\guides\\install_package.md"
+      ],
+      "main_language": "go",
+      "has_tests": true,
+      "has_ci": true
+    },
+    "Twasel-Net": {
+      "total_files": 34,
+      "total_size": 226985,
+      "file_types": {
+        ".html": 20,
+        ".txt": 2,
+        ".ico": 1,
+        ".otf": 1,
+        ".js": 1,
+        ".ttf": 1,
+        ".css": 2,
+        ".png": 5,
+        ".xsd": 1
+      },
+      "categories": {
+        "other": 31,
+        "documentation": 2,
+        "code": 1
+      },
+      "doc_files": [
+        "errors.txt",
+        "lv\\errors.txt"
+      ],
+      "main_language": "js",
+      "has_tests": false,
+      "has_ci": false
+    },
+    "tzsp-reader": {
+      "total_files": 7,
+      "total_size": 363237,
+      "file_types": {
+        ".json": 1,
+        ".md": 1,
+        ".sh": 1,
+        ".py": 1,
+        ".png": 2,
+        ".jpg": 1
+      },
+      "categories": {
+        "config": 1,
+        "readme": 1,
+        "code": 2,
+        "other": 3,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": "sh",
+      "has_tests": false,
+      "has_ci": false
+    },
+    "usersmanagment": {
+      "total_files": 8,
+      "total_size": 6488,
+      "file_types": {
+        ".md": 2,
+        ".yml": 6
+      },
+      "categories": {
+        "changelog": 1,
+        "readme": 1,
+        "config": 6,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": false
+    },
+    "ussdmikrotik": {
+      "total_files": 1,
+      "total_size": 6275,
+      "file_types": {
+        ".md": 1
+      },
+      "categories": {
+        "readme": 1,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": false
+    },
+    "vpls-and-vrrp-lab-mikrotik-vagrant": {
+      "total_files": 2,
+      "total_size": 7959,
+      "file_types": {
+        ".md": 1,
+        "": 1
+      },
+      "categories": {
+        "readme": 1,
+        "other": 1,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": false
+    },
+    "website": {
+      "total_files": 1,
+      "total_size": 32,
+      "file_types": {
+        ".md": 1
+      },
+      "categories": {
+        "readme": 1,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": true
+    },
+    "Website-API-MIKROTIK": {
+      "total_files": 458,
+      "total_size": 17214863,
+      "file_types": {
+        "": 1,
+        ".php": 17,
+        ".md": 3,
+        ".htm": 56,
+        ".xml": 128,
+        ".tsv": 1,
+        ".java": 15,
+        ".properties": 9,
+        ".js": 87,
+        ".jar": 21,
+        ".class": 16,
+        ".png": 5,
+        ".css": 8,
+        ".html": 6,
+        ".svg": 2,
+        ".jsp": 4,
+        ".war": 1,
+        ".tmp": 77,
+        ".jpg": 1
+      },
+      "categories": {
+        "other": 336,
+        "code": 119,
+        "readme": 3,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": "js",
+      "has_tests": false,
+      "has_ci": false
+    },
+    "wifi-red-button": {
+      "total_files": 1,
+      "total_size": 4999,
+      "file_types": {
+        ".ino": 1
+      },
+      "categories": {
+        "other": 1,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": false
+    },
+    "winbox-mac": {
+      "total_files": 4,
+      "total_size": 190991,
+      "file_types": {
+        ".md": 2,
+        "": 1,
+        ".png": 1
+      },
+      "categories": {
+        "changelog": 1,
+        "license": 1,
+        "readme": 1,
+        "other": 1,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": false
+    },
+    "winbox-wine": {
+      "total_files": 4,
+      "total_size": 36840,
+      "file_types": {
+        "": 2,
+        ".md": 1,
+        ".sh": 1
+      },
+      "categories": {
+        "other": 1,
+        "license": 1,
+        "readme": 1,
+        "code": 1,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": "sh",
+      "has_tests": false,
+      "has_ci": false
+    },
+    "windows-hyper-v-mikrotik-chr-vlan-nic-in-trunk-mode": {
+      "total_files": 1,
+      "total_size": 1633,
+      "file_types": {
+        ".md": 1
+      },
+      "categories": {
+        "readme": 1,
+        "documentation": 0
+      },
+      "doc_files": [],
+      "main_language": null,
+      "has_tests": false,
+      "has_ci": false
+    }
+  },
+  "aggregate_stats": {
+    "total_files": 26957,
+    "total_size": 647840656,
+    "repositories_with_docs": 77,
+    "repositories_with_tests": 25,
+    "repositories_with_ci": 19,
+    "language_distribution": {
+      "js": 28,
+      "py": 25,
+      "php": 13,
+      "sh": 13,
+      "go": 7,
+      "java": 1,
+      "rs": 1,
+      "c": 2,
+      "cpp": 1,
+      "rb": 1
+    },
+    "file_categories": {
+      "other": 14515,
+      "documentation": 685,
+      "code": 10911,
+      "readme": 163,
+      "license": 89,
+      "config": 339,
+      "test": 236,
+      "changelog": 19
+    }
+  }
+}
