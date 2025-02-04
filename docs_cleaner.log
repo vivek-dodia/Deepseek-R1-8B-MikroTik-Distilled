@@ -1,0 +1,9 @@
+2025-02-04 16:20:06,717 - INFO - Starting documentation cleaning process...
+2025-02-04 16:20:06,817 - INFO - Processed 100 files successfully...
+2025-02-04 16:20:06,901 - INFO - Processed 200 files successfully...
+2025-02-04 16:20:06,978 - INFO - 
+Processing Summary:
+2025-02-04 16:20:06,978 - INFO - Total files processed: 285
+2025-02-04 16:20:06,978 - INFO - Successfully cleaned: 285
+2025-02-04 16:20:06,978 - INFO - Failed to process: 0
+2025-02-04 16:20:06,979 - INFO - Cleaning process completed!

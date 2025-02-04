@@ -1,0 +1,27 @@
+# Thread Information
+Title: Thread-213715
+Section: RouterOS
+Thread ID: 213715
+
+# Discussion
+
+## Initial Question
+Just bought my first Mikrotik router and it all seems really nice. (Except for the fact that it was hacked the first 2 hours due to me not locking it down and disabling the admin account before connecting to WAN, whoops)Anyways dealing with the wireguard peer generator I've noticed if you don't fill out a "Client Listen Port" it automatically places "ListenPort = 51820" in the config. Is there a specific reason for this every other implementation I've seen will typically omit "ListenPort" so the client device can automatically find an available port to use. ---
+
+## Response 1
+... every other implementation I've seen will typically omit "ListenPort" so the client device can automatically find an available port to useit is the default port, and is used by other implementations I have seen.If you do not configure a port on which to listen, how does a peer first contact it? Are you confusing ports with allowed IPs? ---
+
+## Response 2
+Well the default setup out of the box is secure so, its not a matter of not locking it down you undid something that caused the router then become open.I hope you used netinstall to put 7.16.2 on the router, and if not, not interested in assisting until a clean version of firmware is installed in the device.If the firmware is prior to 7.12.1 you will need to netinstall to 7.12.1 and then upgrade to 7.16.2Then come here and list your requirementsa. identify all users/devices, external, internal and adminb. identify the traffic they needc. identify details about WAN connections ( public private, static dynamic ) and how they are to be used by all the users.d. network diagram helps++++++++++++++++++++++++++++ ---
+
+## Response 3
+... every other implementation I've seen will typically omit "ListenPort" so the client device can automatically find an available port to useit is the default port, and is used by other implementations I have seen.If you do not configure a port on which to listen, how does a peer first contact it? Are you confusing ports with allowed IPs?Sorry I may not have been specific, I am referring to the "ListenPort" that goes into the client configuration which tells the client which port to bind the request to. If "ListenPort" isn't defined it will typically (depending on implementation but basing it off the wireguard iOS app) automatically choose an available port.Well the default setup out of the box is secure so, its not a matter of not locking it down you undid something that caused the router then become open.I hope you used netinstall to put 7.16.2 on the router, and if not, not interested in assisting until a clean version of firmware is installed in the device.If the firmware is prior to 7.12.1 you will need to netinstall to 7.12.1 and then upgrade to 7.16.2Then come here and list your requirementsa. identify all users/devices, external, internal and adminb. identify the traffic they needc. identify details about WAN connections ( public private, static dynamic ) and how they are to be used by all the users.d. network diagram helps++++++++++++++++++++++++++++I bought the CCR2116-12G-4S+ which from what I read is considered their “pro” line up so out of the box it comes with a blank firewall which I wasn’t aware of when I connected it to the WAN. Also yes I have already reinstalled the OS and made sure default admin user was disabled and set rules in place to prevent that from happening again. ---
+
+## Response 4
+Ahh that makes sense! Understand good plan still to netinstall fresh firmware 7.16.2 prior to do anything else.Then install a basic firewall setup. Then connect to the internet.On the router, in the wireguard setting, establish a listening port ( this is an accurate word in the case of the device acting as server for handshake ).Suggest changing from default like to 15512 etc.Note on the MT device you will need an input chain rule to allow the handshakeadd chain=input action=accept comment="wg handshake" dst-port=15512 protocol=udpOn CLIENT devicesthe basic wireguard setting can be any listening port........ In fact its misnamed as the device is NOT listening on that port, its just a random port to initially go out with, is my understanding.on the peer settings ( pointing to the router) one needs to identify the endpoint address and the endpoint port, here the endpoint port = routers listening port!! ---
+
+## Response 5
+The reason MikroTik's WireGuard peer generator automatically sets the `ListenPort = 51820` in the configuration is likely to align with the default port used by the WireGuard protocol. WireGuard commonly defaults to port `51820` unless otherwise specified, and MikroTik's implementation may prioritize explicit configuration for consistency and ease of troubleshooting.In most WireGuard setups, the `ListenPort` field is optional for clients, as clients typically do not require a specific port to be explicitly defined. Omitting it allows the operating system to dynamically choose an available ephemeral port. ---
+
+## Response 6
+Can you post a link to wireguard peer generator. I was unaware that MT had such a tool??ORAre you talking about BTH WG vpn?? ---

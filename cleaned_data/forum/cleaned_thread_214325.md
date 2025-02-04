@@ -1,0 +1,15 @@
+# Thread Information
+Title: Thread-214325
+Section: RouterOS
+Thread ID: 214325
+
+# Discussion
+
+## Initial Question
+I have an odd issue where 1-2 times a day I have a 4.5 min outage (always seems to be the same amount of time, though different times of day) and as far as I can tell it's the switch. Learning toward replacement as it's one of the main switches in my network. Previously replaced it this summer after a failed routeros upgrade on the last one so it's not that old. I've had these CRS326 switches go into a boot loop after an upgrade now so I'm not sure if I want to attempt an upgrade in place at this point. Was previously running 7.14.3 and just upgraded to 7.16.2 but the issue is still happening. Configuration is pretty simple, bridging with a handful of vlans and some firewall rules to restrict access to the switch. RSTP is enabled and debug logging enabled but no log messages about flapping or anything.Also, wondering about the CPU on this thing. I setup smokeping to monitor it from about 6 devices doing 3 pings and it crippled the switch.Attached is a high level diagram of the piece of network in question. the switch at tower1 is the suspected switch. All monitoring probes are using smokeping to ping the switch and router at each other tower, minus the switch at tower1 because when I turned that on the switch stopped responding. When I say "can't ping" I mean there's gaps in the smokeping graphs, which are supposed to buffer and upload when connectivity is restored afaik.image.pngScenario:issue occurs, switch at tower1 (we'll call it switch1) is not accessible via winbox, does not show up in romon neighbors, etc.- monitoring probe at tower1 is able to ping router at tower1 but no other routers or switches at other towers.- all monitoring probes at every tower are able to maintain pings to station primary and station secondary at tower1monitoring probe at tower4 (not pictured but connected to tower2) can't ping router or switch at tower2- no monitoring probes can ping switch at tower 2, even the monitoring probe at tower 2- monitoring probe at tower 3 can't ping switch or router at any other tower except the router at tower3 ---
+
+## Response 1
+CRS326 can show their uptime since last restart and they log startup events so consider logging setup to remote syslog to overcome limits of default limited memory log.CRS326 has real serial port so keeping device connected to watch CRS326 console activity is another way to observer device restarts.Check device health, temperature in particular. ---
+
+## Response 2
+CRS326 can show their uptime since last restart and they log startup events so consider logging setup to remote syslog to overcome limits of default limited memory log.CRS326 has real serial port so keeping device connected to watch CRS326 console activity is another way to observer device restarts.Check device health, temperature in particular.I've had a console connection connected during an event and there's no reboot. I'll have to check it again more closely to see if the console session stays usable. Temperature seems fine to me, between 13.5 and 58 celcius. ---

@@ -1,0 +1,10 @@
+# Thread Information
+Title: Untitled Thread
+Section: mikrotik_forum
+Thread ID: 207062
+
+# Discussion
+
+## Initial Question
+Author: [SOLVED]Thu Apr 25, 2024 8:35 pm
+``` #---------------------------------------- :local NameHotspot "Green Hotspot" :global email :local LastRun [:pick ([/system script get [find name="$NameScript"] value-name=last-started]) 0 7]; :local date [:pick ([/system clock get date]) 0 7]; :local year [:pick $date 0 4] :local month [:pick ([/system clock get date]) 5 7]; :local LastMonth ($month - 1) :if ([:len $LastMonth] = 1) do={ :set $LastMonth ("0".$LastMonth) } :local LastPeriod ($year."-".$LastMonth) :local LastFile ($LastPeriod."-hs.log") :put $LastRun :put $date :put $month :put $LastMonth :put $LastPeriod :put $LastFile /file :foreach item in=[find where name~"usb" and type=disk] do={ :local usbName [get $item name] :put $usbName :local usbState :if ([:len $usbName] > 0) do={ :set usbState "true" } else={ :set usbState "false" } :put $usbState :if ($LastRun != $date) do={ :if ($usbState = "true") do={ /system logging action set [find name="hslog"] disk-file-name="$usbName/$date.hs.log" } else={ /system logging action set [find name="hslog"] disk-file-name="$date.hs.log" /tool e-mail send to=$email from=[/tool e-mail get value-name=from] server=[/tool e-mail get value-name=server] port=[/tool e-mail get value-name=port] subject="[$NameHotspot] Log $LastPeriod" body="Mail periodica del servizio $NameHotspot, in allegato il registro log del periodo $LastPeriod" file=$LastFile } } } } ``` Hi, I'm creating this script runs monthly. If it finds the USB stick, save the file in the correct path. if the USB stick is not present, the $usbState status does not appear, therefore no errors appear but the path does not change and the email does not proceed. dove am I wrong?

@@ -1,0 +1,17 @@
+# Thread Information
+Title: Thread-1121977
+Section: RouterOS
+Thread ID: 1121977
+
+# Discussion
+
+## Initial Question
+Hello. Nice to be with you.I have a problem that I have not been able to solve and I hope for your assistance.I have tried both in the graphical interface and in the terminal to implement the hotspot system without success due to the simple inconvenience of having problems when "creating a user" for the hotspot, it only supports the "default" one, preventing me from specifying the configuration in this regard and without valid execution result.This is the guide I use to do it:Hello. Nice to be with you.I have a problem that I have not been able to solve and I hope for your assistance.I have tried both in the graphical interface and in the terminal to implement the hotspot system without success due to the simple inconvenience of having problems when "creating a user" for the hotspot, it only supports the "default" one, preventing me from specifying the configuration in this regard and without valid execution result.This is the guide I use to do it:# Configurar interfaces / # Configure interfaces/interface ethernet set [find name=ether1] name=WAN/interface ethernet set [find name=ether2] name=LAN-PC/interface ethernet set [find name=ether3] name=LAN-HOTSPOT# Asignar direcciones IP / # Assign IP addresses/ip address add interface=WAN address=192.168.88.1/24/ip address add address=192.168.88.2/24 interface=LAN-PC/ip address add address=192.168.20.1/24 interface=LAN-HOTSPOT# Configurar firewall / # Configure firewall/ip firewall filter add chain=input action=accept connection-state=established, related/ip firewall filter add chain=input action=accept protocol=tcp dst-port=8291, 22, 80, 443/ip firewall filter add chain=input action=drop/ip firewall filter add chain=forward action=accept connection-state=established, related/ip firewall filter add chain=forward action=accept src-address=192.168.88.0/24 out-interface=WAN/ip firewall filter add chain=forward action=accept src-address=192.168.20.0/24 out-interface=WAN/ip firewall filter add chain=forward action=drop/ip firewall nat add chain=srcnat action=masquerade out-interface=WAN# Configurar hotspot / # Configure hotspot/ip hotspot profile add name=hsprof1 hotspot-address=192.168.20.1 dns-name=tamare.com html-directory=hotspot/ip hotspot add interface=LAN-HOTSPOT name=hotspot1 profile=hsprof1/ip pool add name=hs-pool ranges=192.168.20.2-192.168.20.254/ip hotspot set [find name=hotspot1] address-pool=hs-pool/ip hotspot user add name=usuario1 password=clave123 profile=hsprof1/ip hotspot user add name=admin password=admin123 profile=hsprof1# Configurar DNS / # Configure DNS/ip dns set servers=8.8.8.8, 1.1.1.1# Habilitar HTTPS para el hotspot / # Enable HTTPS for the hotspot/ip hotspot profile set hsprof1 html-directory-override=hotspot-https# Configurar walled garden / # Configure walled garden/ip hotspot walled-garden ip add dst-host=tamare.com/ip hotspot walled-garden ip add dst-host=*.tamare.com# Guardar configuración / # Save configuration/system backup save name=initial-configThis is the example of it:[admin@MikroTik] > /ip hotspot set [find name=hotspot1] address-pool=hs-pool[admin@MikroTik] >input does not match any value of profile[admin@MikroTik] >Lionell NavaInformatic Engineerlionnava1221@gmail.com ---
+
+## Response 1
+And what is the output of:
+```
+/ip hotspotprintCompare with the one in the Wiki:https://wiki.mikrotik.com/Manual:IP/Hot ... Spot_Setup
+
+---
+```

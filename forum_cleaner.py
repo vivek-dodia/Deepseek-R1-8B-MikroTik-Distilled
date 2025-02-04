@@ -34,14 +34,15 @@ class Thread:
 
 def clean_code_blocks(text: str) -> str:
     """Clean up code blocks while preserving structure."""
-    # Remove "Code:Select all" prefix but keep the code
+    # Remove "Code:Select all" prefix
     text = re.sub(r'Code:Select\s*all\s*', '', text)
+    # Remove empty code blocks
+    if not text.strip():
+        return ""
+    # Ensure proper code block formatting
     text = text.strip()
-    
-    # If not already in code blocks, wrap it
-    if not text.startswith('```') and text.strip():
+    if not text.startswith('```'):
         text = f'```\n{text}\n```'
-    
     return text
 
 def clean_text(text: str) -> str:
@@ -49,7 +50,7 @@ def clean_text(text: str) -> str:
     if not text:
         return ""
     
-    # Preserve code blocks
+    # Extract and save code blocks
     code_blocks = []
     
     def save_code_block(match):
@@ -59,32 +60,26 @@ def clean_text(text: str) -> str:
             return f"__CODE_BLOCK_{len(code_blocks)-1}__"
         return ""
     
-    # Extract code blocks
+    # Handle Code:Select all blocks
     pattern = r'Code:Select\s*all(.*?)(?=Code:Select\s*all|$)'
     text = re.sub(pattern, save_code_block, text, flags=re.DOTALL)
     
-    # Basic text cleaning
-    text = re.sub(r'\s+', ' ', text)
-    text = re.sub(r'(?<=\w),(?=\w)', ', ', text)
+    # Clean the main text
+    text = re.sub(r'\s+', ' ', text)  # Normalize whitespace
+    text = re.sub(r'(?<=\w),(?=\w)', ', ', text)  # Add space after commas
     text = text.strip()
     
-    # Restore code blocks
+    # Restore code blocks with proper formatting
     for i, block in enumerate(code_blocks):
-        text = text.replace(f"__CODE_BLOCK_{i}__", clean_code_blocks(block))
+        cleaned_block = clean_code_blocks(block)
+        if cleaned_block:
+            text = text.replace(f"__CODE_BLOCK_{i}__", f"\n{cleaned_block}\n")
     
     return text
 
-def parse_post(post_text: str) -> Optional[Post]:
-    """Parse individual post content."""
+def parse_post_format1(post_text: str, post_num: int) -> Optional[Post]:
+    """Parse post with '### Post X' format."""
     try:
-        # Extract post number from the ### Post X format
-        post_num_match = re.search(r'### Post (\d+)', post_text)
-        if not post_num_match:
-            return None
-        
-        post_number = int(post_num_match.group(1))
-        
-        # Split the remaining content
         lines = post_text.split('\n')
         author = "Unknown"
         date = "Unknown"
@@ -108,16 +103,51 @@ def parse_post(post_text: str) -> Optional[Post]:
             content=content,
             author=author,
             date=date,
-            post_number=post_number
+            post_number=post_num
         )
     except Exception as e:
-        logging.error(f"Error parsing post: {str(e)}")
+        logging.error(f"Error parsing post format 1: {str(e)}")
+        return None
+
+def parse_post_format2(post_text: str, post_num: int) -> Optional[Post]:
+    """Parse post with '### Author:' format."""
+    try:
+        lines = post_text.split('\n')
+        author = "Unknown"
+        date = "Unknown"
+        content_lines = []
+        content_started = False
+        
+        # Extract author from first line
+        if lines[0].startswith('### Author:'):
+            author = lines[0].replace('### Author:', '').strip()
+            
+        # Process remaining lines
+        for line in lines[1:]:
+            if line.startswith('Date:'):
+                date = line.replace('Date:', '').strip()
+            elif content_started:
+                content_lines.append(line)
+            elif line.strip() == '':
+                content_started = True
+        
+        content = '\n'.join(content_lines).strip()
+        content = clean_text(content)
+        
+        return Post(
+            content=content,
+            author=author,
+            date=date,
+            post_number=post_num
+        )
+    except Exception as e:
+        logging.error(f"Error parsing post format 2: {str(e)}")
         return None
 
 def parse_thread(thread_text: str) -> Optional[Thread]:
     """Parse complete thread content."""
     try:
-        # Extract metadata section between the first two '---' marks
+        # Extract metadata section
         parts = thread_text.split('---', 2)
         if len(parts) < 3:
             return None
@@ -132,24 +162,42 @@ def parse_thread(thread_text: str) -> Optional[Thread]:
                 key, value = line.split(':', 1)
                 metadata[key.strip()] = value.strip()
         
-        # Split posts using ### Post marker
-        post_texts = re.split(r'### Post \d+', posts_text)
-        post_numbers = re.findall(r'### Post (\d+)', posts_text)
-        
+        # Determine thread format and parse posts accordingly
         posts = []
-        for i, (post_text, post_num) in enumerate(zip(post_texts[1:], post_numbers)):
-            full_post = f"### Post {post_num}\n{post_text.strip()}"
-            post = parse_post(full_post)
-            if post:
-                posts.append(post)
+        post_num = 1
+        
+        if '### Post' in posts_text:
+            # Format 1: "### Post X"
+            post_texts = re.split(r'### Post \d+', posts_text)
+            post_numbers = re.findall(r'### Post (\d+)', posts_text)
+            
+            for i, (post_text, num) in enumerate(zip(post_texts[1:], post_numbers)):
+                full_post = f"### Post {num}\n{post_text.strip()}"
+                post = parse_post_format1(full_post, int(num))
+                if post:
+                    posts.append(post)
+        else:
+            # Format 2: "### Author:"
+            post_texts = re.split(r'### Author:', posts_text)
+            for i, post_text in enumerate(post_texts[1:], 1):
+                post = parse_post_format2(f"### Author:{post_text.strip()}", i)
+                if post:
+                    posts.append(post)
+        
+        # Get thread ID from metadata or URL
+        thread_id = metadata.get('thread_id', '')
+        if not thread_id and 'source_url' in metadata:
+            url_match = re.search(r't=(\d+)', metadata['source_url'])
+            if url_match:
+                thread_id = url_match.group(1)
         
         return Thread(
             title=metadata.get('title', ''),
-            url=metadata.get('url', ''),
-            thread_id=metadata.get('thread_id', ''),
+            url=metadata.get('source_url', metadata.get('url', '')),
+            thread_id=thread_id,
             section=metadata.get('section', ''),
-            post_count=int(metadata.get('post_count', 0)),
-            date_crawled=metadata.get('date_crawled', ''),
+            post_count=len(posts),
+            date_crawled=metadata.get('crawled_date', metadata.get('date_crawled', '')),
             posts=posts
         )
     except Exception as e:
@@ -160,25 +208,29 @@ def format_thread_for_training(thread: Thread) -> str:
     """Format thread for training, preserving chain of thought."""
     output = []
     
-    # Add thread metadata
-    output.append("---")
+    # Thread header
+    output.append("# Thread Information")
     output.append(f"Title: {thread.title}")
     output.append(f"Section: {thread.section}")
     output.append(f"Thread ID: {thread.thread_id}")
-    output.append(f"URL: {thread.url}")
-    output.append("---")
     output.append("")
     
-    # Process posts sequentially
-    for post in thread.posts:
-        output.append(f"### Post {post.post_number}")
-        output.append(f"Author: {post.author}")
-        output.append(f"Date: {post.date}")
-        output.append("")
-        output.append(post.content)
-        output.append("")
-        output.append("---")
-        output.append("")
+    # Posts
+    output.append("# Discussion")
+    for i, post in enumerate(thread.posts):
+        # Format post header
+        if i == 0:
+            output.append("\n## Initial Question")
+        else:
+            output.append(f"\n## Response {i}")
+        
+        # Add post metadata
+        if post.author != "Unknown":
+            output.append(f"Author: {post.author}")
+        
+        # Add post content
+        content = post.content.strip()
+        output.append(content)
     
     return "\n".join(output)
 
@@ -186,31 +238,23 @@ def process_directory(input_dir: str, output_dir: str):
     """Process all .md files in the input directory."""
     input_path = Path(input_dir)
     output_path = Path(output_dir)
-    
-    # Create output directory if it doesn't exist
     output_path.mkdir(parents=True, exist_ok=True)
     
-    # Initialize counters
     total_files = 0
     successful_files = 0
     failed_files = 0
     
-    # Process each .md file
     for md_file in input_path.glob('**/*.md'):
         total_files += 1
         try:
-            # Read the input file
             with open(md_file, 'r', encoding='utf-8') as f:
                 content = f.read()
             
-            # Process the thread
             thread = parse_thread(content)
             if thread and thread.posts:
-                # Create the output filename
                 output_file = output_path / f"cleaned_{md_file.name}"
-                
-                # Format and save the thread
                 formatted_content = format_thread_for_training(thread)
+                
                 with open(output_file, 'w', encoding='utf-8') as f:
                     f.write(formatted_content)
                 
@@ -220,12 +264,10 @@ def process_directory(input_dir: str, output_dir: str):
             else:
                 failed_files += 1
                 logging.error(f"Failed to parse thread content in: {md_file.name}")
-        
         except Exception as e:
             failed_files += 1
             logging.error(f"Error processing {md_file.name}: {str(e)}")
     
-    # Log summary
     logging.info("\nProcessing Summary:")
     logging.info(f"Total files processed: {total_files}")
     logging.info(f"Successfully cleaned: {successful_files}")

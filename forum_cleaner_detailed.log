@@ -1798,3 +1798,283 @@ Processing Summary:
 2025-02-04 16:02:59,886 - INFO - Successfully cleaned: 1296
 2025-02-04 16:02:59,886 - INFO - Failed to process: 239
 2025-02-04 16:02:59,886 - INFO - Cleaning process completed!
+2025-02-04 16:08:12,744 - INFO - Starting forum thread cleaning process...
+2025-02-04 16:08:12,948 - INFO - Processed 100 files successfully...
+2025-02-04 16:08:13,084 - INFO - Processed 200 files successfully...
+2025-02-04 16:08:13,261 - INFO - Processed 300 files successfully...
+2025-02-04 16:08:13,423 - INFO - Processed 400 files successfully...
+2025-02-04 16:08:13,599 - INFO - Processed 500 files successfully...
+2025-02-04 16:08:13,780 - INFO - Processed 600 files successfully...
+2025-02-04 16:08:13,949 - ERROR - Failed to parse thread content in: thread_129043.md
+2025-02-04 16:08:13,950 - ERROR - Failed to parse thread content in: thread_131368.md
+2025-02-04 16:08:13,951 - ERROR - Failed to parse thread content in: thread_132194.md
+2025-02-04 16:08:13,953 - ERROR - Failed to parse thread content in: thread_134393.md
+2025-02-04 16:08:13,960 - ERROR - Failed to parse thread content in: thread_137645.md
+2025-02-04 16:08:13,961 - ERROR - Failed to parse thread content in: thread_137962.md
+2025-02-04 16:08:13,991 - ERROR - Failed to parse thread content in: thread_151017.md
+2025-02-04 16:08:13,994 - ERROR - Failed to parse thread content in: thread_153641.md
+2025-02-04 16:08:13,995 - ERROR - Failed to parse thread content in: thread_155118.md
+2025-02-04 16:08:13,996 - ERROR - Failed to parse thread content in: thread_158071.md
+2025-02-04 16:08:13,999 - ERROR - Failed to parse thread content in: thread_160180.md
+2025-02-04 16:08:14,007 - ERROR - Failed to parse thread content in: thread_167322.md
+2025-02-04 16:08:14,008 - ERROR - Failed to parse thread content in: thread_169518.md
+2025-02-04 16:08:14,009 - ERROR - Failed to parse thread content in: thread_169662.md
+2025-02-04 16:08:14,010 - ERROR - Failed to parse thread content in: thread_170591.md
+2025-02-04 16:08:14,011 - ERROR - Failed to parse thread content in: thread_172385.md
+2025-02-04 16:08:14,026 - ERROR - Failed to parse thread content in: thread_176037.md
+2025-02-04 16:08:14,027 - ERROR - Failed to parse thread content in: thread_176451.md
+2025-02-04 16:08:14,028 - ERROR - Failed to parse thread content in: thread_176569.md
+2025-02-04 16:08:14,030 - ERROR - Failed to parse thread content in: thread_178693.md
+2025-02-04 16:08:14,031 - ERROR - Failed to parse thread content in: thread_180235.md
+2025-02-04 16:08:14,049 - ERROR - Failed to parse thread content in: thread_182906.md
+2025-02-04 16:08:14,054 - ERROR - Failed to parse thread content in: thread_183631.md
+2025-02-04 16:08:14,055 - ERROR - Failed to parse thread content in: thread_184422.md
+2025-02-04 16:08:14,058 - ERROR - Failed to parse thread content in: thread_184711.md
+2025-02-04 16:08:14,059 - ERROR - Failed to parse thread content in: thread_185397.md
+2025-02-04 16:08:14,066 - ERROR - Failed to parse thread content in: thread_188088.md
+2025-02-04 16:08:14,072 - ERROR - Failed to parse thread content in: thread_190614.md
+2025-02-04 16:08:14,082 - ERROR - Failed to parse thread content in: thread_192500.md
+2025-02-04 16:08:14,083 - ERROR - Failed to parse thread content in: thread_192912.md
+2025-02-04 16:08:14,086 - INFO - Processed 700 files successfully...
+2025-02-04 16:08:14,094 - ERROR - Failed to parse thread content in: thread_193846.md
+2025-02-04 16:08:14,101 - ERROR - Failed to parse thread content in: thread_195070.md
+2025-02-04 16:08:14,106 - ERROR - Failed to parse thread content in: thread_196108.md
+2025-02-04 16:08:14,106 - ERROR - Failed to parse thread content in: thread_196254.md
+2025-02-04 16:08:14,109 - ERROR - Failed to parse thread content in: thread_196542.md
+2025-02-04 16:08:14,125 - ERROR - Failed to parse thread content in: thread_197700.md
+2025-02-04 16:08:14,139 - ERROR - Failed to parse thread content in: thread_198614.md
+2025-02-04 16:08:14,141 - ERROR - Failed to parse thread content in: thread_198682.md
+2025-02-04 16:08:14,142 - ERROR - Failed to parse thread content in: thread_198961.md
+2025-02-04 16:08:14,148 - ERROR - Failed to parse thread content in: thread_200263.md
+2025-02-04 16:08:14,150 - ERROR - Failed to parse thread content in: thread_200901.md
+2025-02-04 16:08:14,151 - ERROR - Failed to parse thread content in: thread_201081.md
+2025-02-04 16:08:14,152 - ERROR - Failed to parse thread content in: thread_201359.md
+2025-02-04 16:08:14,162 - ERROR - Failed to parse thread content in: thread_202489.md
+2025-02-04 16:08:14,171 - ERROR - Failed to parse thread content in: thread_203076.md
+2025-02-04 16:08:14,172 - ERROR - Failed to parse thread content in: thread_203300.md
+2025-02-04 16:08:14,173 - ERROR - Failed to parse thread content in: thread_203335.md
+2025-02-04 16:08:14,175 - ERROR - Failed to parse thread content in: thread_203445.md
+2025-02-04 16:08:14,177 - ERROR - Failed to parse thread content in: thread_203603.md
+2025-02-04 16:08:14,180 - ERROR - Failed to parse thread content in: thread_203836.md
+2025-02-04 16:08:14,180 - ERROR - Failed to parse thread content in: thread_203913.md
+2025-02-04 16:08:14,185 - ERROR - Failed to parse thread content in: thread_204076.md
+2025-02-04 16:08:14,191 - ERROR - Failed to parse thread content in: thread_204351.md
+2025-02-04 16:08:14,192 - ERROR - Failed to parse thread content in: thread_204655.md
+2025-02-04 16:08:14,193 - ERROR - Failed to parse thread content in: thread_204755.md
+2025-02-04 16:08:14,195 - ERROR - Failed to parse thread content in: thread_204878.md
+2025-02-04 16:08:14,207 - ERROR - Failed to parse thread content in: thread_205306.md
+2025-02-04 16:08:14,215 - ERROR - Failed to parse thread content in: thread_205473.md
+2025-02-04 16:08:14,216 - ERROR - Failed to parse thread content in: thread_205534.md
+2025-02-04 16:08:14,219 - ERROR - Failed to parse thread content in: thread_205965.md
+2025-02-04 16:08:14,219 - ERROR - Failed to parse thread content in: thread_205980.md
+2025-02-04 16:08:14,220 - ERROR - Failed to parse thread content in: thread_206235.md
+2025-02-04 16:08:14,223 - ERROR - Failed to parse thread content in: thread_206349.md
+2025-02-04 16:08:14,224 - ERROR - Failed to parse thread content in: thread_206463.md
+2025-02-04 16:08:14,224 - ERROR - Failed to parse thread content in: thread_206482.md
+2025-02-04 16:08:14,225 - ERROR - Failed to parse thread content in: thread_206571.md
+2025-02-04 16:08:14,226 - ERROR - Failed to parse thread content in: thread_206576.md
+2025-02-04 16:08:14,227 - ERROR - Failed to parse thread content in: thread_206584.md
+2025-02-04 16:08:14,236 - ERROR - Failed to parse thread content in: thread_206714.md
+2025-02-04 16:08:14,237 - ERROR - Failed to parse thread content in: thread_206760.md
+2025-02-04 16:08:14,241 - ERROR - Failed to parse thread content in: thread_207062.md
+2025-02-04 16:08:14,248 - ERROR - Failed to parse thread content in: thread_207341.md
+2025-02-04 16:08:14,249 - ERROR - Failed to parse thread content in: thread_207430.md
+2025-02-04 16:08:14,252 - ERROR - Failed to parse thread content in: thread_207510.md
+2025-02-04 16:08:14,253 - ERROR - Failed to parse thread content in: thread_207522.md
+2025-02-04 16:08:14,256 - ERROR - Failed to parse thread content in: thread_207543.md
+2025-02-04 16:08:14,267 - ERROR - Failed to parse thread content in: thread_207618.md
+2025-02-04 16:08:14,268 - ERROR - Failed to parse thread content in: thread_207689.md
+2025-02-04 16:08:14,277 - ERROR - Failed to parse thread content in: thread_207712.md
+2025-02-04 16:08:14,281 - ERROR - Failed to parse thread content in: thread_207775.md
+2025-02-04 16:08:14,282 - ERROR - Failed to parse thread content in: thread_207838.md
+2025-02-04 16:08:14,282 - ERROR - Failed to parse thread content in: thread_207871.md
+2025-02-04 16:08:14,285 - ERROR - Failed to parse thread content in: thread_207882.md
+2025-02-04 16:08:14,285 - ERROR - Failed to parse thread content in: thread_207946.md
+2025-02-04 16:08:14,286 - ERROR - Failed to parse thread content in: thread_207991.md
+2025-02-04 16:08:14,287 - ERROR - Failed to parse thread content in: thread_208113.md
+2025-02-04 16:08:14,308 - ERROR - Failed to parse thread content in: thread_208423.md
+2025-02-04 16:08:14,309 - ERROR - Failed to parse thread content in: thread_208490.md
+2025-02-04 16:08:14,310 - ERROR - Failed to parse thread content in: thread_208494.md
+2025-02-04 16:08:14,313 - ERROR - Failed to parse thread content in: thread_208636.md
+2025-02-04 16:08:14,314 - ERROR - Failed to parse thread content in: thread_208664.md
+2025-02-04 16:08:14,315 - ERROR - Failed to parse thread content in: thread_208682.md
+2025-02-04 16:08:14,319 - ERROR - Failed to parse thread content in: thread_208716.md
+2025-02-04 16:08:14,320 - ERROR - Failed to parse thread content in: thread_208782.md
+2025-02-04 16:08:14,320 - ERROR - Failed to parse thread content in: thread_208787.md
+2025-02-04 16:08:14,321 - ERROR - Failed to parse thread content in: thread_208860.md
+2025-02-04 16:08:14,330 - ERROR - Failed to parse thread content in: thread_209192.md
+2025-02-04 16:08:14,332 - ERROR - Failed to parse thread content in: thread_209227.md
+2025-02-04 16:08:14,337 - ERROR - Failed to parse thread content in: thread_209266.md
+2025-02-04 16:08:14,342 - ERROR - Failed to parse thread content in: thread_209489.md
+2025-02-04 16:08:14,342 - ERROR - Failed to parse thread content in: thread_209500.md
+2025-02-04 16:08:14,343 - ERROR - Failed to parse thread content in: thread_209539.md
+2025-02-04 16:08:14,348 - ERROR - Failed to parse thread content in: thread_209715.md
+2025-02-04 16:08:14,352 - ERROR - Failed to parse thread content in: thread_209752.md
+2025-02-04 16:08:14,353 - ERROR - Failed to parse thread content in: thread_209909.md
+2025-02-04 16:08:14,355 - ERROR - Failed to parse thread content in: thread_209926.md
+2025-02-04 16:08:14,355 - ERROR - Failed to parse thread content in: thread_209982.md
+2025-02-04 16:08:14,361 - ERROR - Failed to parse thread content in: thread_210174.md
+2025-02-04 16:08:14,361 - ERROR - Failed to parse thread content in: thread_210179.md
+2025-02-04 16:08:14,362 - ERROR - Failed to parse thread content in: thread_210187.md
+2025-02-04 16:08:14,364 - ERROR - Failed to parse thread content in: thread_210294.md
+2025-02-04 16:08:14,364 - ERROR - Failed to parse thread content in: thread_210297.md
+2025-02-04 16:08:14,366 - ERROR - Failed to parse thread content in: thread_210339.md
+2025-02-04 16:08:14,366 - ERROR - Failed to parse thread content in: thread_210387.md
+2025-02-04 16:08:14,367 - ERROR - Failed to parse thread content in: thread_210393.md
+2025-02-04 16:08:14,368 - ERROR - Failed to parse thread content in: thread_210430.md
+2025-02-04 16:08:14,369 - ERROR - Failed to parse thread content in: thread_210463.md
+2025-02-04 16:08:14,370 - ERROR - Failed to parse thread content in: thread_210484.md
+2025-02-04 16:08:14,372 - ERROR - Failed to parse thread content in: thread_210628.md
+2025-02-04 16:08:14,374 - ERROR - Failed to parse thread content in: thread_210736.md
+2025-02-04 16:08:14,375 - ERROR - Failed to parse thread content in: thread_210783.md
+2025-02-04 16:08:14,375 - ERROR - Failed to parse thread content in: thread_210785.md
+2025-02-04 16:08:14,376 - ERROR - Failed to parse thread content in: thread_210823.md
+2025-02-04 16:08:14,377 - ERROR - Failed to parse thread content in: thread_210827.md
+2025-02-04 16:08:14,377 - ERROR - Failed to parse thread content in: thread_210851.md
+2025-02-04 16:08:14,382 - ERROR - Failed to parse thread content in: thread_210894.md
+2025-02-04 16:08:14,383 - ERROR - Failed to parse thread content in: thread_210939.md
+2025-02-04 16:08:14,384 - ERROR - Failed to parse thread content in: thread_210971.md
+2025-02-04 16:08:14,385 - ERROR - Failed to parse thread content in: thread_210982.md
+2025-02-04 16:08:14,390 - ERROR - Failed to parse thread content in: thread_211000.md
+2025-02-04 16:08:14,391 - ERROR - Failed to parse thread content in: thread_211009.md
+2025-02-04 16:08:14,405 - ERROR - Failed to parse thread content in: thread_211078.md
+2025-02-04 16:08:14,406 - ERROR - Failed to parse thread content in: thread_211117.md
+2025-02-04 16:08:14,407 - ERROR - Failed to parse thread content in: thread_211126.md
+2025-02-04 16:08:14,422 - ERROR - Failed to parse thread content in: thread_211177.md
+2025-02-04 16:08:14,424 - ERROR - Failed to parse thread content in: thread_211196.md
+2025-02-04 16:08:14,424 - ERROR - Failed to parse thread content in: thread_211287.md
+2025-02-04 16:08:14,425 - ERROR - Failed to parse thread content in: thread_211316.md
+2025-02-04 16:08:14,428 - ERROR - Failed to parse thread content in: thread_211389.md
+2025-02-04 16:08:14,429 - ERROR - Failed to parse thread content in: thread_211401.md
+2025-02-04 16:08:14,431 - INFO - Processed 800 files successfully...
+2025-02-04 16:08:14,439 - ERROR - Failed to parse thread content in: thread_211445.md
+2025-02-04 16:08:14,441 - ERROR - Failed to parse thread content in: thread_211455.md
+2025-02-04 16:08:14,442 - ERROR - Failed to parse thread content in: thread_211456.md
+2025-02-04 16:08:14,447 - ERROR - Failed to parse thread content in: thread_211500.md
+2025-02-04 16:08:14,449 - ERROR - Failed to parse thread content in: thread_211527.md
+2025-02-04 16:08:14,450 - ERROR - Failed to parse thread content in: thread_211538.md
+2025-02-04 16:08:14,451 - ERROR - Failed to parse thread content in: thread_211612.md
+2025-02-04 16:08:14,452 - ERROR - Failed to parse thread content in: thread_211636.md
+2025-02-04 16:08:14,454 - ERROR - Failed to parse thread content in: thread_211700.md
+2025-02-04 16:08:14,456 - ERROR - Failed to parse thread content in: thread_211744.md
+2025-02-04 16:08:14,460 - ERROR - Failed to parse thread content in: thread_211883.md
+2025-02-04 16:08:14,461 - ERROR - Failed to parse thread content in: thread_211915.md
+2025-02-04 16:08:14,461 - ERROR - Failed to parse thread content in: thread_211926.md
+2025-02-04 16:08:14,462 - ERROR - Failed to parse thread content in: thread_211942.md
+2025-02-04 16:08:14,463 - ERROR - Failed to parse thread content in: thread_211962.md
+2025-02-04 16:08:14,478 - ERROR - Failed to parse thread content in: thread_212040.md
+2025-02-04 16:08:14,481 - ERROR - Failed to parse thread content in: thread_212081.md
+2025-02-04 16:08:14,482 - ERROR - Failed to parse thread content in: thread_212091.md
+2025-02-04 16:08:14,483 - ERROR - Failed to parse thread content in: thread_212099.md
+2025-02-04 16:08:14,483 - ERROR - Failed to parse thread content in: thread_212190.md
+2025-02-04 16:08:14,484 - ERROR - Failed to parse thread content in: thread_212208.md
+2025-02-04 16:08:14,485 - ERROR - Failed to parse thread content in: thread_212242.md
+2025-02-04 16:08:14,485 - ERROR - Failed to parse thread content in: thread_212253.md
+2025-02-04 16:08:14,486 - ERROR - Failed to parse thread content in: thread_212263.md
+2025-02-04 16:08:14,487 - ERROR - Failed to parse thread content in: thread_212309.md
+2025-02-04 16:08:14,490 - ERROR - Failed to parse thread content in: thread_212382.md
+2025-02-04 16:08:14,495 - ERROR - Failed to parse thread content in: thread_212457.md
+2025-02-04 16:08:14,498 - ERROR - Failed to parse thread content in: thread_212555.md
+2025-02-04 16:08:14,502 - ERROR - Failed to parse thread content in: thread_212605.md
+2025-02-04 16:08:14,505 - ERROR - Failed to parse thread content in: thread_212608.md
+2025-02-04 16:08:14,523 - ERROR - Failed to parse thread content in: thread_212697.md
+2025-02-04 16:08:14,530 - ERROR - Failed to parse thread content in: thread_212713.md
+2025-02-04 16:08:14,531 - ERROR - Failed to parse thread content in: thread_212724.md
+2025-02-04 16:08:14,532 - ERROR - Failed to parse thread content in: thread_212727.md
+2025-02-04 16:08:14,534 - ERROR - Failed to parse thread content in: thread_212738.md
+2025-02-04 16:08:14,535 - ERROR - Failed to parse thread content in: thread_212776.md
+2025-02-04 16:08:14,536 - ERROR - Failed to parse thread content in: thread_212785.md
+2025-02-04 16:08:14,537 - ERROR - Failed to parse thread content in: thread_212795.md
+2025-02-04 16:08:14,538 - ERROR - Failed to parse thread content in: thread_212830.md
+2025-02-04 16:08:14,539 - ERROR - Failed to parse thread content in: thread_212832.md
+2025-02-04 16:08:14,540 - ERROR - Failed to parse thread content in: thread_212837.md
+2025-02-04 16:08:14,540 - ERROR - Failed to parse thread content in: thread_212845.md
+2025-02-04 16:08:14,543 - ERROR - Failed to parse thread content in: thread_212897.md
+2025-02-04 16:08:14,544 - ERROR - Failed to parse thread content in: thread_212901.md
+2025-02-04 16:08:14,545 - ERROR - Failed to parse thread content in: thread_212932.md
+2025-02-04 16:08:14,546 - ERROR - Failed to parse thread content in: thread_212935.md
+2025-02-04 16:08:14,551 - ERROR - Failed to parse thread content in: thread_212955.md
+2025-02-04 16:08:14,560 - ERROR - Failed to parse thread content in: thread_212997.md
+2025-02-04 16:08:14,572 - ERROR - Failed to parse thread content in: thread_213018.md
+2025-02-04 16:08:14,581 - ERROR - Failed to parse thread content in: thread_213056.md
+2025-02-04 16:08:14,588 - ERROR - Failed to parse thread content in: thread_213072.md
+2025-02-04 16:08:14,592 - ERROR - Failed to parse thread content in: thread_213089.md
+2025-02-04 16:08:14,594 - ERROR - Failed to parse thread content in: thread_213091.md
+2025-02-04 16:08:14,596 - ERROR - Failed to parse thread content in: thread_213098.md
+2025-02-04 16:08:14,601 - ERROR - Failed to parse thread content in: thread_213111.md
+2025-02-04 16:08:14,624 - ERROR - Failed to parse thread content in: thread_213148.md
+2025-02-04 16:08:14,638 - ERROR - Failed to parse thread content in: thread_213161.md
+2025-02-04 16:08:14,687 - ERROR - Failed to parse thread content in: thread_213227.md
+2025-02-04 16:08:14,691 - ERROR - Failed to parse thread content in: thread_213241.md
+2025-02-04 16:08:14,696 - INFO - Processed 900 files successfully...
+2025-02-04 16:08:14,702 - ERROR - Failed to parse thread content in: thread_213258.md
+2025-02-04 16:08:14,708 - ERROR - Failed to parse thread content in: thread_213273.md
+2025-02-04 16:08:14,716 - ERROR - Failed to parse thread content in: thread_213300.md
+2025-02-04 16:08:14,717 - ERROR - Failed to parse thread content in: thread_213302.md
+2025-02-04 16:08:14,742 - ERROR - Failed to parse thread content in: thread_213352.md
+2025-02-04 16:08:14,752 - ERROR - Failed to parse thread content in: thread_213362.md
+2025-02-04 16:08:14,818 - ERROR - Failed to parse thread content in: thread_213469.md
+2025-02-04 16:08:14,838 - ERROR - Failed to parse thread content in: thread_213500.md
+2025-02-04 16:08:14,866 - INFO - Processed 1000 files successfully...
+2025-02-04 16:08:14,877 - ERROR - Failed to parse thread content in: thread_213594.md
+2025-02-04 16:08:14,881 - ERROR - Failed to parse thread content in: thread_213597.md
+2025-02-04 16:08:14,891 - ERROR - Failed to parse thread content in: thread_213608.md
+2025-02-04 16:08:14,922 - ERROR - Failed to parse thread content in: thread_213647.md
+2025-02-04 16:08:14,935 - ERROR - Failed to parse thread content in: thread_213675.md
+2025-02-04 16:08:14,940 - ERROR - Failed to parse thread content in: thread_213686.md
+2025-02-04 16:08:14,940 - ERROR - Failed to parse thread content in: thread_213687.md
+2025-02-04 16:08:14,955 - ERROR - Failed to parse thread content in: thread_213711.md
+2025-02-04 16:08:14,973 - ERROR - Failed to parse thread content in: thread_213750.md
+2025-02-04 16:08:14,976 - ERROR - Failed to parse thread content in: thread_213758.md
+2025-02-04 16:08:15,000 - ERROR - Failed to parse thread content in: thread_213803.md
+2025-02-04 16:08:15,005 - ERROR - Failed to parse thread content in: thread_213813.md
+2025-02-04 16:08:15,006 - ERROR - Failed to parse thread content in: thread_213815.md
+2025-02-04 16:08:15,016 - ERROR - Failed to parse thread content in: thread_213842.md
+2025-02-04 16:08:15,017 - ERROR - Failed to parse thread content in: thread_213846.md
+2025-02-04 16:08:15,020 - ERROR - Failed to parse thread content in: thread_213857.md
+2025-02-04 16:08:15,033 - INFO - Processed 1100 files successfully...
+2025-02-04 16:08:15,073 - ERROR - Failed to parse thread content in: thread_213945.md
+2025-02-04 16:08:15,077 - ERROR - Failed to parse thread content in: thread_213950.md
+2025-02-04 16:08:15,077 - ERROR - Failed to parse thread content in: thread_213955.md
+2025-02-04 16:08:15,136 - ERROR - Failed to parse thread content in: thread_213998.md
+2025-02-04 16:08:15,160 - ERROR - Failed to parse thread content in: thread_214017.md
+2025-02-04 16:08:15,196 - ERROR - Failed to parse thread content in: thread_214079.md
+2025-02-04 16:08:15,225 - ERROR - Failed to parse thread content in: thread_214118.md
+2025-02-04 16:08:15,240 - INFO - Processed 1200 files successfully...
+2025-02-04 16:08:15,245 - ERROR - Failed to parse thread content in: thread_214168.md
+2025-02-04 16:08:15,248 - ERROR - Failed to parse thread content in: thread_214173.md
+2025-02-04 16:08:15,266 - ERROR - Failed to parse thread content in: thread_214207.md
+2025-02-04 16:08:15,271 - ERROR - Failed to parse thread content in: thread_214217.md
+2025-02-04 16:08:15,285 - ERROR - Failed to parse thread content in: thread_214240.md
+2025-02-04 16:08:15,287 - ERROR - Failed to parse thread content in: thread_214248.md
+2025-02-04 16:08:15,308 - ERROR - Failed to parse thread content in: thread_214284.md
+2025-02-04 16:08:15,376 - ERROR - Failed to parse thread content in: thread_300.md
+2025-02-04 16:08:15,408 - ERROR - Failed to parse thread content in: thread_73287.md
+2025-02-04 16:08:15,420 - INFO - 
+Processing Summary:
+2025-02-04 16:08:15,421 - INFO - Total files processed: 1535
+2025-02-04 16:08:15,421 - INFO - Successfully cleaned: 1296
+2025-02-04 16:08:15,421 - INFO - Failed to process: 239
+2025-02-04 16:08:15,422 - INFO - Cleaning process completed!
+2025-02-04 16:12:15,054 - INFO - Starting forum thread cleaning process...
+2025-02-04 16:12:15,180 - INFO - Processed 100 files successfully...
+2025-02-04 16:12:15,276 - INFO - Processed 200 files successfully...
+2025-02-04 16:12:15,397 - INFO - Processed 300 files successfully...
+2025-02-04 16:12:15,505 - INFO - Processed 400 files successfully...
+2025-02-04 16:12:15,608 - INFO - Processed 500 files successfully...
+2025-02-04 16:12:15,723 - INFO - Processed 600 files successfully...
+2025-02-04 16:12:15,877 - INFO - Processed 700 files successfully...
+2025-02-04 16:12:16,019 - INFO - Processed 800 files successfully...
+2025-02-04 16:12:16,125 - INFO - Processed 900 files successfully...
+2025-02-04 16:12:16,238 - INFO - Processed 1000 files successfully...
+2025-02-04 16:12:16,340 - INFO - Processed 1100 files successfully...
+2025-02-04 16:12:16,445 - INFO - Processed 1200 files successfully...
+2025-02-04 16:12:16,546 - INFO - Processed 1300 files successfully...
+2025-02-04 16:12:16,656 - INFO - Processed 1400 files successfully...
+2025-02-04 16:12:16,772 - INFO - Processed 1500 files successfully...
+2025-02-04 16:12:16,832 - INFO - 
+Processing Summary:
+2025-02-04 16:12:16,833 - INFO - Total files processed: 1535
+2025-02-04 16:12:16,833 - INFO - Successfully cleaned: 1535
+2025-02-04 16:12:16,833 - INFO - Failed to process: 0
+2025-02-04 16:12:16,833 - INFO - Cleaning process completed!

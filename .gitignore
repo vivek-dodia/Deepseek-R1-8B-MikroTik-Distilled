@@ -3,3 +3,4 @@ crawl4ai/
 Scraped_Data/github_repos/
 Scraped_Data/gitlab_repos/
 forum_crawler.log
+forum_cleaner_detailed.log

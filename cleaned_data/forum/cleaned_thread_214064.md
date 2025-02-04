@@ -1,0 +1,15 @@
+# Thread Information
+Title: Thread-214064
+Section: RouterOS
+Thread ID: 214064
+
+# Discussion
+
+## Initial Question
+I was wondering is there a way to download the root ca cert (in this case Digicert) pem from dns.quad9.net directly to a Microtik router to use for DNS over HTTPS purposes?This is without having to use a browser (e.g Firefox) to get the certificate and import it manually onto a Microtik router.The reason I ask is for scripting purposes, as it is not really practical to do a download on my browser and then manually import it. ---
+
+## Response 1
+Search on forum, someone have already do that...This download all root certificates.https://forum.mikrotik.com/viewtopic.php?t=169662#p1080456If you want install only one root cert (DigiCert Global Root G3), use only first part, with correct certificate:DigiCert Global Root G3 code/file print file=DigiCertGlobalRootG3.txt :delay 1s set DigiCertGlobalRootG3.txt content="-----BEGIN CERTIFICATE-----\r\ \nMIICPzCCAcWgAwIBAgIQBVVWvPJepDU1w6QP1atFcjAKBggqhkjOPQQDAzBhMQsw\r\ \nCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3d3cu\r\ \nZGlnaWNlcnQuY29tMSAwHgYDVQQDExdEaWdpQ2VydCBHbG9iYWwgUm9vdCBHMzAe\r\ \nFw0xMzA4MDExMjAwMDBaFw0zODAxMTUxMjAwMDBaMGExCzAJBgNVBAYTAlVTMRUw\r\ \nEwYDVQQKEwxEaWdpQ2VydCBJbmMxGTAXBgNVBAsTEHd3dy5kaWdpY2VydC5jb20x\r\ \nIDAeBgNVBAMTF0RpZ2lDZXJ0IEdsb2JhbCBSb290IEczMHYwEAYHKoZIzj0CAQYF\r\ \nK4EEACIDYgAE3afZu4q4C/sLfyHS8L6+c/MzXRq8NOrexpu80JX28MzQC7phW1FG\r\ \nfp4tn+6OYwwX7Adw9c+ELkCDnOg/QW07rdOkFFk2eJ0DQ+4QE2xy3q6Ip6FrtUPO\r\ \nZ9wj/wMco+I+o0IwQDAPBgNVHRMBAf8EBTADAQH/MA4GA1UdDwEB/wQEAwIBhjAd\r\ \nBgNVHQ4EFgQUs9tIpPmhxdiuNkHMEWNpYim8S8YwCgYIKoZIzj0EAwMDaAAwZQIx\r\ \nAK288mw/EkrRLTnDCgmXc/SINoyIJ7vmiI1Qhadj+Z4y3maTD/HMsQmP3Wyr+mt/\r\ \noAIwOWZbwmSNuJ5Q3KjVSaLtx9zRSX8XAbjIho9OjIgrqJqpisXRAL34VOKa5Vt8\r\ \nsycX\r\ \n-----END CERTIFICATE-----" /certificate import file-name=DigiCertGlobalRootG3.txt passphrase="" name=imported-ca-cert_DigiCertGlobalRootG3 /file remove [find where name=DigiCertGlobalRootG3.txt]Do not trust this post, moderators and administrators, or someone using phpbb bugs, can change the content displayed in the post, without warning, so, after "installation" check the fingerprint of certificare with what is written inside Firefox. ---
+
+## Response 2
+-----BEGIN PGP SIGNED MESSAGE-----Hash: SHA256Fingerprint RouterOS / Firefox:31ad6648f8104138c738f39ea4320133393e3a18cc02296ef97c2ac9ef6731d031:AD:66:48:F8:10:41:38:C7:38:F3:9E:A4:32:01:33:39:3E:3A:18:CC:02:29:6E:F9:7C:2A:C9:EF:67:31:D0-----BEGIN PGP SIGNATURE-----wsBzBAEBCAAnBYJnj6V4CZDWOsA290qQEhYhBIiG7aVnsXuZby1HY9Y6wDb3SpASAADoDgf/an/5zQp3JtvaYUdJWTFEqVx5+gk26i0pj5wDMMFnjyqQDFqjYyjX5ULHVIuBS+Fvo0VHQxRo8K1Kd6d76TO1KnBagLOg6hqI7SGkYZB3Rb4P7xnJTWWDS/cCy7Xhz/FPiKRxmegM5HIo7ksJAUpbP4RqrfnKx14DXcTI264tIKeIQ9Y2gtRhLcI3x+mUIRSR9oI+xqHr+/CollPPnXPn53W6XP9o+80wzYCwljCnp5WXHRuHNzRD7GSHGTpRDbCq86afbROOVCMod/hemXC2oNo2KcxIdPvQUkHJyBQwTfXcxsFOR5OYi5t2B2SM8VRAVlyPfv/RKNfZy3Ud4BNDEQ===mqhk-----END PGP SIGNATURE----- ---

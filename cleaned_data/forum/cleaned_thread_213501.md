@@ -1,0 +1,12 @@
+# Thread Information
+Title: Thread-213501
+Section: RouterOS
+Thread ID: 213501
+
+# Discussion
+
+## Initial Question
+Hi there I need some assistance with my network issuesI have fiber home modem , on it my 3rd and 4th lan ports have been bridged to different on sit servers that nor I have access to them or their networking info or vlans information, and my modem pppoe connection have been bound to the wlan and 1st lan port .I have android box that is connected to the 3rd port of this modem , my problem is that my android box has a ip address of the local network so that the IPTV app that is on it can access the IPTV service, but because there is no internet on this network I can not use any other features on my android box that needs internet.I want to know if there is way for me to put my mikrotik router after my modem and tell to act as bridge between my android box and modem so that I can have net access and IPTV service simultaneously ?Few important notes1.my ISP has a mac filter going on that dose not allow me to remove my modem from this situation or use pppoe connection on my mikrotik router2. Same as above the IPTV service has mac filter also but it is for my android box so it has same ip forever and I can not use my IPTV service on any other devices without their permissionNeeded infoAndroid box ip192.168.106.235The server address for iptv app is192.168.104.1:9981And my modem range is 192.168.1.0/24I hope that that I have explained my problem well and thanks for all of your help in advanceIf you need any other information don't hesitate to askThanks ---
+
+## Response 1
+It is not at all clear (to me) how what you described is supposed to work.If the IP of the Android box is 192.168.106.235 (BTW where does this address come from, is it a static IP manually entered or derives from a DHCP server?), there is no way (unless there is some other device in between or the subnet is a very large one, 192.168.104.0/22) that it can connect to 192.168.104.1:9981.AFAIK usually IPTV use a specific VLAN, maybe if you could post some details about your ISP/service and on the actual hardware (ISP modem/router and IPTV android box) some member may already be familiar on how the thing works normally.Personally - but I am not very familiar with IPTV - I never happened to see a ISP modem/outer with "dedicated" LAN ports, usually all 4 lan ports are the same and access to Internet or to the IPTV service is provided through different VLANs. ---
