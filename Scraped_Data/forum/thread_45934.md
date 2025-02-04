@@ -4,7 +4,7 @@ url: https://forum.mikrotik.com/viewtopic.php?t=45934&sid=3b77a3334c914448dbbc02
 thread_id: 45934
 section: RouterOS
 post_count: 298
-date_crawled: 2025-02-03T12:10:00.024556
+date_crawled: 2025-02-03T19:50:33.727755
 ---
 
 ### Post 1

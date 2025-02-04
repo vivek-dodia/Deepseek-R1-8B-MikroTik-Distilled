@@ -34,3 +34,40 @@
 2025-02-03 11:18:24,579 - ERROR - Error generating SOHO_Basic_6.x_Certificates.md: Expecting value: line 1 column 1 (char 0)
 2025-02-03 11:19:24,936 - ERROR - Error generating SOHO_Basic_6.x_PPP_AAA.md: Expecting value: line 1 column 1 (char 0)
 2025-02-03 11:20:25,309 - ERROR - Error generating SOHO_Basic_6.x_RADIUS.md: Expecting value: line 1 column 1 (char 0)
+2025-02-03 14:37:40,394 - ERROR - Error generating SOHO_Basic_6.x_IP_Routing.md: Expecting value: line 1 column 1 (char 0)
+2025-02-03 14:56:05,233 - ERROR - Error generating SOHO_Basic_6.x_IP_Addressing_IPv4_and_IPv6_172.21.43.0_24_20250203_145248_04ea7312.md: Expecting value: line 1 column 1 (char 0)
+2025-02-03 15:06:28,992 - ERROR - Error generating SOHO_Basic_6.x_IP_Settings_192.168.90.128_25_20250203_150312_48764c21.md: Expecting value: line 1 column 1 (char 0)
+2025-02-03 15:11:37,499 - ERROR - Error generating SOHO_Basic_6.x_RoMON_192.168.160.128_25_20250203_150821_0b7640c6.md: Expecting value: line 1 column 1 (char 0)
+2025-02-03 15:38:15,066 - ERROR - Error generating SMB_Basic_7.x_OSPF_VLAN_Trunking_Issues_192.168.65.0_24_20250203_153457_1444088c.md: Empty content received
+2025-02-03 15:53:54,334 - ERROR - Error generating SOHO_Advanced_6.x_BGP_Performance_Degradation_10.79.158.0_24_20250203_155036_c2b5f241.md: Empty content received
+2025-02-03 20:10:22,243 - ERROR - Error generating SOHO_Advanced_6.x_OSPF_High_CPU_Usage_192.168.125.144_28_20250203_200705_c5e77fd7.md: Empty content received
+2025-02-03 20:18:14,181 - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-03 20:19:02,209 - ERROR - Streaming error for SOHO_Basic_6.x_OSPF_VLAN_Trunking_Issues_192.168.190.64_28_20250203_201801_6737322f.md: No valid content received for OSPF
+2025-02-03 20:19:19,604 - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-03 20:20:07,619 - ERROR - Streaming error for SOHO_Basic_6.x_OSPF_VLAN_Trunking_Issues_192.168.190.64_28_20250203_201801_6737322f.md: No valid content received for OSPF
+2025-02-03 20:20:30,197 - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-03 20:20:56,996 - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-03 20:22:14,837 - INFO - Successfully generated SOHO_Basic_6.x_OSPF_DHCP_Lease_Problems_172.24.217.0_25_20250203_202056_77d0b325.md using deepseek-reasoner
+2025-02-03 20:22:20,513 - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-03 20:23:20,917 - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-03 20:24:56,203 - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-03 20:25:57,006 - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-03 20:27:04,640 - INFO - Successfully generated SOHO_Basic_6.x_OSPF_OSPF_Adjacency_Problems_172.20.166.128_25_20250203_202455_c2d3832d.md using deepseek-chat
+2025-02-03 20:27:11,242 - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-03 20:28:11,629 - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-03 20:29:30,720 - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-03 20:30:42,919 - INFO - Successfully generated SOHO_Basic_6.x_OSPF_High_CPU_Usage_172.26.151.224_27_20250203_202918_51c5fa10.md
+2025-02-03 20:30:52,528 - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-03 20:32:00,960 - INFO - Successfully generated SOHO_Advanced_6.x_OSPF_Performance_Degradation_10.177.40.128_26_20250203_203047_edb88a3d.md
+2025-02-03 20:32:18,513 - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-03 20:33:24,031 - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-03 20:34:34,483 - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-03 20:35:23,034 - ERROR - Error generating SOHO_Expert_6.x_OSPF_QoS_Misconfiguration_172.17.29.0_27_20250203_203206_69216fe5.md: Content too short (0 chars)
+2025-02-03 20:35:33,694 - INFO - Attempt 1 to generate content
+2025-02-03 20:35:46,119 - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-03 20:36:39,175 - INFO - Attempt 2 to generate content
+2025-02-03 20:36:51,634 - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-03 20:37:49,667 - INFO - Attempt 3 to generate content
+2025-02-03 20:38:02,075 - INFO - HTTP Request: POST https://api.deepseek.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-03 20:39:10,173 - INFO - Attempt 4 to generate content
+2025-02-03 20:41:32,383 - ERROR - Error generating SOHO_Basic_6.x_IP_Addressing_(IPv4_and_IPv6).md: Expecting value: line 1 column 1 (char 0)
