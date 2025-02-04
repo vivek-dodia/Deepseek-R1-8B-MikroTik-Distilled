@@ -1,12 +1,3 @@
----
-title: Setup
-source_url: https://help.mikrotik.com/docs/spaces/ROS/pages/16351624/Setup,
-crawled_date: 2025-02-02T21:14:17.991672
-section: mikrotik_docs
-type: documentation
----
-
-# Step by step installation
-# AWS LoRaWAN configuration
-# The Things Network
-# The Things Stack
+version https://git-lfs.github.com/spec/v1
+oid sha256:bfffb7f792193e42a56b8eec21b13d71868e6688766b7b4de2cc2bd3dd781a21
+size 288

@@ -1,8 +1,3 @@
----
-title: Diagnostics, monitoring and troubleshooting
-source_url: https://help.mikrotik.com/docs/spaces/ROS/pages/119144606/Diagnostics+monitoring+and+troubleshooting,
-crawled_date: 2025-02-02T21:14:48.067404
-section: mikrotik_docs
-type: documentation
----
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:03c5e0d702a865b0f71b3f849987f461f7e36c6479c5b53c7eddadfd6aee539c
+size 266

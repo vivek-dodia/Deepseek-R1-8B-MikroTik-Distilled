@@ -1,8 +1,3 @@
----
-title: Virtual Private Networks
-source_url: https://help.mikrotik.com/docs/spaces/ROS/pages/119144597/Virtual+Private+Networks,
-crawled_date: 2025-02-02T21:12:55.596479
-section: mikrotik_docs
-type: documentation
----
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:5392a93c9ca22301757c3f0979e9b07c1a0a06d76b690ad503572cba3cdf8fa4
+size 229

@@ -1,27 +1,3 @@
----
-title: Wake on LAN
-source_url: https://help.mikrotik.com/docs/spaces/ROS/pages/120782862/Wake+on+LAN,
-crawled_date: 2025-02-02T21:15:36.694781
-section: mikrotik_docs
-type: documentation
----
-
-# Introduction
-Sub-menu:/tool wol
-```
-/tool wol
-```
-The Wake on LAN tool can send aUDP Magic Packet to the Broadcast address with a selected MAC address embedded in it.
-If the target device supports Wake on LAN (a target computer has specific hardware and software requirements for the Wake on LAN feature to work), it should wake up from sleep or shutdown state.
-Currently, secure WoL is not supported.
-# Property Description
-Property | Description
-----------------------
-interface(string; Default:) | Interface through which the Magic Packet will be sent
-mac(MAC; Default: ) | MAC address of a target computer
-Interface through which the Magic Packet will be sent
-# Application Example
-The command requires a MAC address parameter and interface.
-```
-/tool wol mac=FE:4B:71:05:EA:8B interface=ether1
-```
+version https://git-lfs.github.com/spec/v1
+oid sha256:c6021e656998df98807961fdeb39e1bc2225464d742d2d5af476003606137f63
+size 1025

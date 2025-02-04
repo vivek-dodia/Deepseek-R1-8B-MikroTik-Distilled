@@ -1,8 +1,3 @@
----
-title: System Information and Utilities
-source_url: https://help.mikrotik.com/docs/spaces/ROS/pages/119144657/System+Information+and+Utilities,
-crawled_date: 2025-02-02T21:12:33.143274
-section: mikrotik_docs
-type: documentation
----
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:f7d5d2ddbcd9958f370476ab2e71255251887a324fdedb92e5adbbfea5a53633
+size 245

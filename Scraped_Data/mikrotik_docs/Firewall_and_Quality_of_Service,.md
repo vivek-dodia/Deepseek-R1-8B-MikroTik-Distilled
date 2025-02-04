@@ -1,8 +1,3 @@
----
-title: Firewall and Quality of Service
-source_url: https://help.mikrotik.com/docs/spaces/ROS/pages/119144601/Firewall+and+Quality+of+Service,
-crawled_date: 2025-02-02T21:10:24.990492
-section: mikrotik_docs
-type: documentation
----
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:f726a7f8685f0dbd2a27ec93f58ddefb8a1ee6a49ad654d99a6138ceb4957baa
+size 243

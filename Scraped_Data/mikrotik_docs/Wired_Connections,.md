@@ -1,8 +1,3 @@
----
-title: Wired Connections
-source_url: https://help.mikrotik.com/docs/spaces/ROS/pages/119144653/Wired+Connections,
-crawled_date: 2025-02-02T21:13:22.435220
-section: mikrotik_docs
-type: documentation
----
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:ff494b49a31a9d594fa200dfb8e683ead07cb88ea02da7923792f3e1afbb820e
+size 215

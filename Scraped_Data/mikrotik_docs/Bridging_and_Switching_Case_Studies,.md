@@ -1,8 +1,3 @@
----
-title: Bridging and Switching Case Studies
-source_url: https://help.mikrotik.com/docs/spaces/ROS/pages/119144611/Bridging+and+Switching+Case+Studies,
-crawled_date: 2025-02-02T21:10:06.887466
-section: mikrotik_docs
-type: documentation
----
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:232e8e8374a4eba91baff6a79de97d8b6b2c9f59c084218909d1023b95ae2040
+size 251

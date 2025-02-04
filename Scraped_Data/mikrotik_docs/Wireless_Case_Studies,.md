@@ -1,8 +1,3 @@
----
-title: Wireless Case Studies
-source_url: https://help.mikrotik.com/docs/spaces/ROS/pages/120324140/Wireless+Case+Studies,
-crawled_date: 2025-02-02T21:13:56.561255
-section: mikrotik_docs
-type: documentation
----
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:c607865364fa43b20d0e80e5f4fc317d914c66673a4016a1532489bf6aa53eb4
+size 223

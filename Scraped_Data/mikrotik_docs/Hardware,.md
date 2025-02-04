@@ -1,8 +1,3 @@
----
-title: Hardware
-source_url: https://help.mikrotik.com/docs/spaces/ROS/pages/13500445/Hardware,
-crawled_date: 2025-02-02T21:14:30.479916
-section: mikrotik_docs
-type: documentation
----
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:c46531f404497a265c7b0524b75528cb541de6709601157758361fde602dcd2d
+size 196

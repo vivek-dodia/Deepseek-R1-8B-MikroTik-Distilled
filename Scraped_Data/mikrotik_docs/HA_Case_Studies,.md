@@ -1,8 +1,3 @@
----
-title: HA Case Studies
-source_url: https://help.mikrotik.com/docs/spaces/ROS/pages/128221209/HA+Case+Studies,
-crawled_date: 2025-02-02T21:11:13.876994
-section: mikrotik_docs
-type: documentation
----
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:f6552a7f593bffba63dc2dac92950ce5678fb1fc02824fc1d5cba8c9e0a8c251
+size 211

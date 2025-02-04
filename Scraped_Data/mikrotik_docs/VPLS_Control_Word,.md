@@ -1,25 +1,3 @@
----
-title: VPLS Control Word
-source_url: https://help.mikrotik.com/docs/spaces/ROS/pages/128974851/VPLS+Control+Word,
-crawled_date: 2025-02-02T21:11:39.421920
-section: mikrotik_docs
-type: documentation
----
-
-# Summary
-VPLS allows remote sites to share an Ethernet broadcast domain by connecting sites throughpseudo-wires(PW)tunnels over a packet switching network (PSN). Since VPLS encapsulation adds additional overhead, each interface in LSP should be able to transmit a large enough packet.
-Each ethernet chipset has hardware limitations on the maximum packet size that it can transmit. Even now there are Ethernets that support only one Vlan tag, meaning that the maximum packet size without Ethernet header and checksum (L2MTU) is 1504 bytes. Obviously, it is not enough to forward VPLS encapsulated Ethernet frame without fragmentation (at least 1524 L2MTU support is required). SeeMTU in RouterOSfor maximum supported L2MTUs on RouterBOADs.
-Since not even all RouterBOARDs support enough L2MTU to transmit VPLS encapsulated packet without fragmentation, RouterOS has added Pseudowire Fragmentation and Reassembly (PWE3) support according to RFC 4623 using 4-byteControl Word (CW).
-# Control Word Usage
-In RouterOS, Control Word is used for packet fragmentation and reassembly inside the VPLS tunnel and is done by utilizing optionalControl Word (CW). CW is added between PW label (demultiplexor) and packet payload and adds an additional 4-byte overhead.
-CW usage is controlled by the ofuse-control-wordparameter in VPLS configuration.
-```
-use-control-word
-```
-As you can seeControl Wordis divided into 5 fields:
-* 0000 - 4-bits identifies that the packet is PW (not IP)
-* Flags - 4bits
-* Frag - 2bits value that indicates payload fragmentation.
-* Len - 6bits
-* Seq - 16bits sequence number used to detect packet loss / misordering.
-According to RFC generation and processing of sequence numbers is optional.
+version https://git-lfs.github.com/spec/v1
+oid sha256:b5211a824a6c50a13f3e5642013377c19d678afb424e8bb389522944fcc0e69d
+size 1938

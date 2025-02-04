@@ -1,8 +1,3 @@
----
-title: Firewall and QoS Case Studies
-source_url: https://help.mikrotik.com/docs/spaces/ROS/pages/120324137/Firewall+and+QoS+Case+Studies,
-crawled_date: 2025-02-02T21:10:51.333936
-section: mikrotik_docs
-type: documentation
----
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:f2091e36b21c4d0db03ecb2ccd22456f7bb67b0ed3e6e4b35296a56f690c60fa
+size 239

@@ -1,8 +1,3 @@
----
-title: High Availability Solutions
-source_url: https://help.mikrotik.com/docs/spaces/ROS/pages/120324133/High+Availability+Solutions,
-crawled_date: 2025-02-02T21:11:05.569108
-section: mikrotik_docs
-type: documentation
----
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:cf0ce1693841f107fd8806804001c114ab343985b663a37ad3195af09ff8e7a5
+size 235

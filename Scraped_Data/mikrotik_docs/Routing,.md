@@ -1,8 +1,3 @@
----
-title: Routing
-source_url: https://help.mikrotik.com/docs/spaces/ROS/pages/328222/Routing,
-crawled_date: 2025-02-02T21:11:57.024630
-section: mikrotik_docs
-type: documentation
----
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:c5a302acb20e259247d009d774fee2f644fa8fbc7fc755325ad9a0d197f35c47
+size 192
