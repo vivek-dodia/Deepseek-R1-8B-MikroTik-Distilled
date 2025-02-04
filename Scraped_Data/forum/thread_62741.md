@@ -1,10 +1,10 @@
 ---
 title: Thread-62741
-url: https://forum.mikrotik.com/viewtopic.php?t=62741&sid=49f92a630bc7970d8ca50523be880e8f
+url: https://forum.mikrotik.com/viewtopic.php?t=62741
 thread_id: 62741
 section: RouterOS
 post_count: 9
-date_crawled: 2025-02-03T20:58:51.353128
+date_crawled: 2025-02-03T21:42:26.025365
 ---
 
 ### Post 1
