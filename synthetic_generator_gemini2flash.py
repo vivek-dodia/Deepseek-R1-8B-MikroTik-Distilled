@@ -23,7 +23,7 @@ LOG_FILE = Path(LOG_DIR) / "gemini.log"
 
 SCALES = ["SOHO", "SMB", "Enterprise", "ISP"]
 LEVELS = ["Basic", "Advanced", "Expert"]
-VERSIONS = ["6.x", "7.x"]
+VERSIONS = ["7.x"]
 
 EXTENDED_TOPICS = {
     "Core Networking": [
