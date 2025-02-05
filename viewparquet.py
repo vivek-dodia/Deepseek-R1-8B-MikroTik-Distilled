@@ -4,7 +4,7 @@ import duckdb
 con = duckdb.connect(':memory:')
 
 # Read the Parquet file into a DuckDB table
-con.execute("CREATE TABLE forum_data AS SELECT * FROM read_parquet('C:/Users/Vivek/Documents/MikroTik_dis/parquet_data/forum/forum_dataset.parquet')")
+con.execute("CREATE TABLE forum_data AS SELECT * FROM read_parquet('C:/Users/Vivek/Documents/MikroTik_dis/parquet_data/forum/threads.parquet')")
 
 # View the first few rows
 print("First few rows:")
