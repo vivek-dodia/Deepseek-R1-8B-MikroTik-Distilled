@@ -76,7 +76,7 @@ def create_huggingface_dataset(input_parquet: str, output_json: str):
     return dataset
 
 if __name__ == "__main__":
-    input_file = r"C:\Users\Vivek\Documents\MikroTik_dis\parquet_data\gitlab_repos\mikrotik_dataset.parquet"
+    input_file = r"C:\Users\Vivek\Documents\MikroTik_dis\parquet_data\gitlab_repos\gitlab_dataset.parquet"
     output_file = r"C:\Users\Vivek\Documents\MikroTik_dis\parquet_data\gitlab_repos\gitlab_repos.jsonl"  # Note: changed to .jsonl
     
     try:
