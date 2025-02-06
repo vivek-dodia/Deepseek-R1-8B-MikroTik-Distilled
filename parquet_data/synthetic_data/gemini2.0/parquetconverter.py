@@ -8,6 +8,20 @@ class MDProcessor:
         self.input_dir = input_dir
         
     def clean_text(self, text: str) -> str:
+        """Clean and format the input text by removing specific patterns.
+
+        This function takes a string input and removes occurrences of specific
+        code block markers and excessive whitespace. It is particularly useful
+        for sanitizing text that may contain formatting artifacts from Markdown
+        or similar markup languages.
+
+        Args:
+            text (str): The input string that needs to be cleaned.
+
+        Returns:
+            str: The cleaned and formatted version of the input text.
+        """
+
         text = re.sub(r'```mikrotik\n', '', text)
         text = re.sub(r'```', '', text)
         text = re.sub(r'\n+', ' ', text)
@@ -15,6 +29,26 @@ class MDProcessor:
         return text.strip()
 
     def extract_sections(self, content: str, filename: str) -> dict:
+        """Extract sections from the given content string.
+
+        This method processes the provided content to extract various sections,
+        including the title, scenario description, and other predefined sections
+        such as implementation steps, configuration commands, parameter
+        explanations, verification steps, security practices, and version
+        information. It uses regular expressions to locate and clean the
+        relevant text segments. The extracted data is organized into a
+        dictionary for easy access.
+
+        Args:
+            content (str): The content string from which sections are to be extracted.
+            filename (str): The name of the file associated with the content.
+
+        Returns:
+            dict: A dictionary containing the extracted sections, with keys for each
+                section and their
+                corresponding cleaned text values.
+        """
+
         # Extract title
         title_match = re.search(r'# (.*?)\n', content)
         title = title_match.group(1).strip() if title_match else ""
@@ -52,6 +86,20 @@ class MDProcessor:
         return sections
 
     def process_all_files(self) -> pd.DataFrame:
+        """Process all Markdown files in the specified input directory.
+
+        This function scans the input directory for files with a '.md'
+        extension, reads their content, and extracts sections from each file.
+        The extracted sections are collected into a list, which is then
+        converted into a pandas DataFrame for further analysis or processing.
+        The function also provides feedback on the processing status through a
+        progress bar.
+
+        Returns:
+            pd.DataFrame: A DataFrame containing the extracted sections from all
+            processed Markdown files.
+        """
+
         data = []
         md_files = [f for f in os.listdir(self.input_dir) if f.endswith('.md')]
         
@@ -68,6 +116,18 @@ class MDProcessor:
         return pd.DataFrame(data)
 
     def save_parquet(self, output_path: str):
+        """Save processed data to a Parquet file.
+
+        This function processes Markdown files, generates a DataFrame from the
+        processed data, and saves it to a specified Parquet file. It first
+        prints the number of processed files and their columns, then it creates
+        the necessary directories for the output path if they do not exist, and
+        finally saves the DataFrame to the specified Parquet file.
+
+        Args:
+            output_path (str): The file path where the Parquet file will be saved.
+        """
+
         print("Processing MD files...")
         df = self.process_all_files()
         
