@@ -17,7 +17,22 @@ class DeepseekProcessor:
         ]
 
     def process_md_file(self, file_path: Path) -> Dict[str, Any]:
-        """Process a single deepseek markdown file"""
+        """Process a single deepseek markdown file.
+
+        This function reads a markdown file specified by the given file path,
+        extracts YAML metadata, and splits the content into prompt and solution
+        sections. It constructs a record dictionary containing key metadata
+        fields, content fields, and additional markers indicating the presence
+        of specific elements in the solution.
+
+        Args:
+            file_path (Path): The path to the markdown file to be processed.
+
+        Returns:
+            Dict[str, Any]: A dictionary containing the processed data from the
+            markdown file, including metadata and content fields. Returns None
+            if an error occurs during processing.
+        """
         try:
             with open(file_path, 'r', encoding='utf-8') as f:
                 content = f.read()
@@ -66,7 +81,24 @@ class DeepseekProcessor:
             return None
 
 def process_directory(input_dir: str, output_file: str):
-    """Process all markdown files in directory into parquet dataset"""
+    """Process all markdown files in a directory into a parquet dataset.
+
+    This function scans the specified input directory for markdown files,
+    processes each file to extract relevant data, and compiles the results
+    into a parquet dataset. It utilizes the DeepseekProcessor to handle the
+    processing of individual markdown files. The resulting dataset is saved
+    to the specified output file path. The function also logs the processing
+    steps and provides a summary of the dataset created, including counts of
+    different categories, complexity levels, and environments.
+
+    Args:
+        input_dir (str): The path to the directory containing markdown files to be processed.
+        output_file (str): The path where the resulting parquet dataset will be saved.
+
+    Returns:
+        None: This function does not return a value. It saves the processed data to a
+            file.
+    """
     processor = DeepseekProcessor()
     records = []
     input_path = Path(input_dir)
