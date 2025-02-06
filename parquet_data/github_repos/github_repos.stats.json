@@ -1,0 +1,14 @@
+{
+  "total_records": 62581,
+  "total_repositories": 589,
+  "file_types": {
+    "config_files": 1410,
+    "source_files": 23275,
+    "documentation_files": 2001
+  },
+  "features": {
+    "networking": 7970,
+    "automation": 4756,
+    "security": 392
+  }
+}
