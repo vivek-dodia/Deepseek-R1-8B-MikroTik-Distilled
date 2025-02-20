@@ -19,9 +19,9 @@ This project aims to create a specialized, efficient LLM for MikroTik RouterOS b
 ### Synthetic Data Generation
 
 #### Models Used
-1. Gemini 2.0 Flash Experience
-2. Deepseek Reasoner/R1
-3. Gemini 2.0 Flash Thinking Experience
+- Gemini 2.0 Flash Experience via api
+- Deepseek Reasoner/R1 via api
+- Gemini 2.0 Flash Thinking Experience via api
 
 
 ## Repository Structure
