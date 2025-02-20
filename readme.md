@@ -4,11 +4,11 @@
 </div>
 
 ## Overview
-This project aims to create a specialized, efficient LLM for MikroTik RouterOS by distilling knowledge from comprehensive data sources and state-of-the-art LLM models. The goal is to provide the most accurate MikroTik AI assistant with minimal compute requirements.
+At its heart, this exploration strives to create a specialized, efficient LLM for MikroTik RouterOS by distilling knowledge from comprehensive data sources and state-of-the-art LLM models. The goal is to provide the most accurate MikroTik AI assistant with minimal compute requirements. While it may sound ambitious, I'm pursuing this as a passion project - a fun way to push my understanding of both RouterOS and machine learning to new heights.
 
 ## Model & Dataset Access
-- [direct link to Deepseek-R1-8B-MikroTik-Distilled-GGUF on huggingface](https://huggingface.co/vivek-dodia/Deepseek-R1-8B-MikroTik-Distilled-GGUF)
 - [huggingface profile](https://huggingface.co/vivek-dodia)
+- [direct link to Deepseek-R1-8B-MikroTik-Distilled-GGUF on huggingface](https://huggingface.co/vivek-dodia/Deepseek-R1-8B-MikroTik-Distilled-GGUF)
 
 ## Data Sources
 
