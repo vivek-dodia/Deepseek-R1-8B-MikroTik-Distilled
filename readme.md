@@ -5,7 +5,7 @@ This project aims to create a specialized, efficient LLM for MikroTik RouterOS b
 
 ## Model Access
 - **Trained LLM Model GUFF on Huggingface**: [Deepseek-R1-8B-MikroTik-Distilled-GGUF](https://huggingface.co/vivek-dodia/Deepseek-R1-8B-MikroTik-Distilled-GGUF)
-- **Hugginface profiel**: [vivek-dodia on HuggingFace](https://huggingface.co/vivek-dodia)
+- **Hugginface profie**: [HuggingFace profile](https://huggingface.co/vivek-dodia)
 
 ## Data Sources
 
