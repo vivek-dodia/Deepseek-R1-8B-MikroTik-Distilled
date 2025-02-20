@@ -1,4 +1,4 @@
-# MikroTik Distilled LLM - Deepseek-R1-8B-MikroTik-Distilled
+# Deepseek-R1-8B-MikroTik-Distilled
 
 ## Overview
 This project aims to create a specialized, efficient LLM for MikroTik RouterOS by distilling knowledge from comprehensive data sources and state-of-the-art LLM models. The goal is to provide the most accurate MikroTik AI assistant with minimal compute requirements.
