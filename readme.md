@@ -32,15 +32,16 @@ This repository contains:
 - Data cleaning and preprocessing utilities
 
 
-## Dataset Statistics
-- MikroTik Documentation: 285 files - https://huggingface.co/datasets/vivek-dodia/mikrotik-docs
-- GitHub Repositories: 62.6k files - https://huggingface.co/datasets/vivek-dodia/mikrotik-github-repos
-- GitLab Repositories: 11.3k files - https://huggingface.co/datasets/vivek-dodia/mikrotik-gitlab-repos
-- Forum Threads: 1.53k entries - https://huggingface.co/datasets/vivek-dodia/mikrotik-threads
-- Mikrotik OpenAPI Documentation: 6.63k entries - https://huggingface.co/datasets/vivek-dodia/mikrotik-openAPI
+## Datasets
+- [MikroTik Documentation: 285 files](https://huggingface.co/datasets/vivek-dodia/mikrotik-docs)
+- [GitHub Repositories: 62.6k files](https://huggingface.co/datasets/vivek-dodia/mikrotik-github-repos)
+- [GitLab Repositories: 11.3k files](https://huggingface.co/datasets/vivek-dodia/mikrotik-gitlab-repos)
+- [Forum Threads: 1.53k entries](https://huggingface.co/datasets/vivek-dodia/mikrotik-threads)
+- [Mikrotik OpenAPI Documentation: 6.63k entries](https://huggingface.co/datasets/vivek-dodia/mikrotik-openAPI)
 - Synthetic Data:
-  - Gemini 2.0 Flash Thinking Experience-Complex Configuration: 3.03k examples - https://huggingface.co/datasets/vivek-dodia/synthetic-data-gemini-2.0-ComplexConfigurations
-  - Gemini 2.0 Flash Experience-Complex Troubleshooting: 762 scenarios - https://huggingface.co/datasets/vivek-dodia/synthetic-data-gemini-2.0-ComplexTroubleshooting
-  - Deepseek R1-Complex Troubleshooting: 87 scenarios - https://huggingface.co/datasets/vivek-dodia/synthetic-data-deepseekR1-ComplexTroubleshooting
+  - [Gemini 2.0 Flash Thinking Experience-Complex Configuration: 3.03k examples](https://huggingface.co/datasets/vivek-dodia/synthetic-data-gemini-2.0-ComplexConfigurations)
+  - [Gemini 2.0 Flash Experience-Complex Troubleshooting: 762 scenarios](https://huggingface.co/datasets/vivek-dodia/synthetic-data-gemini-2.0-ComplexTroubleshooting)
+  - [Deepseek R1-Complex Troubleshooting: 87 scenarios](https://huggingface.co/datasets/vivek-dodia/synthetic-data-deepseekR1-ComplexTroubleshooting)
+  
 Note: All datasets are available in cleaned parquet/jsonl formats on HuggingFace.
 
