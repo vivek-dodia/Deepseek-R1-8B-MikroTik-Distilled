@@ -31,5 +31,15 @@ This repository contains:
 - Synthetic data generation code using various LLM APIs
 - Data cleaning and preprocessing utilities
 
+- **Scraped_Data/** - Raw scraped data in MD format
+- **cleaned_data/** - Cleaned and processed data from raw MD format
+- **cleaners/** - Python scripts for data cleaning
+- **crawlers/** - Web scraping code using crawl4ai
+- **gitingest/** - GitHub/GitLab repository processing utilities
+- **logs/** - Execution logs from all Python scripts
+- **openapi/** - RouterOS 7 YAML OpenAPI specification
+- **parquet_data/** - Final parquet datasets uploaded to HuggingFace
+- **requirements.txt** - Python package dependencies for running the scripts
+
 Note: All datasets are available in cleaned parquet/jsonl formats on HuggingFace.
 
