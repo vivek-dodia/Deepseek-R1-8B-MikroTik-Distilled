@@ -1,5 +1,7 @@
-![MK Distill Logo](main-logo.png)
-# Deepseek-R1-8B-MikroTik-Distilled
+<div align="center">
+  <img src="main-logo.png" alt="MK Distill Logo" width="150"/>
+  <h1>Deepseek-R1-8B-MikroTik-Distilled</h1>
+</div>
 
 ## Overview
 This project aims to create a specialized, efficient LLM for MikroTik RouterOS by distilling knowledge from comprehensive data sources and state-of-the-art LLM models. The goal is to provide the most accurate MikroTik AI assistant with minimal compute requirements.
