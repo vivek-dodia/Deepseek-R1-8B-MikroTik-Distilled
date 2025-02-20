@@ -1,9 +1,9 @@
-# MikroTik Distilled LLM Project
+# MikroTik Distilled LLM - Deepseek-R1-8B-MikroTik-Distilled
 
 ## Overview
 This project aims to create a specialized, efficient LLM for MikroTik RouterOS by distilling knowledge from comprehensive data sources and state-of-the-art LLM models. The goal is to provide the most accurate MikroTik AI assistant with minimal compute requirements.
 
-## Model Access
+## Model & Dataset Access
 - **Trained LLM Model GUFF on Huggingface**: [Deepseek-R1-8B-MikroTik-Distilled-GGUF on huggingface](https://huggingface.co/vivek-dodia/Deepseek-R1-8B-MikroTik-Distilled-GGUF)
 - [huggingface profile](https://huggingface.co/vivek-dodia)
 
@@ -31,17 +31,5 @@ This repository contains:
 - Synthetic data generation code using various LLM APIs
 - Data cleaning and preprocessing utilities
 
-
-## Datasets
-- [MikroTik Documentation: 285 files](https://huggingface.co/datasets/vivek-dodia/mikrotik-docs)
-- [GitHub Repositories: 62.6k files](https://huggingface.co/datasets/vivek-dodia/mikrotik-github-repos)
-- [GitLab Repositories: 11.3k files](https://huggingface.co/datasets/vivek-dodia/mikrotik-gitlab-repos)
-- [Forum Threads: 1.53k entries](https://huggingface.co/datasets/vivek-dodia/mikrotik-threads)
-- [Mikrotik OpenAPI Documentation: 6.63k entries](https://huggingface.co/datasets/vivek-dodia/mikrotik-openAPI)
-- Synthetic Data:
-  - [Gemini 2.0 Flash Thinking Experience-Complex Configuration: 3.03k examples](https://huggingface.co/datasets/vivek-dodia/synthetic-data-gemini-2.0-ComplexConfigurations)
-  - [Gemini 2.0 Flash Experience-Complex Troubleshooting: 762 scenarios](https://huggingface.co/datasets/vivek-dodia/synthetic-data-gemini-2.0-ComplexTroubleshooting)
-  - [Deepseek R1-Complex Troubleshooting: 87 scenarios](https://huggingface.co/datasets/vivek-dodia/synthetic-data-deepseekR1-ComplexTroubleshooting)
-  
 Note: All datasets are available in cleaned parquet/jsonl formats on HuggingFace.
 
