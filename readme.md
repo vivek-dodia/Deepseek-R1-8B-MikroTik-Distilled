@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="final-logo.png" alt="MK Distill Logo" width="200"/>
+  <img src="final-logo.png" alt="MK Distill Logo" width="250"/>
   <h1>Deepseek-R1-8B-MikroTik-Distilled</h1>
 </div>
 
