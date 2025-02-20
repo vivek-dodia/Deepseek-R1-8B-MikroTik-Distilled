@@ -1,4 +1,4 @@
-# <img src="logo.png" width="30" style="vertical-align: middle"> Deepseek-R1-8B-MikroTik-Distilled
+![MK Distill Logo](logo.png)
 # Deepseek-R1-8B-MikroTik-Distilled
 
 ## Overview
