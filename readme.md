@@ -1,4 +1,4 @@
-![MK Distill Logo](C:\Users\Vivek\Documents\MikroTik_dis\logo.png)
+# <img src="logo.png" width="30" style="vertical-align: middle"> Deepseek-R1-8B-MikroTik-Distilled
 # Deepseek-R1-8B-MikroTik-Distilled
 
 ## Overview
