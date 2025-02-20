@@ -15,7 +15,8 @@ A specialized, efficient LLM for MikroTik RouterOS based on deepseek-r1 8b has b
 ### Community data
 
 - MikroTik online documentation
-- 1,750 pages of MikroTik documentation parsed into MD format
+- 1,750 pages of MikroTik documentation
+- Mikrotik routeros 7 openAPI spec
 - Forum threads from MikroTik community
 - 700+ GitHub and GitLab repositories tagged with "MikroTik" (post RouterOS 7 + REST API release, Dec-2021)
 
