@@ -9,8 +9,8 @@
 A specialized, efficient LLM for MikroTik RouterOS based on deepseek-r1 8b has been developed by distilling knowledge from comprehensive data sources and state-of-the-art LLM models. The end result is an accurate MikroTik LLM assistant that operates with minimal compute requirements. This project emerged from my interest in cool shit and the simple joy of building something unique - where networking meets machine learning/AI in an exciting combination as a passion project.
 ## Model & Dataset Access
 
-- [huggingface profile](https://huggingface.co/vivek-dodia)
-- [direct link to Deepseek-R1-8B-MikroTik-Distilled-GGUF on huggingface](https://huggingface.co/vivek-dodia/Deepseek-R1-8B-MikroTik-Distilled-GGUF)
+- [Hugging Face profile](https://huggingface.co/vivek-dodia)
+- [direct link to Deepseek-R1-8B-MikroTik-Distilled-GGUF on Hugging Face](https://huggingface.co/vivek-dodia/Deepseek-R1-8B-MikroTik-Distilled-GGUF)
 
 ## Data Sources
 
@@ -44,8 +44,8 @@ This repository contains:
 - **gitingest/** - GitHub/GitLab repository processing utilities
 - **logs/** - Execution logs from all Python scripts
 - **openapi/** - RouterOS 7 YAML OpenAPI specification
-- **parquet_data/** - Final parquet datasets uploaded to HuggingFace
+- **parquet_data/** - Final parquet datasets uploaded to Hugging Face
 - **requirements.txt** - Python package dependencies for running the scripts
 
-Note: All datasets are available in cleaned parquet/jsonl formats on HuggingFace.
+Note: All datasets are available in cleaned parquet/jsonl formats on Hugging Face.
 
