@@ -3,6 +3,8 @@
   <h1>Deepseek-R1-8B-MikroTik-Distilled</h1>
 </div>
 
+#### Downloaded and used 1800+ times as of 6/22/26, source - huggingface
+
 ## Overview
 A specialized, efficient LLM for MikroTik RouterOS based on deepseek-r1 8b has been developed by distilling knowledge from comprehensive data sources and state-of-the-art LLM models. The end result is an accurate MikroTik LLM assistant that operates with minimal compute requirements. This project emerged from my interest in cool shit and the simple joy of building something unique - where networking meets machine learning/AI in an exciting combination as a passion project.
 ## Model & Dataset Access
